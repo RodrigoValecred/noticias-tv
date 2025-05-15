@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notícias do Brasil</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #111; /* Fundo escuro para TVs */
+            color: #f0f0f0; /* Texto claro */
+            overflow: hidden; /* Evita barras de rolagem se o conteúdo for ligeiramente maior */
+            height: 100vh;
+        }
+        .container {
+            max-width: 95%;
+            margin: auto;
+        }
+        h1 {
+            text-align: center;
+            color: #00aaff; /* Cor de destaque para o título */
+            font-size: 2.5em; /* Ajuste conforme o tamanho da TV */
+            margin-bottom: 20px;
+        }
+        .news-item {
+            background-color: #222; /* Fundo do item de notícia */
+            border: 1px solid #444;
+            margin-bottom: 15px;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        .news-item h3 {
+            margin-top: 0;
+            margin-bottom: 8px;
+            font-size: 1.8em; /* Ajuste conforme o tamanho da TV */
+            color: #e0e0e0;
+        }
+        .news-item p {
+            font-size: 1.2em; /* Ajuste conforme o tamanho da TV */
+            line-height: 1.6;
+            margin-bottom: 8px;
+            color: #cccccc;
+        }
+        .news-item small {
+            font-size: 0.9em; /* Ajuste conforme o tamanho da TV */
+            color: #888;
+        }
+        /* Estilo para ocultar links (pois não serão clicáveis na TV) */
+        .news-item a {
+            color: inherit;
+            text-decoration: none;
+            pointer-events: none; /* Desabilita eventos do mouse */
+        }
+        /* Loader */
+        #loader {
+            text-align: center;
+            font-size: 1.5em;
+            padding: 30px;
+        }
+    </style>
+    <!-- Inclui o RSS Parser via CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rss-parser/3.13.0/rss-parser.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Últimas Notícias</h1>
+        <div id="news-feed">
+            <div id="loader">Carregando notícias...</div>
+        </div>
+    </div>
+
+    <script>
+        // --- CONFIGURAÇÕES ---
+        const RSS_URL = 'https://news.google.com/rss?hl=pt-BR&gl=BR&ceid=BR:pt-BR'; // Google Notícias Brasil
+        // const RSS_URL = 'https://www.infomoney.com.br/feed/'; // InfoMoney - Pode precisar de proxy diferente ou não funcionar
+        const MAX_ITEMS = 7; // Quantidade de notícias a exibir
+        const REFRESH_INTERVAL_MINUTES = 15; // Atualizar a cada X minutos
+        // --- FIM DAS CONFIGURAÇÕES ---
+
+        const PROXY_URL = 'https://api.allorigins.win/raw?url='; // Proxy CORS público
+        const newsFeedElement = document.getElementById('news-feed');
+        const loaderElement = document.getElementById('loader');
+        let parser = new RSSParser();
+
+        function fetchNews() {
+            console.log("Buscando notícias...");
+            if(loaderElement) loaderElement.style.display = 'block'; // Mostra o loader
+
+            // Adiciona um timestamp para evitar cache do proxy/navegador em alguns casos
+            const urlToFetch = PROXY_URL + encodeURIComponent(RSS_URL) + '&_t=' + new Date().getTime();
+
+            parser.parseURL(urlToFetch, function(err, feed) {
+                if(loaderElement) loaderElement.style.display = 'none'; // Esconde o loader
+
+                if (err) {
+                    newsFeedElement.innerHTML = "<p style='color:red;'>Erro ao carregar notícias: " + err.message + "</p>";
+                    console.error("Erro ao buscar RSS:", err);
+                    return;
+                }
+
+                if (!feed || !feed.items) {
+                    newsFeedElement.innerHTML = "<p style='color:orange;'>Nenhuma notícia encontrada no feed.</p>";
+                    console.warn("Feed vazio ou inválido:", feed);
+                    return;
+                }
+
+                let newsHTML = '';
+                feed.items.slice(0, MAX_ITEMS).forEach(item => {
+                    const title = item.title || 'Sem título';
+                    // Tenta pegar um resumo. 'contentSnippet' é bom, 'content' pode ser muito longo.
+                    let snippet = item.contentSnippet || item.description || '';
+                    if (snippet.length > 200) { // Limita o tamanho do snippet
+                        snippet = snippet.substring(0, 200) + '...';
+                    }
+                    // Remove tags HTML do snippet para exibição mais limpa
+                    const tempDiv = document.createElement('div');
+                    tempDiv.innerHTML = snippet;
+                    snippet = tempDiv.textContent || tempDiv.innerText || "";
+
+
+                    const pubDate = item.pubDate ? new Date(item.pubDate).toLocaleString('pt-BR', { dateStyle: 'short', timeStyle: 'short' }) : 'Data desconhecida';
+
+                    newsHTML += `
+                        <div class="news-item">
+                            <h3>${title}</h3>
+                            <p>${snippet}</p>
+                            <small>Publicado em: ${pubDate}</small>
+                        </div>
+                    `;
+                });
+                newsFeedElement.innerHTML = newsHTML;
+                console.log("Notícias carregadas.");
+            });
+        }
+
+        // Carrega as notícias ao iniciar
+        fetchNews();
+
+        // Atualiza as notícias periodicamente
+        if (REFRESH_INTERVAL_MINUTES > 0) {
+            setInterval(fetchNews, REFRESH_INTERVAL_MINUTES * 60 * 1000);
+        }
+    </script>
+</body>
+</html>
