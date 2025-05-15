@@ -88,20 +88,21 @@
 
         function fetchNews() {
             console.log("Buscando notícias...");
-            if(loaderElement) loaderElement.style.display = 'block'; // Mostra o loader
+            if(loaderElement) loaderElement.style.display = 'block';
 
-            // Adiciona um timestamp para evitar cache do proxy/navegador em alguns casos
-            // const urlToFetch = PROXY_URL + encodeURIComponent(RSS_URL) + '&_t=' + new Date().getTime();
-            const urlToFetch = PROXY_URL + encodeURIComponent(RSS_URL); // corsproxy.io não precisa do parâmetro _t e a URL vai direto
+            const urlToFetch = PROXY_URL + encodeURIComponent(RSS_URL);
+            console.log("URL completa para o parser:", urlToFetch); // <--- NOVO CONSOLE.LOG
 
             parser.parseURL(urlToFetch, function(err, feed) {
-                if(loaderElement) loaderElement.style.display = 'none'; // Esconde o loader
+                if(loaderElement) loaderElement.style.display = 'none';
 
                 if (err) {
                     newsFeedElement.innerHTML = "<p style='color:red;'>Erro ao carregar notícias: " + err.message + "</p>";
                     console.error("Erro ao buscar RSS:", err);
                     return;
                 }
+                
+                console.log("Feed recebido:", feed); // <--- NOVO CONSOLE.LOG
 
                 if (!feed || !feed.items) {
                     newsFeedElement.innerHTML = "<p style='color:orange;'>Nenhuma notícia encontrada no feed.</p>";
@@ -109,19 +110,22 @@
                     return;
                 }
 
+                console.log("Número de itens no feed:", feed.items.length); // <--- NOVO CONSOLE.LOG
+                if (feed.items.length === 0) {
+                    newsFeedElement.innerHTML = "<p style='color:orange;'>O feed retornou, mas não contém itens de notícia.</p>";
+                }
+
                 let newsHTML = '';
                 feed.items.slice(0, MAX_ITEMS).forEach(item => {
+                    console.log("Processando item:", item); // <--- NOVO CONSOLE.LOG
                     const title = item.title || 'Sem título';
-                    // Tenta pegar um resumo. 'contentSnippet' é bom, 'content' pode ser muito longo.
                     let snippet = item.contentSnippet || item.description || '';
-                    if (snippet.length > 200) { // Limita o tamanho do snippet
+                    if (snippet.length > 200) {
                         snippet = snippet.substring(0, 200) + '...';
                     }
-                    // Remove tags HTML do snippet para exibição mais limpa
                     const tempDiv = document.createElement('div');
                     tempDiv.innerHTML = snippet;
                     snippet = tempDiv.textContent || tempDiv.innerText || "";
-
 
                     const pubDate = item.pubDate ? new Date(item.pubDate).toLocaleString('pt-BR', { dateStyle: 'short', timeStyle: 'short' }) : 'Data desconhecida';
 
@@ -134,7 +138,9 @@
                     `;
                 });
                 newsFeedElement.innerHTML = newsHTML;
-                console.log("Notícias carregadas.");
+                if (feed.items.length > 0) { // Só loga sucesso se realmente processou itens
+                    console.log("Notícias carregadas e HTML atualizado.");
+                }
             });
         }
 
