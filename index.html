@@ -127,12 +127,10 @@
                     snippet = tempDiv.textContent || tempDiv.innerText || "";
 
                     const pubDate = item.pubDate ? new Date(item.pubDate).toLocaleString('pt-BR', { dateStyle: 'short', timeStyle: 'short' }) : 'Data desconhecida';
-                    // mostra data e hora da publicacao
+                    // mostra data e hora da publicacao <small>Publicado em: ${pubDate}</small>, mostra subtitulos <p>${snippet}</p>
                     newsHTML += `
                         <div class="news-item">
-                            <h3>${title}</h3>
-                   //         <p>${snippet}</p>
-                   //        <small>Publicado em: ${pubDate}</small>
+                            <h3>${title}</h3>   
                         </div>
                     `;
                 }); 
