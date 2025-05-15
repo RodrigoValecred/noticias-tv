@@ -90,7 +90,7 @@
             if(loaderElement) loaderElement.style.display = 'block';
 
             const urlToFetch = PROXY_URL + encodeURIComponent(RSS_URL);
-            console.log("URL completa para o parser:", urlToFetch); // <--- NOVO CONSOLE.LOG
+//            console.log("URL completa para o parser:", urlToFetch); // <--- NOVO CONSOLE.LOG
 
             parser.parseURL(urlToFetch, function(err, feed) {
                 if(loaderElement) loaderElement.style.display = 'none';
@@ -101,7 +101,7 @@
                     return;
                 }
                 
-                console.log("Feed recebido:", feed); // <--- NOVO CONSOLE.LOG
+  //              console.log("Feed recebido:", feed); // <--- NOVO CONSOLE.LOG
 
                 if (!feed || !feed.items) {
                     newsFeedElement.innerHTML = "<p style='color:orange;'>Nenhuma notícia encontrada no feed.</p>";
@@ -109,14 +109,14 @@
                     return;
                 }
 
-                console.log("Número de itens no feed:", feed.items.length); // <--- NOVO CONSOLE.LOG
+    //            console.log("Número de itens no feed:", feed.items.length); // <--- NOVO CONSOLE.LOG
                 if (feed.items.length === 0) {
                     newsFeedElement.innerHTML = "<p style='color:orange;'>O feed retornou, mas não contém itens de notícia.</p>";
                 }
 
                 let newsHTML = '';
                 feed.items.slice(0, MAX_ITEMS).forEach(item => {
-                    console.log("Processando item:", item); // <--- NOVO CONSOLE.LOG
+      //              console.log("Processando item:", item); // <--- NOVO CONSOLE.LOG
                     const title = item.title || 'Sem título';
                     let snippet = item.contentSnippet || item.description || '';
                     if (snippet.length > 200) {
