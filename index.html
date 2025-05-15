@@ -34,7 +34,7 @@
         .news-item h3 {
             margin-top: 0;
             margin-bottom: 8px;
-            font-size: 1.8em; /* Ajuste conforme o tamanho da TV */
+            font-size: 1.2em; /* Ajuste conforme o tamanho da TV */
             color: #e0e0e0;
         }
         .news-item p {
@@ -75,7 +75,7 @@
         // --- CONFIGURAÇÕES ---
         // const RSS_URL = 'https://lorem-rss.herokuapp.com/feed?unit=minute&interval=10&length=3'; // Feed de Teste Lorem Ipsum
         const RSS_URL = 'https://news.google.com/rss?hl=pt-BR&gl=BR&ceid=BR:pt-BR'; // Google Notícias Brasil
-        const MAX_ITEMS = 7; // Quantidade de notícias a exibir
+        const MAX_ITEMS = 5; // Quantidade de notícias a exibir
         const REFRESH_INTERVAL_MINUTES = 15; // Atualizar a cada X minutos
         // --- FIM DAS CONFIGURAÇÕES ---
 
@@ -127,15 +127,16 @@
                     snippet = tempDiv.textContent || tempDiv.innerText || "";
 
                     const pubDate = item.pubDate ? new Date(item.pubDate).toLocaleString('pt-BR', { dateStyle: 'short', timeStyle: 'short' }) : 'Data desconhecida';
-
+                    // mostra data e hora da publicacao
                     newsHTML += `
                         <div class="news-item">
                             <h3>${title}</h3>
-                            <p>${snippet}</p>
-                            <small>Publicado em: ${pubDate}</small>
+                   //         <p>${snippet}</p>
+                   //        <small>Publicado em: ${pubDate}</small>
                         </div>
                     `;
-                });
+                }); 
+            
                 newsFeedElement.innerHTML = newsHTML;
                 if (feed.items.length > 0) { // Só loga sucesso se realmente processou itens
                     console.log("Notícias carregadas e HTML atualizado.");
