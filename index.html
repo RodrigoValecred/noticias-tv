@@ -73,8 +73,23 @@
 
     <script>
         // --- CONFIGURAÇÕES ---
-        // const RSS_URL = 'https://lorem-rss.herokuapp.com/feed?unit=minute&interval=10&length=3'; // Feed de Teste Lorem Ipsum
-        const RSS_URL = 'https://news.google.com/rss?hl=pt-BR&gl=BR&ceid=BR:pt-BR'; // Google Notícias Brasil
+        const DEFAULT_RSS_URL = 'https://news.google.com/rss?hl=pt-BR&gl=BR&ceid=BR:pt-BR'; // Ou outro feed padrão de sua escolha
+        let RSS_URL;
+        
+        function getQueryParam(param) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(param);
+        }
+        
+        const feedUrlFromParam = getQueryParam('feedUrl');
+        if (feedUrlFromParam) {
+            RSS_URL = decodeURIComponent(feedUrlFromParam);
+            console.log("Usando feed da URL:", RSS_URL);
+        } else {
+            RSS_URL = DEFAULT_RSS_URL;
+            console.log("Usando feed padrão:", RSS_URL);
+        }
+                
         const MAX_ITEMS = 5; // Quantidade de notícias a exibir
         const REFRESH_INTERVAL_MINUTES = 60; // Atualizar a cada X minutos
         const MAX_RETRIES = 3; // Número de tentativas antes de desistir
