@@ -162,11 +162,12 @@
         fetchNews();
 
         // Atualiza as notícias periodicamente
-        if (REFRESH_INTERVAL_MINUTES > 0) {
-                currentRetry = 0; // Garante que cada ciclo de setInterval comece com 0 tentativas
-                fetchNews();
-            }, REFRESH_INTERVAL_MINUTES * 60 * 1000);
-        }
+    if (REFRESH_INTERVAL_MINUTES > 0) {
+        setInterval(() => { // <--- Criar uma função (arrow function) aqui
+            currentRetry = 0; // Garante que cada ciclo de setInterval comece com 0 tentativas
+            fetchNews();
+        }, REFRESH_INTERVAL_MINUTES * 60 * 1000);
+    }
     </script>
 </body>
 </html>
