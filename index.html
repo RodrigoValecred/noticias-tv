@@ -77,31 +77,47 @@
         const RSS_URL = 'https://news.google.com/rss?hl=pt-BR&gl=BR&ceid=BR:pt-BR'; // Google Notícias Brasil
         const MAX_ITEMS = 5; // Quantidade de notícias a exibir
         const REFRESH_INTERVAL_MINUTES = 60; // Atualizar a cada X minutos
+        const MAX_RETRIES = 3; // Número de tentativas antes de desistir
+        const RETRY_DELAY_MS = 5000; // 5 segundos de espera entre tentativas
         // --- FIM DAS CONFIGURAÇÕES ---
 
-        // const PROXY_URL = 'https://api.allorigins.win/raw?url='; // Proxy CORS público
-        const PROXY_URL = 'https://corsproxy.io/?'; // Proxy CORS Alternativo (note que não tem o /raw?url=)
+        const PROXY_URL = 'https://api.allorigins.win/raw?url='; // Proxy CORS público
+        // const PROXY_URL = 'https://corsproxy.io/?'; // Proxy CORS Alternativo (note que não tem o /raw?url=)
         const newsFeedElement = document.getElementById('news-feed');
         const loaderElement = document.getElementById('loader');
         let parser = new RSSParser();
+        let currentRetry = 0;
 
         function fetchNews() {
-            console.log("Buscando notícias...");
-            if(loaderElement) loaderElement.style.display = 'block';
+            if (currentRetry === 0 && loaderElement) { // Mostrar loader apenas na primeira tentativa do ciclo
+                loaderElement.style.display = 'block';
+                newsFeedElement.innerHTML = ''; // Limpa notícias antigas ou mensagens de erro
+            }
+            console.log(`Buscando notícias... (Tentativa ${currentRetry + 1}/${MAX_RETRIES + 1})`);
 
-            const urlToFetch = PROXY_URL + encodeURIComponent(RSS_URL);
-//            console.log("URL completa para o parser:", urlToFetch); // <--- NOVO CONSOLE.LOG
+            const urlToFetch = PROXY_URL + encodeURIComponent(RSS_URL) + '&_t=' + new Date().getTime();
+            console.log("URL completa para o parser:", urlToFetch);
 
             parser.parseURL(urlToFetch, function(err, feed) {
                 if(loaderElement) loaderElement.style.display = 'none';
 
                 if (err) {
-                    newsFeedElement.innerHTML = "<p style='color:red;'>Erro ao carregar notícias: " + err.message + "</p>";
-                    console.error("Erro ao buscar RSS:", err);
+                    console.error(`Erro na tentativa ${currentRetry + 1}:`, err);
+                    if (currentRetry < MAX_RETRIES) {
+                        currentRetry++;
+                        // Mostra mensagem de tentativa no HTML
+                        newsFeedElement.innerHTML = `<p style='color:orange;'>Falha ao buscar notícias. Tentando novamente em ${RETRY_DELAY_MS / 1000}s... (${currentRetry}/${MAX_RETRIES})</p>`;
+                        setTimeout(fetchNews, RETRY_DELAY_MS);
+                    } else {
+                        newsFeedElement.innerHTML = "<p style='color:red;'>Erro ao carregar notícias após múltiplas tentativas: " + (err.message || "Erro desconhecido") + "</p>";
+                        console.error("Falha definitiva ao buscar RSS após", MAX_RETRIES + 1, "tentativas.");
+                        currentRetry = 0; // Reseta para a próxima atualização agendada pelo setInterval
+                    }
                     return;
                 }
-                
-  //              console.log("Feed recebido:", feed); // <--- NOVO CONSOLE.LOG
+        
+        currentRetry = 0; // Sucesso, reseta contador de tentativas
+        console.log("Feed recebido:", feed);
 
                 if (!feed || !feed.items) {
                     newsFeedElement.innerHTML = "<p style='color:orange;'>Nenhuma notícia encontrada no feed.</p>";
@@ -147,7 +163,9 @@
 
         // Atualiza as notícias periodicamente
         if (REFRESH_INTERVAL_MINUTES > 0) {
-            setInterval(fetchNews, REFRESH_INTERVAL_MINUTES * 60 * 1000);
+                currentRetry = 0; // Garante que cada ciclo de setInterval comece com 0 tentativas
+                fetchNews();
+            }, REFRESH_INTERVAL_MINUTES * 60 * 1000);
         }
     </script>
 </body>
