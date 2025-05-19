@@ -74,7 +74,9 @@
     <script>
         // --- CONFIGURAÇÕES ---
         const DEFAULT_RSS_URL = 'https://news.google.com/rss?hl=pt-BR&gl=BR&ceid=BR:pt-BR'; // Ou outro feed padrão de sua escolha
+        const DEFAULT_SOURCE_NAME = 'Google Notícias'; //Nome padrão se nenhum for fornecido
         let RSS_URL;
+        let SOURCE_NAME; // Nova variável para o nome da fonte
         
         function getQueryParam(param) {
             const urlParams = new URLSearchParams(window.location.search);
@@ -89,6 +91,15 @@
             RSS_URL = DEFAULT_RSS_URL;
             console.log("Usando feed padrão:", RSS_URL);
         }
+
+        // Tenta pegar o nome da fonte do parametro 'sourceName'
+        const sourceNameFromParam = getQueryParam('sourceName');
+        if (sourceNameFromParam) {
+            SOURCE_NAME = decodeURIComponent(sourceNameFromParam);
+            console.log("Usando nome da fonte do parâmetro:", SOURCE_NAME);
+        }
+        // Se não houver parâmetro sourceName, SOURCE_NAME permanecerá undefined por enquanto.
+        // Ele será preenchido com feed.title mais tarde se não for definido aqui.
                 
         const MAX_ITEMS = 5; // Quantidade de notícias a exibir
         const REFRESH_INTERVAL_MINUTES = 60; // Atualizar a cada X minutos
@@ -134,6 +145,32 @@
         currentRetry = 0; // Sucesso, reseta contador de tentativas
         console.log("Feed recebido:", feed);
 
+                // Determina o nome da fonte a ser exibido
+                let displaySourceName = SOURCE_NAME; // Usa o do parâmetro se existir
+                if (!displaySourceName && feed && feed.title) {
+                    displaySourceName = feed.title; // Senão, usa o título do feed
+                }
+                if (!displaySourceName && RSS_URL === DEFAULT_RSS_URL) {
+                    displaySourceName = DEFAULT_SOURCE_NAME; // Senão, usa o padrão se for o feed padrão
+                }
+                if (!displaySourceName) {
+                    // Tenta extrair do host da RSS_URL como último recurso
+                    try {
+                        const urlObj = new URL(RSS_URL);
+                        displaySourceName = urlObj.hostname.replace(/^www\.|^rss\./, ''); // Remove www. ou rss.
+                    } catch (e) {
+                        displaySourceName = "Notícias"; // Fallback genérico
+                    }
+                }
+                console.log("Nome da fonte para exibição:", displaySourceName);
+
+                // Atualiza o título principal da página com o nome da fonte
+                const pageTitleElement = document.querySelector('h1');
+                if (pageTitleElement) {
+                    pageTitleElement.textContent = displaySourceName || 'Últimas Notícias';
+                }
+
+
                 if (!feed || !feed.items) {
                     newsFeedElement.innerHTML = "<p style='color:orange;'>Nenhuma notícia encontrada no feed.</p>";
                     console.warn("Feed vazio ou inválido:", feed);
@@ -149,6 +186,12 @@
                 feed.items.slice(0, MAX_ITEMS).forEach(item => {
       //              console.log("Processando item:", item); // <--- NOVO CONSOLE.LOG
                     const title = item.title || 'Sem título';
+                    let displayItemTitle = title;
+                    if (RSS_URL !== DEFAULT_RSS_URL && displaySourceName && !title.toLowerCase().includes(displaySourceName.toLowerCase().split(' ')[0])) {
+                        // Não vamos adicionar aqui para não poluir cada item, o título da página já mostra a fonte.
+                        // Mas se quisesse, seria: displayItemTitle = `${title} - ${displaySourceName}`;
+                    }
+                    
                     let snippet = item.contentSnippet || item.description || '';
                     if (snippet.length > 200) {
                         snippet = snippet.substring(0, 200) + '...';
