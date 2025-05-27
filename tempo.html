@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>Previsão do Tempo</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script> <!-- NOVO -->
+	<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@1.4.0/dist/chartjs-plugin-annotation.min.js"></script> <!-- NOVO -->
     <style>
 		body {
 			font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -53,26 +55,20 @@
 		}
 
 		#forecast-text {
-			text-align: center;
-			margin-top: 5px; /* Reduzir margem */
-			font-size: 0.8em; /* Reduzir fonte */
+			text-align: center; /* Mantém o container centralizado se ele tiver largura definida */
+			margin-top: 5px;
 			width: 100%;
-			overflow-y: auto; /* Se o texto for muito, permite scroll SÓ NELE */
-			max-height: 15vh; /* Limita a altura do texto, ajuste se necessário */
-			/* Se for remover o texto, pode deletar este bloco */
-		}
-
-		#forecast-text div {
-			margin-bottom: 2px;
-			display: flex;
+			display: flex; /* Torna o container um flex container */
+			justify-content: space-around; /* Distribui os ícones igualmente */
 			align-items: center;
-			justify-content: center;
-			gap: 5px;
+			padding: 5px 0; /* Um pouco de padding vertical */
+			/* max-height: 15vh; Não deve mais precisar de scroll ou max-height se forem só ícones pequenos */
 		}
 
 		#forecast-text img {
-			width: 20px; /* Reduzido */
-			height: 20px;
+			width: 40px;  /* Ajuste o tamanho dos ícones conforme necessário */
+			height: 40px;
+			/* Não precisa mais de margin-bottom individual se estão em linha */
 		}
 
 		/* Garanta que o canvas não tem width/height no HTML */
@@ -101,7 +97,24 @@
         const forecastTextElement = document.getElementById('forecast-text');
         const locationNameElement = document.getElementById('location-name');
         let weatherChart = null; // Variável para guardar a instância do gráfico
-
+		// Registra os plugins
+		// Usando os nomes globais que os scripts CDN geralmente criam
+		try {
+			// ChartDataLabels é geralmente o nome global para chartjs-plugin-datalabels
+			// chartjsPluginAnnotation é geralmente o nome global para chartjs-plugin-annotation
+			Chart.register(ChartDataLabels, chartjsPluginAnnotation); 
+			console.log("Plugins DataLabels e Annotation registrados com sucesso.");
+		} catch (e) {
+			console.error("Erro ao registrar plugins:", e);
+			// Tenta registrar pelo menos o DataLabels se o Annotation falhar por algum motivo no nome
+			try {
+				Chart.register(ChartDataLabels);
+				console.warn("Plugin Annotation não registrado, mas DataLabels sim.");
+			} catch (e2) {
+				console.error("Erro ao registrar DataLabels:", e2);
+			}
+		}
+		
         function getApiUrl() {
             // Se usar LAT e LON:
             // return `https://api.openweathermap.org/data/2.5/forecast?lat=${LAT}&lon=${LON}&appid=${API_KEY}&units=metric&lang=pt_br`;
@@ -185,12 +198,8 @@
                 const description = dayInfo.weather_descriptions[midDayIndex];
                 const icon = dayInfo.icons[midDayIndex];
 
-                textForecastHTML += `
-                    <div>
-                        <strong>${displayDate}:</strong> Min: ${dayMinTemp.toFixed(1)}°C, Max: ${dayMaxTemp.toFixed(1)}°C
-                        <img src="https://openweathermap.org/img/wn/${icon}.png" alt="${description}" title="${description}">
-                        (${description})
-                    </div>`;
+                textForecastHTML += `<img src="https://openweathermap.org/img/wn/${icon}@2x.png" alt=""
+				title="${dayInfo.weather_descriptions[midDayIndex]}">`;
             });
 
             forecastTextElement.innerHTML = textForecastHTML;
@@ -285,7 +294,65 @@
                         },
                         tooltip: { // Tooltips não são muito úteis na TV
                             enabled: false // Desabilita tooltips ao passar o mouse
-                        }
+                        },
+						datalabels: { // NOVA CONFIGURAÇÃO PARA OS RÓTULOS
+							align: function(context) { // Posiciona acima para máximas, abaixo para mínimas
+								const datasetIndex = context.datasetIndex;
+								return datasetIndex === 0 ? 'bottom' : 'top'; // dataset 0 = Mínima, dataset 1 = Máxima
+							},
+							anchor: function(context) {
+								const datasetIndex = context.datasetIndex;
+								return datasetIndex === 0 ? 'end' : 'start';
+							},
+							backgroundColor: function(context) {
+								return context.dataset.borderColor; // Cor de fundo do rótulo igual à da linha
+							},
+							borderRadius: 4,
+							color: 'white', // Cor do texto do rótulo
+							font: {
+								weight: 'bold',
+								size: 10 // Ajuste o tamanho da fonte do rótulo
+							},
+							formatter: function(value, context) {
+								return parseFloat(value).toFixed(0) + '°'; // Mostra valor arredondado + °
+							},
+							padding: 4
+						},
+						annotation: { // NOVA CONFIGURAÇÃO PARA AS FAIXAS DE COR
+							drawTime: 'beforeDatasetsDraw', // Desenha antes dos datasets (para ficar no fundo)
+							annotations: {
+								blueZone: {
+									type: 'box',
+									yMin: 0,
+									yMax: 10,
+									backgroundColor: 'rgba(0, 0, 255, 0.15)', // Azul claro transparente
+									borderColor: 'transparent'
+								},
+								whiteZone: {
+									type: 'box',
+									yMin: 10,
+									yMax: 20,
+									backgroundColor: 'rgba(220, 220, 220, 0.15)', // Branco/cinza claro transparente
+									borderColor: 'transparent'
+								},
+								yellowZone: {
+									type: 'box',
+									yMin: 20,
+									yMax: 30,
+									backgroundColor: 'rgba(255, 255, 0, 0.15)', // Amarelo claro transparente
+									borderColor: 'transparent'
+								},
+								redZone: {
+									type: 'box',
+									yMin: 30,
+									// yMax: undefined, // Deixa ir até o topo do gráfico se não definir yMax
+									// ou defina um yMax realista para sua região, ex: 45
+									yMax: 45, 
+									backgroundColor: 'rgba(255, 0, 0, 0.15)', // Vermelho claro transparente
+									borderColor: 'transparent'
+								}
+							}
+						}
                     },
                     elements: {
                         point: {
