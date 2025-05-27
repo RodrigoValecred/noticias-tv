@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de Conteúdo - TV Corporativa</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #111;
+            color: #f0f0f0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+        h1 {
+            color: #00aaff;
+            margin-bottom: 40px;
+        }
+        .menu-container {
+            display: flex;
+            flex-wrap: wrap; /* Permite que os botões quebrem para a próxima linha */
+            justify-content: center;
+            gap: 20px; /* Espaço entre os botões */
+        }
+        .menu-button {
+            background-color: #007bff;
+            color: white;
+            padding: 15px 25px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 1.2em;
+            transition: background-color 0.3s ease;
+            min-width: 200px; /* Largura mínima para os botões */
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+        }
+        .menu-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Seleção de Conteúdo para TV</h1>
+    <div class="menu-container">
+        <a href="./noticias_app.html" class="menu-button">Notícias (Google)</a>
+        <a href="./noticias_app.html?feedUrl=https%3A%2F%2Fg1.globo.com%2Frss%2Fg1%2Feconomia%2F&sourceName=G1%20Economia" class="menu-button">Notícias (G1 Economia)</a>
+        <a href="./noticias_app.html?feedUrl=http%3A%2F%2Frss.uol.com.br%2Ffeed%2Fnoticias.xml&sourceName=UOL%20Not%C3%ADcias" class="menu-button">Notícias (UOL)</a>
+        <a href="./noticias_app.html?feedUrl=https%3A%2F%2Fbr.investing.com%2Frss%2Fnews_14.rss&sourceName=Investing.com" class="menu-button">Notícias (Investing)</a>
+        <a href="./tempo_app.html" class="menu-button">Previsão do Tempo</a>
+        <!-- Adicione mais links conforme necessário -->
+    </div>
+</body>
+</html>
