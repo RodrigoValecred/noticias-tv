@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Previsão do Tempo</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body { font-family: sans-serif; background-color: #f0f0f0; margin: 20px; }
+        .weather-container { background-color: white; padding: 20px; border-radius: 8px; }
+        h1 { text-align: center; }
+        #forecast-text div { margin-bottom: 10px; }
+        /* Estilos para o gráfico e texto */
+    </style>
+</head>
+<body>
+    <div class="weather-container">
+        <h1 id="location-name">Previsão do Tempo</h1>
+        <canvas id="weatherChart" width="400" height="200"></canvas>
+        <div id="forecast-text">
+            <!-- Previsão textual será inserida aqui -->
+        </div>
+    </div>
+
+    <script>
+        // --- CONFIGURAÇÕES ---
+        const API_KEY = '90f67f01d5b8618ca6fa64716d5240ed'; // IMPORTANTE: Substitua pela sua chave!
+        const CITY_NAME = 'Tatui,BR'; // Ex: 'Londrina,BR', 'Curitiba,BR' (Cidade, Código do País)
+        // Ou por coordenadas: const LAT = -23.5505; const LON = -46.6333;
+        const PROXY_URL = 'https://api.allorigins.win/raw?url='; // Ou outro, se necessário
+        const REFRESH_INTERVAL_HOURS = 3; // Atualizar a cada 2 horas
+        // --- FIM ---
+
+        const forecastTextElement = document.getElementById('forecast-text');
+        const locationNameElement = document.getElementById('location-name');
+        let weatherChart = null; // Variável para guardar a instância do gráfico
+
+        function getApiUrl() {
+            // Se usar LAT e LON:
+            // return `https://api.openweathermap.org/data/2.5/forecast?lat=${LAT}&lon=${LON}&appid=${API_KEY}&units=metric&lang=pt_br`;
+            return `https://api.openweathermap.org/data/2.5/forecast?q=${CITY_NAME}&appid=${API_KEY}&units=metric&lang=pt_br`;
+        }
+
+        async function fetchWeatherData() {
+            locationNameElement.textContent = `Previsão para ${CITY_NAME.split(',')[0]}`;
+            const apiUrl = getApiUrl();
+            const urlToFetch = PROXY_URL + encodeURIComponent(apiUrl); // Se precisar do proxy
+            // const urlToFetch = apiUrl; // Se a API OpenWeatherMap permitir chamadas diretas CORS (teste!)
+
+            console.log("Buscando dados de:", urlToFetch);
+            try {
+                const response = await fetch(urlToFetch);
+                if (!response.ok) {
+                    throw new Error(`Erro de rede: ${response.status} ${response.statusText}`);
+                }
+                const data = await response.json();
+                console.log("Dados recebidos:", data);
+
+                if (data.cod && data.cod !== "200") {
+                     throw new Error(`Erro da API: ${data.message || 'Erro desconhecido'}`);
+                }
+
+                processAndDisplayData(data);
+            } catch (error) {
+                console.error("Falha ao buscar dados do tempo:", error);
+                forecastTextElement.innerHTML = `<p style="color:red;">Erro ao carregar previsão: ${error.message}</p>`;
+            }
+        }
+
+        function processAndDisplayData(data) {
+            if (!data || !data.list || data.list.length === 0) {
+                forecastTextElement.innerHTML = "<p>Dados de previsão não disponíveis.</p>";
+                return;
+            }
+
+            const dailyData = {}; // Objeto para agrupar dados por dia
+
+            data.list.forEach(item => {
+                const date = item.dt_txt.split(' ')[0]; // Pega apenas a parte da data YYYY-MM-DD
+                if (!dailyData[date]) {
+                    dailyData[date] = {
+                        temps: [],
+                        weather_descriptions: [],
+                        icons: [],
+                        humidity: [],
+                        wind_speed: []
+                    };
+                }
+                dailyData[date].temps.push(item.main.temp);
+                dailyData[date].weather_descriptions.push(item.weather[0].description);
+                dailyData[date].icons.push(item.weather[0].icon);
+                dailyData[date].humidity.push(item.main.humidity);
+                dailyData[date].wind_speed.push(item.wind.speed);
+            });
+
+            const labels = [];
+            const minTemps = [];
+            const maxTemps = [];
+            let textForecastHTML = "";
+
+            // Pegar os próximos 5 dias (ou menos se a API não retornar tudo)
+            const forecastDays = Object.keys(dailyData).sort().slice(0, 5);
+
+            forecastDays.forEach(date => {
+                const dayInfo = dailyData[date];
+                const dayMinTemp = Math.min(...dayInfo.temps);
+                const dayMaxTemp = Math.max(...dayInfo.temps);
+                
+                // Formatar data para exibição (ex: Dia 27/05)
+                const dateParts = date.split('-');
+                const displayDate = `${dateParts[2]}/${dateParts[1]}`;
+                labels.push(displayDate);
+                minTemps.push(dayMinTemp.toFixed(1)); // Arredonda para 1 casa decimal
+                maxTemps.push(dayMaxTemp.toFixed(1));
+
+                // Pega a descrição e ícone mais representativos do dia (ex: o do meio-dia)
+                const midDayIndex = Math.floor(dayInfo.weather_descriptions.length / 2);
+                const description = dayInfo.weather_descriptions[midDayIndex];
+                const icon = dayInfo.icons[midDayIndex];
+
+                textForecastHTML += `
+                    <div>
+                        <strong>${displayDate}:</strong> Min: ${dayMinTemp.toFixed(1)}°C, Max: ${dayMaxTemp.toFixed(1)}°C
+                        <img src="https://openweathermap.org/img/wn/${icon}.png" alt="${description}" title="${description}">
+                        (${description})
+                    </div>`;
+            });
+
+            forecastTextElement.innerHTML = textForecastHTML;
+            renderWeatherChart(labels, minTemps, maxTemps);
+        }
+
+        function renderWeatherChart(labels, minData, maxData) {
+            const ctx = document.getElementById('weatherChart').getContext('2d');
+            
+            if (weatherChart) {
+                weatherChart.destroy(); // Destrói o gráfico anterior para redesenhar
+            }
+
+            weatherChart = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: labels,
+                    datasets: [
+                        {
+                            label: 'Temp. Mínima (°C)',
+                            data: minData,
+                            borderColor: 'blue',
+                            backgroundColor: 'rgba(0, 0, 255, 0.1)',
+                            fill: false,
+                            tension: 0.1
+                        },
+                        {
+                            label: 'Temp. Máxima (°C)',
+                            data: maxData,
+                            borderColor: 'red',
+                            backgroundColor: 'rgba(255, 0, 0, 0.1)',
+                            fill: false,
+                            tension: 0.1
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: true, // Mude para false se quiser controlar com CSS
+                    scales: {
+                        y: {
+                            beginAtZero: false, // Não precisa começar em zero para temperatura
+                            ticks: {
+                                callback: function(value) {
+                                    return value + '°C';
+                                }
+                            }
+                        }
+                    },
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'Previsão para os Próximos 5 Dias'
+                        }
+                    }
+                }
+            });
+        }
+
+        // Carregar dados ao iniciar e definir intervalo
+        fetchWeatherData();
+        setInterval(fetchWeatherData, REFRESH_INTERVAL_HOURS * 60 * 60 * 1000);
+    </script>
+</body>
+</html>
