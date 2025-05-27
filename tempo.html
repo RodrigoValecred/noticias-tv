@@ -5,85 +5,89 @@
     <title>Previsão do Tempo</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            margin: 0; /* Removido padding para maximizar espaço */
-            background-color: #111; /* Fundo escuro para TVs */
-            color: #f0f0f0;      /* Texto claro */
-            height: 100vh;       /* Ocupar toda a altura da viewport */
-            width: 100vw;        /* Ocupar toda a largura da viewport */
-            overflow: hidden;    /* IMPEDE barras de rolagem no body */
-            display: flex;
-            flex-direction: column;
-            align-items: center; /* Centraliza o .weather-container horizontalmente */
-            justify-content: flex-start; /* Alinha ao topo, mas pode ajustar se precisar */
-            padding-top: 15px; /* Um pequeno espaço no topo */
-            box-sizing: border-box;
-        }
-        
-        .weather-container {
-            background-color: #222;
-            padding: 15px; /* Reduzido um pouco */
-            border-radius: 8px;
-            width: 90%; /* Usar uma porcentagem maior da largura */
-            max-width: 1000px; /* Limite máximo para telas muito grandes */
-            display: flex;
-            flex-direction: column; /* Itens empilhados verticalmente */
-            /* Vamos deixar a altura ser determinada pelo conteúdo,
-               mas o body com 100vh e overflow:hidden vai cortar o que não couber */
-            box-shadow: 0 0 15px rgba(0,0,0,0.6); /* Sombra um pouco mais pronunciada */
-        }
-        
-        h1#location-name { /* Adicionando ID para ser mais específico */
-            text-align: center;
-            color: #00aaff;
-            font-size: 2.2em; /* Ajuste conforme o visual na TV */
-            margin-top: 0;
-            margin-bottom: 10px;
-        }
-        
-        /* Novo: Contêiner específico para o gráfico para controlar seu tamanho */
-        .chart-container {
-            position: relative; /* Necessário para Chart.js responsive */
-            width: 100%;      /* Ocupar toda a largura do .weather-container */
-            /* Defina uma altura proporcional ou máxima para o gráfico.
-               Experimente com vh (viewport height) ou % da altura do .weather-container se ele tiver altura definida.
-               Por exemplo, 60% da altura visível da tela: */
-            height: 60vh; /* <<<< AJUSTE ESTE VALOR CONFORME NECESSÁRIO >>>> */
-                          /* Se o texto abaixo for removido, pode aumentar aqui */
-            max-height: 400px; /* Um limite máximo para não ficar gigante */
-        }
-        
-        #forecast-text {
-            text-align: center;
-            margin-top: 10px; /* Reduzido */
-            font-size: 0.9em; /* Pode reduzir mais se precisar de espaço */
-            /* Se for remover, pode deletar este bloco CSS */
-        }
-        
-        #forecast-text div {
-            margin-bottom: 3px; /* Reduzido */
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 5px; /* Espaço entre os itens */
-        }
-        
-        #forecast-text img {
-            width: 25px; /* Reduzido */
-            height: 25px;
-            /* margin: 0 5px; Removido, usando gap no pai */
-        }
+		body {
+			font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+			margin: 0;
+			background-color: #111;
+			color: #f0f0f0;
+			height: 100vh;
+			width: 100vw;
+			overflow: hidden; /* Essencial para evitar scroll na TV */
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center; /* Tentar centralizar tudo verticalmente para ver melhor */
+			padding: 10px; /* Pequeno padding geral */
+			box-sizing: border-box;
+		}
+
+		.weather-container {
+			background-color: #222;
+			padding: 15px;
+			border-radius: 8px;
+			width: 95%; /* Aumentar um pouco a largura se couber */
+			max-width: 1200px; /* Aumentar se necessário */
+			display: flex;
+			flex-direction: column;
+			align-items: center; /* Centralizar conteúdo dentro do container */
+			box-shadow: 0 0 15px rgba(0,0,0,0.6);
+			/* Dê uma altura máxima para o container principal se ele não deve ocupar tudo */
+			/* max-height: 90vh; (opcional, se quiser margens visíveis no body) */
+		}
+
+		h1#location-name {
+			text-align: center;
+			color: #00aaff;
+			font-size: 2.0em; /* Reduzir um pouco para economizar espaço */
+			margin-top: 0;
+			margin-bottom: 5px; /* Reduzir margem */
+		}
+
+		.chart-container {
+			position: relative;
+			width: 100%;
+			/* Vamos usar uma altura MENOR para começar e ver se ele para de esticar */
+			height: 50vh;  /* <<<< Teste com um valor menor, ex: 50vh ou 45vh >>>> */
+			/* max-height: 400px;  Comentado por enquanto */
+			/* background-color: red; Adicione para visualizar a área do container */
+		}
+
+		#forecast-text {
+			text-align: center;
+			margin-top: 5px; /* Reduzir margem */
+			font-size: 0.8em; /* Reduzir fonte */
+			width: 100%;
+			overflow-y: auto; /* Se o texto for muito, permite scroll SÓ NELE */
+			max-height: 15vh; /* Limita a altura do texto, ajuste se necessário */
+			/* Se for remover o texto, pode deletar este bloco */
+		}
+
+		#forecast-text div {
+			margin-bottom: 2px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			gap: 5px;
+		}
+
+		#forecast-text img {
+			width: 20px; /* Reduzido */
+			height: 20px;
+		}
+
+		/* Garanta que o canvas não tem width/height no HTML */
     </style>
 </head>
 <body>
-    <div class="weather-container">
-        <h1 id="location-name">Previsão do Tempo</h1>
-        <canvas id="weatherChart" width="400" height="200"></canvas>
-        <div id="forecast-text">
-            <!-- Previsão textual será inserida aqui -->
-        </div>
-    </div>
+	<div class="weather-container">
+			<h1 id="location-name">Previsão do Tempo</h1>
+			<div class="chart-container">  <!-- Certifique-se que este div existe -->
+				<canvas id="weatherChart"></canvas> <!-- E o canvas está dentro dele -->
+			</div>
+			<div id="forecast-text">
+				<!-- Previsão textual -->
+			</div>
+		</div>
 
     <script>
         // --- CONFIGURAÇÕES ---
