@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cotações de Câmbio</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            background-color: #111;
+            color: #f0f0f0;
+            height: 100vh;
+            width: 100vw;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .cambio-container {
+            background-color: #222;
+            padding: 25px 35px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.6);
+            text-align: center;
+        }
+        h1 {
+            color: #4CAF50; /* Verde, como no menu */
+            margin-top: 0;
+            margin-bottom: 25px;
+            font-size: 2.5em;
+        }
+        .rate {
+            font-size: 1.8em;
+            margin: 15px 0;
+            line-height: 1.4;
+        }
+        .rate .currency {
+            font-weight: bold;
+            color: #ccc;
+        }
+        .rate .value {
+            color: #4CAF50; /* Verde para os valores */
+            font-weight: bold;
+        }
+        #last-updated {
+            margin-top: 20px;
+            font-size: 0.8em;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <div class="cambio-container">
+        <h1>Cotações Atuais</h1>
+        <div id="dolar-rate" class="rate">
+            <span class="currency">Dólar (USD):</span> <span class="value">Carregando...</span>
+        </div>
+        <div id="euro-rate" class="rate">
+            <span class="currency">Euro (EUR):</span> <span class="value">Carregando...</span>
+        </div>
+        <!-- Você pode adicionar mais moedas aqui se a API suportar e você quiser -->
+        <div id="last-updated">
+            Última atualização: Carregando...
+        </div>
+    </div>
+
+    <script>
+        // --- CONFIGURAÇÕES ---
+        const MOEDA_BASE = 'BRL'; // Queremos ver quanto 1 Dólar/Euro custa em Reais, ou o inverso?
+                                   // Se BRL, a API retornará quanto 1 BRL vale em USD/EUR.
+                                   // Para ver "1 USD = X BRL", a base precisa ser USD e o alvo BRL.
+                                   // Vamos usar USD como base para mostrar "1 USD = X BRL" e "1 EUR = Y BRL" (calculado)
+        const MOEDAS_ALVO_DIRETO = 'BRL'; // Moeda que queremos diretamente da API em relação à base_USD
+        const MOEDA_EURO = 'EUR';          // Euro para calcular em relação ao BRL
+        const PROXY_URL = 'https://api.allorigins.win/raw?url='; // Proxy CORS
+        const REFRESH_INTERVAL_MINUTES = 30; // Atualizar a cada 30 minutos
+        // --- FIM ---
+
+        const dolarRateElement = document.querySelector('#dolar-rate .value');
+        const euroRateElement = document.querySelector('#euro-rate .value');
+        const lastUpdatedElement = document.getElementById('last-updated');
+
+        async function fetchCambioData() {
+            // Usaremos USD como base para facilitar a exibição de 1 USD = X BRL
+            // E depois calcularemos 1 EUR = Y BRL usando a taxa EUR/USD
+            const apiUrlUSD_Base = `https://api.frankfurter.app/latest?from=USD&to=BRL,EUR`;
+            // const apiUrlBRL_Base = `https://api.frankfurter.app/latest?from=BRL&to=USD,EUR`; // Alternativa
+
+            // Teste com a API Frankfurter sem proxy primeiro, ela costuma ter CORS habilitado
+            // let urlToFetch = apiUrlUSD_Base;
+            // Se precisar de proxy:
+            let urlToFetch = PROXY_URL + encodeURIComponent(apiUrlUSD_Base);
+
+
+            console.log("Buscando dados de câmbio de:", urlToFetch);
+            try {
+                const response = await fetch(urlToFetch);
+                if (!response.ok) {
+                    throw new Error(`Erro de rede: ${response.status} ${response.statusText}`);
+                }
+                const data = await response.json();
+                console.log("Dados de câmbio recebidos:", data);
+
+                if (!data.rates) {
+                    throw new Error('Formato de dados inesperado da API de câmbio.');
+                }
+
+                // Exibindo 1 USD = X BRL
+                const taxaUsdBrl = data.rates[MOEDAS_ALVO_DIRETO]; // Ex: data.rates.BRL se base é USD
+                if (taxaUsdBrl) {
+                    dolarRateElement.textContent = `R$ ${taxaUsdBrl.toFixed(2)}`;
+                } else {
+                    dolarRateElement.textContent = 'N/D';
+                }
+
+                // Para exibir 1 EUR = Y BRL:
+                // A API nos deu: 1 USD = X BRL (taxaUsdBrl)
+                // E 1 USD = Z EUR (data.rates.EUR)
+                // Queremos 1 EUR = Y BRL. Então, Y = (1 USD / Z EUR) * X BRL = (1/data.rates.EUR) * taxaUsdBrl
+                // Ou, de forma mais simples, se a base é USD: 1 EUR = (taxa BRL/USD) / (taxa EUR/USD) = taxaUsdBrl / data.rates.EUR
+                const taxaEurUsd = data.rates[MOEDA_EURO]; // Ex: data.rates.EUR se base é USD
+                if (taxaEurUsd && taxaUsdBrl) {
+                    const taxaEurBrl = taxaUsdBrl / taxaEurUsd;
+                    euroRateElement.textContent = `R$ ${taxaEurBrl.toFixed(2)}`;
+                } else {
+                    euroRateElement.textContent = 'N/D';
+                }
+
+                const updateTime = new Date(data.date + 'T12:00:00Z'); // Frankfurter usa data, assume meio-dia UTC
+                lastUpdatedElement.textContent = `Última atualização: ${updateTime.toLocaleString('pt-BR', {dateStyle: 'short', timeStyle: 'medium'})}`;
+
+            } catch (error) {
+                console.error("Falha ao buscar dados de câmbio:", error);
+                dolarRateElement.textContent = 'Erro';
+                euroRateElement.textContent = 'Erro';
+                lastUpdatedElement.textContent = `Erro: ${error.message}`;
+            }
+        }
+
+        // Carregar dados ao iniciar e definir intervalo
+        fetchCambioData();
+        setInterval(fetchCambioData, REFRESH_INTERVAL_MINUTES * 60 * 1000);
+    </script>
+</body>
+</html>
