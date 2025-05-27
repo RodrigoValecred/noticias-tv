@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tráfego Local</title>
+    <style>
+        /* Garante que o mapa ocupe toda a tela */
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            background-color: #111; /* Fundo escuro se o mapa demorar a carregar */
+            overflow: hidden; /* Para evitar barras de rolagem indesejadas */
+        }
+        #map-container {
+            width: 100%;
+            height: 100%;
+            display: flex; /* Para centralizar a mensagem de carregamento */
+            align-items: center;
+            justify-content: center;
+        }
+        #map {
+            width: 100%;
+            height: 100%;
+        }
+        .loading-message { /* Mensagem enquanto o mapa carrega */
+            color: #f0f0f0;
+            font-size: 1.5em;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div id="map-container">
+        <div id="map">
+            <div class="loading-message">Carregando mapa e informações de tráfego...</div>
+        </div>
+    </div>
+
+    <script>
+        // --- CONFIGURAÇÕES ---
+        const API_KEY = 'AIzaSyAz6_NvYnq4qIoM88_aUtTbSqhLqFD3MCw'; // <<< SUBSTITUA PELA SUA CHAVE REAL
+        const LATITUDE_EMPRESA = -23.3465852; // <<< SUBSTITUA PELA SUA LATITUDE
+        const LONGITUDE_EMPRESA = -47.84622230000001; // <<< SUBSTITUA PELA SUA LONGITUDE
+        const ZOOM_LEVEL = 16; // Nível de zoom: 15-17 geralmente é bom para um raio de ~1km
+        const REFRESH_TRAFFIC_MINUTES = 60; // O Google Maps atualiza a camada de tráfego automaticamente,
+                                           // mas podemos forçar um 'refresh' da página inteira se necessário.
+        // --- FIM ---
+
+        function initMap() {
+            const mapElement = document.getElementById('map');
+            // Limpa a mensagem de carregamento
+            mapElement.innerHTML = ''; 
+
+            const localEmpresa = { lat: LATITUDE_EMPRESA, lng: LONGITUDE_EMPRESA };
+
+            const map = new google.maps.Map(mapElement, {
+                center: localEmpresa,
+                zoom: ZOOM_LEVEL,
+                // Você pode adicionar mais opções de mapa aqui se desejar
+                // https://developers.google.com/maps/documentation/javascript/reference/map#MapOptions
+                // Exemplo para um tema escuro no mapa (requer habilitar na sua API Key no Google Cloud Console)
+                // mapId: 'SEU_MAP_ID_PARA_TEMA_ESCURO',
+                disableDefaultUI: true, // Remove controles padrão do mapa (zoom, street view etc.)
+                gestureHandling: 'none' // Desabilita interações de arrastar e zoom com o mouse/toque
+            });
+
+            const trafficLayer = new google.maps.TrafficLayer();
+            trafficLayer.setMap(map);
+
+            // Opcional: Adicionar um marcador para a empresa
+            new google.maps.Marker({
+                position: localEmpresa,
+                map: map,
+                title: 'Sua Empresa Aqui' 
+            });
+        }
+
+        // Função para carregar o script da API do Google Maps dinamicamente
+        function loadGoogleMapsScript() {
+            const script = document.createElement('script');
+            script.src = `https://maps.googleapis.com/maps/api/js?key=${API_KEY}&callback=initMap&libraries=core,maps,marker,places,traffic`; // Adicionando libraries
+            script.async = true;
+            script.defer = true;
+            script.onerror = () => {
+                document.getElementById('map').innerHTML = '<div class="loading-message" style="color:red;">Erro ao carregar a API do Google Maps. Verifique a chave e a conexão.</div>';
+            };
+            document.head.appendChild(script);
+        }
+
+        // Iniciar o carregamento
+        loadGoogleMapsScript();
+
+        // Para atualizar a página inteira periodicamente (se a camada de tráfego não parecer "viva" o suficiente)
+        // Se a camada de tráfego se auto-atualizar bem, isso pode não ser necessário.
+        if (REFRESH_TRAFFIC_MINUTES > 0) {
+            setInterval(() => {
+                // window.location.reload(); // Recarrega a página inteira
+                console.log("Simulando atualização de tráfego (página seria recarregada aqui)");
+                // Para TVs, é melhor não recarregar a página inteira, a TrafficLayer deve se atualizar.
+                // Se precisar forçar a atualização da camada de tráfego (raro):
+                // if (typeof trafficLayer !== 'undefined' && trafficLayer.getMap()) {
+                //    const currentMap = trafficLayer.getMap();
+                //    trafficLayer.setMap(null);
+                //    trafficLayer.setMap(currentMap);
+                //    console.log("Camada de tráfego recarregada.");
+                // }
+            }, REFRESH_TRAFFIC_MINUTES * 60 * 1000);
+        }
+    </script>
+</body>
+</html>
