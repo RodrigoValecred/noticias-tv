@@ -122,7 +122,7 @@
         }
 
         async function fetchWeatherData() {
-            locationNameElement.textContent = `Previsão para ${CITY_NAME.split(',')[0]}`;
+            locationNameElement.textContent = `Previsão do Tempo para ${CITY_NAME.split(',')[0]}`;
             const apiUrl = getApiUrl();
             const urlToFetch = PROXY_URL + encodeURIComponent(apiUrl); // Se precisar do proxy
             // const urlToFetch = apiUrl; // Se a API OpenWeatherMap permitir chamadas diretas CORS (teste!)
