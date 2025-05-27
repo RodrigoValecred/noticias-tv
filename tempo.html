@@ -5,11 +5,75 @@
     <title>Previsão do Tempo</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
-        body { font-family: sans-serif; background-color: #f0f0f0; margin: 20px; }
-        .weather-container { background-color: white; padding: 20px; border-radius: 8px; }
-        h1 { text-align: center; }
-        #forecast-text div { margin-bottom: 10px; }
-        /* Estilos para o gráfico e texto */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            margin: 0; /* Removido padding para maximizar espaço */
+            background-color: #111; /* Fundo escuro para TVs */
+            color: #f0f0f0;      /* Texto claro */
+            height: 100vh;       /* Ocupar toda a altura da viewport */
+            width: 100vw;        /* Ocupar toda a largura da viewport */
+            overflow: hidden;    /* IMPEDE barras de rolagem no body */
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Centraliza o .weather-container horizontalmente */
+            justify-content: flex-start; /* Alinha ao topo, mas pode ajustar se precisar */
+            padding-top: 15px; /* Um pequeno espaço no topo */
+            box-sizing: border-box;
+        }
+        
+        .weather-container {
+            background-color: #222;
+            padding: 15px; /* Reduzido um pouco */
+            border-radius: 8px;
+            width: 90%; /* Usar uma porcentagem maior da largura */
+            max-width: 1000px; /* Limite máximo para telas muito grandes */
+            display: flex;
+            flex-direction: column; /* Itens empilhados verticalmente */
+            /* Vamos deixar a altura ser determinada pelo conteúdo,
+               mas o body com 100vh e overflow:hidden vai cortar o que não couber */
+            box-shadow: 0 0 15px rgba(0,0,0,0.6); /* Sombra um pouco mais pronunciada */
+        }
+        
+        h1#location-name { /* Adicionando ID para ser mais específico */
+            text-align: center;
+            color: #00aaff;
+            font-size: 2.2em; /* Ajuste conforme o visual na TV */
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+        
+        /* Novo: Contêiner específico para o gráfico para controlar seu tamanho */
+        .chart-container {
+            position: relative; /* Necessário para Chart.js responsive */
+            width: 100%;      /* Ocupar toda a largura do .weather-container */
+            /* Defina uma altura proporcional ou máxima para o gráfico.
+               Experimente com vh (viewport height) ou % da altura do .weather-container se ele tiver altura definida.
+               Por exemplo, 60% da altura visível da tela: */
+            height: 60vh; /* <<<< AJUSTE ESTE VALOR CONFORME NECESSÁRIO >>>> */
+                          /* Se o texto abaixo for removido, pode aumentar aqui */
+            max-height: 400px; /* Um limite máximo para não ficar gigante */
+        }
+        
+        #forecast-text {
+            text-align: center;
+            margin-top: 10px; /* Reduzido */
+            font-size: 0.9em; /* Pode reduzir mais se precisar de espaço */
+            /* Se for remover, pode deletar este bloco CSS */
+        }
+        
+        #forecast-text div {
+            margin-bottom: 3px; /* Reduzido */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px; /* Espaço entre os itens */
+        }
+        
+        #forecast-text img {
+            width: 25px; /* Reduzido */
+            height: 25px;
+            /* margin: 0 5px; Removido, usando gap no pai */
+        }
     </style>
 </head>
 <body>
@@ -161,11 +225,31 @@
                 },
                 options: {
                     responsive: true,
-                    maintainAspectRatio: true, // Mude para false se quiser controlar com CSS
+                    maintainAspectRatio: false, // Mude para false se quiser controlar com CSS
                     scales: {
+                        x: {
+                            grid: {
+                                display: false // Remove linhas de grade verticais
+                            },
+                            ticks: {
+                                color: '#ccc', // Cor dos rótulos do eixo X
+                                font: {
+                                    size: 10 // Fonte menor para os dias
+                                }
+                            }
+                        },
                         y: {
+                            grid: {
+                                // display: false, // Descomente para remover linhas de grade horizontais
+                                color: 'rgba(204, 204, 204, 0.15)' // Linhas de grade horizontais mais fracas
+                            },
                             beginAtZero: false, // Não precisa começar em zero para temperatura
                             ticks: {
+                                color: '#ccc', // Cor dos rótulos do eixo Y
+                                stepSize: 5,   // Define o intervalo entre os ticks (ex: 5°C) - ajuste conforme sua faixa de temp.
+                                font: {
+                                    size: 10 // Fonte menor para as temperaturas
+                                },
                                 callback: function(value) {
                                     return value + '°C';
                                 }
@@ -173,9 +257,40 @@
                         }
                     },
                     plugins: {
+                        legend: {
+                            position: 'top',
+                            labels: {
+                                color: '#ddd', // Cor do texto da legenda
+                                font: {
+                                    size: 12 // Tamanho da fonte da legenda
+                                },
+                                boxWidth: 20, // Largura da caixa de cor da legenda
+                                padding: 10   // Espaçamento da legenda
+                            }
+                        },
                         title: {
                             display: true,
-                            text: 'Previsão para os Próximos 5 Dias'
+                            text: 'Próximos 5 Dias', // Pode ser mais curto ou removido se o H1 já diz
+                            color: '#eee',
+                            font: {
+                                size: 16 // Tamanho do título do gráfico
+                            },
+                            padding: {
+                                bottom: 10 // Espaço abaixo do título do gráfico
+                            }
+                        },
+                        tooltip: { // Tooltips não são muito úteis na TV
+                            enabled: false // Desabilita tooltips ao passar o mouse
+                        }
+                    },
+                    elements: {
+                        point: {
+                            radius: 2, // Raio dos pontos nos dados (0 para esconder)
+                            hoverRadius: 4
+                        },
+                        line: {
+                            borderWidth: 2, // Espessura das linhas
+                            tension: 0.1    // Curvatura das linhas (0 = retas)
                         }
                     }
                 }
