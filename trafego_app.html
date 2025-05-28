@@ -115,6 +115,8 @@
 
         function initMap() {
             const mapElement = document.getElementById('map');
+            const overlayInfoElement = document.getElementById('map-overlay-info'); // <<< DEFINIR AQUI
+            
             // Limpa a mensagem de carregamento
             mapElement.innerHTML = ''; 
 
@@ -161,6 +163,8 @@
                 map: map,
                 title: 'Sua Empresa Aqui' 
             });
+            
+            // Mostra o overlay da legenda APÓS o mapa ser inicializado com sucesso
             if (overlayInfoElement) {
                 overlayInfoElement.style.visibility = 'visible';
             }
@@ -174,13 +178,13 @@
             script.defer = true;
             script.onerror = () => {
                 const mapElement = document.getElementById('map');
-                const overlayInfoElement = document.getElementById('map-overlay-info');
+                const overlayInfoElementOnError = document.getElementById('map-overlay-info'); // Nome diferente para evitar confusão
         
                 mapElement.innerHTML = '<div class="loading-message" style="color:red;">Erro ao carregar a API do Google Maps. Verifique a chave e a conexão.</div>';
                 
                 // Mantém o overlay da legenda escondido em caso de erro total da API
-                if (overlayInfoElement) {
-                    overlayInfoElement.style.visibility = 'hidden';
+                if (overlayInfoElementOnError) { // Usa a variável local do escopo do onerror
+                    overlayInfoElementOnError.style.visibility = 'hidden';
                 }
             };
             document.head.appendChild(script);
