@@ -29,10 +29,72 @@
             font-size: 1.5em;
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
         }
+        #map-overlay-info {
+            position: absolute; /* Permite posicionar sobre o mapa */
+            top: 15px;          /* Distância do topo */
+            left: 15px;         /* Distância da esquerda */
+            z-index: 10;        /* Garante que fique sobre o mapa */
+            background-color: rgba(34, 34, 34, 0.85); /* Fundo semi-transparente (#222 com opacidade) */
+            padding: 10px 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+            max-width: 300px; /* Para não ocupar a tela toda se o texto for grande */
+        }
+        #map-title {
+            color: #00aaff; /* Cor que você usava antes para títulos, ou outra de destaque */
+            font-size: 1.6em; /* Ajuste o tamanho */
+            margin-top: 0;
+            margin-bottom: 10px;
+            text-align: left; /* Alinha à esquerda dentro da caixa */
+        }
+        #traffic-legend {
+            font-size: 0.9em;
+        }
+        #traffic-legend h3 {
+            font-size: 1.1em;
+            margin-top: 0;
+            margin-bottom: 8px;
+            color: #f0f0f0;
+        }
+        #traffic-legend ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        #traffic-legend li {
+            margin-bottom: 5px;
+            display: flex; /* Para alinhar a caixa de cor com o texto */
+            align-items: center;
+        }
+        .color-box {
+            display: inline-block;
+            width: 20px;
+            height: 10px; /* Pode ser um quadrado (20px x 20px) ou retângulo */
+            margin-right: 8px;
+            border: 1px solid #555; /* Borda sutil */
+        }
+        .color-box.green { background-color: #2E7D32; } /* Verde escuro, similar ao do Google */
+        .color-box.orange { background-color: #FF8F00; } /* Laranja/Âmbar */
+        .color-box.red { background-color: #C62828; }    /* Vermelho escuro */
+        .color-box.dark-red { background-color: #8C0000; } /* Vermelho bem escuro/Vinho */
+        .color-box.grey { background-color: #757575; }   /* Cinza para "sem dados" */
     </style>
 </head>
 <body>
     <div id="map-container">
+        <div id="map-overlay-info"> <!-- NOVO CONTÊINER PARA TÍTULO E LEGENDA -->
+            <h1 id="map-title">Condições de Trânsito</h1>
+            <div id="traffic-legend">
+                <h3>Legenda do Tráfego:</h3>
+                <ul>
+                    <li><span class="color-box green"></span> Rápido / Sem Trânsito</li>
+                    <li><span class="color-box orange"></span> Lento / Moderado</li>
+                    <li><span class="color-box red"></span> Muito Lento / Congestionado</li>
+                    <li><span class="color-box dark-red"></span> Parado / Interditado</li>
+                    <li><span class="color-box grey"></span> Sem Dados Disponíveis</li>
+                </ul>
+            </div>
+        </div>
         <div id="map">
             <div class="loading-message">Carregando mapa e informações de tráfego...</div>
         </div>
