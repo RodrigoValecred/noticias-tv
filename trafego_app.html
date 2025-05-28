@@ -34,11 +34,12 @@
             top: 15px;          /* Distância do topo */
             left: 15px;         /* Distância da esquerda */
             z-index: 10;        /* Garante que fique sobre o mapa */
-            background-color: rgba(34, 34, 34, 0.85); /* Fundo semi-transparente (#222 com opacidade) */
+            background-color: rgba(34, 34, 34, 0.9); /* Fundo semi-transparente (#222 com opacidade) */
             padding: 10px 15px;
             border-radius: 8px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.5);
             max-width: 300px; /* Para não ocupar a tela toda se o texto for grande */
+            color: #f0f0f0;
         }
         #map-title {
             color: #00aaff; /* Cor que você usava antes para títulos, ou outra de destaque */
@@ -65,6 +66,7 @@
             margin-bottom: 5px;
             display: flex; /* Para alinhar a caixa de cor com o texto */
             align-items: center;
+            color: #f0f0f0;
         }
         .color-box {
             display: inline-block;
@@ -117,6 +119,26 @@
 
             const localEmpresa = { lat: LATITUDE_EMPRESA, lng: LONGITUDE_EMPRESA };
 
+            // Estilos para remover pontos de interesse (POIs)
+            const mapStyles = [
+                {
+                    featureType: "poi", // Seleciona todos os pontos de interesse
+                    elementType: "labels", // Seleciona os rótulos dos POIs
+                    stylers: [
+                        { visibility: "off" } // Torna os rótulos invisíveis
+                    ]
+                },
+                {
+                    featureType: "transit", // Opcional: Remove ícones de transporte público se desejar
+                    elementType: "labels.icon",
+                    stylers: [
+                        { visibility: "off" }
+                    ]
+                }
+                // Você pode adicionar mais regras de estilo aqui para customizar outras feições do mapa
+                // Consulte: https://mapstyle.withgoogle.com/ e https://developers.google.com/maps/documentation/javascript/style-reference
+            ];
+
             const map = new google.maps.Map(mapElement, {
                 center: localEmpresa,
                 zoom: ZOOM_LEVEL,
@@ -126,6 +148,7 @@
                 // mapId: 'SEU_MAP_ID_PARA_TEMA_ESCURO',
                 disableDefaultUI: true, // Remove controles padrão do mapa (zoom, street view etc.)
                 gestureHandling: 'none' // Desabilita interações de arrastar e zoom com o mouse/toque
+                styles: mapStyles // <<< ADICIONA OS ESTILOS CUSTOMIZADOS AO MAPA
             });
 
             const trafficLayer = new google.maps.TrafficLayer();
