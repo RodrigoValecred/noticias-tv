@@ -80,7 +80,7 @@
         // Função para carregar o script da API do Google Maps dinamicamente
         function loadGoogleMapsScript() {
             const script = document.createElement('script');
-            script.src = `https://maps.googleapis.com/maps/api/js?key=${API_KEY}&callback=initMap&libraries=core,maps,marker,places,traffic`; // Adicionando libraries
+            script.src = `https://maps.googleapis.com/maps/api/js?key=${API_KEY}&callback=initMap&libraries=core,maps,marker,places`; // Adicionando libraries
             script.async = true;
             script.defer = true;
             script.onerror = () => {
