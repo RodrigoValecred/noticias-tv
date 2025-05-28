@@ -40,6 +40,7 @@
             box-shadow: 0 2px 5px rgba(0,0,0,0.5);
             max-width: 300px; /* Para não ocupar a tela toda se o texto for grande */
             color: #f0f0f0;
+            visibility: hidden; /* Começa escondido */
         }
         #map-title {
             color: #00aaff; /* Cor que você usava antes para títulos, ou outra de destaque */
@@ -160,6 +161,9 @@
                 map: map,
                 title: 'Sua Empresa Aqui' 
             });
+            if (overlayInfoElement) {
+                overlayInfoElement.style.visibility = 'visible';
+            }
         }
 
         // Função para carregar o script da API do Google Maps dinamicamente
@@ -169,7 +173,15 @@
             script.async = true;
             script.defer = true;
             script.onerror = () => {
-                document.getElementById('map').innerHTML = '<div class="loading-message" style="color:red;">Erro ao carregar a API do Google Maps. Verifique a chave e a conexão.</div>';
+                const mapElement = document.getElementById('map');
+                const overlayInfoElement = document.getElementById('map-overlay-info');
+        
+                mapElement.innerHTML = '<div class="loading-message" style="color:red;">Erro ao carregar a API do Google Maps. Verifique a chave e a conexão.</div>';
+                
+                // Mantém o overlay da legenda escondido em caso de erro total da API
+                if (overlayInfoElement) {
+                    overlayInfoElement.style.visibility = 'hidden';
+                }
             };
             document.head.appendChild(script);
         }
