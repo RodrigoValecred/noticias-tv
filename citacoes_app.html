@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pensamento do Dia</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            background-color: #111; /* Fundo escuro */
+            color: #f0f0f0;      /* Texto claro */
+            height: 100vh;
+            width: 100vw;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .quote-container {
+            background-color: #222; /* Fundo da caixa da citação */
+            padding: 30px 40px;
+            border-radius: 12px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.7);
+            max-width: 80%;
+        }
+        #quote-text {
+            font-size: 2.2em; /* Tamanho da citação - ajuste para TV */
+            font-style: italic;
+            margin-bottom: 20px;
+            line-height: 1.4;
+            color: #e0e0e0;
+        }
+        #quote-author {
+            font-size: 1.3em; /* Tamanho do autor */
+            font-weight: bold;
+            color: #4CAF50; /* Verde, para combinar com seu menu */
+            margin-top: 10px;
+        }
+        #quote-author::before {
+            content: "— "; /* Adiciona um travessão antes do autor */
+        }
+    </style>
+</head>
+<body>
+    <div class="quote-container">
+        <p id="quote-text">Carregando pensamento...</p>
+        <p id="quote-author"></p>
+    </div>
+
+    <script>
+        // --- CONFIGURAÇÕES ---
+        const REFRESH_INTERVAL_MINUTES = 10; // Mudar citação a cada X minutos
+        const quotes = [
+            {
+                text: "A persistência é o caminho do êxito.",
+                author: "Charles Chaplin"
+            },
+            {
+                text: "O único lugar onde o sucesso vem antes do trabalho é no dicionário.",
+                author: "Albert Einstein"
+            },
+            {
+                text: "Imagine uma nova história para sua vida e acredite nela.",
+                author: "Paulo Coelho"
+            },
+            {
+                text: "Acredite que você pode, assim você já está no meio do caminho.",
+                author: "Theodore Roosevelt"
+            },
+            {
+                text: "O sucesso é a soma de pequenos esforços repetidos dia após dia.",
+                author: "Robert Collier"
+            },
+            {
+                text: "Para ter um negócio de sucesso, alguém, algum dia, teve que tomar uma atitude de coragem.",
+                author: "Peter Drucker"
+            },
+            {
+                text: "A vida é 10% o que acontece conosco e 90% como reagimos a isso.",
+                author: "Charles Swindoll"
+            },
+            {
+                text: "Comece onde você está. Use o que você tem. Faça o que você pode.",
+                author: "Arthur Ashe"
+            }
+            // Adicione mais citações aqui no formato { text: "Sua citação", author: "Autor" }
+        ];
+        // --- FIM ---
+
+        const quoteTextElement = document.getElementById('quote-text');
+        const quoteAuthorElement = document.getElementById('quote-author');
+        let currentQuoteIndex = -1; // Para evitar repetir a mesma citação em seguida
+
+        function displayNewQuote() {
+            if (quotes.length === 0) {
+                quoteTextElement.textContent = "Nenhuma citação disponível.";
+                quoteAuthorElement.textContent = "";
+                return;
+            }
+
+            let randomIndex;
+            // Garante que a próxima citação seja diferente da atual, se houver mais de uma
+            if (quotes.length > 1) {
+                do {
+                    randomIndex = Math.floor(Math.random() * quotes.length);
+                } while (randomIndex === currentQuoteIndex);
+            } else {
+                randomIndex = 0; // Se só tiver uma citação
+            }
+            
+            currentQuoteIndex = randomIndex;
+            const selectedQuote = quotes[randomIndex];
+
+            quoteTextElement.textContent = `"${selectedQuote.text}"`;
+            quoteAuthorElement.textContent = selectedQuote.author || "Desconhecido";
+        }
+
+        // Exibir a primeira citação ao carregar a página
+        displayNewQuote();
+
+        // Atualizar a citação periodicamente
+        if (REFRESH_INTERVAL_MINUTES > 0 && quotes.length > 1) { // Só atualiza se houver mais de uma citação
+            setInterval(displayNewQuote, REFRESH_INTERVAL_MINUTES * 60 * 1000);
+        }
+    </script>
+</body>
+</html>
