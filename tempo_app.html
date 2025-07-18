@@ -91,8 +91,9 @@
         const CITY_NAME = 'Tatui,BR'; // Ex: 'Londrina,BR', 'Curitiba,BR' (Cidade, Código do País)
         // Ou por coordenadas: const LAT = -23.5505; const LON = -46.6333;
         const PROXY_URL = 'https://api.allorigins.win/raw?url='; // Ou outro, se necessário
-        const REFRESH_INTERVAL_HOURS = 3; // Atualizar a cada 2 horas
-        // --- FIM ---
+        // const REFRESH_INTERVAL_HOURS = 3; // Atualizar a cada 2 horas
+        const PROXY_URL = 'https://corsproxy.io/?';
+	// --- FIM ---
 
         const forecastTextElement = document.getElementById('forecast-text');
         const locationNameElement = document.getElementById('location-name');
@@ -102,7 +103,7 @@
 		try {
 			// ChartDataLabels é geralmente o nome global para chartjs-plugin-datalabels
 			// chartjsPluginAnnotation é geralmente o nome global para chartjs-plugin-annotation
-			Chart.register(ChartDataLabels, chartjsPluginAnnotation); 
+			Chart.register(ChartDataLabels, ChartAnnotation); 
 			console.log("Plugins DataLabels e Annotation registrados com sucesso.");
 		} catch (e) {
 			console.error("Erro ao registrar plugins:", e);
@@ -124,8 +125,9 @@
         async function fetchWeatherData() {
             locationNameElement.textContent = `Previsão do Tempo para ${CITY_NAME.split(',')[0]}`;
             const apiUrl = getApiUrl();
-            const urlToFetch = PROXY_URL + encodeURIComponent(apiUrl); // Se precisar do proxy
-            // const urlToFetch = apiUrl; // Se a API OpenWeatherMap permitir chamadas diretas CORS (teste!)
+            // const urlToFetch = PROXY_URL + encodeURIComponent(apiUrl); // Se precisar do proxy
+	    const urlToFetch = PROXY_URL + apiUrl;
+		// const urlToFetch = apiUrl; // Se a API OpenWeatherMap permitir chamadas diretas CORS (teste!)
 
             console.log("Buscando dados de:", urlToFetch);
             try {
