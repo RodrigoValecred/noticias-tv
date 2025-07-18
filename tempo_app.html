@@ -3,10 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Previsão do Tempo</title>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
-    <!-- O nome global deste plugin é "ChartAnnotation" -->
-    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@1.4.0/dist/chartjs-plugin-annotation.min.js"></script>
+    <!-- 1. SCRIPT DO CHART.JS (PRINCIPAL) -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
+    <!-- 2. SCRIPT DO PLUGIN DATALABELS (RÓTULOS) -->
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.1.0/dist/chartjs-plugin-datalabels.min.js"></script>
+    <!-- 3. SCRIPT DO PLUGIN ANNOTATION (ANOTAÇÕES/FAIXAS) -->
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@2.2.1/dist/chartjs-plugin-annotation.min.js"></script>
+    
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -23,7 +26,6 @@
             padding: 10px;
             box-sizing: border-box;
         }
-
         .weather-container {
             background-color: #222;
             padding: 15px;
@@ -35,7 +37,6 @@
             align-items: center;
             box-shadow: 0 0 15px rgba(0,0,0,0.6);
         }
-
         h1#location-name {
             text-align: center;
             color: #ffffff;
@@ -43,13 +44,11 @@
             margin-top: 0;
             margin-bottom: 5px;
         }
-
         .chart-container {
             position: relative;
             width: 100%;
             height: 50vh;
         }
-
         #forecast-text {
             text-align: center;
             margin-top: 5px;
@@ -59,7 +58,6 @@
             align-items: center;
             padding: 5px 0;
         }
-
         #forecast-text img {
             width: 40px;
             height: 40px;
@@ -72,17 +70,14 @@
         <div class="chart-container">
             <canvas id="weatherChart"></canvas>
         </div>
-        <div id="forecast-text">
-            <!-- Previsão textual -->
-        </div>
+        <div id="forecast-text"></div>
     </div>
 
     <script>
         // --- CONFIGURAÇÕES ---
         const API_KEY = '90f67f01d5b8618ca6fa64716d5240ed';
         const CITY_NAME = 'Tatui,BR';
-        // --- CORREÇÃO 2: Alteração do PROXY ---
-        const PROXY_URL = 'https://corsproxy.io/?'; // Usando um proxy CORS mais confiável
+        const PROXY_URL = 'https://corsproxy.io/?';
         const REFRESH_INTERVAL_HOURS = 3;
         // --- FIM ---
 
@@ -90,20 +85,10 @@
         const locationNameElement = document.getElementById('location-name');
         let weatherChart = null;
 
-        // --- CORREÇÃO 1: Nome correto do plugin de anotação ---
-        try {
-            // O nome global correto para o plugin de anotação é 'ChartAnnotation'
-            Chart.register(ChartDataLabels, ChartAnnotation);
-            console.log("Plugins DataLabels e Annotation registrados com sucesso.");
-        } catch (e) {
-            console.error("Erro ao registrar plugins:", e);
-            try {
-                Chart.register(ChartDataLabels);
-                console.warn("Plugin Annotation não registrado, mas DataLabels sim.");
-            } catch (e2) {
-                console.error("Erro ao registrar DataLabels:", e2);
-            }
-        }
+        // REMOVIDO: Bloco de registro manual dos plugins.
+        // As versões mais novas dos plugins (carregadas acima) se registram automaticamente.
+        // Apenas precisamos ativá-los e configurá-los nas opções do gráfico.
+        console.log("Chart.js e plugins carregados.");
 
         function getApiUrl() {
             return `https://api.openweathermap.org/data/2.5/forecast?q=${CITY_NAME}&appid=${API_KEY}&units=metric&lang=pt_br`;
@@ -112,8 +97,7 @@
         async function fetchWeatherData() {
             locationNameElement.textContent = `Previsão do Tempo para ${CITY_NAME.split(',')[0]}`;
             const apiUrl = getApiUrl();
-            // --- CORREÇÃO 2: Simplificação da montagem da URL ---
-            const urlToFetch = PROXY_URL + apiUrl; // O novo proxy não precisa de encodeURIComponent
+            const urlToFetch = PROXY_URL + apiUrl;
 
             console.log("Buscando dados de:", urlToFetch);
             try {
@@ -127,7 +111,6 @@
                 if (data.cod && data.cod !== "200") {
                     throw new Error(`Erro da API: ${data.message || 'Erro desconhecido'}`);
                 }
-
                 processAndDisplayData(data);
             } catch (error) {
                 console.error("Falha ao buscar dados do tempo:", error);
@@ -140,46 +123,30 @@
                 forecastTextElement.innerHTML = "<p>Dados de previsão não disponíveis.</p>";
                 return;
             }
-
             const dailyData = {};
             data.list.forEach(item => {
                 const date = item.dt_txt.split(' ')[0];
                 if (!dailyData[date]) {
-                    dailyData[date] = {
-                        temps: [],
-                        weather_descriptions: [],
-                        icons: [],
-                        humidity: [],
-                        wind_speed: []
-                    };
+                    dailyData[date] = { temps: [], weather_descriptions: [], icons: [] };
                 }
                 dailyData[date].temps.push(item.main.temp);
                 dailyData[date].weather_descriptions.push(item.weather[0].description);
                 dailyData[date].icons.push(item.weather[0].icon);
-                dailyData[date].humidity.push(item.main.humidity);
-                dailyData[date].wind_speed.push(item.wind.speed);
             });
-
             const labels = [];
             const minTemps = [];
             const maxTemps = [];
             let textForecastHTML = "";
             const forecastDays = Object.keys(dailyData).sort().slice(0, 5);
-
             forecastDays.forEach(date => {
                 const dayInfo = dailyData[date];
-                const dayMinTemp = Math.min(...dayInfo.temps);
-                const dayMaxTemp = Math.max(...dayInfo.temps);
-                const dateParts = date.split('-');
-                const displayDate = `${dateParts[2]}/${dateParts[1]}`;
-                labels.push(displayDate);
-                minTemps.push(dayMinTemp.toFixed(1));
-                maxTemps.push(dayMaxTemp.toFixed(1));
-                const midDayIndex = Math.floor(dayInfo.weather_descriptions.length / 2);
+                labels.push(date.substring(8, 10) + '/' + date.substring(5, 7));
+                minTemps.push(Math.min(...dayInfo.temps));
+                maxTemps.push(Math.max(...dayInfo.temps));
+                const midDayIndex = Math.floor(dayInfo.icons.length / 2);
                 const icon = dayInfo.icons[midDayIndex];
                 textForecastHTML += `<img src="https://openweathermap.org/img/wn/${icon}@2x.png" alt="" title="${dayInfo.weather_descriptions[midDayIndex]}">`;
             });
-
             forecastTextElement.innerHTML = textForecastHTML;
             renderWeatherChart(labels, minTemps, maxTemps);
         }
@@ -198,88 +165,57 @@
                         data: minData,
                         borderColor: 'blue',
                         backgroundColor: 'rgba(0, 0, 255, 0.1)',
-                        fill: false,
                         tension: 0.1
                     }, {
                         label: 'Temp. Máxima (°C)',
                         data: maxData,
                         borderColor: 'red',
                         backgroundColor: 'rgba(255, 0, 0, 0.1)',
-                        fill: false,
                         tension: 0.1
                     }]
                 },
+                // IMPORTANTE: Os plugins agora precisam ser registrados aqui para o Chart.js v3+
+                plugins: [ChartDataLabels],
                 options: {
                     responsive: true,
                     maintainAspectRatio: false,
                     scales: {
-                        x: {
-                            grid: { display: false },
-                            ticks: { color: '#ccc', font: { size: 10 } }
-                        },
                         y: {
-                            grid: { color: 'rgba(204, 204, 204, 0.15)' },
-                            beginAtZero: false,
                             ticks: {
-                                color: '#ccc',
-                                stepSize: 5,
-                                font: { size: 10 },
-                                callback: function(value) {
-                                    return value + '°C';
-                                }
+                                callback: function(value) { return value.toFixed(0) + '°C'; }
                             }
                         }
                     },
                     plugins: {
-                        legend: {
-                            position: 'top',
-                            labels: { color: '#ddd', font: { size: 12 }, boxWidth: 20, padding: 10 }
-                        },
-                        title: {
-                            display: true,
-                            text: 'Próximos 5 Dias',
-                            color: '#eee',
-                            font: { size: 16 },
-                            padding: { bottom: 10 }
-                        },
+                        legend: { position: 'top' },
+                        title: { display: true, text: 'Próximos 5 Dias' },
                         tooltip: { enabled: false },
+                        // Configuração do plugin DATALABELS
                         datalabels: {
-                            align: function(context) {
-                                return context.datasetIndex === 0 ? 'bottom' : 'top';
-                            },
-                            anchor: function(context) {
-                                return context.datasetIndex === 0 ? 'end' : 'start';
-                            },
-                            backgroundColor: function(context) {
-                                return context.dataset.borderColor;
-                            },
+                            align: (context) => context.datasetIndex === 0 ? 'bottom' : 'top',
+                            anchor: 'end',
+                            backgroundColor: (context) => context.dataset.borderColor,
                             borderRadius: 4,
                             color: 'white',
                             font: { weight: 'bold', size: 10 },
-                            formatter: function(value, context) {
-                                return parseFloat(value).toFixed(0) + '°';
-                            },
+                            formatter: (value) => value.toFixed(0) + '°',
                             padding: 4
                         },
+                        // Configuração do plugin ANNOTATION
                         annotation: {
                             drawTime: 'beforeDatasetsDraw',
                             annotations: {
-                                blueZone: { type: 'box', yMin: 0, yMax: 10, backgroundColor: 'rgba(0, 0, 255, 0.15)', borderColor: 'transparent' },
-                                whiteZone: { type: 'box', yMin: 10, yMax: 20, backgroundColor: 'rgba(220, 220, 220, 0.15)', borderColor: 'transparent' },
-                                yellowZone: { type: 'box', yMin: 20, yMax: 30, backgroundColor: 'rgba(255, 255, 0, 0.15)', borderColor: 'transparent' },
-                                redZone: { type: 'box', yMin: 30, yMax: 45, backgroundColor: 'rgba(255, 0, 0, 0.15)', borderColor: 'transparent' }
+                                blueZone: { type: 'box', yMin: 0, yMax: 10, backgroundColor: 'rgba(0, 0, 255, 0.1)', borderColor: 'transparent' },
+                                whiteZone: { type: 'box', yMin: 10, yMax: 20, backgroundColor: 'rgba(220, 220, 220, 0.1)', borderColor: 'transparent' },
+                                yellowZone: { type: 'box', yMin: 20, yMax: 30, backgroundColor: 'rgba(255, 255, 0, 0.1)', borderColor: 'transparent' },
+                                redZone: { type: 'box', yMin: 30, yMax: 45, backgroundColor: 'rgba(255, 0, 0, 0.1)', borderColor: 'transparent' }
                             }
                         }
-                    },
-                    elements: {
-                        point: { radius: 2, hoverRadius: 4 },
-                        line: { borderWidth: 2, tension: 0.1 }
                     }
                 }
             });
         }
 
-        // Carregar dados ao iniciar e definir intervalo
         fetchWeatherData();
         setInterval(fetchWeatherData, REFRESH_INTERVAL_HOURS * 60 * 60 * 1000);
     </script>
