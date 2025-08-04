@@ -9,9 +9,9 @@
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
             margin: 0;
             padding: 20px;
-            background-color: #111; /* Fundo escuro para TVs */
-            color: #f0f0f0; /* Texto claro */
-            overflow: hidden; /* Evita barras de rolagem se o conteúdo for ligeiramente maior */
+            background-color: #111;
+            color: #f0f0f0;
+            overflow: hidden;
             height: 100vh;
         }
         .container {
@@ -20,12 +20,12 @@
         }
         h1 {
             text-align: center;
-            color: #2BB34E; /* Cor verde claro de destaque para o título */
-            font-size: 2.5em; /* Ajuste conforme o tamanho da TV */
+            color: #2BB34E;
+            font-size: 2.5em;
             margin-bottom: 20px;
         }
         .news-item {
-            background-color: #222; /* Fundo do item de notícia */
+            background-color: #222;
             border: 1px solid #444;
             margin-bottom: 15px;
             padding: 15px;
@@ -34,34 +34,32 @@
         .news-item h3 {
             margin-top: 0;
             margin-bottom: 8px;
-            font-size: 1.2em; /* Ajuste conforme o tamanho da TV */
+            font-size: 1.2em;
             color: #e0e0e0;
         }
         .news-item p {
-            font-size: 1.2em; /* Ajuste conforme o tamanho da TV */
+            font-size: 1.2em;
             line-height: 1.6;
             margin-bottom: 8px;
             color: #cccccc;
         }
         .news-item small {
-            font-size: 0.9em; /* Ajuste conforme o tamanho da TV */
+            font-size: 0.9em;
             color: #888;
         }
-        /* Estilo para ocultar links (pois não serão clicáveis na TV) */
         .news-item a {
             color: inherit;
             text-decoration: none;
-            pointer-events: none; /* Desabilita eventos do mouse */
+            pointer-events: none;
         }
-        /* Loader */
         #loader {
             text-align: center;
             font-size: 1.5em;
             padding: 30px;
         }
     </style>
-    <!-- Inclui o RSS Parser via CDN -->
-    <script src="./rss-parser.min.js"></script>
+    <!-- CORREÇÃO 1: Carregando a versão mais recente do RSS Parser via CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/rss-parser/dist/rss-parser.min.js"></script>
 </head>
 <body>
     <div class="container">
@@ -73,159 +71,108 @@
 
     <script>
         // --- CONFIGURAÇÕES ---
-        const DEFAULT_RSS_URL = 'https://news.google.com/rss?hl=pt-BR&gl=BR&ceid=BR:pt-BR'; // Ou outro feed padrão de sua escolha
-        const DEFAULT_SOURCE_NAME = 'Google Notícias'; //Nome padrão se nenhum for fornecido
-        let RSS_URL;
-        let SOURCE_NAME; // Nova variável para o nome da fonte
+        const DEFAULT_RSS_URL = 'https://news.google.com/rss?hl=pt-BR&gl=BR&ceid=BR:pt-BR';
+        const DEFAULT_SOURCE_NAME = 'Google Notícias';
+        const MAX_ITEMS = 5;
+        const REFRESH_INTERVAL_MINUTES = 60;
+        const MAX_RETRIES = 3;
+        const RETRY_DELAY_MS = 3000; // Reduzido para 3 segundos
+
+        // --- CORREÇÃO 2: Usando um proxy CORS mais confiável e estável ---
+        const PROXY_URL = 'https://corsproxy.io/?'; 
+        // --- FIM DAS CONFIGURAÇÕES ---
+        
+        const newsFeedElement = document.getElementById('news-feed');
+        const loaderElement = document.getElementById('loader');
+        // A biblioteca carregada via CDN cria a variável global "RSSParser"
+        let parser = new RSSParser();
+        let currentRetry = 0;
         
         function getQueryParam(param) {
             const urlParams = new URLSearchParams(window.location.search);
             return urlParams.get(param);
         }
-        
-        const feedUrlFromParam = getQueryParam('feedUrl');
-        if (feedUrlFromParam) {
-            RSS_URL = decodeURIComponent(feedUrlFromParam);
-            console.log("Usando feed da URL:", RSS_URL);
-        } else {
-            RSS_URL = DEFAULT_RSS_URL;
-            console.log("Usando feed padrão:", RSS_URL);
-        }
 
-        // Tenta pegar o nome da fonte do parametro 'sourceName'
-        const sourceNameFromParam = getQueryParam('sourceName');
-        if (sourceNameFromParam) {
-            SOURCE_NAME = decodeURIComponent(sourceNameFromParam);
-            console.log("Usando nome da fonte do parâmetro:", SOURCE_NAME);
-        }
-        // Se não houver parâmetro sourceName, SOURCE_NAME permanecerá undefined por enquanto.
-        // Ele será preenchido com feed.title mais tarde se não for definido aqui.
-                
-        const MAX_ITEMS = 5; // Quantidade de notícias a exibir
-        const REFRESH_INTERVAL_MINUTES = 60; // Atualizar a cada X minutos
-        const MAX_RETRIES = 3; // Número de tentativas antes de desistir
-        const RETRY_DELAY_MS = 5000; // 5 segundos de espera entre tentativas
-        // --- FIM DAS CONFIGURAÇÕES ---
+        // Determina o feed e o nome da fonte a partir dos parâmetros da URL ou usa os padrões
+        const RSS_URL = decodeURIComponent(getQueryParam('feedUrl') || DEFAULT_RSS_URL);
+        const SOURCE_NAME = decodeURIComponent(getQueryParam('sourceName') || '');
 
-        const PROXY_URL = 'https://api.allorigins.win/raw?url='; // Proxy CORS público
-        // const PROXY_URL = 'https://corsproxy.io/?'; // Proxy CORS Alternativo (note que não tem o /raw?url=)
-        const newsFeedElement = document.getElementById('news-feed');
-        const loaderElement = document.getElementById('loader');
-        let parser = new RSSParser();
-        let currentRetry = 0;
-
-        function fetchNews() {
-            if (currentRetry === 0 && loaderElement) { // Mostrar loader apenas na primeira tentativa do ciclo
+        async function fetchNews() {
+            if (currentRetry === 0) {
                 loaderElement.style.display = 'block';
-                newsFeedElement.innerHTML = ''; // Limpa notícias antigas ou mensagens de erro
+                // Não limpa as notícias antigas para não ter uma tela em branco piscando durante a atualização
             }
-            console.log(`Buscando notícias... (Tentativa ${currentRetry + 1}/${MAX_RETRIES + 1})`);
+            console.log(`Buscando notícias de ${RSS_URL} (Tentativa ${currentRetry + 1}/${MAX_RETRIES})`);
 
-            const urlToFetch = PROXY_URL + encodeURIComponent(RSS_URL) + '&_t=' + new Date().getTime();
-            console.log("URL completa para o parser:", urlToFetch);
+            // --- CORREÇÃO 3: Construção de URL correta para o novo proxy ---
+            // O novo proxy não precisa de 'encodeURIComponent'.
+            const urlToFetch = PROXY_URL + RSS_URL;
+            console.log("URL de busca:", urlToFetch);
 
-            parser.parseURL(urlToFetch, function(err, feed) {
-                if(loaderElement) loaderElement.style.display = 'none';
+            try {
+                const feed = await parser.parseURL(urlToFetch);
+                loaderElement.style.display = 'none';
+                currentRetry = 0; // Sucesso, reseta o contador
+                console.log("Feed recebido com sucesso:", feed);
+                displayNews(feed);
 
-                if (err) {
-                    console.error(`Erro na tentativa ${currentRetry + 1}:`, err);
-                    if (currentRetry < MAX_RETRIES) {
-                        currentRetry++;
-                        // Mostra mensagem de tentativa no HTML
-                        newsFeedElement.innerHTML = `<p style='color:orange;'>Falha ao buscar notícias. Tentando novamente em ${RETRY_DELAY_MS / 1000}s... (${currentRetry}/${MAX_RETRIES})</p>`;
-                        setTimeout(fetchNews, RETRY_DELAY_MS);
-                    } else {
-                        newsFeedElement.innerHTML = "<p style='color:red;'>Erro ao carregar notícias após múltiplas tentativas: " + (err.message || "Erro desconhecido") + "</p>";
-                        console.error("Falha definitiva ao buscar RSS após", MAX_RETRIES + 1, "tentativas.");
-                        currentRetry = 0; // Reseta para a próxima atualização agendada pelo setInterval
-                    }
-                    return;
+            } catch (err) {
+                console.error(`Erro na tentativa ${currentRetry + 1}:`, err);
+                currentRetry++;
+                
+                if (currentRetry < MAX_RETRIES) {
+                    newsFeedElement.innerHTML = `<p style='color:orange;'>Falha ao buscar notícias. Tentando novamente em ${RETRY_DELAY_MS / 1000}s... (${currentRetry}/${MAX_RETRIES})</p>`;
+                    setTimeout(fetchNews, RETRY_DELAY_MS);
+                } else {
+                    loaderElement.style.display = 'none';
+                    newsFeedElement.innerHTML = `<p style='color:red;'>Não foi possível carregar as notícias. Verifique o link do feed RSS e a conexão.</p>`;
+                    console.error("Falha definitiva ao buscar RSS após", MAX_RETRIES, "tentativas.");
                 }
+            }
+        }
+
+        function displayNews(feed) {
+            if (!feed || !feed.items || feed.items.length === 0) {
+                newsFeedElement.innerHTML = "<p style='color:orange;'>Nenhuma notícia encontrada no feed.</p>";
+                return;
+            }
+
+            // Determina o nome da fonte para o título da página
+            const displaySourceName = SOURCE_NAME || feed.title || DEFAULT_SOURCE_NAME;
+            document.querySelector('h1').textContent = displaySourceName;
+
+            let newsHTML = '';
+            feed.items.slice(0, MAX_ITEMS).forEach(item => {
+                const title = item.title || 'Sem título';
+                
+                // Limpa o snippet de tags HTML
+                let snippet = item.contentSnippet || item.description || '';
+                const tempDiv = document.createElement('div');
+                tempDiv.innerHTML = snippet;
+                snippet = (tempDiv.textContent || tempDiv.innerText || "").substring(0, 200);
+
+                newsHTML += `
+                    <div class="news-item">
+                        <h3>${title}</h3>
+                        ${snippet ? `<p>${snippet}...</p>` : ''}
+                    </div>
+                `;
+            }); 
         
-        currentRetry = 0; // Sucesso, reseta contador de tentativas
-        console.log("Feed recebido:", feed);
-
-                // Determina o nome da fonte a ser exibido
-                let displaySourceName = SOURCE_NAME; // Usa o do parâmetro se existir
-                if (!displaySourceName && feed && feed.title) {
-                    displaySourceName = feed.title; // Senão, usa o título do feed
-                }
-                if (!displaySourceName && RSS_URL === DEFAULT_RSS_URL) {
-                    displaySourceName = DEFAULT_SOURCE_NAME; // Senão, usa o padrão se for o feed padrão
-                }
-                if (!displaySourceName) {
-                    // Tenta extrair do host da RSS_URL como último recurso
-                    try {
-                        const urlObj = new URL(RSS_URL);
-                        displaySourceName = urlObj.hostname.replace(/^www\.|^rss\./, ''); // Remove www. ou rss.
-                    } catch (e) {
-                        displaySourceName = "Notícias"; // Fallback genérico
-                    }
-                }
-                console.log("Nome da fonte para exibição:", displaySourceName);
-
-                // Atualiza o título principal da página com o nome da fonte
-                const pageTitleElement = document.querySelector('h1');
-                if (pageTitleElement) {
-                    pageTitleElement.textContent = displaySourceName || 'Últimas Notícias';
-                }
-
-
-                if (!feed || !feed.items) {
-                    newsFeedElement.innerHTML = "<p style='color:orange;'>Nenhuma notícia encontrada no feed.</p>";
-                    console.warn("Feed vazio ou inválido:", feed);
-                    return;
-                }
-
-    //            console.log("Número de itens no feed:", feed.items.length); // <--- NOVO CONSOLE.LOG
-                if (feed.items.length === 0) {
-                    newsFeedElement.innerHTML = "<p style='color:orange;'>O feed retornou, mas não contém itens de notícia.</p>";
-                }
-
-                let newsHTML = '';
-                feed.items.slice(0, MAX_ITEMS).forEach(item => {
-      //              console.log("Processando item:", item); // <--- NOVO CONSOLE.LOG
-                    const title = item.title || 'Sem título';
-                    let displayItemTitle = title;
-                    if (RSS_URL !== DEFAULT_RSS_URL && displaySourceName && !title.toLowerCase().includes(displaySourceName.toLowerCase().split(' ')[0])) {
-                        // Não vamos adicionar aqui para não poluir cada item, o título da página já mostra a fonte.
-                        // Mas se quisesse, seria: displayItemTitle = `${title} - ${displaySourceName}`;
-                    }
-                    
-                    let snippet = item.contentSnippet || item.description || '';
-                    if (snippet.length > 200) {
-                        snippet = snippet.substring(0, 200) + '...';
-                    }
-                    const tempDiv = document.createElement('div');
-                    tempDiv.innerHTML = snippet;
-                    snippet = tempDiv.textContent || tempDiv.innerText || "";
-
-                    const pubDate = item.pubDate ? new Date(item.pubDate).toLocaleString('pt-BR', { dateStyle: 'short', timeStyle: 'short' }) : 'Data desconhecida';
-                    // mostra data e hora da publicacao <small>Publicado em: ${pubDate}</small>, mostra subtitulos <p>${snippet}</p>
-                    newsHTML += `
-                        <div class="news-item">
-                            <h3>${title}</h3>   
-                        </div>
-                    `;
-                }); 
-            
-                newsFeedElement.innerHTML = newsHTML;
-                if (feed.items.length > 0) { // Só loga sucesso se realmente processou itens
-                    console.log("Notícias carregadas e HTML atualizado.");
-                }
-            });
+            newsFeedElement.innerHTML = newsHTML;
+            console.log("Notícias carregadas e HTML atualizado.");
         }
 
         // Carrega as notícias ao iniciar
         fetchNews();
 
         // Atualiza as notícias periodicamente
-    if (REFRESH_INTERVAL_MINUTES > 0) {
-        setInterval(() => { // <--- Criar uma função (arrow function) aqui
-            currentRetry = 0; // Garante que cada ciclo de setInterval comece com 0 tentativas
-            fetchNews();
-        }, REFRESH_INTERVAL_MINUTES * 60 * 1000);
-    }
+        if (REFRESH_INTERVAL_MINUTES > 0) {
+            setInterval(() => {
+                currentRetry = 0;
+                fetchNews();
+            }, REFRESH_INTERVAL_MINUTES * 60 * 1000);
+        }
     </script>
 </body>
 </html>
