@@ -1,45 +1,52 @@
 # Painel de Conteúdo - TV Corporativa
 
-Este projeto é um painel de conteúdo digital, projetado para ser exibido em uma TV corporativa. Ele exibe informações úteis e atualizadas de diversas fontes, como notícias, previsão do tempo, cotações de câmbio e muito mais.
-
-## Como Usar
-
-Para utilizar o painel, basta abrir o arquivo `index.html` em um navegador de internet. O painel foi projetado para ser executado localmente, sem a necessidade de um servidor web.
-
-O menu principal (`index.html`) permite navegar entre os diferentes painéis de conteúdo.
+Este projeto é um painel de conteúdo digital, projetado para ser exibido em uma TV corporativa. Ele exibe informações úteis e atualizadas, com foco na aplicação de notícias.
 
 ## Aplicações
 
-O painel é composto pelas seguintes aplicações:
+O painel é composto por várias aplicações, com destaque para:
 
-- **Notícias:** Exibe as últimas notícias de diversas fontes de RSS, como Google Notícias, G1, Investing.com, etc. É possível adicionar novas fontes de notícias facilmente.
-- **Previsão do Tempo:** Mostra a previsão do tempo para uma localidade específica.
-- **Cotação do Câmbio:** Apresenta as cotações de moedas estrangeiras.
-- **Tráfego:** Exibe informações de tráfego para uma região pré-definida.
-- **Pensamento do Dia:** Mostra uma citação ou pensamento inspirador.
+-   **Notícias (`noticias_app.html`):** Exibe as últimas notícias de forma automática e com suporte a múltiplos temas visuais.
+-   **Outras Aplicações:** O projeto também inclui placeholders para previsão do tempo, cotações de câmbio, etc.
+
+## Como Funciona a Aplicação de Notícias
+
+A aplicação de notícias foi completamente modernizada para ser automática, robusta e visualmente flexível.
+
+### 1. Atualização Automática de Conteúdo
+
+As notícias são buscadas e atualizadas de forma 100% automática, sem necessidade de qualquer intervenção manual.
+
+-   **Como funciona?** Um fluxo de trabalho do **GitHub Actions** é executado **a cada hora**.
+-   **O que ele faz?** A automação executa o script `fetch_news.py`, que busca as notícias mais recentes do Google Notícias Brasil.
+-   **Onde ficam as notícias?** O script processa e salva as notícias no arquivo `news.json`. A página da TV lê este arquivo para exibir o conteúdo.
+
+Isso garante que as notícias estejam sempre atualizadas sem sobrecarregar a página de exibição.
+
+### 2. Temas Visuais Dinâmicos
+
+A aparência da página de notícias pode ser alterada dinamicamente através de um parâmetro na URL, permitindo adaptar o visual para diferentes ambientes ou preferências.
+
+Para selecionar um tema, adicione `?theme=NOME_DO_TEMA` ao final da URL.
+
+**Temas Disponíveis:**
+
+| Nome do Tema | Parâmetro na URL                                       | Descrição                                         |
+| :----------- | :----------------------------------------------------- | :-------------------------------------------------- |
+| **Finance**  | *(Nenhum, é o padrão)*                                 | Tema personalizado da marca (fundo verde, detalhes em amarelo). |
+| **Dark**     | `noticias_app.html?theme=dark`                         | Tema escuro genérico (fundo cinza-escuro, detalhes em azul). |
+| **Light**    | `noticias_app.html?theme=light`                        | Tema claro para ambientes bem iluminados.           |
 
 ## Detalhes Técnicos
 
-O projeto é construído utilizando tecnologias web padrão:
+O projeto utiliza as seguintes tecnologias:
 
-- **HTML:** Para a estrutura das páginas.
-- **CSS:** Para a estilização e aparência do painel.
-- **JavaScript:** Para a lógica de busca e exibição dos dados.
+-   **Frontend (`noticias_app.html`):**
+    -   **HTML:** Para a estrutura da página.
+    -   **Tailwind CSS (via CDN):** Para um design moderno e responsivo.
+    -   **JavaScript:** Para buscar o `news.json` e renderizar o conteúdo e os temas dinamicamente.
 
-A aplicação de notícias utiliza a biblioteca [rss-parser](https://github.com/rbren/rss-parser) para processar os feeds RSS. Para contornar as restrições de CORS (Cross-Origin Resource Sharing) dos navegadores, a aplicação utiliza um proxy CORS (`https://corsproxy.io/`).
-
-## Adicionando Novas Fontes de Notícias
-
-Para adicionar uma nova fonte de notícias, siga os passos abaixo:
-
-1.  Abra o arquivo `index.html` em um editor de texto.
-2.  Encontre a seção com a classe `menu-container`.
-3.  Adicione um novo link `<a>` para a nova fonte de notícias, seguindo o formato abaixo:
-
-```html
-<a href="./noticias_app.html?feedUrl=URL_DO_FEED_RSS&sourceName=NOME_DA_FONTE" class="menu-button">Notícias (NOME_DA_FONTE)</a>
-```
-
-Substitua `URL_DO_FEED_RSS` pela URL do feed RSS que você deseja adicionar e `NOME_DA_FONTE` pelo nome da fonte que será exibido no botão e no título da página de notícias.
-
-**Importante:** A URL do feed RSS deve ser codificada (URL encoded). Por exemplo, o caractere `/` deve ser substituído por `%2F`. Você pode usar uma ferramenta online para codificar a URL.
+-   **Automação (Backend):**
+    -   **Python:** O script `fetch_news.py` é responsável pela lógica de busca.
+    -   **feedparser:** Biblioteca Python utilizada para processar o feed RSS de notícias.
+    -   **GitHub Actions:** Orquestra a execução automática do script e atualiza o `news.json` no repositório.
