@@ -39,7 +39,7 @@
 </head>
 <body class="font-sans overflow-hidden">
     <!-- Container de tela cheia para o carrossel de notícias -->
-    <div id="news-container" class="w-screen h-screen flex items-center justify-center p-20">
+    <div id="news-container" class="w-screen h-screen flex items-center justify-center p-12">
         <!-- Loader inicial, será substituído pela notícia -->
         <div id="loader">
             <p class="text-4xl animate-pulse" style="color: var(--text-secondary)">Carregando notícias...</p>
@@ -90,7 +90,7 @@
                 const newsHTML = `
                     <div class="news-item text-center max-w-6xl">
                         <p class="text-4xl font-semibold mb-8" style="color: var(--text-secondary)">${newsItem.source}</p>
-                        <h1 class="text-7xl font-bold leading-tight text-balance">${newsItem.title}</h1>
+                        <h1 class="text-6xl font-bold leading-tight text-balance line-clamp-4">${newsItem.title}</h1>
                         <p class="text-3xl mt-10" style="color: var(--text-secondary)">${new Date(newsItem.timestamp).toLocaleString('pt-BR', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' })}</p>
                     </div>
                 `;
