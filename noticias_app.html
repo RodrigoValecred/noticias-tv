@@ -4,162 +4,143 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Notícias do Brasil</title>
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-            background-color: #111;
-            color: #f0f0f0;
-            overflow: hidden;
-            height: 100vh;
-        }
-        .container {
-            max-width: 95%;
-            margin: auto;
-        }
-        h1 {
-            text-align: center;
-            color: #2BB34E;
-            font-size: 2.5em;
-            margin-bottom: 20px;
-        }
-        .news-item {
-            background-color: #222;
-            border: 1px solid #444;
-            margin-bottom: 15px;
-            padding: 15px;
-            border-radius: 8px;
-        }
-        .news-item h3 {
-            margin-top: 0;
-            margin-bottom: 8px;
-            font-size: 1.2em;
-            color: #e0e0e0;
-        }
-        .news-item p {
-            font-size: 1.2em;
-            line-height: 1.6;
-            margin-bottom: 8px;
-            color: #cccccc;
-        }
-        .news-item small {
-            font-size: 0.9em;
-            color: #888;
-        }
-        .news-item a {
-            color: inherit;
-            text-decoration: none;
-            pointer-events: none;
-        }
-        #loader {
-            text-align: center;
-            font-size: 1.5em;
-            padding: 30px;
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .text-balance {
+                text-wrap: balance;
+            }
         }
     </style>
-    <!-- CORREÇÃO 1: Carregando a versão mais recente do RSS Parser via CDN -->
-    <script src="https://cdn.jsdelivr.net/npm/rss-parser/dist/rss-parser.min.js"></script>
+    <style>
+        /* CSS variables for theming. Default to 'finance' theme. */
+        :root {
+            --bg-color: #165129;
+            --text-main: #f4f4f8;
+            --text-secondary: #FCBE2B;
+            --highlight-color: #2BB34E;
+            --card-bg-color: rgba(0, 0, 0, 0.3);
+        }
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            transition: background-color 0.5s, color 0.5s;
+        }
+        .news-card {
+            background-color: var(--card-bg-color);
+            border-left: 4px solid var(--highlight-color);
+            transition: background-color 0.5s, border-left-color 0.5s;
+        }
+        .news-card-source, .news-card-time {
+            color: var(--text-secondary);
+            transition: color 0.5s;
+        }
+    </style>
+    <!-- O RSS Parser não é mais necessário, a busca é feita via JSON -->
 </head>
-<body>
-    <div class="container">
-        <h1>Últimas Notícias</h1>
-        <div id="news-feed">
-            <div id="loader">Carregando notícias...</div>
+<body class="font-sans overflow-hidden">
+    <!-- Container principal para as notícias, usando Grid para o layout dos cartões -->
+    <div id="news-feed" class="p-10 grid grid-cols-3 grid-rows-2 gap-8 h-screen w-screen">
+        <!-- Loader inicial, será substituído pelas notícias -->
+        <div id="loader" class="col-span-3 row-span-2 flex items-center justify-center">
+            <p class="text-3xl animate-pulse" style="color: var(--text-secondary)">Carregando notícias...</p>
         </div>
+        <!-- Os cartões de notícia serão injetados aqui pelo JavaScript -->
     </div>
 
     <script>
-        // --- CONFIGURAÇÕES ---
-        const DEFAULT_RSS_URL = 'https://news.google.com/rss?hl=pt-BR&gl=BR&ceid=BR:pt-BR';
-        const DEFAULT_SOURCE_NAME = 'Google Notícias';
-        const MAX_ITEMS = 5;
-        const REFRESH_INTERVAL_MINUTES = 60;
-        const MAX_RETRIES = 3;
-        const RETRY_DELAY_MS = 3000; // Reduzido para 3 segundos
+        // --- CONFIGURAÇÕES DE TEMA ---
+        const themes = {
+            finance: {
+                '--bg-color': '#165129',
+                '--text-main': '#f4f4f8',
+                '--text-secondary': '#FCBE2B',
+                '--highlight-color': '#2BB34E',
+                '--card-bg-color': 'rgba(0, 0, 0, 0.3)',
+            },
+            dark: {
+                '--bg-color': '#1f2937', // gray-800
+                '--text-main': '#f9fafb', // gray-50
+                '--text-secondary': '#9ca3af', // gray-400
+                '--highlight-color': '#3b82f6', // blue-500
+                '--card-bg-color': 'rgba(55, 65, 81, 0.5)', // gray-700 with opacity
+            },
+            light: {
+                '--bg-color': '#f3f4f6', // gray-100
+                '--text-main': '#111827', // gray-900
+                '--text-secondary': '#6b7280', // gray-500
+                '--highlight-color': '#3b82f6', // blue-500
+                '--card-bg-color': 'rgba(255, 255, 255, 1)', // white
+            }
+        };
 
-        // --- CORREÇÃO 2: Usando um proxy CORS mais confiável e estável ---
-        const PROXY_URL = 'https://corsproxy.io/?'; 
-        // --- FIM DAS CONFIGURAÇÕES ---
-        
-        const newsFeedElement = document.getElementById('news-feed');
-        const loaderElement = document.getElementById('loader');
-        // A biblioteca carregada via CDN cria a variável global "RSSParser"
-        let parser = new RSSParser();
-        let currentRetry = 0;
-        
-        function getQueryParam(param) {
-            const urlParams = new URLSearchParams(window.location.search);
-            return urlParams.get(param);
+        function applyTheme(themeName) {
+            const theme = themes[themeName] || themes.finance; // Padrão para 'finance'
+            const root = document.documentElement;
+            for (const [key, value] of Object.entries(theme)) {
+                root.style.setProperty(key, value);
+            }
         }
 
-        // Determina o feed e o nome da fonte a partir dos parâmetros da URL ou usa os padrões
-        const RSS_URL = decodeURIComponent(getQueryParam('feedUrl') || DEFAULT_RSS_URL);
-        const SOURCE_NAME = decodeURIComponent(getQueryParam('sourceName') || '');
+        function getThemeFromURL() {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get('theme');
+        }
+
+        // Aplica o tema ao carregar a página
+        applyTheme(getThemeFromURL());
+
+        // --- CONFIGURAÇÕES DE NOTÍCIAS ---
+        const NEWS_JSON_URL = 'news.json';
+        const MAX_ITEMS = 6;
+        const REFRESH_INTERVAL_MINUTES = 5;
+        // --- FIM DAS CONFIGURAÇÕES ---
+
+        const newsFeedElement = document.getElementById('news-feed');
 
         async function fetchNews() {
-            if (currentRetry === 0) {
-                loaderElement.style.display = 'block';
-                // Não limpa as notícias antigas para não ter uma tela em branco piscando durante a atualização
-            }
-            console.log(`Buscando notícias de ${RSS_URL} (Tentativa ${currentRetry + 1}/${MAX_RETRIES})`);
-
-            // --- CORREÇÃO 3: Construção de URL correta para o novo proxy ---
-            // O novo proxy não precisa de 'encodeURIComponent'.
-            const urlToFetch = PROXY_URL + RSS_URL;
-            console.log("URL de busca:", urlToFetch);
-
+            console.log(`Buscando notícias de ${NEWS_JSON_URL}...`);
             try {
-                const feed = await parser.parseURL(urlToFetch);
-                loaderElement.style.display = 'none';
-                currentRetry = 0; // Sucesso, reseta o contador
-                console.log("Feed recebido com sucesso:", feed);
-                displayNews(feed);
-
-            } catch (err) {
-                console.error(`Erro na tentativa ${currentRetry + 1}:`, err);
-                currentRetry++;
-                
-                if (currentRetry < MAX_RETRIES) {
-                    newsFeedElement.innerHTML = `<p style='color:orange;'>Falha ao buscar notícias. Tentando novamente em ${RETRY_DELAY_MS / 1000}s... (${currentRetry}/${MAX_RETRIES})</p>`;
-                    setTimeout(fetchNews, RETRY_DELAY_MS);
-                } else {
-                    loaderElement.style.display = 'none';
-                    newsFeedElement.innerHTML = `<p style='color:red;'>Não foi possível carregar as notícias. Verifique o link do feed RSS e a conexão.</p>`;
-                    console.error("Falha definitiva ao buscar RSS após", MAX_RETRIES, "tentativas.");
+                const response = await fetch(`${NEWS_JSON_URL}?t=${new Date().getTime()}`);
+                if (!response.ok) {
+                    throw new Error(`Erro HTTP! status: ${response.status}`);
                 }
+                const news = await response.json();
+                console.log("Notícias recebidas com sucesso:", news);
+                displayNews(news);
+            } catch (err) {
+                console.error('Erro ao buscar notícias:', err);
+                displayError('Não foi possível carregar as notícias. Verifique a fonte de dados.');
             }
         }
 
-        function displayNews(feed) {
-            if (!feed || !feed.items || feed.items.length === 0) {
-                newsFeedElement.innerHTML = "<p style='color:orange;'>Nenhuma notícia encontrada no feed.</p>";
+        function displayError(message) {
+            newsFeedElement.innerHTML = `
+                <div class="col-span-3 row-span-2 flex items-center justify-center">
+                    <p class="text-3xl text-center" style="color: var(--text-secondary)">${message}</p>
+                </div>`;
+        }
+
+        function displayNews(news) {
+            if (!news || news.length === 0) {
+                displayError("Nenhuma notícia encontrada na fonte de dados.");
                 return;
             }
 
-            // Determina o nome da fonte para o título da página
-            const displaySourceName = SOURCE_NAME || feed.title || DEFAULT_SOURCE_NAME;
-            document.querySelector('h1').textContent = displaySourceName;
+            newsFeedElement.innerHTML = ''; // Limpa o conteúdo anterior
 
-            let newsHTML = '';
-            feed.items.slice(0, MAX_ITEMS).forEach(item => {
-                const title = item.title || 'Sem título';
-                
-                // Limpa o snippet de tags HTML
-                let snippet = item.contentSnippet || item.description || '';
-                const tempDiv = document.createElement('div');
-                tempDiv.innerHTML = snippet;
-                snippet = (tempDiv.textContent || tempDiv.innerText || "").substring(0, 200);
-
-                newsHTML += `
-                    <div class="news-item">
-                        <h3>${title}</h3>
-                        ${snippet ? `<p>${snippet}...</p>` : ''}
+            news.slice(0, MAX_ITEMS).forEach(item => {
+                const newsCardHTML = `
+                    <div class="news-card flex flex-col justify-between p-8 rounded-2xl shadow-2xl backdrop-blur-sm">
+                        <div>
+                            <p class="news-card-source text-2xl font-semibold mb-4">${item.source}</p>
+                            <h2 class="text-5xl font-bold leading-tight text-balance">${item.title}</h2>
+                        </div>
+                        <p class="news-card-time text-xl mt-6">${new Date(item.timestamp).toLocaleString('pt-BR')}</p>
                     </div>
                 `;
-            }); 
-        
-            newsFeedElement.innerHTML = newsHTML;
+                newsFeedElement.innerHTML += newsCardHTML;
+            });
             console.log("Notícias carregadas e HTML atualizado.");
         }
 
@@ -168,10 +149,7 @@
 
         // Atualiza as notícias periodicamente
         if (REFRESH_INTERVAL_MINUTES > 0) {
-            setInterval(() => {
-                currentRetry = 0;
-                fetchNews();
-            }, REFRESH_INTERVAL_MINUTES * 60 * 1000);
+            setInterval(fetchNews, REFRESH_INTERVAL_MINUTES * 60 * 1000);
         }
     </script>
 </body>
