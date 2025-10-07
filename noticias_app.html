@@ -26,131 +26,128 @@
             color: var(--text-main);
             transition: background-color 0.5s, color 0.5s;
         }
-        .news-card {
-            background-color: var(--card-bg-color);
-            border-left: 4px solid var(--highlight-color);
-            transition: background-color 0.5s, border-left-color 0.5s;
+        .news-item {
+            opacity: 0;
+            transition: opacity 0.75s ease-in-out;
+            will-change: opacity;
         }
-        .news-card-source, .news-card-time {
-            color: var(--text-secondary);
-            transition: color 0.5s;
+        .news-item.visible {
+            opacity: 1;
         }
     </style>
     <!-- O RSS Parser não é mais necessário, a busca é feita via JSON -->
 </head>
 <body class="font-sans overflow-hidden">
-    <!-- Container principal para as notícias, usando Grid para o layout dos cartões -->
-    <div id="news-feed" class="p-10 grid grid-cols-3 grid-rows-2 gap-8 h-screen w-screen">
-        <!-- Loader inicial, será substituído pelas notícias -->
-        <div id="loader" class="col-span-3 row-span-2 flex items-center justify-center">
-            <p class="text-3xl animate-pulse" style="color: var(--text-secondary)">Carregando notícias...</p>
+    <!-- Container de tela cheia para o carrossel de notícias -->
+    <div id="news-container" class="w-screen h-screen flex items-center justify-center p-20">
+        <!-- Loader inicial, será substituído pela notícia -->
+        <div id="loader">
+            <p class="text-4xl animate-pulse" style="color: var(--text-secondary)">Carregando notícias...</p>
         </div>
-        <!-- Os cartões de notícia serão injetados aqui pelo JavaScript -->
+        <!-- A notícia será injetada aqui pelo JavaScript -->
     </div>
 
     <script>
         // --- CONFIGURAÇÕES DE TEMA ---
         const themes = {
-            finance: {
-                '--bg-color': '#165129',
-                '--text-main': '#f4f4f8',
-                '--text-secondary': '#FCBE2B',
-                '--highlight-color': '#2BB34E',
-                '--card-bg-color': 'rgba(0, 0, 0, 0.3)',
-            },
-            dark: {
-                '--bg-color': '#1f2937', // gray-800
-                '--text-main': '#f9fafb', // gray-50
-                '--text-secondary': '#9ca3af', // gray-400
-                '--highlight-color': '#3b82f6', // blue-500
-                '--card-bg-color': 'rgba(55, 65, 81, 0.5)', // gray-700 with opacity
-            },
-            light: {
-                '--bg-color': '#f3f4f6', // gray-100
-                '--text-main': '#111827', // gray-900
-                '--text-secondary': '#6b7280', // gray-500
-                '--highlight-color': '#3b82f6', // blue-500
-                '--card-bg-color': 'rgba(255, 255, 255, 1)', // white
-            }
+            finance: { '--bg-color': '#165129', '--text-main': '#f4f4f8', '--text-secondary': '#FCBE2B' },
+            dark: { '--bg-color': '#1f2937', '--text-main': '#f9fafb', '--text-secondary': '#9ca3af' },
+            light: { '--bg-color': '#f3f4f6', '--text-main': '#111827', '--text-secondary': '#6b7280' }
         };
 
         function applyTheme(themeName) {
-            const theme = themes[themeName] || themes.finance; // Padrão para 'finance'
+            const theme = themes[themeName] || themes.finance;
             const root = document.documentElement;
-            for (const [key, value] of Object.entries(theme)) {
-                root.style.setProperty(key, value);
-            }
+            Object.entries(theme).forEach(([key, value]) => root.style.setProperty(key, value));
         }
 
-        function getThemeFromURL() {
-            const urlParams = new URLSearchParams(window.location.search);
-            return urlParams.get('theme');
-        }
+        applyTheme(new URLSearchParams(window.location.search).get('theme'));
 
-        // Aplica o tema ao carregar a página
-        applyTheme(getThemeFromURL());
-
-        // --- CONFIGURAÇÕES DE NOTÍCIAS ---
+        // --- CONFIGURAÇÕES DO CARROSSEL E NOTÍCIAS ---
         const NEWS_JSON_URL = 'news.json';
-        const MAX_ITEMS = 6;
-        const REFRESH_INTERVAL_MINUTES = 5;
+        const NEWS_REFRESH_INTERVAL_MINUTES = 15;
+        const CAROUSEL_INTERVAL_SECONDS = 15;
         // --- FIM DAS CONFIGURAÇÕES ---
 
-        const newsFeedElement = document.getElementById('news-feed');
+        const newsContainer = document.getElementById('news-container');
+        const loader = document.getElementById('loader');
+
+        let newsList = [];
+        let currentNewsIndex = 0;
+        let carouselIntervalId = null;
+
+        function updateNewsDisplay(newsItem) {
+            const currentElement = newsContainer.querySelector('.news-item');
+            if (currentElement) {
+                currentElement.classList.remove('visible');
+            }
+
+            setTimeout(() => {
+                if (!newsItem) {
+                    newsContainer.innerHTML = '';
+                    return;
+                }
+                const newsHTML = `
+                    <div class="news-item text-center max-w-6xl">
+                        <p class="text-4xl font-semibold mb-8" style="color: var(--text-secondary)">${newsItem.source}</p>
+                        <h1 class="text-7xl font-bold leading-tight text-balance">${newsItem.title}</h1>
+                        <p class="text-3xl mt-10" style="color: var(--text-secondary)">${new Date(newsItem.timestamp).toLocaleString('pt-BR', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' })}</p>
+                    </div>
+                `;
+                newsContainer.innerHTML = newsHTML;
+                const newElement = newsContainer.querySelector('.news-item');
+                if (newElement) {
+                    void newElement.offsetWidth; // Force reflow for transition
+                    newElement.classList.add('visible');
+                }
+            }, 750); // Match CSS transition
+        }
+
+        function startCarousel() {
+            if (carouselIntervalId) clearInterval(carouselIntervalId);
+            if (newsList.length === 0) return;
+
+            updateNewsDisplay(newsList[currentNewsIndex]);
+
+            carouselIntervalId = setInterval(() => {
+                currentNewsIndex = (currentNewsIndex + 1) % newsList.length;
+                updateNewsDisplay(newsList[currentNewsIndex]);
+            }, CAROUSEL_INTERVAL_SECONDS * 1000);
+        }
 
         async function fetchNews() {
-            console.log(`Buscando notícias de ${NEWS_JSON_URL}...`);
+            console.log(`Buscando notícias...`);
             try {
                 const response = await fetch(`${NEWS_JSON_URL}?t=${new Date().getTime()}`);
-                if (!response.ok) {
-                    throw new Error(`Erro HTTP! status: ${response.status}`);
+                if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+
+                const fetchedNews = await response.json();
+                if (fetchedNews.length > 0) {
+                    loader.style.display = 'none';
+                    newsList = fetchedNews;
+                    // Se o carrossel já estiver rodando, ele continuará com a lista antiga até o próximo ciclo de atualização de notícias.
+                    // Para uma atualização imediata, podemos reiniciar o carrossel:
+                    if (!carouselIntervalId) {
+                         startCarousel();
+                    }
+                } else if (newsList.length === 0) { // Apenas mostra erro se não tiver notícias antigas para exibir
+                    displayError("Nenhuma notícia encontrada.");
                 }
-                const news = await response.json();
-                console.log("Notícias recebidas com sucesso:", news);
-                displayNews(news);
             } catch (err) {
                 console.error('Erro ao buscar notícias:', err);
-                displayError('Não foi possível carregar as notícias. Verifique a fonte de dados.');
+                if (newsList.length === 0) displayError('Falha ao carregar notícias.');
             }
         }
 
         function displayError(message) {
-            newsFeedElement.innerHTML = `
-                <div class="col-span-3 row-span-2 flex items-center justify-center">
-                    <p class="text-3xl text-center" style="color: var(--text-secondary)">${message}</p>
-                </div>`;
+            loader.style.display = 'none';
+            newsContainer.innerHTML = `<p class="text-4xl text-center" style="color: var(--text-secondary)">${message}</p>`;
         }
 
-        function displayNews(news) {
-            if (!news || news.length === 0) {
-                displayError("Nenhuma notícia encontrada na fonte de dados.");
-                return;
-            }
-
-            newsFeedElement.innerHTML = ''; // Limpa o conteúdo anterior
-
-            news.slice(0, MAX_ITEMS).forEach(item => {
-                const newsCardHTML = `
-                    <div class="news-card flex flex-col justify-between p-8 rounded-2xl shadow-2xl backdrop-blur-sm">
-                        <div>
-                            <p class="news-card-source text-2xl font-semibold mb-4">${item.source}</p>
-                            <h2 class="text-5xl font-bold leading-tight text-balance line-clamp-4">${item.title}</h2>
-                        </div>
-                        <p class="news-card-time text-xl mt-6">${new Date(item.timestamp).toLocaleString('pt-BR')}</p>
-                    </div>
-                `;
-                newsFeedElement.innerHTML += newsCardHTML;
-            });
-            console.log("Notícias carregadas e HTML atualizado.");
-        }
-
-        // Carrega as notícias ao iniciar
+        // Initial fetch
         fetchNews();
-
-        // Atualiza as notícias periodicamente
-        if (REFRESH_INTERVAL_MINUTES > 0) {
-            setInterval(fetchNews, REFRESH_INTERVAL_MINUTES * 60 * 1000);
-        }
+        // Periodically fetch new news
+        setInterval(fetchNews, NEWS_REFRESH_INTERVAL_MINUTES * 60 * 1000);
     </script>
 </body>
 </html>
