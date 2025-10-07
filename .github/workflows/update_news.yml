@@ -1,0 +1,37 @@
+name: Atualização Automática de Notícias
+
+on:
+  schedule:
+    # Executa a cada hora (no minuto 0 de cada hora)
+    - cron: '0 * * * *'
+  workflow_dispatch: # Permite a execução manual a partir da aba "Actions" do GitHub
+
+jobs:
+  fetch-news:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 1. Checkout do repositório
+        uses: actions/checkout@v4
+
+      - name: 2. Configurar ambiente Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11' # Usando uma versão estável do Python
+
+      - name: 3. Instalar dependências
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: 4. Executar script para buscar notícias
+        run: python fetch_news.py
+
+      - name: 5. Fazer commit e push do arquivo de notícias atualizado
+        run: |
+          git config --global user.name 'Notícias Bot'
+          git config --global user.email 'actions-bot@github.com'
+          git add news.json
+          # Apenas faz o commit e push se houver alterações no arquivo news.json
+          git diff --staged --quiet || (git commit -m "chore: Atualiza notícias (automático)" && git push)
+          echo "Workflow concluído. Verifique o repositório para o arquivo news.json atualizado."
