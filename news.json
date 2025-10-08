@@ -1,10 +1,5 @@
 [
     {
-        "source": "G1",
-        "title": "PF faz megaoperação de combate ao abuso sexual de crianças e adolescentes em todo o país - G1",
-        "timestamp": "2025-10-08T10:28:26Z"
-    },
-    {
         "source": "CartaCapital",
         "title": "A nova pesquisa Quaest sobre a aprovação do governo Lula e as eleições de 2026 - CartaCapital",
         "timestamp": "2025-10-07T16:21:00Z"
@@ -16,7 +11,7 @@
     },
     {
         "source": "UOL Notícias",
-        "title": "Perícia confirma metanol adicionado em bebidas apreendidas em São Paulo - UOL Notícias",
+        "title": "Perícia em SP: Metanol foi adicionado em bebidas falsas, não foi natural - UOL Notícias",
         "timestamp": "2025-10-08T10:58:14Z"
     },
     {
@@ -25,8 +20,13 @@
         "timestamp": "2025-10-08T07:45:06Z"
     },
     {
-        "source": "Poder360",
-        "title": "Tarcísio pede desculpas por brincadeira sobre Coca-Cola e metanol - Poder360",
-        "timestamp": "2025-10-08T02:40:54Z"
+        "source": "Gazeta do Povo",
+        "title": "Celso Sabino vai ter de escolher entre Lula e seus eleitores - Gazeta do Povo",
+        "timestamp": "2025-10-07T00:59:00Z"
+    },
+    {
+        "source": "CartaCapital",
+        "title": "Os recados de Renan Calheiros ao ser anunciado como relator da isenção do IR - CartaCapital",
+        "timestamp": "2025-10-07T19:54:00Z"
     }
 ]
