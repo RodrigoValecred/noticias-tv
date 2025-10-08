@@ -1,5 +1,10 @@
 [
     {
+        "source": "CNN Brasil",
+        "title": "Teto desaba após explosão em restaurante no centro de SP - CNN Brasil",
+        "timestamp": "2025-10-08T16:11:17Z"
+    },
+    {
         "source": "CartaCapital",
         "title": "Quaest monitora a aprovação do governo Lula entre eleitores católicos e evangélicos; confira os resultados - CartaCapital",
         "timestamp": "2025-10-08T12:26:00Z"
@@ -10,23 +15,18 @@
         "timestamp": "2025-10-08T10:34:00Z"
     },
     {
+        "source": "CartaCapital",
+        "title": "Sabino diz que fica no governo e questiona processo de expulsão do União Brasil - CartaCapital",
+        "timestamp": "2025-10-08T14:01:00Z"
+    },
+    {
         "source": "InfoMoney",
         "title": "Após derrota com MP, Haddad defende mudança regulatória em LCI e LCA - InfoMoney",
         "timestamp": "2025-10-08T10:10:32Z"
     },
     {
-        "source": "UOL Notícias",
-        "title": "Perícia em SP: Metanol foi adicionado em bebidas falsas, não foi natural - UOL Notícias",
-        "timestamp": "2025-10-08T10:58:14Z"
-    },
-    {
-        "source": "ICL Notícias",
-        "title": "Isenção do IR furou bolha bolsonarista, mostra pesquisa - ICL Notícias",
-        "timestamp": "2025-10-08T11:21:20Z"
-    },
-    {
-        "source": "Gazeta do Povo",
-        "title": "Celso Sabino vai ter de escolher entre Lula e seus eleitores - Gazeta do Povo",
-        "timestamp": "2025-10-07T00:59:00Z"
+        "source": "Olhar Digital",
+        "title": "Nobel de Química 2025 vai para trio que criou ‘andaimes’ moleculares - Olhar Digital",
+        "timestamp": "2025-10-08T11:06:00Z"
     }
 ]
