@@ -15,6 +15,11 @@
         "timestamp": "2025-10-08T18:18:00Z"
     },
     {
+        "source": "G1",
+        "title": "Sobe para cinco o número de mortes confirmadas por metanol em SP - G1",
+        "timestamp": "2025-10-08T20:27:12Z"
+    },
+    {
         "source": "CartaCapital",
         "title": "Presidente do PL diz não ter dúvidas de que governo Lula vai reverter o tarifaço após aproximação com Trump - CartaCapital",
         "timestamp": "2025-10-08T19:01:00Z"
@@ -23,10 +28,5 @@
         "source": "CartaCapital",
         "title": "Relator do Conselho de Ética pede arquivamento de processo contra Eduardo Bolsonaro - CartaCapital",
         "timestamp": "2025-10-08T18:42:00Z"
-    },
-    {
-        "source": "G1",
-        "title": "Lula sanciona lei que amplia tarifa social na conta de luz para famílias de baixa renda - G1",
-        "timestamp": "2025-10-08T19:54:22Z"
     }
 ]
