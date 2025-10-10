@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uiia Cat</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        #cat-container {
+            width: 300px;
+            height: 300px;
+        }
+        #cat-gif {
+            width: 100%;
+            height: 100%;
+        }
+        .spinning {
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="cat-container">
+        <img id="cat-gif" src="https://media.tenor.com/sbfBfp3FeY8AAAAj/oia-uia.gif" alt="Spinning Cat">
+    </div>
+
+    <script>
+        const cat = document.getElementById('cat-gif');
+
+        function toggleSpin() {
+            cat.classList.toggle('spinning');
+        }
+
+        function randomInterval() {
+            toggleSpin();
+            const time = Math.random() * 2000 + 500; // Random time between 0.5s and 2.5s
+            setTimeout(randomInterval, time);
+        }
+
+        randomInterval();
+    </script>
+</body>
+</html>
