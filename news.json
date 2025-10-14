@@ -1,23 +1,18 @@
 [
     {
-        "source": "Poder360",
-        "title": "Incêndio em reator no Paraná provoca apagão em vários Estados - Poder360",
-        "timestamp": "2025-10-14T14:51:56Z"
-    },
-    {
-        "source": "G1",
-        "title": "Contador é apontado como operador de esquema que lavava dinheiro do tráfico em apostas; entenda como funcionava - G1",
-        "timestamp": "2025-10-14T16:53:36Z"
-    },
-    {
-        "source": "Gazeta do Povo",
-        "title": "Moraes: documento citado por PGR não consta nos autos - Gazeta do Povo",
-        "timestamp": "2025-10-14T16:41:00Z"
-    },
-    {
         "source": "Gazeta do Povo",
         "title": "Direita entrega resultados; esquerda, narrativas - Gazeta do Povo",
         "timestamp": "2025-10-14T14:01:00Z"
+    },
+    {
+        "source": "G1",
+        "title": "Apagão atinge ao menos cinco cidades das regiões de Campinas e Piracicaba durante a madrugada - G1",
+        "timestamp": "2025-10-14T16:06:50Z"
+    },
+    {
+        "source": "Correio Braziliense",
+        "title": "Julgamento do núcleo 4: Moraes aponta elo entre militares e ex-integrantes do governo - Correio Braziliense",
+        "timestamp": "2025-10-14T14:24:00Z"
     },
     {
         "source": "InfoMoney",
@@ -28,5 +23,10 @@
         "source": "CNN Brasil",
         "title": "Trump volta a dizer que teve \"conversa muito boa\" com Lula - CNN Brasil",
         "timestamp": "2025-10-14T18:24:34Z"
+    },
+    {
+        "source": "CartaCapital",
+        "title": "Moraes manda soltar réu do 8 de Janeiro após defesa apontar ‘erro diabólico’ - CartaCapital",
+        "timestamp": "2025-10-14T19:03:00Z"
     }
 ]
