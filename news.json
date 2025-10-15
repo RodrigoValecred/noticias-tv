@@ -1,13 +1,8 @@
 [
     {
         "source": "Folha de S.Paulo",
-        "title": "Governo Trump dá carta branca à CIA para derrubar Maduro na Venezuela, diz New York Times - Folha de S.Paulo",
+        "title": "Governo Trump dá carta branca à CIA para derrubar Maduro na Venezuela - Folha de S.Paulo",
         "timestamp": "2025-10-15T18:57:00Z"
-    },
-    {
-        "source": "Gazeta do Povo",
-        "title": "Aposentadoria Magnitsky e o plano petista para o STF - Gazeta do Povo",
-        "timestamp": "2025-10-15T16:51:00Z"
     },
     {
         "source": "CartaCapital",
@@ -15,9 +10,9 @@
         "timestamp": "2025-10-14T19:22:00Z"
     },
     {
-        "source": "Revista Oeste",
-        "title": "Hamas viola acordo e mantém corpos de reféns em Gaza - Revista Oeste",
-        "timestamp": "2025-10-14T17:07:29Z"
+        "source": "Gazeta do Povo",
+        "title": "Aposentadoria Magnitsky e o plano petista para o STF - Gazeta do Povo",
+        "timestamp": "2025-10-15T16:51:00Z"
     },
     {
         "source": "GOV.BR",
@@ -25,8 +20,13 @@
         "timestamp": "2025-10-15T12:06:53Z"
     },
     {
-        "source": "Poder360",
-        "title": "Anitta pede que Lula indique uma mulher para vaga de Barroso no STF - Poder360",
-        "timestamp": "2025-10-14T20:07:09Z"
+        "source": "Correio Braziliense",
+        "title": "Portaria autoriza 6,7 mil novos cargos para professores e técnicos - Correio Braziliense",
+        "timestamp": "2025-10-15T16:58:00Z"
+    },
+    {
+        "source": "Revista Oeste",
+        "title": "Hamas viola acordo e mantém corpos de reféns em Gaza - Revista Oeste",
+        "timestamp": "2025-10-14T17:07:29Z"
     }
 ]
