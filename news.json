@@ -5,16 +5,6 @@
         "timestamp": "2025-10-14T14:01:00Z"
     },
     {
-        "source": "Poder360",
-        "title": "Incêndio em reator no Paraná provoca apagão em vários Estados - Poder360",
-        "timestamp": "2025-10-14T14:51:56Z"
-    },
-    {
-        "source": "Correio Braziliense",
-        "title": "Julgamento do núcleo 4: Moraes aponta elo entre militares e ex-integrantes do governo - Correio Braziliense",
-        "timestamp": "2025-10-14T14:24:00Z"
-    },
-    {
         "source": "O Globo",
         "title": "André Mendonça determina sequestro de R$ 389 milhões de sindicato de irmão de Lula para cobrir desvio dos aposentados - O Globo",
         "timestamp": "2025-10-14T23:17:03Z"
@@ -25,8 +15,18 @@
         "timestamp": "2025-10-14T19:22:00Z"
     },
     {
+        "source": "Estadão",
+        "title": "PF cumpre busca e apreensão contra deputado federal do União Brasil durante embarque no aeroporto - Estadão",
+        "timestamp": "2025-10-14T18:06:55Z"
+    },
+    {
         "source": "InfoMoney",
         "title": "Cessar-fogo entre Israel e Hamas já dá sinais preocupantes logo após acordo histórico - InfoMoney",
         "timestamp": "2025-10-14T18:49:52Z"
+    },
+    {
+        "source": "Correio Braziliense",
+        "title": "PGR nega pedido de prisão de Eduardo Bolsonaro - Correio Braziliense",
+        "timestamp": "2025-10-14T22:39:00Z"
     }
 ]
