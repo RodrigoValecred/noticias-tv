@@ -1,18 +1,13 @@
 [
     {
-        "source": "Poder360",
-        "title": "Mauro Vieira se reúne nesta 5ª feira com Rubio em Washington - Poder360",
-        "timestamp": "2025-10-16T07:57:21Z"
-    },
-    {
-        "source": "Valor Econômico",
-        "title": "Alcolumbre cancela sessão do Congresso que analisaria vetos do licenciamento ambiental - Valor Econômico",
-        "timestamp": "2025-10-16T12:17:35Z"
-    },
-    {
         "source": "CNN Brasil",
         "title": "Petro diz que operações da CIA na Venezuela podem afetar Colômbia - CNN Brasil",
         "timestamp": "2025-10-16T09:01:19Z"
+    },
+    {
+        "source": "Correio Braziliense",
+        "title": "Alcolumbre atende ao governo e cancela sessão para analisar vetos de Lula - Correio Braziliense",
+        "timestamp": "2025-10-16T12:53:00Z"
     },
     {
         "source": "CartaCapital",
@@ -25,8 +20,13 @@
         "timestamp": "2025-10-16T15:22:30Z"
     },
     {
+        "source": "Estado de Minas",
+        "title": "Lula confirma reunião com EUA para negociar tarifaço - Estado de Minas",
+        "timestamp": "2025-10-15T18:10:00Z"
+    },
+    {
         "source": "CNN Brasil",
-        "title": "Como cada deputado votou na suspensão da ação penal contra Gustavo Gayer - CNN Brasil",
-        "timestamp": "2025-10-16T07:26:49Z"
+        "title": "Sem defesa de Eduardo, Moraes pode avançar com denúncia ou decretar prisão - CNN Brasil",
+        "timestamp": "2025-10-16T04:30:13Z"
     }
 ]
