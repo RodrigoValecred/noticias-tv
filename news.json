@@ -5,14 +5,19 @@
         "timestamp": "2025-10-17T00:05:00Z"
     },
     {
-        "source": "Poder360",
-        "title": "“Inaceitável e deplorável”, diz PT sobre operação dos EUA na Venezuela - Poder360",
-        "timestamp": "2025-10-16T19:56:40Z"
-    },
-    {
         "source": "Correio Braziliense",
         "title": "Jorge Messias sobe nas apostas e deve ser indicado por Lula ao STF - Correio Braziliense",
         "timestamp": "2025-10-16T21:36:00Z"
+    },
+    {
+        "source": "Metrópoles",
+        "title": "Lula sai em defesa da Venezuela em meio a movimentações dos EUA - Metrópoles",
+        "timestamp": "2025-10-17T01:14:00Z"
+    },
+    {
+        "source": "Poder360",
+        "title": "“Inaceitável e deplorável”, diz PT sobre operação dos EUA na Venezuela - Poder360",
+        "timestamp": "2025-10-16T19:56:40Z"
     },
     {
         "source": "CNN Brasil",
@@ -23,10 +28,5 @@
         "source": "Estado de Minas",
         "title": "Trump ameaça 'matar' membros do Hamas se execuções em Gaza não pararem - Estado de Minas",
         "timestamp": "2025-10-16T19:21:00Z"
-    },
-    {
-        "source": "MetSul Meteorologia",
-        "title": "Sequência de três dias de chuva começa com altos volumes - MetSul Meteorologia",
-        "timestamp": "2025-10-16T22:11:52Z"
     }
 ]
