@@ -1,10 +1,5 @@
 [
     {
-        "source": "NSC Total",
-        "title": "Compare a cena da revelação de quem matou Odete Roitman com a versão original de Vale Tudo - NSC Total",
-        "timestamp": "2025-10-18T03:43:42Z"
-    },
-    {
         "source": "CNN Brasil",
         "title": "Barroso libera enfermeiros para atuar em abortos legais - CNN Brasil",
         "timestamp": "2025-10-18T00:09:26Z"
@@ -13,6 +8,11 @@
         "source": "Gazeta do Povo",
         "title": "O despachante Bessias no Supremo? - Gazeta do Povo",
         "timestamp": "2025-10-17T16:37:00Z"
+    },
+    {
+        "source": "CartaCapital",
+        "title": "O que dizem Mauro Vieira, Marco Rubio e Jamieson Greer sobre reunião nos EUA - CartaCapital",
+        "timestamp": "2025-10-17T00:05:00Z"
     },
     {
         "source": "O Globo",
@@ -25,8 +25,8 @@
         "timestamp": "2025-10-17T13:09:37Z"
     },
     {
-        "source": "O Globo",
-        "title": "Ministro de Maduro posa com facão em mãos e 'convoca' população: 'Não nos conhecem'; vídeo - O Globo",
-        "timestamp": "2025-10-17T19:40:03Z"
+        "source": "Poder360",
+        "title": "Zanin vota contra prorrogação da desoneração da folha - Poder360",
+        "timestamp": "2025-10-17T18:28:47Z"
     }
 ]
