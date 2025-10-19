@@ -1,23 +1,18 @@
 [
     {
-        "source": "G1",
-        "title": "Roubo da Mona Lisa em 1911 alçou a obra à fama - G1",
-        "timestamp": "2025-10-19T14:31:25Z"
-    },
-    {
         "source": "CNN Brasil",
         "title": "Hamas diz não ter conhecimento sobre ataques em Gaza - CNN Brasil",
         "timestamp": "2025-10-19T09:25:14Z"
     },
     {
+        "source": "Poder360",
+        "title": "Após atos, Trump posta vídeo de IA em que joga dejeto em manifestantes - Poder360",
+        "timestamp": "2025-10-19T14:13:50Z"
+    },
+    {
         "source": "Folha PE",
         "title": "Desabamento de casas em Olinda deixa um morto e feridos; busca por vítima soterrada continua - Folha PE",
         "timestamp": "2025-10-19T15:10:49Z"
-    },
-    {
-        "source": "Jornal da Cidade Online",
-        "title": "Governo Trump destrói submarino com drogas em operação militar e imagens são fortes (veja o vídeo) - Jornal da Cidade Online",
-        "timestamp": "2025-10-19T14:09:00Z"
     },
     {
         "source": "O Antagonista",
@@ -28,5 +23,10 @@
         "source": "CNN Brasil",
         "title": "Entenda por que Trump quer que Milei vença eleições na Argentina - CNN Brasil",
         "timestamp": "2025-10-19T10:00:43Z"
+    },
+    {
+        "source": "Estado de Minas",
+        "title": "Sete mineiros mortos em acidente em PE viajaram para fazer compras - Estado de Minas",
+        "timestamp": "2025-10-19T16:55:00Z"
     }
 ]
