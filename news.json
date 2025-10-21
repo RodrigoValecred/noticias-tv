@@ -10,13 +10,8 @@
         "timestamp": "2025-10-21T14:24:47Z"
     },
     {
-        "source": "Metrópoles",
-        "title": "Linha 4-Amarela tem manhã de caos com lentidão e bloqueios nesta terça - Metrópoles",
-        "timestamp": "2025-10-21T09:17:00Z"
-    },
-    {
-        "source": "Correio Braziliense",
-        "title": "Análise: Lula anuncia Boulos no Planalto e foca em jovens, moradia e segurança para alavancar a aprovação - Correio Braziliense",
+        "source": "correiobraziliense.com.br",
+        "title": "Análise: Lula anuncia Boulos no Planalto e foca em jovens, moradia e segurança para alavancar a aprovação - correiobraziliense.com.br",
         "timestamp": "2025-10-21T06:55:00Z"
     },
     {
@@ -28,5 +23,10 @@
         "source": "Gazeta do Povo",
         "title": "Fabio Shor dobra aposta no caso Filipe Martins - Gazeta do Povo",
         "timestamp": "2025-10-21T14:41:00Z"
+    },
+    {
+        "source": "O Antagonista",
+        "title": "Quem é Sanae Takaichi, a “Margaret Thatcher japonesa” - O Antagonista",
+        "timestamp": "2025-10-21T09:06:00Z"
     }
 ]
