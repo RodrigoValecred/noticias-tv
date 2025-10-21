@@ -1,23 +1,18 @@
 [
     {
-        "source": "Valor Econômico",
-        "title": "Ex-presidente francês Sarkozy começa a cumprir pena de 5 anos - Valor Econômico",
-        "timestamp": "2025-10-21T08:06:39Z"
-    },
-    {
         "source": "CartaCapital",
         "title": "A reação de ambientalistas à licença do Ibama para a busca por petróleo no Amapá - CartaCapital",
         "timestamp": "2025-10-20T18:57:00Z"
     },
     {
-        "source": "O Globo",
-        "title": "'Doutrina Monroe 2.0': Após Venezuela, EUA ameaçam Colômbia e aprofundam tensão com a América Latina - O Globo",
-        "timestamp": "2025-10-21T11:26:57Z"
-    },
-    {
         "source": "Metrô CPTM",
         "title": "ViaQuatro fecha transferências da Linha 4-Amarela para outros ramais em meio à falha - Metrô CPTM",
         "timestamp": "2025-10-21T09:02:31Z"
+    },
+    {
+        "source": "O Globo",
+        "title": "'Doutrina Monroe 2.0': Após Venezuela, EUA ameaçam Colômbia e aprofundam tensão com a América Latina - O Globo",
+        "timestamp": "2025-10-21T11:26:57Z"
     },
     {
         "source": "Correio Braziliense",
@@ -28,5 +23,10 @@
         "source": "InfoMoney",
         "title": "Fux deve votar pela absolvição de todos os réus de núcleo da trama golpista - InfoMoney",
         "timestamp": "2025-10-21T01:37:04Z"
+    },
+    {
+        "source": "Valor Econômico",
+        "title": "Ex-presidente francês Sarkozy começa a cumprir pena de 5 anos - Valor Econômico",
+        "timestamp": "2025-10-21T08:06:39Z"
     }
 ]
