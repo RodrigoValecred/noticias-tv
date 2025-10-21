@@ -1,10 +1,5 @@
 [
     {
-        "source": "LANCE!",
-        "title": "Europeus se impressionam com Rayan em Vasco x Fluminense: 'Em breve' - LANCE!",
-        "timestamp": "2025-10-21T00:59:00Z"
-    },
-    {
         "source": "O Globo",
         "title": "Lula demite Márcio Macêdo da Secretaria-Geral da Presidência e anuncia Boulos - O Globo",
         "timestamp": "2025-10-20T22:47:03Z"
@@ -28,5 +23,10 @@
         "source": "Poder360",
         "title": "Petro responde à acusação de Trump e o chama de ignorante - Poder360",
         "timestamp": "2025-10-20T06:41:01Z"
+    },
+    {
+        "source": "CartaCapital",
+        "title": "Quem são os possíveis sucessores de Jorge Messias na AGU - CartaCapital",
+        "timestamp": "2025-10-20T13:22:00Z"
     }
 ]
