@@ -1,13 +1,18 @@
 [
     {
-        "source": "Estadão",
-        "title": "Ministério Público da Itália dá parecer favorável à extradição de Carla Zambelli - Estadão",
-        "timestamp": "2025-10-22T19:48:05Z"
+        "source": "G1",
+        "title": "Fachin autoriza Fux a compor Segunda Turma do Supremo Tribunal Federal - G1",
+        "timestamp": "2025-10-22T21:38:07Z"
     },
     {
         "source": "Valor Econômico",
-        "title": "EUA atacam pela 1ª vez barco no Pacífico suspeito de transportar drogas - Valor Econômico",
+        "title": "Forças Armadas dos EUA atacam barco no Pacífico suspeito de transportar drogas - Valor Econômico",
         "timestamp": "2025-10-22T17:57:54Z"
+    },
+    {
+        "source": "CartaCapital",
+        "title": "Presidente do Conselho de Ética diz que Eduardo Bolsonaro deve estar no Brasil para exercer o mandato - CartaCapital",
+        "timestamp": "2025-10-22T14:55:00Z"
     },
     {
         "source": "Poder360",
@@ -20,13 +25,8 @@
         "timestamp": "2025-10-22T15:44:00Z"
     },
     {
-        "source": "CartaCapital",
-        "title": "Presidente do Conselho de Ética diz que Eduardo Bolsonaro deve estar no Brasil para exercer o mandato - CartaCapital",
-        "timestamp": "2025-10-22T14:55:00Z"
-    },
-    {
-        "source": "CNN Brasil",
-        "title": "Vítima de abuso conheceu 'Capitão Hunter' em evento sobre Pokémon - CNN Brasil",
-        "timestamp": "2025-10-22T16:38:04Z"
+        "source": "UOL Notícias",
+        "title": "Ministério Público da Itália dá parecer favorável à extradição de Zambelli - UOL Notícias",
+        "timestamp": "2025-10-22T19:24:52Z"
     }
 ]
