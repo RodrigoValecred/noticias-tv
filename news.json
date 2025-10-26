@@ -1,23 +1,18 @@
 [
     {
-        "source": "UOL",
-        "title": "Fortaleza vence, e Flamengo perde chance de roubar liderança do Palmeiras - UOL",
-        "timestamp": "2025-10-26T00:26:31Z"
-    },
-    {
         "source": "Correio Braziliense",
         "title": "Lula diz que Trump ainda não fez exigências para redução do tarifaço - Correio Braziliense",
         "timestamp": "2025-10-25T11:31:00Z"
     },
     {
+        "source": "O Antagonista",
+        "title": "Trump aumenta tarifas sobre Canadá após vídeo com discurso de Reagan - O Antagonista",
+        "timestamp": "2025-10-25T22:47:00Z"
+    },
+    {
         "source": "Poder360",
         "title": "\"Soberania\" dos bandidos: vídeo feito por IA critica fala de Lula - Poder360",
         "timestamp": "2025-10-25T17:26:15Z"
-    },
-    {
-        "source": "Revista Oeste",
-        "title": "Trump suspende negociações comerciais com o Canadá - Revista Oeste",
-        "timestamp": "2025-10-24T20:51:30Z"
     },
     {
         "source": "G1",
@@ -28,5 +23,10 @@
         "source": "G1",
         "title": "Kamala Harris afirma que pode concorrer novamente à presidência dos EUA, em entrevista à BBC - G1",
         "timestamp": "2025-10-25T12:25:16Z"
+    },
+    {
+        "source": "Poder360",
+        "title": "Argentina falha em superar desordens estruturais históricas - Poder360",
+        "timestamp": "2025-10-25T12:04:56Z"
     }
 ]
