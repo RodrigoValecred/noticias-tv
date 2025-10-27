@@ -10,11 +10,6 @@
         "timestamp": "2025-10-27T01:01:22Z"
     },
     {
-        "source": "UOL Notícias",
-        "title": "Carlos Madeiro: Filho de prefeito cassado e preso por elo com o CV vence eleição no Ceará - UOL Notícias",
-        "timestamp": "2025-10-27T01:45:06Z"
-    },
-    {
         "source": "CNN Brasil",
         "title": "Unicamp 2026: veja o gabarito extraoficial da primeira fase - CNN Brasil",
         "timestamp": "2025-10-26T17:37:24Z"
@@ -28,5 +23,10 @@
         "source": "Revista Oeste",
         "title": "Venezuela: navio de guerra dos EUA chega a Trinidad e Tobago - Revista Oeste",
         "timestamp": "2025-10-26T16:50:01Z"
+    },
+    {
+        "source": "LANCE!",
+        "title": "Decisão da arbitragem em Palmeiras x Cruzeiro choca jornalistas: 'Escândalo' - LANCE!",
+        "timestamp": "2025-10-27T01:44:51Z"
     }
 ]
