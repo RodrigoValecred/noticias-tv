@@ -5,14 +5,9 @@
         "timestamp": "2025-10-29T06:00:57Z"
     },
     {
-        "source": "CNN Brasil",
-        "title": "Câmara aprova gratuidade para bagagem de mão e despachada de até 23 kg - CNN Brasil",
-        "timestamp": "2025-10-28T23:23:46Z"
-    },
-    {
-        "source": "Revista Oeste",
-        "title": "Senado dos EUA aprova projeto para derrubar 'tarifaço'; entenda - Revista Oeste",
-        "timestamp": "2025-10-29T00:32:42Z"
+        "source": "Gazeta do Povo",
+        "title": "Senado dos EUA aprova revogação de tarifas contra o Brasil, mas decisão final cabe a Trump - Gazeta do Povo",
+        "timestamp": "2025-10-28T23:44:00Z"
     },
     {
         "source": "Canal Rural",
@@ -28,5 +23,10 @@
         "source": "Poder360",
         "title": "Netanyahu ordena ataque imediato na Faixa de Gaza - Poder360",
         "timestamp": "2025-10-28T18:09:58Z"
+    },
+    {
+        "source": "CNN Brasil",
+        "title": "Atlético-MG vence Del Valle e fará final inédita da Copa Sul-Americana - CNN Brasil",
+        "timestamp": "2025-10-28T23:22:10Z"
     }
 ]
