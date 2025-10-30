@@ -1,18 +1,23 @@
 [
     {
+        "source": "CNN Brasil",
+        "title": "Quem era \"Japinha do CV\", linha de frente da facção morta com tiro no rosto - CNN Brasil",
+        "timestamp": "2025-10-30T11:38:48Z"
+    },
+    {
+        "source": "Correio Braziliense",
+        "title": "Lula sanciona lei que mira o coração do crime organizado - Correio Braziliense",
+        "timestamp": "2025-10-30T10:38:00Z"
+    },
+    {
         "source": "O Globo",
-        "title": "MP acompanha autópsias e cobra informações sobre operação que deixou 121 mortos no Alemão e na Penha - O Globo",
-        "timestamp": "2025-10-30T08:04:34Z"
+        "title": "Bandidos de outros estados reforçam Comando Vermelho no Rio e são desafio na identificação de mortos após ação policial - O Globo",
+        "timestamp": "2025-10-30T06:30:32Z"
     },
     {
         "source": "CNN Brasil",
         "title": "Durante encontro, Trump diz que Xi Jinping é um \"negociador duro\" - CNN Brasil",
         "timestamp": "2025-10-30T02:24:59Z"
-    },
-    {
-        "source": "CNN Brasil",
-        "title": "Lula sanciona lei que endurece o combate ao crime organizado - CNN Brasil",
-        "timestamp": "2025-10-30T09:12:11Z"
     },
     {
         "source": "CartaCapital",
@@ -23,10 +28,5 @@
         "source": "CartaCapital",
         "title": "Líder do PT pede a Moraes o afastamento de Cláudio Castro do governo do Rio - CartaCapital",
         "timestamp": "2025-10-30T01:38:00Z"
-    },
-    {
-        "source": "Gazeta do Povo",
-        "title": "Comitiva de governadores vai ao Rio após megaoperação contra o crime organizado - Gazeta do Povo",
-        "timestamp": "2025-10-29T17:39:00Z"
     }
 ]
