@@ -1,5 +1,10 @@
 [
     {
+        "source": "Notícias da TV",
+        "title": "As três lições que William Bonner deixou para César Tralli no Jornal Nacional - Notícias da TV",
+        "timestamp": "2025-11-01T01:38:00Z"
+    },
+    {
         "source": "CNN Brasil",
         "title": "Moraes convoca Eduardo Paes para audiência no Rio sobre megaoperação - CNN Brasil",
         "timestamp": "2025-10-31T22:32:32Z"
@@ -12,21 +17,16 @@
     {
         "source": "NSC Total",
         "title": "Morre mulher que foi baleada na cabeça durante tiroteio na Linha Amarela no RJ - NSC Total",
-        "timestamp": "2025-10-31T21:19:07Z"
+        "timestamp": "2025-11-01T00:29:16Z"
+    },
+    {
+        "source": "O Antagonista",
+        "title": "Haddad virou ministro da Justiça? - O Antagonista",
+        "timestamp": "2025-10-31T22:43:00Z"
     },
     {
         "source": "Revista Oeste",
         "title": "Donald Trump diz que não planeja atacar a Venezuela - Revista Oeste",
         "timestamp": "2025-10-31T18:05:01Z"
-    },
-    {
-        "source": "Canal Rural",
-        "title": "Alerta de temporais: fim de semana terá chuva e ventos fortes em várias regiões do Brasil - Canal Rural",
-        "timestamp": "2025-10-31T19:19:30Z"
-    },
-    {
-        "source": "Jornal da Cidade Online",
-        "title": "URGENTE: Mais um país se insurge contra Lula e vai declarar PCC e CV como terroristas - Jornal da Cidade Online",
-        "timestamp": "2025-10-31T21:53:00Z"
     }
 ]
