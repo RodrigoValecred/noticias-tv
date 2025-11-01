@@ -5,11 +5,6 @@
         "timestamp": "2025-11-01T02:30:33Z"
     },
     {
-        "source": "Poder360",
-        "title": "3 a cada 4 menções a Lula sobre operação no Rio são negativas - Poder360",
-        "timestamp": "2025-11-01T08:56:57Z"
-    },
-    {
         "source": "Jovem Pan",
         "title": "Quem era Bárbara Borges, jovem morta em tiroteio no Rio - Jovem Pan",
         "timestamp": "2025-11-01T10:41:32Z"
@@ -20,13 +15,18 @@
         "timestamp": "2025-11-01T10:00:00Z"
     },
     {
+        "source": "Poder360",
+        "title": "Polícia posta vídeo que seria de treino do Comando Vermelho - Poder360",
+        "timestamp": "2025-10-31T17:45:02Z"
+    },
+    {
+        "source": "Poder360",
+        "title": "3 a cada 4 menções a Lula sobre operação no Rio são negativas - Poder360",
+        "timestamp": "2025-11-01T08:56:57Z"
+    },
+    {
         "source": "Jornal da Cidade Online",
         "title": "O estranho \"silêncio\" de dois meses de Moraes - Jornal da Cidade Online",
         "timestamp": "2025-11-01T10:17:00Z"
-    },
-    {
-        "source": "Intercept Brasil",
-        "title": "Extrema direita usa chacina de Castro para se fortalecer na eleição - Intercept Brasil",
-        "timestamp": "2025-11-01T12:00:00Z"
     }
 ]
