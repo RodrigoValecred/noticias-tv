@@ -1,18 +1,23 @@
 [
     {
+        "source": "Folha de S.Paulo",
+        "title": "Câmara aprova ampliação gradual da licença-paternidade, mas limita a 20 dias - Folha de S.Paulo",
+        "timestamp": "2025-11-04T21:46:00Z"
+    },
+    {
+        "source": "Poder360",
+        "title": "Operação no Rio foi \"desastrosa\" e \"uma matança\", diz Lula - Poder360",
+        "timestamp": "2025-11-04T21:41:24Z"
+    },
+    {
         "source": "Estadão",
         "title": "Senado instala CPI do Crime Organizado e elege petista como presidente - Estadão",
         "timestamp": "2025-11-04T15:26:08Z"
     },
     {
-        "source": "Poder360",
-        "title": "Lula chama de “desastrosa” operação policial com 121 mortos no Rio - Poder360",
-        "timestamp": "2025-11-04T18:41:22Z"
-    },
-    {
-        "source": "G1",
-        "title": "Câmara aprova projeto que aumenta salários de servidores público do Poder Judiciário - G1",
-        "timestamp": "2025-11-04T19:54:41Z"
+        "source": "CNN Brasil",
+        "title": "Entenda a Operação Freedom, que já prendeu mais de 30 do CV na BA e no CE - CNN Brasil",
+        "timestamp": "2025-11-04T12:26:44Z"
     },
     {
         "source": "CBN",
@@ -20,13 +25,8 @@
         "timestamp": "2025-11-04T18:14:44Z"
     },
     {
-        "source": "G1",
-        "title": "Justiça autoriza transferência de 7 de 10 traficantes do RJ para presídios federais - G1",
-        "timestamp": "2025-11-04T17:22:46Z"
-    },
-    {
-        "source": "CartaCapital",
-        "title": "Lula sanciona lei que transfere a capital do Brasil para Belém durante a COP30 - CartaCapital",
-        "timestamp": "2025-11-04T19:16:00Z"
+        "source": "UOL Notícias",
+        "title": "Operação no Rio não cumpriu meta, diz presidente da CPI do Crime Organizado - UOL Notícias",
+        "timestamp": "2025-11-04T21:04:54Z"
     }
 ]
