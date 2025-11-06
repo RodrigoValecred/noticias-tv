@@ -1,18 +1,13 @@
 [
     {
-        "source": "BBC",
-        "title": "Quem ganha e quem perde com esperada aprovação do novo IR, que eleva isenção e taxa super ricos - BBC",
-        "timestamp": "2025-11-05T17:13:21Z"
-    },
-    {
         "source": "CartaCapital",
-        "title": "Papuda à vista: governo do DF pede exame para saber se Bolsonaro tem condições de cumprir pena em presídio - CartaCapital",
-        "timestamp": "2025-11-05T13:15:00Z"
+        "title": "Por unanimidade, Senado aprova isenção do IR para quem ganha até R$ 5 mil - CartaCapital",
+        "timestamp": "2025-11-05T21:49:00Z"
     },
     {
-        "source": "Correio Braziliense",
-        "title": "Príncipe William recria foto da princesa Diana no Cristo Redentor - Correio Braziliense",
-        "timestamp": "2025-11-05T15:36:00Z"
+        "source": "BBC",
+        "title": "Bolsonaro na Papuda? Governo do DF pede avaliação médica do ex-presidente às vésperas de possível ordem de prisão - BBC",
+        "timestamp": "2025-11-05T17:46:29Z"
     },
     {
         "source": "G1",
@@ -20,13 +15,18 @@
         "timestamp": "2025-11-05T13:49:29Z"
     },
     {
+        "source": "Correio Braziliense",
+        "title": "Príncipe William recria foto da princesa Diana no Cristo Redentor - Correio Braziliense",
+        "timestamp": "2025-11-05T15:36:00Z"
+    },
+    {
+        "source": "Folha de S.Paulo",
+        "title": "Moraes determina que PF abra inquérito para investigar crime organizado no RJ - Folha de S.Paulo",
+        "timestamp": "2025-11-05T22:42:00Z"
+    },
+    {
         "source": "Estado de Minas",
         "title": "Gleisi diz que governo é 'terminantemente contra' projeto que equipara facções a terroristas - Estado de Minas",
         "timestamp": "2025-11-05T18:59:00Z"
-    },
-    {
-        "source": "CNN Brasil",
-        "title": "Democratas vencem disputas nos EUA, enquanto eleitores rejeitam Trump - CNN Brasil",
-        "timestamp": "2025-11-05T20:23:16Z"
     }
 ]
