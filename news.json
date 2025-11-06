@@ -1,10 +1,5 @@
 [
     {
-        "source": "UOL",
-        "title": "São Paulo tem Lucas no banco, e Flamengo começa com Carrascal; veja times - UOL",
-        "timestamp": "2025-11-06T03:02:48Z"
-    },
-    {
         "source": "BBC",
         "title": "Quem ganha e quem perde com esperada aprovação do novo IR, que eleva isenção e taxa super ricos - BBC",
         "timestamp": "2025-11-05T17:13:21Z"
@@ -25,8 +20,13 @@
         "timestamp": "2025-11-05T13:49:29Z"
     },
     {
-        "source": "Brazil Journal",
-        "title": "O julgamento no STF que tira o sono das operadoras de saúde - Brazil Journal",
-        "timestamp": "2025-11-05T09:50:54Z"
+        "source": "Estado de Minas",
+        "title": "Gleisi diz que governo é 'terminantemente contra' projeto que equipara facções a terroristas - Estado de Minas",
+        "timestamp": "2025-11-05T18:59:00Z"
+    },
+    {
+        "source": "CNN Brasil",
+        "title": "Democratas vencem disputas nos EUA, enquanto eleitores rejeitam Trump - CNN Brasil",
+        "timestamp": "2025-11-05T20:23:16Z"
     }
 ]
