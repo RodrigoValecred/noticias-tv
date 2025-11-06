@@ -1,18 +1,13 @@
 [
     {
+        "source": "UOL",
+        "title": "São Paulo tem Lucas no banco, e Flamengo começa com Carrascal; veja times - UOL",
+        "timestamp": "2025-11-06T03:02:48Z"
+    },
+    {
         "source": "BBC",
         "title": "Quem ganha e quem perde com esperada aprovação do novo IR, que eleva isenção e taxa super ricos - BBC",
         "timestamp": "2025-11-05T17:13:21Z"
-    },
-    {
-        "source": "Folha de S.Paulo",
-        "title": "Câmara aprova urgência de projeto que derruba resolução sobre aborto legal em crianças e adolescentes - Folha de S.Paulo",
-        "timestamp": "2025-11-05T20:27:00Z"
-    },
-    {
-        "source": "G1",
-        "title": "Brasil tem 8.149 pessoas chamadas Natal... mas nenhuma em Natal - G1",
-        "timestamp": "2025-11-05T13:49:29Z"
     },
     {
         "source": "CartaCapital",
@@ -23,6 +18,11 @@
         "source": "Correio Braziliense",
         "title": "Príncipe William recria foto da princesa Diana no Cristo Redentor - Correio Braziliense",
         "timestamp": "2025-11-05T15:36:00Z"
+    },
+    {
+        "source": "G1",
+        "title": "Brasil tem 8.149 pessoas chamadas Natal... mas nenhuma em Natal - G1",
+        "timestamp": "2025-11-05T13:49:29Z"
     },
     {
         "source": "Brazil Journal",
