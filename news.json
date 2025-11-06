@@ -1,18 +1,23 @@
 [
     {
+        "source": "UOL",
+        "title": "Cúpula dos Líderes tenta repetir Rio-92 e antecipa discussões da COP30 - UOL",
+        "timestamp": "2025-11-06T12:20:18Z"
+    },
+    {
         "source": "Valor Econômico",
         "title": "Igualar facção a terrorismo pode afetar juro e crédito a empresas - Valor Econômico",
         "timestamp": "2025-11-06T08:01:21Z"
     },
     {
+        "source": "CartaCapital",
+        "title": "Ministro israelense incentiva judeus de Nova York a se mudarem após vitória de Mamdani - CartaCapital",
+        "timestamp": "2025-11-05T22:15:00Z"
+    },
+    {
         "source": "Poder360",
         "title": "Barco de Lula na COP30 gastará ao menos 4.000 litros de diesel - Poder360",
         "timestamp": "2025-11-05T20:04:49Z"
-    },
-    {
-        "source": "Estado de Minas",
-        "title": "Brasília deixará de ser a capital do Brasil; saiba o motivo - Estado de Minas",
-        "timestamp": "2025-11-05T15:52:00Z"
     },
     {
         "source": "CNN Brasil",
@@ -23,10 +28,5 @@
         "source": "Climatempo",
         "title": "Ciclone extratropical deixa Sul, Sudeste e Centro-Oeste em alerta para tempestades e ventania - Climatempo",
         "timestamp": "2025-11-05T17:54:00Z"
-    },
-    {
-        "source": "Senado",
-        "title": "Isenção de IR para quem ganha até R$ 5 mil segue para sanção — Senado Notícias - Senado",
-        "timestamp": "2025-11-05T22:42:03Z"
     }
 ]
