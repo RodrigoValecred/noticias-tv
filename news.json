@@ -5,11 +5,6 @@
         "timestamp": "2025-11-06T15:58:27Z"
     },
     {
-        "source": "NSC Total",
-        "title": "Ciclone faz com que SC tenha alerta de grande perigo para ventos costeiros - NSC Total",
-        "timestamp": "2025-11-06T21:23:11Z"
-    },
-    {
         "source": "Correio Braziliense",
         "title": "Lula recepciona chefes de Estado para Cúpula da COP30; assista - Correio Braziliense",
         "timestamp": "2025-11-06T13:08:00Z"
@@ -28,5 +23,10 @@
         "source": "O Globo",
         "title": "Príncipe William vira meme entre bares do Rio de Janeiro após visita ao Boteco Belmonte, em Ipanema - O Globo",
         "timestamp": "2025-11-06T21:38:34Z"
+    },
+    {
+        "source": "Correio do Povo",
+        "title": "Defesa Civil alerta para chegada de ciclone extratropical nesta sexta no RS - Correio do Povo",
+        "timestamp": "2025-11-06T15:42:18Z"
     }
 ]
