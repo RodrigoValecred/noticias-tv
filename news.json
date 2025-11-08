@@ -1,5 +1,10 @@
 [
     {
+        "source": "G1",
+        "title": "Ciclone extratropical no RS: vento e chuva fortes destelham casas, causam alagamentos, derrubam árvores e bloqueiam rodovias - G1",
+        "timestamp": "2025-11-08T10:15:54Z"
+    },
+    {
         "source": "CNN Brasil",
         "title": "Tornado no Paraná: Governo enviará ajuda humanitária para região destruída - CNN Brasil",
         "timestamp": "2025-11-08T10:14:42Z"
@@ -8,11 +13,6 @@
         "source": "Poder360",
         "title": "Hugo Motta nomeia Derrite como relator do PL Antifacção - Poder360",
         "timestamp": "2025-11-07T22:51:06Z"
-    },
-    {
-        "source": "G1",
-        "title": "Casas destruídas e rodovias bloqueadas: ciclone causa estragos no RS - G1",
-        "timestamp": "2025-11-08T10:15:54Z"
     },
     {
         "source": "BBC",
