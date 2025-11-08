@@ -1,8 +1,18 @@
 [
     {
+        "source": "O Globo",
+        "title": "Tornado arrasa cidade no interior do Paraná; prefeito relata três mortes - O Globo",
+        "timestamp": "2025-11-08T00:52:07Z"
+    },
+    {
         "source": "BBC",
         "title": "Prisão de Bolsonaro: STF rejeita recurso e mantém condenação de ex-presidente; o que acontece agora? - BBC",
         "timestamp": "2025-11-07T22:00:22Z"
+    },
+    {
+        "source": "Metrópoles",
+        "title": "Derrite revela o que mudará no PL antifacções proposto por Lula - Metrópoles",
+        "timestamp": "2025-11-07T22:15:00Z"
     },
     {
         "source": "Poder360",
@@ -15,18 +25,8 @@
         "timestamp": "2025-11-07T23:25:17Z"
     },
     {
-        "source": "Jornal da Cidade Online",
-        "title": "O maior \"medo\" da esquerda acaba de acontecer na Câmara - Jornal da Cidade Online",
-        "timestamp": "2025-11-07T22:37:00Z"
-    },
-    {
         "source": "Correio Braziliense",
         "title": "Deputados do DF pedem exames médicos para todos os presos após polêmica com Bolsonaro - Correio Braziliense",
         "timestamp": "2025-11-07T20:50:00Z"
-    },
-    {
-        "source": "O Antagonista",
-        "title": "Crusoé: Noruega rasga dinheiro com o Brasil na COP30 - O Antagonista",
-        "timestamp": "2025-11-07T16:08:00Z"
     }
 ]
