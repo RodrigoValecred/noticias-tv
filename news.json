@@ -1,18 +1,23 @@
 [
     {
-        "source": "UOL Notícias",
-        "title": "Diretor da PF: 'Aprovar texto do PL de Derrite levaria a caos jurídico' - UOL Notícias",
-        "timestamp": "2025-11-11T16:23:58Z"
+        "source": "Folha de S.Paulo",
+        "title": "Derrite altera texto e diz que PF pode investigar facção em parceria ou com autorização de estados - Folha de S.Paulo",
+        "timestamp": "2025-11-11T03:09:00Z"
+    },
+    {
+        "source": "VEJA",
+        "title": "Mãe denuncia filho após reconhecê-lo em vídeo de assassinato no Rio - VEJA",
+        "timestamp": "2025-11-11T16:16:31Z"
+    },
+    {
+        "source": "Metrópoles",
+        "title": "Motta procura Gilmar em busca de apoio ao PL Antifacção - Metrópoles",
+        "timestamp": "2025-11-11T10:00:00Z"
     },
     {
         "source": "Gazeta do Povo",
         "title": "Alexandre de Moraes, o novo “delegado” do Rio de Janeiro - Gazeta do Povo",
         "timestamp": "2025-11-11T14:37:00Z"
-    },
-    {
-        "source": "Poder360",
-        "title": "PGR pede condenação de deputados do PL por corrupção - Poder360",
-        "timestamp": "2025-11-11T10:22:33Z"
     },
     {
         "source": "AEROIN",
@@ -23,10 +28,5 @@
         "source": "NSC Total",
         "title": "Lula critica gastos com guerras e pede urgência contra a crise climática na COP30 - NSC Total",
         "timestamp": "2025-11-10T18:21:00Z"
-    },
-    {
-        "source": "O Antagonista",
-        "title": "Senado dos EUA aprova acordo para encerrar shutdown - O Antagonista",
-        "timestamp": "2025-11-11T10:14:00Z"
     }
 ]
