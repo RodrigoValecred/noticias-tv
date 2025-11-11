@@ -5,6 +5,11 @@
         "timestamp": "2025-11-11T06:30:32Z"
     },
     {
+        "source": "O Antagonista",
+        "title": "Senado dos EUA aprova acordo para encerrar shutdown - O Antagonista",
+        "timestamp": "2025-11-11T10:14:00Z"
+    },
+    {
         "source": "NSC Total",
         "title": "Lula critica gastos com guerras e pede urgência contra a crise climática na COP30 - NSC Total",
         "timestamp": "2025-11-10T18:21:00Z"
@@ -15,18 +20,13 @@
         "timestamp": "2025-11-11T02:14:18Z"
     },
     {
-        "source": "MetSul Meteorologia",
-        "title": "Tornado no Paraná surgiu de fenômeno que gera piores tempestades da natureza - MetSul Meteorologia",
-        "timestamp": "2025-11-10T22:45:30Z"
-    },
-    {
-        "source": "O Antagonista",
-        "title": "Senado dos EUA aprova acordo para encerrar shutdown - O Antagonista",
-        "timestamp": "2025-11-11T10:14:00Z"
-    },
-    {
         "source": "Revista Oeste",
         "title": "STF: Toffoli suspende provas da Lava Jato contra ex-primeira-dama do Peru - Revista Oeste",
         "timestamp": "2025-11-11T10:07:21Z"
+    },
+    {
+        "source": "MetSul Meteorologia",
+        "title": "Tornado no Paraná surgiu de fenômeno que gera piores tempestades da natureza - MetSul Meteorologia",
+        "timestamp": "2025-11-10T22:45:30Z"
     }
 ]
