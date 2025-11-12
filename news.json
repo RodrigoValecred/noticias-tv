@@ -1,13 +1,8 @@
 [
     {
-        "source": "UOL Notícias",
-        "title": "Caminhão com vítima de sequestro bloqueia Rodoanel; há suspeita de bomba - UOL Notícias",
-        "timestamp": "2025-11-12T10:24:20Z"
-    },
-    {
-        "source": "Poder360",
-        "title": "Quaest confirma freio na melhora da aprovação de Lula - Poder360",
-        "timestamp": "2025-11-12T10:52:30Z"
+        "source": "Extra online",
+        "title": "Motorista é resgatado após ameaça de bomba em caminhão em SP - Extra online",
+        "timestamp": "2025-11-12T12:37:26Z"
     },
     {
         "source": "CNN Brasil",
@@ -15,18 +10,23 @@
         "timestamp": "2025-11-12T01:56:05Z"
     },
     {
+        "source": "Poder360",
+        "title": "Aprovação de Lula para de subir após 3 altas seguidas - Poder360",
+        "timestamp": "2025-11-11T22:02:19Z"
+    },
+    {
         "source": "CNN Brasil",
         "title": "Trump diz que tem a obrigação de processar a BBC após escândalo - CNN Brasil",
         "timestamp": "2025-11-12T09:19:30Z"
     },
     {
-        "source": "CartaCapital",
-        "title": "Nova pesquisa testa Lula, Tarcísio e Michelle para 2026; veja os resultados - CartaCapital",
-        "timestamp": "2025-11-11T19:34:00Z"
-    },
-    {
         "source": "BBC",
         "title": "'Não basta ter fuzil, é preciso postar': como ostentação do crime no Instagram e TikTok influencia ida de jovens para o tráfico - BBC",
         "timestamp": "2025-11-12T10:41:15Z"
+    },
+    {
+        "source": "CartaCapital",
+        "title": "COP30: Manifestantes tentam ocupar área da ONU e entram em confronto com seguranças - CartaCapital",
+        "timestamp": "2025-11-11T23:42:00Z"
     }
 ]
