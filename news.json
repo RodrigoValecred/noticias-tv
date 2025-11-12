@@ -1,8 +1,18 @@
 [
     {
+        "source": "G1",
+        "title": "CCJ do Senado aprova Paulo Gonet para novo ciclo à frente da PGR; plenário deve votar nesta quarta - G1",
+        "timestamp": "2025-11-12T18:09:48Z"
+    },
+    {
         "source": "CNN Brasil",
         "title": "Novo texto de Derrite veta auxílio a dependentes de presos; veja pontos - CNN Brasil",
         "timestamp": "2025-11-12T11:28:51Z"
+    },
+    {
+        "source": "Poder360",
+        "title": "Flávio chama COP30 de \"vergonha” após vazamento em estrutura - Poder360",
+        "timestamp": "2025-11-12T15:44:43Z"
     },
     {
         "source": "Correio Braziliense",
@@ -10,23 +20,13 @@
         "timestamp": "2025-11-12T16:32:00Z"
     },
     {
-        "source": "Metrópoles",
-        "title": "Artefato em caminhão sequestrado no Rodoanel era simulacro de bomba - Metrópoles",
-        "timestamp": "2025-11-12T13:39:00Z"
-    },
-    {
-        "source": "Poder360",
-        "title": "Flávio chama COP30 de \"vergonha” após vazamento em estrutura - Poder360",
-        "timestamp": "2025-11-12T15:44:47Z"
-    },
-    {
         "source": "CartaCapital",
         "title": "Quaest mostra oscilação negativa na aprovação de Lula após operação no Rio; veja os resultados - CartaCapital",
         "timestamp": "2025-11-12T11:05:00Z"
     },
     {
-        "source": "G1",
-        "title": "CCJ do Senado aprova Paulo Gonet para novo ciclo à frente da PGR; plenário deve votar nesta quarta - G1",
-        "timestamp": "2025-11-12T18:09:48Z"
+        "source": "Metrópoles",
+        "title": "Artefato em caminhão sequestrado no Rodoanel era simulacro de bomba - Metrópoles",
+        "timestamp": "2025-11-12T13:39:00Z"
     }
 ]
