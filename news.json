@@ -1,8 +1,13 @@
 [
     {
-        "source": "G1",
-        "title": "Senado aprova Paulo Gonet para mais dois anos à frente da Procuradoria-Geral da República - G1",
-        "timestamp": "2025-11-12T21:23:33Z"
+        "source": "O Globo",
+        "title": "Derrite apresenta quarta versão do projeto Antifacção, Planalto não vê consenso e votação é adiada - O Globo",
+        "timestamp": "2025-11-12T22:46:39Z"
+    },
+    {
+        "source": "Senado Federal",
+        "title": "Por 45 votos a 26, Senado aprova recondução de Gonet na PGR — Senado Notícias - Senado Federal",
+        "timestamp": "2025-11-12T22:04:25Z"
     },
     {
         "source": "O Globo",
@@ -10,23 +15,18 @@
         "timestamp": "2025-11-12T18:39:07Z"
     },
     {
-        "source": "Poder360",
-        "title": "Quaest confirma freio na melhora da aprovação de Lula - Poder360",
-        "timestamp": "2025-11-12T13:23:52Z"
+        "source": "CartaCapital",
+        "title": "Quaest mostra oscilação negativa na aprovação de Lula após operação no Rio; veja os resultados - CartaCapital",
+        "timestamp": "2025-11-12T11:05:00Z"
+    },
+    {
+        "source": "Metrópoles",
+        "title": "Sequestro no Rodoanel: motorista levou explosivos ao Peru, diz polícia - Metrópoles",
+        "timestamp": "2025-11-12T21:06:00Z"
     },
     {
         "source": "CNN Brasil",
-        "title": "Falsa bomba no Rodoanel: empresa defende motorista e diz que ele fez certo - CNN Brasil",
-        "timestamp": "2025-11-12T20:00:10Z"
-    },
-    {
-        "source": "O Globo",
-        "title": "Voo com chefes do Comando Vermelho rumo a presídio federal vira o mais monitorado do mundo - O Globo",
-        "timestamp": "2025-11-12T16:27:23Z"
-    },
-    {
-        "source": "G1",
-        "title": "Senado aprova projeto que proíbe descontos nos benefícios pagos pelo INSS - G1",
-        "timestamp": "2025-11-12T21:37:59Z"
+        "title": "Após megaoperação, chefes do CV são transferidos para presídios federais - CNN Brasil",
+        "timestamp": "2025-11-12T14:28:00Z"
     }
 ]
