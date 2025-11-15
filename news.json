@@ -1,18 +1,23 @@
 [
     {
-        "source": "BBC",
-        "title": "Trump suspende tarifas de café, carne, banana, açaí e outros produtos agrícolas - BBC",
-        "timestamp": "2025-11-15T01:14:16Z"
+        "source": "Poder360",
+        "title": "Café ainda está sem competitividade nos EUA, diz Alckmin - Poder360",
+        "timestamp": "2025-11-15T19:30:00Z"
     },
     {
-        "source": "Poder360",
-        "title": "Por unanimidade, STF torna Eduardo Bolsonaro réu - Poder360",
-        "timestamp": "2025-11-15T14:44:42Z"
+        "source": "Correio Braziliense",
+        "title": "Eduardo Bolsonaro é réu por unanimidade, decide STF - Correio Braziliense",
+        "timestamp": "2025-11-15T19:29:00Z"
     },
     {
         "source": "Metrópoles",
         "title": "Inmet: novo alerta vermelho prevê ventos acima de 100 km/h e temporais - Metrópoles",
         "timestamp": "2025-11-15T19:06:33Z"
+    },
+    {
+        "source": "Diário do Centro do Mundo",
+        "title": "VÍDEO: Greta Thunberg chega a Belém para a Cúpula dos Povos durante a COP 30 - Diário do Centro do Mundo",
+        "timestamp": "2025-11-15T12:22:00Z"
     },
     {
         "source": "MetSul Meteorologia",
@@ -23,10 +28,5 @@
         "source": "CNN Brasil",
         "title": "Eleições no Chile: Conheça os candidatos à Presidência - CNN Brasil",
         "timestamp": "2025-11-15T09:00:55Z"
-    },
-    {
-        "source": "Diário do Centro do Mundo",
-        "title": "VÍDEO: Greta Thunberg chega a Belém para a Cúpula dos Povos durante a COP 30 - Diário do Centro do Mundo",
-        "timestamp": "2025-11-15T12:22:00Z"
     }
 ]
