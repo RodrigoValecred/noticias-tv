@@ -15,11 +15,6 @@
         "timestamp": "2025-11-15T19:06:00Z"
     },
     {
-        "source": "Revista Oeste",
-        "title": "México registra manifestação da 'geração Z' diante de palácio presidencial - Revista Oeste",
-        "timestamp": "2025-11-15T22:11:04Z"
-    },
-    {
         "source": "Correio Braziliense",
         "title": "Eduardo Bolsonaro é réu por unanimidade, decide STF - Correio Braziliense",
         "timestamp": "2025-11-15T19:29:00Z"
@@ -28,5 +23,10 @@
         "source": "O Globo",
         "title": "PM é absolvido pela morte do campeão mundial de jiu-jítsu Leandro Lo após três dias de julgamento em SP - O Globo",
         "timestamp": "2025-11-15T10:23:04Z"
+    },
+    {
+        "source": "Poder360",
+        "title": "Chile vai às urnas sem saber quem é o favorito para presidente - Poder360",
+        "timestamp": "2025-11-15T19:07:30Z"
     }
 ]
