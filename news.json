@@ -1,10 +1,5 @@
 [
     {
-        "source": "UOL Educação",
-        "title": "Enem 2025: Segundo dia de prova ocorre hoje em todo país - UOL Educação",
-        "timestamp": "2025-11-16T13:30:00Z"
-    },
-    {
         "source": "CNN Brasil",
         "title": "Chile vai às urnas hoje para eleger presidente: O que você precisa saber - CNN Brasil",
         "timestamp": "2025-11-16T07:26:22Z"
@@ -23,6 +18,11 @@
         "source": "Correio Braziliense",
         "title": "Marcha contra petróleo leva multidão às ruas de Belém - Correio Braziliense",
         "timestamp": "2025-11-16T06:55:00Z"
+    },
+    {
+        "source": "CNN Brasil",
+        "title": "Maduro acusa EUA de travar \"guerra silenciosa\" contra Venezuela - CNN Brasil",
+        "timestamp": "2025-11-16T01:31:00Z"
     },
     {
         "source": "Folha de S.Paulo",
