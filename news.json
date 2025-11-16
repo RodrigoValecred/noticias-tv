@@ -1,18 +1,8 @@
 [
     {
-        "source": "LANCE!",
-        "title": "Cena envolvendo Neymar em Santos x Palmeiras chama atenção - LANCE!",
-        "timestamp": "2025-11-16T00:54:53Z"
-    },
-    {
         "source": "Poder360",
         "title": "Decisão de Trump amplia exportações com tarifa zero, diz Alckmin - Poder360",
         "timestamp": "2025-11-15T18:11:03Z"
-    },
-    {
-        "source": "Correio Braziliense",
-        "title": "Eduardo Bolsonaro é réu por unanimidade, decide STF - Correio Braziliense",
-        "timestamp": "2025-11-15T19:29:00Z"
     },
     {
         "source": "G1",
@@ -20,13 +10,23 @@
         "timestamp": "2025-11-15T18:59:49Z"
     },
     {
+        "source": "Revista Oeste",
+        "title": "México registra manifestação da 'geração Z' diante de palácio presidencial - Revista Oeste",
+        "timestamp": "2025-11-15T22:11:04Z"
+    },
+    {
         "source": "CNN Brasil",
         "title": "\"Enterrei ele pela 2ª vez\", diz mãe de Leandro Lo após juri absolver PM - CNN Brasil",
         "timestamp": "2025-11-15T21:42:23Z"
     },
     {
-        "source": "Revista Oeste",
-        "title": "México registra manifestação da 'geração Z' diante de palácio presidencial - Revista Oeste",
-        "timestamp": "2025-11-15T22:11:04Z"
+        "source": "Correio Braziliense",
+        "title": "Eduardo Bolsonaro é réu por unanimidade, decide STF - Correio Braziliense",
+        "timestamp": "2025-11-15T19:29:00Z"
+    },
+    {
+        "source": "Poder360",
+        "title": "Chile vai às urnas sem saber quem é o favorito para presidente - Poder360",
+        "timestamp": "2025-11-15T19:07:30Z"
     }
 ]
