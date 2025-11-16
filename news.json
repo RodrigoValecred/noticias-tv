@@ -1,8 +1,23 @@
 [
     {
+        "source": "UOL Educação",
+        "title": "Enem 2025: Segundo dia de prova ocorre hoje em todo país - UOL Educação",
+        "timestamp": "2025-11-16T13:30:00Z"
+    },
+    {
+        "source": "CNN Brasil",
+        "title": "Chile vai às urnas hoje para eleger presidente: O que você precisa saber - CNN Brasil",
+        "timestamp": "2025-11-16T07:26:22Z"
+    },
+    {
         "source": "Poder360",
         "title": "Decisão de Trump amplia exportações com tarifa zero, diz Alckmin - Poder360",
         "timestamp": "2025-11-15T18:11:03Z"
+    },
+    {
+        "source": "Metrópoles",
+        "title": "Inmet: novo alerta vermelho prevê ventos acima de 100 km/h e temporais - Metrópoles",
+        "timestamp": "2025-11-16T14:57:00Z"
     },
     {
         "source": "Correio Braziliense",
@@ -13,20 +28,5 @@
         "source": "Folha de S.Paulo",
         "title": "Derrite contra a Polícia Federal - Folha de S.Paulo",
         "timestamp": "2025-11-16T02:00:00Z"
-    },
-    {
-        "source": "CNN Brasil",
-        "title": "Maduro acusa EUA de travar \"guerra silenciosa\" contra Venezuela - CNN Brasil",
-        "timestamp": "2025-11-16T01:31:00Z"
-    },
-    {
-        "source": "Metrópoles",
-        "title": "Inmet: novo alerta vermelho prevê ventos acima de 100 km/h e temporais - Metrópoles",
-        "timestamp": "2025-11-15T19:06:00Z"
-    },
-    {
-        "source": "Poder360",
-        "title": "Chile vai às urnas sem saber quem é o favorito para presidente - Poder360",
-        "timestamp": "2025-11-15T19:07:30Z"
     }
 ]
