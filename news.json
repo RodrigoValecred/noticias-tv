@@ -1,8 +1,8 @@
 [
     {
-        "source": "G1",
-        "title": "2º dia do Enem 2025 tem nível médio de dificuldade: matemática aposta em enunciados longos e física surpreende com logaritmo - G1",
-        "timestamp": "2025-11-16T19:46:49Z"
+        "source": "O Globo",
+        "title": "Gabarito Enem 2025 prova cinza 2º dia: veja correção extraoficial - O Globo",
+        "timestamp": "2025-11-16T21:29:43Z"
     },
     {
         "source": "CNN Brasil",
@@ -15,11 +15,6 @@
         "timestamp": "2025-11-16T17:57:58Z"
     },
     {
-        "source": "Poder360",
-        "title": "Maduro canta “Imagine”, de Lennon, e pede paz em meio a tensão com EUA - Poder360",
-        "timestamp": "2025-11-16T14:40:34Z"
-    },
-    {
         "source": "Folha de S.Paulo",
         "title": "Gestão Tarcísio é a que menos aderiu a programas do governo Lula na Segurança Pública - Folha de S.Paulo",
         "timestamp": "2025-11-16T13:00:00Z"
@@ -28,5 +23,10 @@
         "source": "Canal Rural",
         "title": "Inmet emite alerta de perigo para tempestades em várias áreas do país no início da semana; confira - Canal Rural",
         "timestamp": "2025-11-16T20:12:06Z"
+    },
+    {
+        "source": "Poder360",
+        "title": "Maduro canta “Imagine”, de Lennon, e pede paz em meio a tensão com EUA - Poder360",
+        "timestamp": "2025-11-16T14:40:34Z"
     }
 ]
