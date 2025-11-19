@@ -1,13 +1,18 @@
 [
     {
-        "source": "Estadão",
-        "title": "Câmara aprova PL Antifacção de Derrite, sem incluir terrorismo e após governo tentar adiar votação - Estadão",
-        "timestamp": "2025-11-19T00:26:00Z"
+        "source": "Folha de S.Paulo",
+        "title": "Alcolumbre anuncia Alessandro Vieira como relator de PL Antifacção e diz que negou posto a bolsonaristas - Folha de S.Paulo",
+        "timestamp": "2025-11-18T22:58:00Z"
     },
     {
         "source": "CartaCapital",
         "title": "Pacheco diz a Lula que encerrará carreira política em 2026 e PT busca 'plano B' para disputa em Minas - CartaCapital",
         "timestamp": "2025-11-18T20:16:00Z"
+    },
+    {
+        "source": "CNN Brasil",
+        "title": "Polícia prende homem apontado como \"mentor de barricadas\" do CV no Rio - CNN Brasil",
+        "timestamp": "2025-11-18T11:50:25Z"
     },
     {
         "source": "Correio Braziliense",
@@ -20,13 +25,8 @@
         "timestamp": "2025-11-18T15:02:45Z"
     },
     {
-        "source": "CNN Brasil",
-        "title": "Moraes vota para condenar nove dos dez réus do núcleo 3 da trama golpista - CNN Brasil",
-        "timestamp": "2025-11-18T15:14:28Z"
-    },
-    {
-        "source": "Poder360",
-        "title": "Dono do Banco Master vai cooperar com as autoridades, diz defesa - Poder360",
-        "timestamp": "2025-11-18T23:25:13Z"
+        "source": "G1",
+        "title": "Trama golpista: por unanimidade, 1ª Turma do STF condena grupo responsável por plano para matar autoridades; veja penas - G1",
+        "timestamp": "2025-11-18T18:27:22Z"
     }
 ]
