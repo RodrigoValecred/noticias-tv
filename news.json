@@ -1,23 +1,13 @@
 [
     {
+        "source": "CNN Brasil",
+        "title": "Motorista confessa em depoimento que mentiu sobre sequestro no Rodoanel - CNN Brasil",
+        "timestamp": "2025-11-19T21:32:20Z"
+    },
+    {
         "source": "CartaCapital",
         "title": "Motta ecoa discurso bolsonarista e tenta emparedar Lula após o PL Antifacção - CartaCapital",
         "timestamp": "2025-11-19T17:43:00Z"
-    },
-    {
-        "source": "CNN Brasil",
-        "title": "Chanceler alemão quer ter uma \"boa conversa\" com Lula após fala sobre Belém - CNN Brasil",
-        "timestamp": "2025-11-19T17:37:33Z"
-    },
-    {
-        "source": "UOL Notícias",
-        "title": "Diretora de escola alvo de PM por orixá em aula pede licença médica - UOL Notícias",
-        "timestamp": "2025-11-19T16:55:13Z"
-    },
-    {
-        "source": "Estado de Minas",
-        "title": "Aula frustrada no Mineirão: veja momento em que estudantes trocam socos - Estado de Minas",
-        "timestamp": "2025-11-19T19:24:00Z"
     },
     {
         "source": "Correio Braziliense",
@@ -25,8 +15,18 @@
         "timestamp": "2025-11-19T14:42:00Z"
     },
     {
-        "source": "CartaCapital",
-        "title": "O que se sabe sobre a briga envolvendo Renato Freitas no centro de Curitiba - CartaCapital",
-        "timestamp": "2025-11-19T18:32:00Z"
+        "source": "Valor Econômico",
+        "title": "Premiê alemão não pedirá desculpas por declaração sobre Belém - Valor Econômico",
+        "timestamp": "2025-11-19T13:47:03Z"
+    },
+    {
+        "source": "Revista Oeste",
+        "title": "Maduro treina soldados para atirarem flechas envenenadas contra os EUA - Revista Oeste",
+        "timestamp": "2025-11-19T13:32:05Z"
+    },
+    {
+        "source": "Estado de Minas",
+        "title": "Sem Pacheco, como fica o xadrez político para o governo de Minas? - Estado de Minas",
+        "timestamp": "2025-11-19T17:44:00Z"
     }
 ]
