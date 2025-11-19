@@ -15,11 +15,6 @@
         "timestamp": "2025-11-18T16:51:24Z"
     },
     {
-        "source": "O Dia",
-        "title": "Vídeo: PM de folga é morto a tiros em Campo Grande - O Dia",
-        "timestamp": "2025-11-18T19:22:00Z"
-    },
-    {
         "source": "UOL Notícias",
         "title": "Suspeita de mandar matar mulher em frente ao filho é presa no Rio - UOL Notícias",
         "timestamp": "2025-11-17T22:33:20Z"
@@ -28,5 +23,10 @@
         "source": "Poder360",
         "title": "Lula rebate Merz: \"Berlim não oferece 10% da qualidade de Belém\" - Poder360",
         "timestamp": "2025-11-18T18:35:28Z"
+    },
+    {
+        "source": "Correio Braziliense",
+        "title": "MEC aciona PF e anula três questões do segundo dia do Enem - Correio Braziliense",
+        "timestamp": "2025-11-18T19:20:00Z"
     }
 ]
