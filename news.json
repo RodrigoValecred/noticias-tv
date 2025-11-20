@@ -1,8 +1,23 @@
 [
     {
+        "source": "Poder360",
+        "title": "Câmara diz não ter sido avisada de viagem de Ramagem aos EUA - Poder360",
+        "timestamp": "2025-11-20T12:45:13Z"
+    },
+    {
+        "source": "Poder360",
+        "title": "Lei obriga que Bolsonaro cumpra pena em quartel militar - Poder360",
+        "timestamp": "2025-11-20T09:11:03Z"
+    },
+    {
         "source": "CNN Brasil",
         "title": "Segurança une Centrão e direita no Congresso, que aumenta tensões com Lula - CNN Brasil",
         "timestamp": "2025-11-20T07:00:39Z"
+    },
+    {
+        "source": "Revista Oeste",
+        "title": "Motorista confessa ter forjado sequestro e bomba falsa que causaram bloqueio no Rodoanel - Revista Oeste",
+        "timestamp": "2025-11-20T09:19:00Z"
     },
     {
         "source": "CartaCapital",
@@ -13,20 +28,5 @@
         "source": "O Globo",
         "title": "'Fora da realidade do planeta': cientistas fazem dura crítica às negociações da COP30 - O Globo",
         "timestamp": "2025-11-19T17:40:58Z"
-    },
-    {
-        "source": "Estado de Minas",
-        "title": "Sem Pacheco, como fica o xadrez político para o governo de Minas? - Estado de Minas",
-        "timestamp": "2025-11-19T17:44:00Z"
-    },
-    {
-        "source": "Poder360",
-        "title": "Lei obriga que Bolsonaro cumpra pena em quartel militar - Poder360",
-        "timestamp": "2025-11-20T09:11:03Z"
-    },
-    {
-        "source": "Canal Rural",
-        "title": "Frente fria persiste em duas regiões neste feriado; confira a previsão - Canal Rural",
-        "timestamp": "2025-11-20T08:02:00Z"
     }
 ]
