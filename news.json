@@ -1,8 +1,23 @@
 [
     {
+        "source": "UOL",
+        "title": "Flu aproveita falha de Rossi, bate Flamengo e alivia Palmeiras após empate - UOL",
+        "timestamp": "2025-11-20T02:42:37Z"
+    },
+    {
         "source": "Capital Reset",
         "title": "Pix da gafe? Alemanha anuncia aporte de 1 bi de euros no TFFF - Capital Reset",
         "timestamp": "2025-11-19T22:36:45Z"
+    },
+    {
+        "source": "O Globo",
+        "title": "'Fora da realidade do planeta': cientistas fazem dura crítica às negociações da COP30 - O Globo",
+        "timestamp": "2025-11-19T17:40:58Z"
+    },
+    {
+        "source": "R7",
+        "title": "Trecho de carro, voo comum e truque com passaporte: fuga de Ramagem para Miami foi cena de filme - R7",
+        "timestamp": "2025-11-19T23:33:58Z"
     },
     {
         "source": "CartaCapital",
@@ -13,20 +28,5 @@
         "source": "Metrópoles",
         "title": "Governo Lula bate o martelo sobre ponto facultativo na sexta (21/11) - Metrópoles",
         "timestamp": "2025-11-19T18:36:00Z"
-    },
-    {
-        "source": "CNN Brasil",
-        "title": "Chanceler alemão quer ter uma \"boa conversa\" com Lula após fala sobre Belém - CNN Brasil",
-        "timestamp": "2025-11-19T17:37:33Z"
-    },
-    {
-        "source": "Revista Oeste",
-        "title": "Casa Branca rejeita proposta de Maduro de deixar o poder em até 3 anos, diz NYT - Revista Oeste",
-        "timestamp": "2025-11-19T19:24:45Z"
-    },
-    {
-        "source": "CartaCapital",
-        "title": "O que se sabe sobre a briga envolvendo Renato Freitas no centro de Curitiba - CartaCapital",
-        "timestamp": "2025-11-19T18:32:00Z"
     }
 ]
