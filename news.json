@@ -5,11 +5,6 @@
         "timestamp": "2025-11-21T01:31:03Z"
     },
     {
-        "source": "UOL",
-        "title": "Brasil retira combustíveis fósseis do texto e COP30 chega a impasse - UOL",
-        "timestamp": "2025-11-21T13:24:24Z"
-    },
-    {
         "source": "BBC",
         "title": "Trump suspende tarifas de 40% sobre café, carne, frutas e outros produtos agrícolas do Brasil - BBC",
         "timestamp": "2025-11-21T07:27:32Z"
@@ -20,13 +15,18 @@
         "timestamp": "2025-11-20T19:33:25Z"
     },
     {
-        "source": "CNN Brasil",
-        "title": "Carlos diz que Bolsonaro soluça dormindo: \"Jamais o vi como está\" - CNN Brasil",
-        "timestamp": "2025-11-21T11:23:56Z"
-    },
-    {
         "source": "Poder360",
         "title": "Haddad diz que país precisa de tempo para recuperar o que foi destruído - Poder360",
         "timestamp": "2025-11-21T00:34:28Z"
+    },
+    {
+        "source": "CNN Brasil",
+        "title": "Nos EUA, Ramagem reduziu gastos de gabinete e manteve rotina parlamentar - CNN Brasil",
+        "timestamp": "2025-11-20T16:10:21Z"
+    },
+    {
+        "source": "CartaCapital",
+        "title": "Os principais pontos do PL Antifacção que o governo quer alterar no Senado - CartaCapital",
+        "timestamp": "2025-11-20T12:01:00Z"
     }
 ]
