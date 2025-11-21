@@ -1,18 +1,8 @@
 [
     {
-        "source": "UOL",
-        "title": "COP30 tem impasse após texto abandonar menção aos combustíveis fósseis - UOL",
-        "timestamp": "2025-11-21T12:33:57Z"
-    },
-    {
-        "source": "BBC",
-        "title": "Trump suspende tarifas de 40% sobre café, carne, frutas e outros produtos agrícolas do Brasil - BBC",
-        "timestamp": "2025-11-21T07:27:32Z"
-    },
-    {
-        "source": "Poder360",
-        "title": "Alcolumbre leva a plenário aposentadoria especial para agentes de saúde - Poder360",
-        "timestamp": "2025-11-21T01:31:03Z"
+        "source": "NSC Total",
+        "title": "Eduardo Bolsonaro fala sobre retirada de tarifa contra Brasil e alfineta Moraes: \"Crise\" - NSC Total",
+        "timestamp": "2025-11-21T14:29:58Z"
     },
     {
         "source": "Poder360",
@@ -20,13 +10,23 @@
         "timestamp": "2025-11-21T13:27:29Z"
     },
     {
+        "source": "CNN Brasil",
+        "title": "Após notícia sobre Ramagem nos EUA, PSOL pede prisão de quatro condenados - CNN Brasil",
+        "timestamp": "2025-11-21T01:32:35Z"
+    },
+    {
+        "source": "Correio Braziliense",
+        "title": "Bolsonaro será preso na semana que vem, diz colunista - Correio Braziliense",
+        "timestamp": "2025-11-21T11:39:00Z"
+    },
+    {
+        "source": "Estadão",
+        "title": "Alcolumbre pauta projeto com custo bilionário 2 horas após Lula frustrá-lo e indicar Messias ao STF - Estadão",
+        "timestamp": "2025-11-20T21:25:03Z"
+    },
+    {
         "source": "Metrópoles",
         "title": "PL Antifacção: relator garantirá verba da PF e acata pedido de Derrite - Metrópoles",
         "timestamp": "2025-11-21T05:00:00Z"
-    },
-    {
-        "source": "Poder360",
-        "title": "Haddad diz que país precisa de tempo para recuperar o que foi destruído - Poder360",
-        "timestamp": "2025-11-21T00:34:28Z"
     }
 ]
