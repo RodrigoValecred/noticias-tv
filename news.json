@@ -1,8 +1,18 @@
 [
     {
+        "source": "UOL",
+        "title": "Brasil retira combustíveis fósseis do texto e COP30 chega a impasse - UOL",
+        "timestamp": "2025-11-21T15:59:35Z"
+    },
+    {
         "source": "NSC Total",
         "title": "Eduardo Bolsonaro fala sobre retirada de tarifa contra Brasil e alfineta Moraes: \"Crise\" - NSC Total",
         "timestamp": "2025-11-21T14:29:58Z"
+    },
+    {
+        "source": "CNN Brasil",
+        "title": "Nos EUA, Ramagem reduziu gastos de gabinete e manteve rotina parlamentar - CNN Brasil",
+        "timestamp": "2025-11-20T16:10:21Z"
     },
     {
         "source": "Poder360",
@@ -10,23 +20,13 @@
         "timestamp": "2025-11-21T13:27:29Z"
     },
     {
-        "source": "CNN Brasil",
-        "title": "Após notícia sobre Ramagem nos EUA, PSOL pede prisão de quatro condenados - CNN Brasil",
-        "timestamp": "2025-11-21T01:32:35Z"
-    },
-    {
         "source": "Correio Braziliense",
         "title": "Bolsonaro será preso na semana que vem, diz colunista - Correio Braziliense",
         "timestamp": "2025-11-21T11:39:00Z"
     },
     {
-        "source": "Estadão",
-        "title": "Alcolumbre pauta projeto com custo bilionário 2 horas após Lula frustrá-lo e indicar Messias ao STF - Estadão",
-        "timestamp": "2025-11-20T21:25:03Z"
-    },
-    {
-        "source": "Metrópoles",
-        "title": "PL Antifacção: relator garantirá verba da PF e acata pedido de Derrite - Metrópoles",
-        "timestamp": "2025-11-21T05:00:00Z"
+        "source": "Gazeta do Povo",
+        "title": "Brasil não merece Messias por 30 anos no STF! - Gazeta do Povo",
+        "timestamp": "2025-11-21T14:18:00Z"
     }
 ]
