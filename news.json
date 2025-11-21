@@ -5,14 +5,14 @@
         "timestamp": "2025-11-21T01:18:45Z"
     },
     {
-        "source": "Poder360",
-        "title": "Imprensa internacional noticia incêndio na COP30 - Poder360",
-        "timestamp": "2025-11-20T22:51:01Z"
-    },
-    {
         "source": "CNN Brasil",
         "title": "Waack: Lula nomeia Messias e reforça papel político do Supremo - CNN Brasil",
         "timestamp": "2025-11-21T01:03:54Z"
+    },
+    {
+        "source": "Poder360",
+        "title": "Imprensa internacional noticia incêndio na COP30 - Poder360",
+        "timestamp": "2025-11-20T22:51:01Z"
     },
     {
         "source": "CartaCapital",
@@ -20,13 +20,13 @@
         "timestamp": "2025-11-20T12:01:00Z"
     },
     {
-        "source": "Revista Oeste",
-        "title": "Psol pede prisão imediata de Ramagem por suposto risco de fuga - Revista Oeste",
-        "timestamp": "2025-11-20T11:22:34Z"
-    },
-    {
         "source": "Metrópoles",
         "title": "Quem era Gigante do Grau, influenciador morto a tiros em São Paulo - Metrópoles",
         "timestamp": "2025-11-20T19:05:49Z"
+    },
+    {
+        "source": "Revista Oeste",
+        "title": "Psol pede prisão imediata de Ramagem por suposto risco de fuga - Revista Oeste",
+        "timestamp": "2025-11-20T11:22:34Z"
     }
 ]
