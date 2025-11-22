@@ -1,18 +1,8 @@
 [
     {
-        "source": "BBC",
-        "title": "Bolsonaro é preso por risco de fuga após violação de tornozeleira e Flávio convocar vigília: o que acontece agora? - BBC",
-        "timestamp": "2025-11-22T14:26:15Z"
-    },
-    {
-        "source": "CartaCapital",
-        "title": "As chances dos EUA colaborarem em uma possível extradição de Ramagem, segundo jurista - CartaCapital",
-        "timestamp": "2025-11-22T13:45:00Z"
-    },
-    {
-        "source": "Clube Atlético Mineiro",
-        "title": "Lanús x Atlético: final da Copa Sudamericana! - Clube Atlético Mineiro",
-        "timestamp": "2025-11-22T10:00:00Z"
+        "source": "CNN Brasil",
+        "title": "Jair Bolsonaro: Imprensa mundial repercute prisão do ex-presidente - CNN Brasil",
+        "timestamp": "2025-11-22T16:57:29Z"
     },
     {
         "source": "CNN Brasil",
@@ -28,5 +18,15 @@
         "source": "Estadão",
         "title": "Ex-aliada de Trump anuncia renúncia devido a divergências sobre o caso Epstein - Estadão",
         "timestamp": "2025-11-22T03:04:27Z"
+    },
+    {
+        "source": "O Globo",
+        "title": "Análise: Após caso Epstein, republicanos começam a planejar futuro político pós-Trump nos EUA - O Globo",
+        "timestamp": "2025-11-22T03:00:59Z"
+    },
+    {
+        "source": "UOL",
+        "title": "Salão do Automóvel 2025 abre as portas: veja ingressos, horários e atrações - UOL",
+        "timestamp": "2025-11-22T13:30:00Z"
     }
 ]
