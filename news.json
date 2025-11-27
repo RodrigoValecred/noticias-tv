@@ -10,11 +10,6 @@
         "timestamp": "2025-11-27T09:40:22Z"
     },
     {
-        "source": "O Globo",
-        "title": "Fora do país, Ramagem apresentou à Câmara notas em postos de gasolina no Rio no mesmo horário de votações - O Globo",
-        "timestamp": "2025-11-27T06:30:34Z"
-    },
-    {
         "source": "Poder360",
         "title": "Governo minimiza atrito com Alcolumbre e busca apoio a vetos - Poder360",
         "timestamp": "2025-11-27T00:34:31Z"
@@ -28,5 +23,10 @@
         "source": "GOV.BR",
         "title": "PF deflagra Operação Slim em São Paulo — Polícia Federal - GOV.BR",
         "timestamp": "2025-11-27T10:40:00Z"
+    },
+    {
+        "source": "Revista Oeste",
+        "title": "Jurista explica por que cumprimento de pena agora por Bolsonaro e outros condenados é ilegal - Revista Oeste",
+        "timestamp": "2025-11-26T12:36:33Z"
     }
 ]
