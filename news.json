@@ -5,16 +5,6 @@
         "timestamp": "2025-11-28T12:23:00Z"
     },
     {
-        "source": "Correio Braziliense",
-        "title": "Moraes vota pela condenação de cinco, dos sete réus da cúpula da PMDF - Correio Braziliense",
-        "timestamp": "2025-11-28T14:58:00Z"
-    },
-    {
-        "source": "Poder360",
-        "title": "Governo avalia ir ao STF contra derrubada de vetos ao licenciamento - Poder360",
-        "timestamp": "2025-11-27T22:49:54Z"
-    },
-    {
         "source": "O Globo",
         "title": "Corregedoria da PM prende cinco policiais suspeitos de crimes durante megaoperação que deixou 122 mortos - O Globo",
         "timestamp": "2025-11-28T12:55:37Z"
@@ -25,8 +15,18 @@
         "timestamp": "2025-11-28T00:33:00Z"
     },
     {
+        "source": "CartaCapital",
+        "title": "Messias receberá parecer favorável na CCJ do Senado, indica relator - CartaCapital",
+        "timestamp": "2025-11-28T14:24:00Z"
+    },
+    {
         "source": "ICL Notícias",
         "title": "Operação contra Grupo Fit apreende R$ 2 milhões em espécie e pacotes de esmeraldas - ICL Notícias",
         "timestamp": "2025-11-28T09:10:35Z"
+    },
+    {
+        "source": "Poder360",
+        "title": "EUA preparam ofensiva por terra contra tráfico venezuelano - Poder360",
+        "timestamp": "2025-11-28T11:06:37Z"
     }
 ]
