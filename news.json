@@ -1,8 +1,18 @@
 [
     {
+        "source": "UOL",
+        "title": "São Paulo terá dois jogadores a menos no banco contra o Fluminense - UOL",
+        "timestamp": "2025-11-27T22:37:55Z"
+    },
+    {
+        "source": "Metrópoles",
+        "title": "Casamento de Ivete Sangalo e Daniel Cady chega ao fim - Metrópoles",
+        "timestamp": "2025-11-27T22:40:00Z"
+    },
+    {
         "source": "Poder360",
-        "title": "Congresso derruba 52 dos 63 vetos de Lula no licenciamento ambiental - Poder360",
-        "timestamp": "2025-11-27T20:26:15Z"
+        "title": "Governo avalia ir ao STF contra derrubada de vetos ao licenciamento - Poder360",
+        "timestamp": "2025-11-27T22:49:54Z"
     },
     {
         "source": "CNN Brasil",
@@ -10,23 +20,13 @@
         "timestamp": "2025-11-27T19:26:30Z"
     },
     {
-        "source": "G1",
-        "title": "Congresso Nacional derruba vetos ao Propag, que pode reduzir déficit do RJ em R$ 8 bilhões - G1",
-        "timestamp": "2025-11-27T15:42:01Z"
+        "source": "Estado de Minas",
+        "title": "PL suspende salário e atividades partidárias de Jair Bolsonaro - Estado de Minas",
+        "timestamp": "2025-11-27T20:45:00Z"
     },
     {
-        "source": "Estadão",
-        "title": "Devedor contumaz: veja quais são os partidos mais resistentes ao projeto para punir sonegadores - Estadão",
-        "timestamp": "2025-11-27T15:43:03Z"
-    },
-    {
-        "source": "CartaCapital",
-        "title": "Messias contrata assessor que ajudou Zanin a ‘destravar’ votos no Senado - CartaCapital",
-        "timestamp": "2025-11-27T13:28:00Z"
-    },
-    {
-        "source": "Correio Braziliense",
-        "title": "Michelle Bolsonaro critica tempo de visita a Bolsonaro na PF - Correio Braziliense",
-        "timestamp": "2025-11-27T18:18:00Z"
+        "source": "CNN Brasil",
+        "title": "Filhos dizem que Bolsonaro estaria em crise e médicos foram acionados - CNN Brasil",
+        "timestamp": "2025-11-27T20:48:23Z"
     }
 ]
