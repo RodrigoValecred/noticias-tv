@@ -1,8 +1,18 @@
 [
     {
+        "source": "Jornal da Cidade Online",
+        "title": "Com surpreendente parecer da PGR, General Heleno deve deixar a prisão - Jornal da Cidade Online",
+        "timestamp": "2025-11-28T12:23:00Z"
+    },
+    {
+        "source": "Correio Braziliense",
+        "title": "Moraes vota pela condenação de cinco, dos sete réus da cúpula da PMDF - Correio Braziliense",
+        "timestamp": "2025-11-28T14:58:00Z"
+    },
+    {
         "source": "Poder360",
-        "title": "Defesa de Augusto Heleno pediu sigilo em laudo de Alzheimer - Poder360",
-        "timestamp": "2025-11-27T23:25:40Z"
+        "title": "Governo avalia ir ao STF contra derrubada de vetos ao licenciamento - Poder360",
+        "timestamp": "2025-11-27T22:49:54Z"
     },
     {
         "source": "O Globo",
@@ -15,18 +25,8 @@
         "timestamp": "2025-11-28T00:33:00Z"
     },
     {
-        "source": "CartaCapital",
-        "title": "Messias contrata assessor que ajudou Zanin a ‘destravar’ votos no Senado - CartaCapital",
-        "timestamp": "2025-11-27T13:28:00Z"
-    },
-    {
         "source": "ICL Notícias",
         "title": "Operação contra Grupo Fit apreende R$ 2 milhões em espécie e pacotes de esmeraldas - ICL Notícias",
         "timestamp": "2025-11-28T09:10:35Z"
-    },
-    {
-        "source": "CNN Brasil",
-        "title": "EUA vão reexaminar green cards emitidos para pessoas de 19 países - CNN Brasil",
-        "timestamp": "2025-11-27T23:12:08Z"
     }
 ]
