@@ -1,8 +1,23 @@
 [
     {
+        "source": "O Globo",
+        "title": "Interferência GPS na Venezuela aumenta em meio à atividade militar dos EUA no Caribe - O Globo",
+        "timestamp": "2025-11-29T03:00:42Z"
+    },
+    {
+        "source": "UOL Economia",
+        "title": "Justiça manda soltar Daniel Vorcaro e demais presos da Compliance Zero - UOL Economia",
+        "timestamp": "2025-11-29T04:38:57Z"
+    },
+    {
+        "source": "UOL Notícias",
+        "title": "Vaidade, ambição e desprezo por políticos levam Heleno do Planalto à prisão - UOL Notícias",
+        "timestamp": "2025-11-29T12:15:44Z"
+    },
+    {
         "source": "Poder360",
-        "title": "Justiça manda soltar Daniel Vorcaro, do Banco Master - Poder360",
-        "timestamp": "2025-11-29T01:01:01Z"
+        "title": "EUA preparam ofensiva por terra contra tráfico venezuelano - Poder360",
+        "timestamp": "2025-11-28T11:06:37Z"
     },
     {
         "source": "Correio Braziliense",
@@ -10,23 +25,8 @@
         "timestamp": "2025-11-28T23:40:00Z"
     },
     {
-        "source": "Estado de Minas",
-        "title": "Carlos cita comorbidades de Bolsonaro após PGR apoiar domiciliar a Heleno - Estado de Minas",
-        "timestamp": "2025-11-28T15:37:00Z"
-    },
-    {
         "source": "O TEMPO",
         "title": "Cefet-RJ: saiba quem eram as duas funcionárias mortas a tiros dentro de escola - O TEMPO",
         "timestamp": "2025-11-29T01:04:05Z"
-    },
-    {
-        "source": "Poder360",
-        "title": "O que muda a vida das pessoas não é o assistencialismo, diz Tarcísio - Poder360",
-        "timestamp": "2025-11-28T15:47:31Z"
-    },
-    {
-        "source": "CNN Brasil",
-        "title": "Tarcísio escolhe Nico Gonçalves como novo secretário de Segurança Pública - CNN Brasil",
-        "timestamp": "2025-11-29T03:08:56Z"
     }
 ]
