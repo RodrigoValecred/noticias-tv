@@ -1,8 +1,18 @@
 [
     {
+        "source": "G1",
+        "title": "Festa do tetra da Libertadores do Flamengo será no Circuito Preta Gil, rubro-negra declarada - G1",
+        "timestamp": "2025-11-30T11:40:38Z"
+    },
+    {
         "source": "BBC",
         "title": "Trump anuncia fechamento total do espaço aéreo da Venezuela em meio a escalada de tensão com exercícios militares dos EUA no Caribe - BBC",
         "timestamp": "2025-11-29T20:37:30Z"
+    },
+    {
+        "source": "Poder360",
+        "title": "Messias precisa de 3 votos para ser aprovado na CCJ - Poder360",
+        "timestamp": "2025-11-29T13:04:32Z"
     },
     {
         "source": "ICL Notícias",
@@ -15,18 +25,8 @@
         "timestamp": "2025-11-30T06:06:27Z"
     },
     {
-        "source": "G1",
-        "title": "Vítimas do ataque no Cefet serão veladas neste domingo no Rio - G1",
-        "timestamp": "2025-11-29T22:13:00Z"
-    },
-    {
-        "source": "UOL",
-        "title": "Flamengo fica mais perto do segundo bilhão com tetra da Libertadores - UOL",
-        "timestamp": "2025-11-30T09:18:56Z"
-    },
-    {
-        "source": "Poder360",
-        "title": "Messias precisa de 3 votos para ser aprovado na CCJ - Poder360",
-        "timestamp": "2025-11-29T13:04:32Z"
+        "source": "CNN Brasil",
+        "title": "\"Estou a base de medicação\", diz irmã de funcionária morta no Cefet-RJ - CNN Brasil",
+        "timestamp": "2025-11-29T21:28:50Z"
     }
 ]
