@@ -1,13 +1,18 @@
 [
     {
-        "source": "CNN Brasil",
-        "title": "Messias pede para Gilmar reconsiderar sobre impeachment de ministros do STF - CNN Brasil",
-        "timestamp": "2025-12-04T00:37:11Z"
+        "source": "UOL",
+        "title": "Transmissão ao vivo de Flamengo x Ceará pelo Brasileirão: veja onde assistir - UOL",
+        "timestamp": "2025-12-03T23:00:00Z"
     },
     {
-        "source": "G1",
-        "title": "Rodrigo Bacellar vai passar a noite na Superintendência da PF após prisão; R$ 90 mil foram apreendidos no carro dele - G1",
-        "timestamp": "2025-12-03T19:56:29Z"
+        "source": "Poder360",
+        "title": "Messias pede que Gilmar reconsidere decisão sobre impeachment no STF - Poder360",
+        "timestamp": "2025-12-04T01:41:15Z"
+    },
+    {
+        "source": "O Globo",
+        "title": "Vazamento de operação por Rodrigo Bacellar possibilitou que TH Joias destruísse provas e saísse de casa horas antes da operação, diz PF - O Globo",
+        "timestamp": "2025-12-03T15:30:56Z"
     },
     {
         "source": "Gazeta do Povo",
@@ -15,18 +20,13 @@
         "timestamp": "2025-12-03T16:52:00Z"
     },
     {
-        "source": "CartaCapital",
-        "title": "STF julga nesta quarta a ação que questiona trechos da Reforma da Previdência; veja o que está em jogo - CartaCapital",
-        "timestamp": "2025-12-03T12:56:00Z"
-    },
-    {
-        "source": "Metrópoles",
-        "title": "Caminhoneiros marcam greve para esta quinta (4/12) e buscam apoio - Metrópoles",
-        "timestamp": "2025-12-03T20:46:00Z"
-    },
-    {
         "source": "O Globo",
         "title": "Saiba quem é o deputado que apareceu em documento de Vorcaro e pode levar investigação do Master ao STF - O Globo",
         "timestamp": "2025-12-02T18:15:59Z"
+    },
+    {
+        "source": "CNN Brasil",
+        "title": "STF está a 1 voto de derrubar regra que reduz aposentadoria por invalidez - CNN Brasil",
+        "timestamp": "2025-12-03T19:35:28Z"
     }
 ]
