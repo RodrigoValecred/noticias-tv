@@ -1,13 +1,13 @@
 [
     {
-        "source": "Estadão",
-        "title": "Congresso aprova sem alarde doação de dinheiro e benesses no meio da campanha eleitoral em 2026 - Estadão",
-        "timestamp": "2025-12-04T19:28:11Z"
-    },
-    {
         "source": "Poder360",
         "title": "Alcolumbre tentará destravar PEC que limita decisões monocráticas do STF - Poder360",
         "timestamp": "2025-12-04T22:00:27Z"
+    },
+    {
+        "source": "Estadão",
+        "title": "Congresso aprova sem alarde doação de dinheiro e benesses no meio da campanha eleitoral em 2026 - Estadão",
+        "timestamp": "2025-12-04T19:28:11Z"
     },
     {
         "source": "CartaCapital",
@@ -15,18 +15,18 @@
         "timestamp": "2025-12-04T19:50:00Z"
     },
     {
-        "source": "Poder360",
-        "title": "CPI do INSS aprova convocação de Zema, governador de MG - Poder360",
-        "timestamp": "2025-12-04T16:21:12Z"
-    },
-    {
-        "source": "O Globo",
-        "title": "PSD, de Paes, fecha posição e orienta bancada da Alerj a votar pela manutenção da prisão de Rodrigo Bacellar - O Globo",
-        "timestamp": "2025-12-04T20:04:13Z"
-    },
-    {
         "source": "CartaCapital",
         "title": "Congresso derruba vetos de Lula e teste toxicológico será obrigatório para 1ª CNH - CartaCapital",
         "timestamp": "2025-12-04T21:45:00Z"
+    },
+    {
+        "source": "BBC",
+        "title": "O que se sabe sobre as acusações contra Lulinha na CPMI do INSS - BBC",
+        "timestamp": "2025-12-04T19:35:39Z"
+    },
+    {
+        "source": "Poder360",
+        "title": "CPI do INSS aprova convocação de Zema, governador de MG - Poder360",
+        "timestamp": "2025-12-04T16:21:12Z"
     }
 ]
