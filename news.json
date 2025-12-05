@@ -1,23 +1,13 @@
 [
     {
         "source": "CNN Brasil",
-        "title": "Dino defende revisão da Lei do Impeachment \"sob lente de simetria\" - CNN Brasil",
-        "timestamp": "2025-12-04T16:01:49Z"
+        "title": "Senadores veem pouco efeito imediato em pedido de Messias sobre impeachment - CNN Brasil",
+        "timestamp": "2025-12-05T07:30:58Z"
     },
     {
         "source": "O Globo",
         "title": "PSD, de Paes, fecha posição e orienta bancada da Alerj a votar pela manutenção da prisão de Rodrigo Bacellar - O Globo",
         "timestamp": "2025-12-04T20:04:13Z"
-    },
-    {
-        "source": "Senado Federal",
-        "title": "LDO é aprovada com prazo para governo pagar emendas; texto vai a sanção - Senado Federal",
-        "timestamp": "2025-12-04T19:49:37Z"
-    },
-    {
-        "source": "CartaCapital",
-        "title": "Dino barra emendas indicadas por Eduardo Bolsonaro e Alexandre Ramagem - CartaCapital",
-        "timestamp": "2025-12-04T19:50:00Z"
     },
     {
         "source": "Metrópoles",
@@ -28,5 +18,15 @@
         "source": "CNN Brasil",
         "title": "Papa Leão XIV divulga nova orientação para sexo no casamento; entenda - CNN Brasil",
         "timestamp": "2025-12-05T02:59:49Z"
+    },
+    {
+        "source": "Senado Federal",
+        "title": "LDO é aprovada com prazo para governo pagar emendas; texto vai a sanção - Senado Federal",
+        "timestamp": "2025-12-04T19:49:37Z"
+    },
+    {
+        "source": "CartaCapital",
+        "title": "Congresso derruba vetos de Lula e teste toxicológico será obrigatório para 1ª CNH - CartaCapital",
+        "timestamp": "2025-12-04T21:45:00Z"
     }
 ]
