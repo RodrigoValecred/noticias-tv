@@ -1,18 +1,13 @@
 [
     {
-        "source": "UOL Economia",
-        "title": "Dólar sobe a R$ 5,43 e Bolsa cai 4,25% com Flávio Bolsonaro pré-candidato - UOL Economia",
-        "timestamp": "2025-12-05T18:53:41Z"
-    },
-    {
         "source": "InfoMoney",
         "title": "Copa do Mundo 2026: veja como ficaram os grupos após o sorteio nos EUA - InfoMoney",
         "timestamp": "2025-12-05T19:07:00Z"
     },
     {
-        "source": "g1.globo.com",
-        "title": "CCJ adia reunião para votar se é a favor ou contra manutenção da prisão de Bacellar - g1.globo.com",
-        "timestamp": "2025-12-05T16:37:16Z"
+        "source": "UOL Economia",
+        "title": "Dólar sobe a R$ 5,43 e Bolsa cai 4,25% com Flávio Bolsonaro pré-candidato - UOL Economia",
+        "timestamp": "2025-12-05T18:53:41Z"
     },
     {
         "source": "Consultor Jurídico",
@@ -28,5 +23,10 @@
         "source": "Estado de Minas",
         "title": "Feriadão em BH: veja o que abre e fecha em 8 de dezembro - Estado de Minas",
         "timestamp": "2025-12-05T17:16:00Z"
+    },
+    {
+        "source": "G1",
+        "title": "Professor da USP é preso por agentes de imigração nos Estados Unidos após tiros com arma de chumbinho perto de sinagoga - G1",
+        "timestamp": "2025-12-05T15:10:45Z"
     }
 ]
