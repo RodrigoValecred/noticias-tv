@@ -1,10 +1,5 @@
 [
     {
-        "source": "CNN Brasil",
-        "title": "Netflix anuncia compra de ativos da Warner Bros. e HBO - CNN Brasil",
-        "timestamp": "2025-12-05T12:25:57Z"
-    },
-    {
         "source": "O Globo",
         "title": "Alcolumbre se irrita com Paulinho da Força por ação sobre impeachment no STF e amplia dificuldades do PL da Dosimetria - O Globo",
         "timestamp": "2025-12-05T06:30:37Z"
@@ -15,9 +10,9 @@
         "timestamp": "2025-12-05T07:30:38Z"
     },
     {
-        "source": "CartaCapital",
-        "title": "Jamil Chade: Trump quer controle da América Latina e militarização; leia o plano completo - CartaCapital",
-        "timestamp": "2025-12-05T10:12:00Z"
+        "source": "Valor Econômico",
+        "title": "Joesley Batista foi à Venezuela pedir para Maduro renunciar, diz agência - Valor Econômico",
+        "timestamp": "2025-12-04T03:51:41Z"
     },
     {
         "source": "Metrópoles",
@@ -28,5 +23,10 @@
         "source": "CNN Brasil",
         "title": "Em português, Maduro pede que brasileiros apoiem soberania da Venezuela - CNN Brasil",
         "timestamp": "2025-12-05T00:55:46Z"
+    },
+    {
+        "source": "CartaCapital",
+        "title": "Jamil Chade: Trump quer controle da América Latina e militarização; leia o plano completo - CartaCapital",
+        "timestamp": "2025-12-05T10:12:00Z"
     }
 ]
