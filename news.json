@@ -1,15 +1,5 @@
 [
     {
-        "source": "CNN Brasil",
-        "title": "Netflix anuncia compra de ativos da Warner Bros. e HBO - CNN Brasil",
-        "timestamp": "2025-12-05T12:25:57Z"
-    },
-    {
-        "source": "O Globo",
-        "title": "Alcolumbre se irrita com Paulinho da Força por ação sobre impeachment no STF e amplia dificuldades do PL da Dosimetria - O Globo",
-        "timestamp": "2025-12-05T06:30:37Z"
-    },
-    {
         "source": "O Globo",
         "title": "Manobra política após prisão de deputado motiva devassa em processos eletrônicos do Estado do Rio, determina Moraes - O Globo",
         "timestamp": "2025-12-05T07:30:38Z"
@@ -20,13 +10,23 @@
         "timestamp": "2025-12-05T10:12:00Z"
     },
     {
+        "source": "CNN Brasil",
+        "title": "Senadores veem pouco efeito imediato em pedido de Messias sobre impeachment - CNN Brasil",
+        "timestamp": "2025-12-05T07:30:58Z"
+    },
+    {
+        "source": "G1",
+        "title": "'Financial Times' inclui Moraes entre as 25 pessoas mais influentes do ano, na categoria 'heróis' - G1",
+        "timestamp": "2025-12-05T12:04:38Z"
+    },
+    {
         "source": "Poder360",
         "title": "Acusações contra Lulinha são gravíssimas, diz Ciro Nogueira - Poder360",
         "timestamp": "2025-12-05T09:03:03Z"
     },
     {
-        "source": "ICL Notícias",
-        "title": "Vice-líder do governo propõe cassação sumária de Zambelli e demais deputados foragidos - ICL Notícias",
-        "timestamp": "2025-12-05T10:52:41Z"
+        "source": "CNN Brasil",
+        "title": "Avião é esvaziado após incêndio em veículo de bagagens em Guarulhos - CNN Brasil",
+        "timestamp": "2025-12-05T09:54:15Z"
     }
 ]
