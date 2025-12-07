@@ -1,13 +1,23 @@
 [
     {
-        "source": "G1",
-        "title": "Datafolha: 8% acham que Bolsonaro deveria apoiar Flávio, 22% Michelle e 20% Tarcísio - G1",
-        "timestamp": "2025-12-07T10:21:50Z"
+        "source": "GE",
+        "title": "GP de Abu Dhabi: Norris é campeão mundial em vitória de Verstappen; Bortoleto é 11º - GE",
+        "timestamp": "2025-12-07T14:30:10Z"
     },
     {
         "source": "Poder360",
-        "title": "Milei compartilha post sobre pré-candidatura de Flávio Bolsonaro - Poder360",
-        "timestamp": "2025-12-06T23:04:58Z"
+        "title": "Datafolha: 8% querem Bolsonaro apoiando Flávio; 22%, Michelle - Poder360",
+        "timestamp": "2025-12-07T11:58:38Z"
+    },
+    {
+        "source": "Jornal da Cidade Online",
+        "title": "Decisão sobre impeachment racha o STF e Gilmar corre sério risco de derrota no plenário - Jornal da Cidade Online",
+        "timestamp": "2025-12-07T11:38:00Z"
+    },
+    {
+        "source": "Estado de Minas",
+        "title": "Petistas entre o alívio e o deboche sobre candidatura de Flávio Bolsonaro - Estado de Minas",
+        "timestamp": "2025-12-07T05:04:00Z"
     },
     {
         "source": "UOL Notícias",
@@ -16,17 +26,7 @@
     },
     {
         "source": "CNN Brasil",
-        "title": "Moraes nega uso de slides que defesa de Filipe Martins faria em julgamento - CNN Brasil",
-        "timestamp": "2025-12-06T23:23:04Z"
-    },
-    {
-        "source": "Revista Oeste",
-        "title": "Lei do Impeachment: Gilmar Mendes violou a separação de Poderes e deu autoproteção ao STF, avaliam juristas - Revista Oeste",
-        "timestamp": "2025-12-06T09:30:00Z"
-    },
-    {
-        "source": "Poder360",
-        "title": "Dirceu convoca ato em defesa das mulheres e critica Tarcísio - Poder360",
-        "timestamp": "2025-12-07T00:53:38Z"
+        "title": "Escudo de Chernobyl não consegue mais conter radiação, diz agência da ONU - CNN Brasil",
+        "timestamp": "2025-12-07T11:28:40Z"
     }
 ]
