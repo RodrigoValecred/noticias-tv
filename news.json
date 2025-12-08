@@ -10,6 +10,11 @@
         "timestamp": "2025-12-07T20:59:00Z"
     },
     {
+        "source": "Folha de S.Paulo",
+        "title": "Com liminar de Gilmar, STF está nu - Folha de S.Paulo",
+        "timestamp": "2025-12-07T17:45:00Z"
+    },
+    {
         "source": "Estado de Minas",
         "title": "Mulheres protestam contra feminicídio em BH: 'Queremos viver sem medo' - Estado de Minas",
         "timestamp": "2025-12-07T14:58:00Z"
@@ -23,10 +28,5 @@
         "source": "MetSul Meteorologia",
         "title": "Granizo abre semana de muitos temporais em tarde com quase 42ºC - MetSul Meteorologia",
         "timestamp": "2025-12-07T22:47:04Z"
-    },
-    {
-        "source": "Folha de S.Paulo",
-        "title": "Com liminar de Gilmar, STF está nu - Folha de S.Paulo",
-        "timestamp": "2025-12-07T17:45:00Z"
     }
 ]
