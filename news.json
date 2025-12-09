@@ -1,8 +1,13 @@
 [
     {
+        "source": "Folha de S.Paulo",
+        "title": "Glauber Braga ocupa cadeira de Motta contra decisão de pautar cassação de seu mandato - Folha de S.Paulo",
+        "timestamp": "2025-12-09T21:08:00Z"
+    },
+    {
         "source": "CNN Brasil",
-        "title": "Glauber ocupa cadeira da presidência da Câmara - CNN Brasil",
-        "timestamp": "2025-12-09T20:41:07Z"
+        "title": "Alcolumbre diz ter \"compromisso\" de votar PL da Dosimetria neste ano - CNN Brasil",
+        "timestamp": "2025-12-09T20:02:24Z"
     },
     {
         "source": "O Globo",
@@ -10,23 +15,18 @@
         "timestamp": "2025-12-09T20:24:30Z"
     },
     {
-        "source": "Poder360",
-        "title": "Motta combinou PL da Anistia com os Bolsonaros, diz Lindbergh - Poder360",
-        "timestamp": "2025-12-09T19:47:15Z"
-    },
-    {
-        "source": "Gazeta do Povo",
-        "title": "Ciro Nogueira diz que Flávio é o melhor “herdeiro político” de Bolsonaro e confirma negociação - Gazeta do Povo",
-        "timestamp": "2025-12-08T17:58:00Z"
-    },
-    {
-        "source": "G1",
-        "title": "Família de traficante Peixão é ouvida pela PF e liberada após ser detida em MS - G1",
-        "timestamp": "2025-12-09T13:22:49Z"
-    },
-    {
         "source": "Serpro",
         "title": "CNH do Brasil é a evolução da Carteira Digital de Trânsito - Serpro",
         "timestamp": "2025-12-09T16:09:50Z"
+    },
+    {
+        "source": "CNN Brasil",
+        "title": "\"Greve de ônibus na hora de ir embora é sacanagem\"; veja relatos nas redes - CNN Brasil",
+        "timestamp": "2025-12-09T21:44:02Z"
+    },
+    {
+        "source": "Olhar Digital",
+        "title": "Ciclone coloca Sul e Sudeste em alerta máximo: veja a previsão do tempo - Olhar Digital",
+        "timestamp": "2025-12-09T13:52:00Z"
     }
 ]
