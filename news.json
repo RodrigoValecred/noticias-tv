@@ -1,23 +1,18 @@
 [
     {
-        "source": "Valor Econômico",
-        "title": "Alerj revoga prisão de Bacellar por 42 votos a 21, mas STF pode impor medidas cautelares - Valor Econômico",
-        "timestamp": "2025-12-09T02:45:56Z"
-    },
-    {
         "source": "CartaCapital",
         "title": "Tarcísio se pronuncia pela primeira vez sobre pré-candidatura de Flávio Bolsonaro - CartaCapital",
         "timestamp": "2025-12-08T23:57:00Z"
     },
     {
+        "source": "Valor Econômico",
+        "title": "Alerj revoga prisão de Bacellar por 42 votos a 21, mas STF pode impor medidas cautelares - Valor Econômico",
+        "timestamp": "2025-12-09T02:45:56Z"
+    },
+    {
         "source": "CNN Brasil",
         "title": "CNH sem autoescola: novas regras já afetam mais de 50 mil funcionários - CNN Brasil",
         "timestamp": "2025-12-08T17:44:31Z"
-    },
-    {
-        "source": "G1",
-        "title": "Lula sanciona lei que aumenta para até 40 anos a pena para estupro de vulneráveis - G1",
-        "timestamp": "2025-12-08T23:41:30Z"
     },
     {
         "source": "O Globo",
@@ -28,5 +23,10 @@
         "source": "CNN Brasil",
         "title": "Após negociação, devedor contumaz deve ser votado nesta terça, diz Haddad - CNN Brasil",
         "timestamp": "2025-12-09T00:24:30Z"
+    },
+    {
+        "source": "GZH",
+        "title": "Ciclone extratropical: veja como os temporais se deslocarão pelo RS - GZH",
+        "timestamp": "2025-12-08T20:24:02Z"
     }
 ]
