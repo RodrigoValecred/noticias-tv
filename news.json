@@ -5,6 +5,11 @@
         "timestamp": "2025-12-10T07:02:29Z"
     },
     {
+        "source": "UOL Notícias",
+        "title": "De tornozeleira, Rodrigo Bacellar deixa prisão após decisão de Moraes - UOL Notícias",
+        "timestamp": "2025-12-10T01:07:54Z"
+    },
+    {
         "source": "ICL Notícias",
         "title": "LUÍS COSTA PINTO: Hugo Motta é velhaco inapto para presidência da Câmara: renuncie! - ICL Notícias",
         "timestamp": "2025-12-09T22:42:41Z"
@@ -16,17 +21,12 @@
     },
     {
         "source": "CartaCapital",
-        "title": "Quem é a única deputada do PT que votou pela liberdade de Rodrigo Bacellar - CartaCapital",
-        "timestamp": "2025-12-08T23:00:00Z"
+        "title": "Por 436 a 2, Câmara aprova projeto para fechar o cerco contra devedor contumaz - CartaCapital",
+        "timestamp": "2025-12-10T02:30:00Z"
     },
     {
-        "source": "GOV.BR",
-        "title": "CNH do Brasil: como solicitar a primeira habilitação pelo aplicativo — Ministério dos Transportes - GOV.BR",
+        "source": "www.gov.br",
+        "title": "CNH do Brasil: como solicitar a primeira habilitação pelo aplicativo — Ministério dos Transportes - www.gov.br",
         "timestamp": "2025-12-09T23:58:42Z"
-    },
-    {
-        "source": "CNN Brasil",
-        "title": "Greve de ônibus: veja quais empresas aderiram e recolheram veículos - CNN Brasil",
-        "timestamp": "2025-12-09T23:42:16Z"
     }
 ]
