@@ -5,14 +5,9 @@
         "timestamp": "2025-12-10T12:02:08Z"
     },
     {
-        "source": "CartaCapital",
-        "title": "Glauber Braga protesta contra possível cassação e ocupa cadeira de Motta na Câmara - CartaCapital",
-        "timestamp": "2025-12-09T21:15:00Z"
-    },
-    {
-        "source": "Poder360",
-        "title": "Juiz suspende benefícios de ex-presidente recebidos por Bolsonaro - Poder360",
-        "timestamp": "2025-12-10T10:55:24Z"
+        "source": "G1",
+        "title": "Ventania deixa mais de 900 mil sem luz e provoca queda de árvores e fechamento de parques em SP - G1",
+        "timestamp": "2025-12-10T15:05:15Z"
     },
     {
         "source": "O Globo",
@@ -20,13 +15,18 @@
         "timestamp": "2025-12-10T14:56:51Z"
     },
     {
+        "source": "CartaCapital",
+        "title": "Justiça federal manda União suspender benefícios de Bolsonaro - CartaCapital",
+        "timestamp": "2025-12-10T13:11:00Z"
+    },
+    {
+        "source": "Revista Oeste",
+        "title": "Lei do Impeachment: relator retira proposta de revisão e empurra discussão para 2026 - Revista Oeste",
+        "timestamp": "2025-12-10T13:53:33Z"
+    },
+    {
         "source": "Extra online",
         "title": "Empresário morto a tiros na Barra da Tijuca ostentava nas redes sociais, com viagens e carros de luxo - Extra online",
         "timestamp": "2025-12-10T09:30:29Z"
-    },
-    {
-        "source": "ND Mais",
-        "title": "Ciclone extratropical avança com mais de 200 mm de chuva e ventos de 100 km/h nos próximos dias - ND Mais",
-        "timestamp": "2025-12-10T09:00:12Z"
     }
 ]
