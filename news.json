@@ -1,8 +1,8 @@
 [
     {
-        "source": "CNN Brasil",
-        "title": "Câmara aprova texto-base do PL da Dosimetria - CNN Brasil",
-        "timestamp": "2025-12-10T05:26:55Z"
+        "source": "G1",
+        "title": "PL da Dosimetria diminui pena quando crimes de golpe de Estado e abolição violenta forem cometidos ao mesmo tempo - G1",
+        "timestamp": "2025-12-10T07:02:29Z"
     },
     {
         "source": "ICL Notícias",
@@ -15,11 +15,6 @@
         "timestamp": "2025-12-10T00:19:00Z"
     },
     {
-        "source": "Estadão",
-        "title": "Greve de motoristas de ônibus é encerrada em SP - Estadão",
-        "timestamp": "2025-12-09T20:47:00Z"
-    },
-    {
         "source": "CartaCapital",
         "title": "Quem é a única deputada do PT que votou pela liberdade de Rodrigo Bacellar - CartaCapital",
         "timestamp": "2025-12-08T23:00:00Z"
@@ -28,5 +23,10 @@
         "source": "GOV.BR",
         "title": "CNH do Brasil: como solicitar a primeira habilitação pelo aplicativo — Ministério dos Transportes - GOV.BR",
         "timestamp": "2025-12-09T23:58:42Z"
+    },
+    {
+        "source": "CNN Brasil",
+        "title": "Greve de ônibus: veja quais empresas aderiram e recolheram veículos - CNN Brasil",
+        "timestamp": "2025-12-09T23:42:16Z"
     }
 ]
