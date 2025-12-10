@@ -1,18 +1,23 @@
 [
     {
+        "source": "UOL Economia",
+        "title": "Banco Central mantém juros em 15% ao ano mesmo com economia esfriando - UOL Economia",
+        "timestamp": "2025-12-10T21:59:17Z"
+    },
+    {
         "source": "O Globo",
         "title": "Lula cobra ministros a se manifestarem contra redução de pena de Bolsonaro, e Planalto aposta em veto - O Globo",
         "timestamp": "2025-12-10T16:33:56Z"
     },
     {
+        "source": "Gazeta do Povo",
+        "title": "Gilmar Mendes recua da exclusividade da PGR para pedidos de impeachment - Gazeta do Povo",
+        "timestamp": "2025-12-10T18:40:00Z"
+    },
+    {
         "source": "G1",
         "title": "CCJ da Câmara aprova cassação de Carla Zambelli por invasão ao CNJ; palavra final é do plenário - G1",
         "timestamp": "2025-12-10T19:21:52Z"
-    },
-    {
-        "source": "CNN Brasil",
-        "title": "Gilmar pede debate sobre impeachment de ministros no plenário físico do STF - CNN Brasil",
-        "timestamp": "2025-12-10T18:59:34Z"
     },
     {
         "source": "CartaCapital",
@@ -23,10 +28,5 @@
         "source": "Estadão",
         "title": "Forte ventania derruba Papai Noel da Av. Paulista e Prefeitura de SP suspende eventos de Natal - Estadão",
         "timestamp": "2025-12-10T15:04:53Z"
-    },
-    {
-        "source": "O Globo",
-        "title": "Morre Marcelo VIP, golpista que inspirou filme estrelado por Wagner Moura - O Globo",
-        "timestamp": "2025-12-10T11:56:53Z"
     }
 ]
