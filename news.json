@@ -1,18 +1,23 @@
 [
     {
-        "source": "G1",
-        "title": "Câmara dos Deputados rejeita cassação do mandato de Carla Zambelli: como votaram deputados e partidos - G1",
-        "timestamp": "2025-12-11T03:47:37Z"
+        "source": "CartaCapital",
+        "title": "Câmara salva o mandato de Carla Zambelli - CartaCapital",
+        "timestamp": "2025-12-11T03:53:00Z"
     },
     {
-        "source": "CartaCapital",
-        "title": "Glauber Braga se livra de cassação, mas tem mandato suspenso por 6 meses - CartaCapital",
-        "timestamp": "2025-12-11T01:02:00Z"
+        "source": "G1",
+        "title": "Aneel cobra explicações da Enel após 2 milhões de imóveis ficarem sem luz durante ciclone extratropical em SP - G1",
+        "timestamp": "2025-12-10T21:03:17Z"
     },
     {
         "source": "Poder360",
         "title": "Sob tensão, Lula discute PL da Dosimetria com caciques do Senado - Poder360",
         "timestamp": "2025-12-11T00:45:25Z"
+    },
+    {
+        "source": "CNN Brasil",
+        "title": "\"Foi uma vitória coletiva\", diz Glauber após Câmara salvar seu mandato - CNN Brasil",
+        "timestamp": "2025-12-11T02:17:23Z"
     },
     {
         "source": "Gazeta do Povo",
@@ -23,10 +28,5 @@
         "source": "Metrópoles",
         "title": "Nikolas reage a convite de Flávio Bolsonaro para ministério - Metrópoles",
         "timestamp": "2025-12-10T18:24:00Z"
-    },
-    {
-        "source": "CNN Brasil",
-        "title": "Gilmar pede debate sobre impeachment de ministros no plenário físico do STF - CNN Brasil",
-        "timestamp": "2025-12-10T18:59:34Z"
     }
 ]
