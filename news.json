@@ -1,18 +1,8 @@
 [
     {
-        "source": "CNN Brasil",
-        "title": "Câmara mantém mandato de Carla Zambelli - CNN Brasil",
-        "timestamp": "2025-12-11T03:48:14Z"
-    },
-    {
-        "source": "CartaCapital",
-        "title": "Glauber Braga se livra de cassação, mas tem mandato suspenso por 6 meses - CartaCapital",
-        "timestamp": "2025-12-11T01:02:00Z"
-    },
-    {
         "source": "G1",
-        "title": "Projeto Antifacção é aprovado no Senado sem votos contrários: veja como votaram senadores e partidos - G1",
-        "timestamp": "2025-12-10T23:53:19Z"
+        "title": "Câmara dos Deputados rejeita cassação do mandato de Carla Zambelli: como votaram deputados e partidos - G1",
+        "timestamp": "2025-12-11T03:47:37Z"
     },
     {
         "source": "Poder360",
@@ -20,13 +10,23 @@
         "timestamp": "2025-12-11T00:45:25Z"
     },
     {
+        "source": "CartaCapital",
+        "title": "Glauber Braga se livra de cassação, mas tem mandato suspenso por 6 meses - CartaCapital",
+        "timestamp": "2025-12-11T01:02:00Z"
+    },
+    {
         "source": "Gazeta do Povo",
-        "title": "Gilmar Mendes recua da exclusividade da PGR para pedidos de impeachment - Gazeta do Povo",
-        "timestamp": "2025-12-10T18:40:00Z"
+        "title": "PL Antifacção: relator no Senado reduz penas aprovadas na Câmara e mantém votos de presos - Gazeta do Povo",
+        "timestamp": "2025-12-10T14:40:00Z"
+    },
+    {
+        "source": "Metrópoles",
+        "title": "Nikolas reage a convite de Flávio Bolsonaro para ministério - Metrópoles",
+        "timestamp": "2025-12-10T18:24:00Z"
     },
     {
         "source": "CNN Brasil",
-        "title": "Trump confirma que EUA apreenderam petroleiro na costa da Venezuela - CNN Brasil",
-        "timestamp": "2025-12-10T20:14:48Z"
+        "title": "Aneel cobra Enel após 2 milhões sem energia por ventania - CNN Brasil",
+        "timestamp": "2025-12-10T19:54:52Z"
     }
 ]
