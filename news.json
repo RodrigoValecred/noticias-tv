@@ -1,13 +1,23 @@
 [
     {
+        "source": "O Globo",
+        "title": "Vendaval em SP cancela voos e gera efeito cascata em aeroportos pelo país - O Globo",
+        "timestamp": "2025-12-11T12:35:13Z"
+    },
+    {
         "source": "CartaCapital",
         "title": "Veja a lista dos 104 deputados que não participaram da votação que preservou o mandato de Zambelli - CartaCapital",
         "timestamp": "2025-12-11T11:21:00Z"
     },
     {
-        "source": "Metrópoles",
-        "title": "Em jantar, Centrão pressiona Flávio e diz que Tarcísio é melhor nome - Metrópoles",
-        "timestamp": "2025-12-11T10:00:00Z"
+        "source": "CNN Brasil",
+        "title": "Quem é a suplente de Glauber, que o substituirá durante suspensão na Câmara - CNN Brasil",
+        "timestamp": "2025-12-11T10:52:10Z"
+    },
+    {
+        "source": "O Globo",
+        "title": "Ciclone visto do espaço pela Nasa: satélite mostra dimensão do fenômeno sobre o Sul do Brasil - O Globo",
+        "timestamp": "2025-12-11T03:00:41Z"
     },
     {
         "source": "Poder360",
@@ -15,18 +25,8 @@
         "timestamp": "2025-12-11T00:45:25Z"
     },
     {
-        "source": "G1",
-        "title": "Aneel cobra explicações da Enel após 2 milhões de imóveis ficarem sem luz durante ciclone extratropical em SP - G1",
-        "timestamp": "2025-12-10T21:03:17Z"
-    },
-    {
-        "source": "CNN Brasil",
-        "title": "Indefinição de votos e ajuda do centrão: a reviravolta de Glauber na Câmara - CNN Brasil",
-        "timestamp": "2025-12-11T08:30:52Z"
-    },
-    {
-        "source": "Gazeta do Povo",
-        "title": "Gilmar Mendes recua da exclusividade da PGR para pedidos de impeachment - Gazeta do Povo",
-        "timestamp": "2025-12-10T18:40:00Z"
+        "source": "Omelete",
+        "title": "Produtora de filme de Bolsonaro tem contrato de R$ 100 mi com prefeitura de SP - Omelete",
+        "timestamp": "2025-12-11T12:03:00Z"
     }
 ]
