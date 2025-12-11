@@ -1,18 +1,13 @@
 [
     {
-        "source": "CNN Brasil",
-        "title": "Copa do Brasil de 2026 vai dar duas vagas para a Libertadores; entenda - CNN Brasil",
-        "timestamp": "2025-12-11T15:49:41Z"
-    },
-    {
-        "source": "UOL Notícias",
-        "title": "Por que demora para voltar a luz em SP? Enel diz que conserto é complexo - UOL Notícias",
-        "timestamp": "2025-12-11T16:30:49Z"
-    },
-    {
         "source": "O Globo",
-        "title": "Ministros do STF dizem que decisão da Câmara sobre Carla Zambelli é 'inaceitável' - O Globo",
+        "title": "Ministros do STF dizem que decisão da Câmara sobre Carla Zambelli como 'inaceitável' e avaliam reação - O Globo",
         "timestamp": "2025-12-11T14:14:08Z"
+    },
+    {
+        "source": "Correio Braziliense",
+        "title": "Voos são cancelados no aeroporto de Brasília, após chuvas em São Paulo - Correio Braziliense",
+        "timestamp": "2025-12-11T14:36:00Z"
     },
     {
         "source": "Poder360",
@@ -28,5 +23,10 @@
         "source": "CNN Brasil",
         "title": "Guiana acusa Venezuela de usar sua bandeira em petroleiro apreendido - CNN Brasil",
         "timestamp": "2025-12-11T02:28:40Z"
+    },
+    {
+        "source": "Gazeta do Povo",
+        "title": "Bolsonaro se nega a dar entrevistas na prisão e Moraes muda regra para pedidos - Gazeta do Povo",
+        "timestamp": "2025-12-10T14:12:00Z"
     }
 ]
