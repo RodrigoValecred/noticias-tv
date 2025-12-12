@@ -1,13 +1,8 @@
 [
     {
-        "source": "CartaCapital",
-        "title": "O que Alexandre de Moraes recupera com o fim da Magnitsky - CartaCapital",
-        "timestamp": "2025-12-12T19:55:00Z"
-    },
-    {
-        "source": "Poder360",
-        "title": "STF tem maioria para validar perda imediata do mandato de Zambelli - Poder360",
-        "timestamp": "2025-12-12T17:26:15Z"
+        "source": "G1",
+        "title": "Como a imprensa internacional noticiou retirada de sanções contra Moraes pela Lei Magnistky - G1",
+        "timestamp": "2025-12-12T21:31:39Z"
     },
     {
         "source": "ICL Notícias",
@@ -15,9 +10,14 @@
         "timestamp": "2025-12-12T17:51:49Z"
     },
     {
+        "source": "CartaCapital",
+        "title": "‘Encruzilhada’: Hugo Motta se vê sem opções diante da ordem de Moraes para cassar Carla Zambelli - CartaCapital",
+        "timestamp": "2025-12-12T13:33:00Z"
+    },
+    {
         "source": "O Globo",
-        "title": "Projeto da Dosimetria também beneficia condenados por exploração violenta de prostituição - O Globo",
-        "timestamp": "2025-12-11T19:39:34Z"
+        "title": "Funcionário de empresa parceira da Enel é preso em flagrante após cobrar propina para religar energia - O Globo",
+        "timestamp": "2025-12-12T11:41:08Z"
     },
     {
         "source": "Revista Oeste",
@@ -25,8 +25,8 @@
         "timestamp": "2025-12-12T17:49:23Z"
     },
     {
-        "source": "O Globo",
-        "title": "Tarcísio pede intervenção na Enel após apagão e reclama de estar 'refém' de contrato federal - O Globo",
-        "timestamp": "2025-12-11T17:01:06Z"
+        "source": "Metrópoles",
+        "title": "CPMI do INSS quebra sigilo de Vorcaro e encontra contato de Moraes e esposa - Metrópoles",
+        "timestamp": "2025-12-12T19:38:00Z"
     }
 ]
