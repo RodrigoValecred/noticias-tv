@@ -1,8 +1,18 @@
 [
     {
+        "source": "BBC",
+        "title": "'Só bolsonarismo entendeu importância das eleições para o Congresso', diz cientista política - BBC",
+        "timestamp": "2025-12-15T09:18:32Z"
+    },
+    {
         "source": "CNN Brasil",
         "title": "Lula parabeniza Kast e diz que Brasil seguirá trabalhando com Chile - CNN Brasil",
         "timestamp": "2025-12-15T00:49:19Z"
+    },
+    {
+        "source": "G1",
+        "title": "'Herói' que desarmou assassino em praia em Sydney aparece em 1ª FOTO no hospital após cirurgia - G1",
+        "timestamp": "2025-12-15T11:08:52Z"
     },
     {
         "source": "Gazeta do Povo",
@@ -10,23 +20,13 @@
         "timestamp": "2025-12-14T19:10:00Z"
     },
     {
-        "source": "CartaCapital",
-        "title": "A justificativa de Zambelli para renunciar ao seu mandato - CartaCapital",
-        "timestamp": "2025-12-14T20:46:00Z"
-    },
-    {
-        "source": "BBC",
-        "title": "Austrália: Autores de ataque que matou 15 pessoas são pai e filho, segundo a polícia - BBC",
-        "timestamp": "2025-12-15T01:30:00Z"
-    },
-    {
-        "source": "G1",
-        "title": "França pede que União Europeia adie prazos para assinatura de acordo com Mercosul - G1",
-        "timestamp": "2025-12-14T18:53:45Z"
-    },
-    {
         "source": "Agência Brasil",
         "title": "Moraes autoriza Bolsonaro a ser submetido a ultrassom na prisão - Agência Brasil",
         "timestamp": "2025-12-14T14:07:00Z"
+    },
+    {
+        "source": "G1",
+        "title": "Fuvest divulga respostas esperadas para 1º dia da segunda fase - G1",
+        "timestamp": "2025-12-14T21:35:28Z"
     }
 ]
