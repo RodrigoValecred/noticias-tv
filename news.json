@@ -1,8 +1,18 @@
 [
     {
+        "source": "G1",
+        "title": "'Herói' que desarmou assassino em praia em Sydney aparece em 1ª FOTO no hospital após cirurgia - G1",
+        "timestamp": "2025-12-15T11:08:52Z"
+    },
+    {
         "source": "BBC",
         "title": "'Só bolsonarismo entendeu importância das eleições para o Congresso', diz cientista política - BBC",
         "timestamp": "2025-12-15T09:18:32Z"
+    },
+    {
+        "source": "CNN Brasil",
+        "title": "Dosimetria contradiz PL Antifacção e pode beneficiar líderes do PCC e CV - CNN Brasil",
+        "timestamp": "2025-12-15T07:00:50Z"
     },
     {
         "source": "CNN Brasil",
@@ -10,23 +20,13 @@
         "timestamp": "2025-12-15T00:49:19Z"
     },
     {
-        "source": "G1",
-        "title": "'Herói' que desarmou assassino em praia em Sydney aparece em 1ª FOTO no hospital após cirurgia - G1",
-        "timestamp": "2025-12-15T11:08:52Z"
-    },
-    {
-        "source": "Gazeta do Povo",
-        "title": "Senadores contestam PL da Dosimetria e defendem mudanças no texto - Gazeta do Povo",
-        "timestamp": "2025-12-14T19:10:00Z"
-    },
-    {
-        "source": "Agência Brasil",
-        "title": "Moraes autoriza Bolsonaro a ser submetido a ultrassom na prisão - Agência Brasil",
-        "timestamp": "2025-12-14T14:07:00Z"
+        "source": "BBC",
+        "title": "Por que governo brasileiro teme recuo da União Europeia na reta final para acordo com o Mercosul - BBC",
+        "timestamp": "2025-12-14T21:56:43Z"
     },
     {
         "source": "G1",
-        "title": "Fuvest divulga respostas esperadas para 1º dia da segunda fase - G1",
-        "timestamp": "2025-12-14T21:35:28Z"
+        "title": "Segunda fase da Fuvest 2026: candidatos fazem provas específicas nesta segunda-feira - G1",
+        "timestamp": "2025-12-15T03:00:33Z"
     }
 ]
