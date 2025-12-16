@@ -1,5 +1,10 @@
 [
     {
+        "source": "Correio Braziliense",
+        "title": "Alcolumbre pauta PL da Dosimetria apesar de pressão por adiamento - Correio Braziliense",
+        "timestamp": "2025-12-15T14:26:00Z"
+    },
+    {
         "source": "Portal da Câmara dos Deputados",
         "title": "Motta quer votar hoje criação do comitê gestor do novo imposto de bens e serviços e outras três propostas - Portal da Câmara dos Deputados",
         "timestamp": "2025-12-15T22:21:00Z"
@@ -10,9 +15,9 @@
         "timestamp": "2025-12-15T22:06:53Z"
     },
     {
-        "source": "Correio Braziliense",
-        "title": "Alcolumbre pauta PL da Dosimetria apesar de pressão por adiamento - Correio Braziliense",
-        "timestamp": "2025-12-15T14:26:00Z"
+        "source": "CartaCapital",
+        "title": "Toffoli manda a PF realizar diligências urgentes no caso do Banco Master - CartaCapital",
+        "timestamp": "2025-12-15T23:15:00Z"
     },
     {
         "source": "CNN Brasil",
@@ -23,10 +28,5 @@
         "source": "BBC",
         "title": "'Só bolsonarismo entendeu importância das eleições para o Congresso', diz cientista política - BBC",
         "timestamp": "2025-12-15T09:18:32Z"
-    },
-    {
-        "source": "CartaCapital",
-        "title": "Toffoli manda a PF realizar diligências urgentes no caso do Banco Master - CartaCapital",
-        "timestamp": "2025-12-15T23:15:00Z"
     }
 ]
