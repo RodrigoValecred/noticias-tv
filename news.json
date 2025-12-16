@@ -1,13 +1,23 @@
 [
     {
-        "source": "G1",
-        "title": "Quaest: 54% acham que Bolsonaro errou ao escolher Flávio, e 62% dizem que não votariam no filho do ex-presidente - G1",
-        "timestamp": "2025-12-16T16:54:59Z"
+        "source": "O Globo",
+        "title": "Caso envolvendo desembargador preso pela PF levou à discussão acalorada entre Toffoli e Mendonça - O Globo",
+        "timestamp": "2025-12-16T10:41:33Z"
     },
     {
-        "source": "Correio Braziliense",
-        "title": "Desembargador é preso em operação contra vazamento de informações - Correio Braziliense",
-        "timestamp": "2025-12-16T11:31:00Z"
+        "source": "BBC",
+        "title": "Parlamento Europeu aprova salvaguardas e abre caminho para acordo com Mercosul - BBC",
+        "timestamp": "2025-12-16T14:45:50Z"
+    },
+    {
+        "source": "Agência Brasil",
+        "title": "Moraes vota por condenar mais 5 réus da trama golpista e absolver um - Agência Brasil",
+        "timestamp": "2025-12-16T16:48:00Z"
+    },
+    {
+        "source": "CartaCapital",
+        "title": "Quaest testa Lula contra Flávio Bolsonaro, Tarcísio e Ciro; veja os resultados - CartaCapital",
+        "timestamp": "2025-12-16T17:11:00Z"
     },
     {
         "source": "CNN Brasil",
@@ -18,15 +28,5 @@
         "source": "Portal do Estado do Rio Grande do Sul",
         "title": "Pagamento antecipado do IPVA 2026 começa nesta terça-feira (16) com descontos que podem chegar a 25,69% - Portal do Estado do Rio Grande do Sul",
         "timestamp": "2025-12-16T13:21:31Z"
-    },
-    {
-        "source": "www.gov.br",
-        "title": "Divulgados resultados do Encceja 2025 - www.gov.br",
-        "timestamp": "2025-12-16T12:26:38Z"
-    },
-    {
-        "source": "Agência Brasil",
-        "title": "Funai solicita apoio da PF para investigar emboscada no Pará - Agência Brasil",
-        "timestamp": "2025-12-16T15:00:00Z"
     }
 ]
