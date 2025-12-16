@@ -1,15 +1,5 @@
 [
     {
-        "source": "Correio Braziliense",
-        "title": "Alcolumbre pauta PL da Dosimetria apesar de pressão por adiamento - Correio Braziliense",
-        "timestamp": "2025-12-15T14:26:00Z"
-    },
-    {
-        "source": "Correio Braziliense",
-        "title": "PF confirma que investigação do Master envolve autoridade com foro no STF - Correio Braziliense",
-        "timestamp": "2025-12-15T16:24:00Z"
-    },
-    {
         "source": "Portal da Câmara dos Deputados",
         "title": "Motta quer votar hoje criação do comitê gestor do novo imposto de bens e serviços e outras três propostas - Portal da Câmara dos Deputados",
         "timestamp": "2025-12-15T22:21:00Z"
@@ -20,6 +10,11 @@
         "timestamp": "2025-12-15T22:06:53Z"
     },
     {
+        "source": "Correio Braziliense",
+        "title": "Alcolumbre pauta PL da Dosimetria apesar de pressão por adiamento - Correio Braziliense",
+        "timestamp": "2025-12-15T14:26:00Z"
+    },
+    {
         "source": "CNN Brasil",
         "title": "Marco Temporal: entenda o que está em jogo na disputa entre STF e Congresso - CNN Brasil",
         "timestamp": "2025-12-15T18:39:35Z"
@@ -28,5 +23,10 @@
         "source": "Agência Brasil",
         "title": "Moraes pede aos Estados Unidos extradição de Ramagem - Agência Brasil",
         "timestamp": "2025-12-15T19:29:00Z"
+    },
+    {
+        "source": "Defesa Civil do Rio Grande do Sul",
+        "title": "Defesa Civil alerta: Condição de ALERTA para Instabilidades avançam em direção de Passo Fundo, Alvorada e áreas próximas - Defesa Civil do Rio Grande do Sul",
+        "timestamp": "2025-12-15T17:30:48Z"
     }
 ]
