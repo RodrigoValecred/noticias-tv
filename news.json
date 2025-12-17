@@ -1,8 +1,23 @@
 [
     {
-        "source": "O Globo",
-        "title": "Caso envolvendo desembargador preso pela PF levou à discussão acalorada entre Toffoli e Mendonça - O Globo",
-        "timestamp": "2025-12-16T10:41:33Z"
+        "source": "UOL Notícias",
+        "title": "Tarcísio, Nunes e Silveira anunciam que SP irá romper contrato com a Enel - UOL Notícias",
+        "timestamp": "2025-12-16T20:42:37Z"
+    },
+    {
+        "source": "Valor Econômico",
+        "title": "Análise: Ascensão de Flávio consolida favoritismo da reeleição de Lula e Tarcísio - Valor Econômico",
+        "timestamp": "2025-12-16T20:57:25Z"
+    },
+    {
+        "source": "CartaCapital",
+        "title": "A projeção do Centrão e do governo sobre a votação do PL da Dosimetria - CartaCapital",
+        "timestamp": "2025-12-16T18:19:00Z"
+    },
+    {
+        "source": "CNN Brasil",
+        "title": "Filipe Martins é condenado pelo STF a 21 anos de prisão por plano de golpe - CNN Brasil",
+        "timestamp": "2025-12-16T20:14:02Z"
     },
     {
         "source": "BBC",
@@ -10,23 +25,8 @@
         "timestamp": "2025-12-16T14:45:50Z"
     },
     {
-        "source": "Agência Brasil",
-        "title": "Moraes vota por condenar mais 5 réus da trama golpista e absolver um - Agência Brasil",
-        "timestamp": "2025-12-16T16:48:00Z"
-    },
-    {
-        "source": "CartaCapital",
-        "title": "Quaest testa Lula contra Flávio Bolsonaro, Tarcísio e Ciro; veja os resultados - CartaCapital",
-        "timestamp": "2025-12-16T17:11:00Z"
-    },
-    {
-        "source": "CNN Brasil",
-        "title": "Arquidiocese de SP proíbe transmissões de missas de padre Júlio Lancellotti - CNN Brasil",
-        "timestamp": "2025-12-16T14:58:06Z"
-    },
-    {
-        "source": "Portal do Estado do Rio Grande do Sul",
-        "title": "Pagamento antecipado do IPVA 2026 começa nesta terça-feira (16) com descontos que podem chegar a 25,69% - Portal do Estado do Rio Grande do Sul",
-        "timestamp": "2025-12-16T13:21:31Z"
+        "source": "www.gov.br",
+        "title": "PF deflagra segunda fase da Operação Unha e Carne — Polícia Federal - www.gov.br",
+        "timestamp": "2025-12-16T10:01:26Z"
     }
 ]
