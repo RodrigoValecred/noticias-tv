@@ -1,13 +1,8 @@
 [
     {
-        "source": "O Globo",
-        "title": "Flamengo enfrenta o PSG na final da Copa Intercontinental; acompanhe em tempo real - O Globo",
-        "timestamp": "2025-12-17T16:26:00Z"
-    },
-    {
-        "source": "Senado Federal",
-        "title": "CCJ aprova PL da Dosimetria; texto vai a Plenário ainda nesta quarta - Senado Federal",
-        "timestamp": "2025-12-17T18:51:31Z"
+        "source": "BBC",
+        "title": "PL da dosimetria: manobra para salvar projeto é inconstitucional, dizem especialistas - BBC",
+        "timestamp": "2025-12-17T20:37:30Z"
     },
     {
         "source": "Migalhas",
@@ -15,18 +10,23 @@
         "timestamp": "2025-12-17T16:27:10Z"
     },
     {
-        "source": "G1",
-        "title": "Correios: funcionários fazem paralisação parcial em 9 estados - G1",
-        "timestamp": "2025-12-17T19:03:58Z"
-    },
-    {
         "source": "O Globo",
         "title": "Lula põe em dúvida acordo UE-Mercosul por resistência de Itália e França: 'Se não fizer agora, não fará mais' - O Globo",
         "timestamp": "2025-12-17T16:23:38Z"
     },
     {
+        "source": "Agência Brasil",
+        "title": "STF forma maioria de votos contra marco temporal de terras indígenas - Agência Brasil",
+        "timestamp": "2025-12-17T18:41:00Z"
+    },
+    {
         "source": "www.gov.br",
         "title": "Fiscalização da ANEEL aplicou penalidades e iniciou processo que pode levar à caducidade da ENEL-SP - www.gov.br",
         "timestamp": "2025-12-17T14:56:02Z"
+    },
+    {
+        "source": "G1",
+        "title": "Correios: funcionários fazem paralisação parcial em 9 estados - G1",
+        "timestamp": "2025-12-17T19:03:58Z"
     }
 ]
