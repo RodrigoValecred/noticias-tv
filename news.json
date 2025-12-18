@@ -1,18 +1,13 @@
 [
     {
-        "source": "Agência Brasil",
-        "title": "Lula afirma que vai vetar PL da Dosimetria - Agência Brasil",
-        "timestamp": "2025-12-18T16:00:00Z"
-    },
-    {
         "source": "Revista Piauí",
         "title": "PF suspeita que senador Weverton seja sócio oculto do Careca do INSS - Revista Piauí",
         "timestamp": "2025-12-18T16:38:37Z"
     },
     {
-        "source": "GOV.BR",
-        "title": "Detrans de todas as regiões do país já operam modelo da CNH do Brasil — Ministério dos Transportes - GOV.BR",
-        "timestamp": "2025-12-18T12:21:00Z"
+        "source": "Migalhas",
+        "title": "STF julga fixação de idade mínima para aposentadoria especial do INSS - Migalhas",
+        "timestamp": "2025-12-18T18:23:22Z"
     },
     {
         "source": "Portal da Câmara dos Deputados",
@@ -20,13 +15,18 @@
         "timestamp": "2025-12-18T14:57:00Z"
     },
     {
+        "source": "CNN Brasil",
+        "title": "Jato particular cai nos Estados Unidos e deixa mortos - CNN Brasil",
+        "timestamp": "2025-12-18T17:12:18Z"
+    },
+    {
+        "source": "GOV.BR",
+        "title": "Detrans de todas as regiões do país já operam modelo da CNH do Brasil — Ministério dos Transportes - GOV.BR",
+        "timestamp": "2025-12-18T12:21:00Z"
+    },
+    {
         "source": "BBC",
         "title": "Trump e Venezuela: presidente ordena bloqueio 'total' de todos petroleiros sancionados - BBC",
         "timestamp": "2025-12-17T01:52:30Z"
-    },
-    {
-        "source": "Senado Federal",
-        "title": "Senado aprova redução de incentivos fiscais e maior tributação para bets e fintechs — Senado Notícias - Senado Federal",
-        "timestamp": "2025-12-18T01:54:04Z"
     }
 ]
