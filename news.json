@@ -1,10 +1,5 @@
 [
     {
-        "source": "Senado Federal",
-        "title": "PL da dosimetria segue para sanção - Senado Federal",
-        "timestamp": "2025-12-18T00:01:34Z"
-    },
-    {
         "source": "Agência Brasil",
         "title": "Celso Sabino deixa o Ministério do Turismo - Agência Brasil",
         "timestamp": "2025-12-17T21:03:00Z"
@@ -20,13 +15,18 @@
         "timestamp": "2025-12-17T18:41:00Z"
     },
     {
-        "source": "TST",
-        "title": "TST determina ampla divulgação de proposta a trabalhadores dos Correios - TST",
-        "timestamp": "2025-12-17T21:11:13Z"
-    },
-    {
         "source": "www.gov.br",
         "title": "Fiscalização da ANEEL aplicou penalidades e iniciou processo que pode levar à caducidade da ENEL-SP - www.gov.br",
         "timestamp": "2025-12-17T14:56:02Z"
+    },
+    {
+        "source": "STJ - Superior Tribunal de Justiça",
+        "title": "Congresso que reuniu STJ e juízes de primeira instância termina com aprovação de 257 enunciados - STJ - Superior Tribunal de Justiça",
+        "timestamp": "2025-12-17T17:45:00Z"
+    },
+    {
+        "source": "Agência Brasil",
+        "title": "Em última reunião ministerial, Lula diz que 2026 será o ano da verdade - Agência Brasil",
+        "timestamp": "2025-12-17T14:23:00Z"
     }
 ]
