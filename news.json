@@ -1,5 +1,20 @@
 [
     {
+        "source": "Senado Federal",
+        "title": "PL da dosimetria segue para sanção - Senado Federal",
+        "timestamp": "2025-12-18T00:01:34Z"
+    },
+    {
+        "source": "Agência Brasil",
+        "title": "Câmara aprova redução de benefícios fiscais; projeto vai ao Senado - Agência Brasil",
+        "timestamp": "2025-12-17T15:31:00Z"
+    },
+    {
+        "source": "CNN Brasil",
+        "title": "Venezuela pede reunião do Conselho de Segurança sobre \"agressão dos EUA\" - CNN Brasil",
+        "timestamp": "2025-12-17T23:11:07Z"
+    },
+    {
         "source": "Agência Brasil",
         "title": "Celso Sabino deixa o Ministério do Turismo - Agência Brasil",
         "timestamp": "2025-12-17T21:03:00Z"
@@ -10,23 +25,8 @@
         "timestamp": "2025-12-17T18:41:00Z"
     },
     {
-        "source": "Portal da Câmara dos Deputados",
-        "title": "Câmara aprova projeto que reduz benefícios fiscais federais e aumenta tributação de bets e fintechs - Portal da Câmara dos Deputados",
-        "timestamp": "2025-12-17T04:35:00Z"
-    },
-    {
-        "source": "BBC",
-        "title": "Trump e Venezuela: presidente ordena bloqueio 'total' de todos petroleiros sancionados - BBC",
-        "timestamp": "2025-12-17T01:52:30Z"
-    },
-    {
-        "source": "www.gov.br",
-        "title": "Fiscalização da ANEEL aplicou penalidades e iniciou processo que pode levar à caducidade da ENEL-SP - www.gov.br",
-        "timestamp": "2025-12-17T14:56:02Z"
-    },
-    {
-        "source": "STJ - Superior Tribunal de Justiça",
-        "title": "Congresso que reuniu STJ e juízes de primeira instância termina com aprovação de 257 enunciados - STJ - Superior Tribunal de Justiça",
-        "timestamp": "2025-12-17T17:45:00Z"
+        "source": "G1",
+        "title": "Correios: funcionários fazem paralisação parcial em 9 estados - G1",
+        "timestamp": "2025-12-17T19:03:58Z"
     }
 ]
