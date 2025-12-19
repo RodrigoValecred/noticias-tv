@@ -1,8 +1,8 @@
 [
     {
-        "source": "BBC",
-        "title": "Sóstenes diz que R$ 400 mil apreendidos são de venda de imóvel: o que se sabe sobre operação da PF contra parlamentares do PL - BBC",
-        "timestamp": "2025-12-19T18:39:01Z"
+        "source": "ICL Notícias",
+        "title": "Celulares de Sóstenes Cavalcante e Carlos Jordy são apreendidos em operação da PF - ICL Notícias",
+        "timestamp": "2025-12-19T14:48:46Z"
     },
     {
         "source": "Portal da Câmara dos Deputados",
@@ -15,11 +15,6 @@
         "timestamp": "2025-12-19T15:17:00Z"
     },
     {
-        "source": "O Globo",
-        "title": "Quem assume os mandatos de Eduardo Bolsonaro e Alexandre Ramagem, cassados pela Mesa da Câmara? - O Globo",
-        "timestamp": "2025-12-19T14:04:50Z"
-    },
-    {
         "source": "BBC",
         "title": "EUA x Venezuela: os cenários avaliados pelo governo Lula em caso de ataque americano ao país sul-americano - BBC",
         "timestamp": "2025-12-18T00:00:16Z"
@@ -28,5 +23,10 @@
         "source": "Agência Brasil",
         "title": "IBGE: 25 municípios concentram mais de um terço do PIB brasileiro - Agência Brasil",
         "timestamp": "2025-12-19T13:02:00Z"
+    },
+    {
+        "source": "Agência Brasil",
+        "title": "Moraes nega recurso de Bolsonaro contra condenação por trama golpista - Agência Brasil",
+        "timestamp": "2025-12-19T17:47:00Z"
     }
 ]
