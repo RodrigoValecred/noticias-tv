@@ -1,15 +1,5 @@
 [
     {
-        "source": "CNN Brasil",
-        "title": "PF apreende dinheiro em espécie na casa de Sóstenes Cavalcante; veja fotos - CNN Brasil",
-        "timestamp": "2025-12-19T11:01:33Z"
-    },
-    {
-        "source": "Agência Brasil",
-        "title": "IBGE: 25 municípios concentram mais de um terço do PIB brasileiro - Agência Brasil",
-        "timestamp": "2025-12-19T13:02:00Z"
-    },
-    {
         "source": "BBC",
         "title": "Câmara decide cassar mandatos de Eduardo Bolsonaro e Alexandre Ramagem: o que pesa contra eles? - BBC",
         "timestamp": "2025-12-19T02:33:51Z"
@@ -20,13 +10,23 @@
         "timestamp": "2025-12-19T08:52:21Z"
     },
     {
-        "source": "G1",
-        "title": "Agricultores despejam esterco e lixo em frente à casa de praia de Macron em protesto contra acordo UE-Mercosul - G1",
-        "timestamp": "2025-12-19T14:51:57Z"
-    },
-    {
         "source": "BBC",
         "title": "EUA x Venezuela: os cenários avaliados pelo governo Lula em caso de ataque americano ao país sul-americano - BBC",
         "timestamp": "2025-12-17T23:55:02Z"
+    },
+    {
+        "source": "Agência Brasil",
+        "title": "IBGE: 25 municípios concentram mais de um terço do PIB brasileiro - Agência Brasil",
+        "timestamp": "2025-12-19T13:02:00Z"
+    },
+    {
+        "source": "Portal da Câmara dos Deputados",
+        "title": "Congresso vota Orçamento de 2026 e créditos suplementares nesta sexta-feira - Portal da Câmara dos Deputados",
+        "timestamp": "2025-12-19T11:06:00Z"
+    },
+    {
+        "source": "fab.mil.br",
+        "title": "Lançamento de foguete no CLA será transmitido ao vivo - fab.mil.br",
+        "timestamp": "2025-12-19T15:17:00Z"
     }
 ]
