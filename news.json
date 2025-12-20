@@ -1,13 +1,18 @@
 [
     {
-        "source": "CartaCapital",
-        "title": "A reação de Hugo Motta à operação da PF contra deputados do PL - CartaCapital",
-        "timestamp": "2025-12-19T17:12:00Z"
-    },
-    {
         "source": "BBC",
         "title": "Comando Vermelho: os tentáculos da facção na política do Rio de Janeiro, segundo investigações - BBC",
         "timestamp": "2025-12-20T09:22:46Z"
+    },
+    {
+        "source": "BBC",
+        "title": "Acordo UE-Mercosul, Trump e Venezuela: os recados da entrevista de Lula - BBC",
+        "timestamp": "2025-12-18T17:06:06Z"
+    },
+    {
+        "source": "CartaCapital",
+        "title": "A reação de Hugo Motta à operação da PF contra deputados do PL - CartaCapital",
+        "timestamp": "2025-12-19T17:12:00Z"
     },
     {
         "source": "Agência Brasil",
@@ -20,13 +25,8 @@
         "timestamp": "2025-12-19T21:10:01Z"
     },
     {
-        "source": "BBC",
-        "title": "Acordo UE-Mercosul, Trump e Venezuela: os recados da entrevista de Lula - BBC",
-        "timestamp": "2025-12-18T17:06:06Z"
-    },
-    {
         "source": "G1",
-        "title": "Trump diz que não descarta guerra com a Venezuela em entrevista a TV americana - G1",
-        "timestamp": "2025-12-19T10:18:03Z"
+        "title": "Um dia após Lula inaugurar Ponte da Integração no Paraná sem presidente paraguaio, Paraguai faz cerimônia própria do outro lado da fronteira - G1",
+        "timestamp": "2025-12-20T14:23:49Z"
     }
 ]
