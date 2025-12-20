@@ -5,19 +5,14 @@
         "timestamp": "2025-12-19T23:24:00Z"
     },
     {
+        "source": "CartaCapital",
+        "title": "A reação de Hugo Motta à operação da PF contra deputados do PL - CartaCapital",
+        "timestamp": "2025-12-19T17:12:00Z"
+    },
+    {
         "source": "Portal da Câmara dos Deputados",
         "title": "Congresso Nacional aprova Orçamento de 2026 com R$ 6,5 trilhões em despesas - Portal da Câmara dos Deputados",
         "timestamp": "2025-12-19T20:14:00Z"
-    },
-    {
-        "source": "ICL Notícias",
-        "title": "Sóstenes diz que dinheiro apreendido veio de venda de imóvel, mas versão tem contradições - ICL Notícias",
-        "timestamp": "2025-12-19T17:48:36Z"
-    },
-    {
-        "source": "G1",
-        "title": "Agricultores despejam esterco e lixo em frente à casa de praia de Macron em protesto contra acordo UE-Mercosul - G1",
-        "timestamp": "2025-12-19T14:51:57Z"
     },
     {
         "source": "Poder360",
@@ -26,7 +21,12 @@
     },
     {
         "source": "G1",
-        "title": "Lançamento do foguete que faria 1º voo comercial espacial do Brasil é adiado pela 3ª vez; entenda o que acontece agora - G1",
-        "timestamp": "2025-12-20T00:12:06Z"
+        "title": "Agricultores despejam esterco e lixo em frente à casa de praia de Macron em protesto contra acordo UE-Mercosul - G1",
+        "timestamp": "2025-12-19T14:51:57Z"
+    },
+    {
+        "source": "CNN Brasil",
+        "title": "Departamento de Justiça dos EUA divulga arquivos do caso Epstein - CNN Brasil",
+        "timestamp": "2025-12-19T21:10:01Z"
     }
 ]
