@@ -1,8 +1,23 @@
 [
     {
-        "source": "Revista Oeste",
-        "title": "Irritado com queda de energia, Lula abandona evento durante discurso - Revista Oeste",
-        "timestamp": "2025-12-20T00:00:16Z"
+        "source": "Correio Braziliense",
+        "title": "Perícia médica conclui que Bolsonaro tem hérnia e necessita de cirurgia - Correio Braziliense",
+        "timestamp": "2025-12-19T20:26:00Z"
+    },
+    {
+        "source": "G1",
+        "title": "Congresso aprova Orçamento de 2026 com R$ 61 bilhões em emendas parlamentares - G1",
+        "timestamp": "2025-12-19T19:45:21Z"
+    },
+    {
+        "source": "ICL Notícias",
+        "title": "Sóstenes diz que dinheiro apreendido veio de venda de imóvel, mas versão tem contradições - ICL Notícias",
+        "timestamp": "2025-12-19T17:48:36Z"
+    },
+    {
+        "source": "Poder360",
+        "title": "Queda de energia irrita Lula, que encerra discurso no meio em evento - Poder360",
+        "timestamp": "2025-12-19T22:52:30Z"
     },
     {
         "source": "CNN Brasil",
@@ -13,20 +28,5 @@
         "source": "G1",
         "title": "Lançamento do foguete que faria 1º voo comercial espacial do Brasil é adiado pela 3ª vez; entenda o que acontece agora - G1",
         "timestamp": "2025-12-20T00:12:06Z"
-    },
-    {
-        "source": "Consultor Jurídico",
-        "title": "PL da Dosimetria viola impessoalidade e usurpa função do Judiciário, dizem especialistas - Consultor Jurídico",
-        "timestamp": "2025-12-19T18:45:00Z"
-    },
-    {
-        "source": "G1",
-        "title": "Agricultores despejam esterco e lixo em frente à casa de praia de Macron em protesto contra acordo UE-Mercosul - G1",
-        "timestamp": "2025-12-19T14:51:57Z"
-    },
-    {
-        "source": "BBC",
-        "title": "O que se sabe sobre português suspeito de matar professor do MIT e estudantes da Universidade de Brown - BBC",
-        "timestamp": "2025-12-19T15:34:30Z"
     }
 ]
