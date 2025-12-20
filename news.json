@@ -1,20 +1,5 @@
 [
     {
-        "source": "Folha de S.Paulo",
-        "title": "Entenda o procedimento que Bolsonaro fará para corrigir a hérnia inguinal - Folha de S.Paulo",
-        "timestamp": "2025-12-19T23:59:00Z"
-    },
-    {
-        "source": "Portal da Câmara dos Deputados",
-        "title": "Congresso Nacional aprova Orçamento de 2026 com R$ 6,5 trilhões em despesas - Portal da Câmara dos Deputados",
-        "timestamp": "2025-12-19T20:14:00Z"
-    },
-    {
-        "source": "ICL Notícias",
-        "title": "Sóstenes diz que dinheiro apreendido veio de venda de imóvel, mas versão tem contradições - ICL Notícias",
-        "timestamp": "2025-12-19T17:48:36Z"
-    },
-    {
         "source": "Revista Oeste",
         "title": "Irritado com queda de energia, Lula abandona evento durante discurso - Revista Oeste",
         "timestamp": "2025-12-20T00:00:16Z"
@@ -28,5 +13,20 @@
         "source": "G1",
         "title": "Lançamento do foguete que faria 1º voo comercial espacial do Brasil é adiado pela 3ª vez; entenda o que acontece agora - G1",
         "timestamp": "2025-12-20T00:12:06Z"
+    },
+    {
+        "source": "Consultor Jurídico",
+        "title": "PL da Dosimetria viola impessoalidade e usurpa função do Judiciário, dizem especialistas - Consultor Jurídico",
+        "timestamp": "2025-12-19T18:45:00Z"
+    },
+    {
+        "source": "G1",
+        "title": "Agricultores despejam esterco e lixo em frente à casa de praia de Macron em protesto contra acordo UE-Mercosul - G1",
+        "timestamp": "2025-12-19T14:51:57Z"
+    },
+    {
+        "source": "BBC",
+        "title": "O que se sabe sobre português suspeito de matar professor do MIT e estudantes da Universidade de Brown - BBC",
+        "timestamp": "2025-12-19T15:34:30Z"
     }
 ]
