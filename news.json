@@ -1,15 +1,5 @@
 [
     {
-        "source": "BBC",
-        "title": "Rede criminosa desviou milhões arrecadados para crianças com câncer, revela investigação da BBC - BBC",
-        "timestamp": "2025-12-21T09:33:45Z"
-    },
-    {
-        "source": "Poder360",
-        "title": "Anotações em agenda apreendida pela PF citam “Fábio (filho Lula)” - Poder360",
-        "timestamp": "2025-12-21T09:04:20Z"
-    },
-    {
         "source": "Agência Brasil",
         "title": "Reforma tributária: veja o que muda com o projeto aprovado pela Câmara - Agência Brasil",
         "timestamp": "2025-12-20T13:15:00Z"
@@ -20,13 +10,23 @@
         "timestamp": "2025-12-21T09:00:14Z"
     },
     {
-        "source": "BBC",
-        "title": "Lula: 'Intervenção armada na Venezuela seria catástrofe humanitária e precedente perigoso' - BBC",
-        "timestamp": "2025-12-20T15:38:16Z"
-    },
-    {
         "source": "Senado Federal",
         "title": "Congresso aprova Orçamento de R$ 6,5 trilhões e R$ 61 bilhões em emendas - Senado Federal",
         "timestamp": "2025-12-19T20:32:06Z"
+    },
+    {
+        "source": "CNN Brasil",
+        "title": "Perda de mandato de Eduardo Bolsonaro repercute na imprensa internacional - CNN Brasil",
+        "timestamp": "2025-12-19T16:39:40Z"
+    },
+    {
+        "source": "G1",
+        "title": "Um dia após Lula inaugurar Ponte da Integração no Paraná sem presidente paraguaio, Paraguai faz cerimônia própria do outro lado da fronteira - G1",
+        "timestamp": "2025-12-20T14:23:49Z"
+    },
+    {
+        "source": "Epagri/Ciram",
+        "title": "Previsão 5 dias - Epagri/Ciram",
+        "timestamp": "2025-12-21T11:30:45Z"
     }
 ]
