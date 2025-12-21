@@ -5,11 +5,6 @@
         "timestamp": "2025-12-21T00:32:39Z"
     },
     {
-        "source": "BBC",
-        "title": "Quem aparece nos arquivos de Epstein publicados nos EUA, de Bill Clinton a Michael Jackson - BBC",
-        "timestamp": "2025-12-20T12:03:48Z"
-    },
-    {
         "source": "Jovem Pan",
         "title": "Sem Brasil, Argentina e mais 5 países emitem comunicado por democracia na Venezuela - Jovem Pan",
         "timestamp": "2025-12-20T21:28:17Z"
@@ -25,8 +20,13 @@
         "timestamp": "2025-12-20T14:23:49Z"
     },
     {
-        "source": "CNN Brasil",
-        "title": "Paraguai fala em disposição construtiva para avançar em acordo Mercosul-UE - CNN Brasil",
-        "timestamp": "2025-12-20T00:37:33Z"
+        "source": "BBC",
+        "title": "Quem aparece nos arquivos de Epstein publicados nos EUA, de Bill Clinton a Michael Jackson - BBC",
+        "timestamp": "2025-12-20T12:03:48Z"
+    },
+    {
+        "source": "G1",
+        "title": "Verão quente e de chuvas abaixo da média: veja as tendências para a estação que começa neste domingo - G1",
+        "timestamp": "2025-12-21T03:00:52Z"
     }
 ]
