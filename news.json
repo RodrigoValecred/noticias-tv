@@ -10,11 +10,6 @@
         "timestamp": "2025-12-20T16:23:00Z"
     },
     {
-        "source": "Revista Oeste",
-        "title": "Milei contraria Lula e defende ação dos EUA na Venezuela - Revista Oeste",
-        "timestamp": "2025-12-20T21:09:43Z"
-    },
-    {
         "source": "BBC",
         "title": "Quem aparece nos arquivos de Epstein publicados nos EUA, de Bill Clinton a Michael Jackson - BBC",
         "timestamp": "2025-12-20T12:03:48Z"
@@ -28,5 +23,10 @@
         "source": "G1",
         "title": "Verão quente e de chuvas abaixo da média: veja as tendências para a estação que começa neste domingo - G1",
         "timestamp": "2025-12-21T03:00:52Z"
+    },
+    {
+        "source": "Revista Oeste",
+        "title": "Milei contraria Lula e defende ação dos EUA na Venezuela - Revista Oeste",
+        "timestamp": "2025-12-20T21:09:43Z"
     }
 ]
