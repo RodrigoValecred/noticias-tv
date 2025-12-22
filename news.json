@@ -1,5 +1,10 @@
 [
     {
+        "source": "G1",
+        "title": "Dinamarca e Groenlândia rejeitam tentativa de controle dos EUA após Trump nomear enviado especial - G1",
+        "timestamp": "2025-12-22T13:14:57Z"
+    },
+    {
         "source": "Agência Brasil",
         "title": "Dino suspende trecho de PL que libera emendas do orçamento secreto - Agência Brasil",
         "timestamp": "2025-12-21T21:15:00Z"
@@ -10,14 +15,9 @@
         "timestamp": "2025-12-22T09:23:06Z"
     },
     {
-        "source": "CNN Brasil",
-        "title": "Valor total apreendido com Sóstenes é de R$ 469,7 mil, após balanço da PF - CNN Brasil",
-        "timestamp": "2025-12-22T14:10:45Z"
-    },
-    {
-        "source": "CNN Brasil",
-        "title": "Por que o governo Trump está pressionando a Venezuela? Entenda em 5 pontos - CNN Brasil",
-        "timestamp": "2025-12-21T15:00:47Z"
+        "source": "Notícias da TV",
+        "title": "Paolla Oliveira e Diogo Nogueira anunciam separação após quase 5 anos juntos - Notícias da TV",
+        "timestamp": "2025-12-22T13:29:00Z"
     },
     {
         "source": "Defesa Civil do Rio Grande do Sul",
@@ -25,8 +25,8 @@
         "timestamp": "2025-12-21T23:46:53Z"
     },
     {
-        "source": "G1",
-        "title": "Rodízio de carros está suspenso na cidade de SP a partir desta segunda - G1",
-        "timestamp": "2025-12-22T03:00:37Z"
+        "source": "Agência Brasil",
+        "title": "Receita abre consulta a lote residual do Imposto de Renda - Agência Brasil",
+        "timestamp": "2025-12-22T13:37:00Z"
     }
 ]
