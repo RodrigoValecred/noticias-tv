@@ -5,19 +5,14 @@
         "timestamp": "2025-12-23T12:50:41Z"
     },
     {
+        "source": "Estado de Minas",
+        "title": "Lula mantém exclusão de condenados do 8 de janeiro no indulto de Natal - Estado de Minas",
+        "timestamp": "2025-12-23T11:10:00Z"
+    },
+    {
         "source": "G1",
         "title": "Antes de Heleno, STF concedeu prisão domiciliar humanitária para 20 e negou para 17, inclusive Bolsonaro - G1",
         "timestamp": "2025-12-23T14:06:58Z"
-    },
-    {
-        "source": "Correio Braziliense",
-        "title": "Lula mantém exclusão de condenados do 8 de janeiro no indulto de Natal - Correio Braziliense",
-        "timestamp": "2025-12-23T10:42:00Z"
-    },
-    {
-        "source": "CNN Brasil",
-        "title": "FAB diz que foguete lançado de Alcântara colidiu com solo após anomalia - CNN Brasil",
-        "timestamp": "2025-12-23T11:09:36Z"
     },
     {
         "source": "G1",
@@ -28,5 +23,10 @@
         "source": "BBC",
         "title": "O elo do caso Jeffrey Epstein com o Brasil revelado em novos documentos: 'Grande grupo brasileiro' - BBC",
         "timestamp": "2025-12-23T08:32:56Z"
+    },
+    {
+        "source": "O Globo",
+        "title": "Congresso corta orçamento de universidades federais, que terão quase R$ 400 milhões a menos em 2026 - O Globo",
+        "timestamp": "2025-12-23T08:53:39Z"
     }
 ]
