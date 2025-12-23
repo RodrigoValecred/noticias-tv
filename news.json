@@ -1,8 +1,23 @@
 [
     {
+        "source": "G1",
+        "title": "Lula assina decreto que garante indulto de Natal de 2025 - G1",
+        "timestamp": "2025-12-23T06:58:36Z"
+    },
+    {
         "source": "CNN Brasil",
         "title": "Foguete sul-coreano explode durante tentativa de lançamento no Brasil - CNN Brasil",
         "timestamp": "2025-12-23T02:55:17Z"
+    },
+    {
+        "source": "BBC",
+        "title": "O elo do caso Jeffrey Epstein com o Brasil revelado em novos documentos: 'Grande grupo brasileiro' - BBC",
+        "timestamp": "2025-12-23T08:32:56Z"
+    },
+    {
+        "source": "Brasil 247",
+        "title": "Parlamentares de direita preparam notícia-crime contra Moraes e pedido de impeachment - Brasil 247",
+        "timestamp": "2025-12-22T21:40:01Z"
     },
     {
         "source": "CartaCapital",
@@ -10,23 +25,8 @@
         "timestamp": "2025-12-22T22:31:00Z"
     },
     {
-        "source": "Poder360",
-        "title": "Gilmar diz ter \"absoluta confiança\" em Moraes no caso do Banco Master - Poder360",
-        "timestamp": "2025-12-22T22:32:44Z"
-    },
-    {
         "source": "TST",
         "title": "TST convoca Seção de Dissídios Coletivos para julgar eventual deflagração de greve nos Correios - TST",
         "timestamp": "2025-12-22T23:30:40Z"
-    },
-    {
-        "source": "BBC",
-        "title": "Caso Jeffrey Epstein: Foto de Trump é reinserida nos arquivos após acusações de 'acobertamento' - BBC",
-        "timestamp": "2025-12-22T14:40:52Z"
-    },
-    {
-        "source": "CNN Brasil",
-        "title": "Trump ameaça Maduro: “Se jogar duro, será a última vez” - CNN Brasil",
-        "timestamp": "2025-12-23T00:00:44Z"
     }
 ]
