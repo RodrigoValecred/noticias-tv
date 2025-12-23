@@ -1,5 +1,10 @@
 [
     {
+        "source": "CNN Brasil",
+        "title": "Foguete sul-coreano explode durante tentativa de lançamento no Brasil - CNN Brasil",
+        "timestamp": "2025-12-23T02:55:17Z"
+    },
+    {
         "source": "CartaCapital",
         "title": "Moraes autoriza prisão domiciliar humanitária para Augusto Heleno por Alzheimer e idade avançada - CartaCapital",
         "timestamp": "2025-12-22T22:31:00Z"
@@ -10,23 +15,18 @@
         "timestamp": "2025-12-22T23:43:36Z"
     },
     {
-        "source": "Olhar Digital",
-        "title": "Brasil: foguete lançado na base de Alcântara explode - Olhar Digital",
-        "timestamp": "2025-12-23T01:28:00Z"
-    },
-    {
-        "source": "Agência Brasil",
-        "title": "Trama golpista: Moraes determina retomada de processo contra Ramagem - Agência Brasil",
-        "timestamp": "2025-12-22T18:56:00Z"
-    },
-    {
-        "source": "Poder360",
-        "title": "Petroleiro leva 500 mil barris da Venezuela ao Texas - Poder360",
-        "timestamp": "2025-12-22T17:45:10Z"
+        "source": "TST",
+        "title": "TST convoca Seção de Dissídios Coletivos para julgar eventual deflagração de greve nos Correios - TST",
+        "timestamp": "2025-12-22T23:30:40Z"
     },
     {
         "source": "BBC",
         "title": "Caso Jeffrey Epstein: Foto de Trump é reinserida nos arquivos após acusações de 'acobertamento' - BBC",
         "timestamp": "2025-12-22T14:40:52Z"
+    },
+    {
+        "source": "Agência Brasil",
+        "title": "Trama golpista: Moraes determina retomada de processo contra Ramagem - Agência Brasil",
+        "timestamp": "2025-12-22T18:56:00Z"
     }
 ]
