@@ -1,8 +1,23 @@
 [
     {
+        "source": "Correio Braziliense",
+        "title": "Moraes autoriza internação e cirurgia de Bolsonaro no Natal após aval da PGR - Correio Braziliense",
+        "timestamp": "2025-12-23T18:00:00Z"
+    },
+    {
+        "source": "Migalhas",
+        "title": "Moraes diz que encontro com banqueiros foi para tratar da Magnitsky - Migalhas",
+        "timestamp": "2025-12-23T12:50:41Z"
+    },
+    {
         "source": "Agência Brasil",
         "title": "Decreto reconhece cultura gospel como manifestação cultural nacional - Agência Brasil",
         "timestamp": "2025-12-23T17:11:00Z"
+    },
+    {
+        "source": "BBC",
+        "title": "Arquivos de Epstein: O que a divulgação significa para Trump e seus eleitores - BBC",
+        "timestamp": "2025-12-23T15:56:15Z"
     },
     {
         "source": "Agência Brasil",
@@ -10,23 +25,8 @@
         "timestamp": "2025-12-23T15:10:00Z"
     },
     {
-        "source": "Secretaria de Estado da Proteção e Defesa Civil",
-        "title": "Atualização: Atenção Meteorológica SDC/SC 23/12 08:45 -Temporais com chuva intensa entre as tardes e noites de terça (23) e quinta-feira (25) - Secretaria de Estado da Proteção e Defesa Civil",
-        "timestamp": "2025-12-23T11:55:27Z"
-    },
-    {
-        "source": "Agência Brasil",
-        "title": "PRF reforça fiscalização em rodovias federais na Operação Natal - Agência Brasil",
-        "timestamp": "2025-12-23T17:35:00Z"
-    },
-    {
-        "source": "LegisWeb",
-        "title": "Ato Conjunto RFB/CGIBS Nº 1 DE 22/12/2025 - LegisWeb",
-        "timestamp": "2025-12-23T11:50:39Z"
-    },
-    {
-        "source": "Epagri/Ciram",
-        "title": "Previsão 5 dias - Epagri/Ciram",
-        "timestamp": "2025-12-22T08:00:00Z"
+        "source": "Defesa Civil do Rio Grande do Sul",
+        "title": "Defesa Civil alerta: Condição de ALERTA para instabilidades com chuva forte, granizo e raios atuam no Litoral Norte. - Defesa Civil do Rio Grande do Sul",
+        "timestamp": "2025-12-23T17:29:19Z"
     }
 ]
