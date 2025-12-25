@@ -1,13 +1,13 @@
 [
     {
+        "source": "Correio Braziliense",
+        "title": "Médicos apontam Bolsonaro 'deprimido', mas apto para cirurgia - Correio Braziliense",
+        "timestamp": "2025-12-24T19:26:00Z"
+    },
+    {
         "source": "O Globo",
         "title": "Lula faz pronunciamento de Natal destacando bandeiras eleitorais da segurança pública e escala 6x1 para 2026 - O Globo",
         "timestamp": "2025-12-24T23:30:15Z"
-    },
-    {
-        "source": "Estado de Minas",
-        "title": "Escolta, vigilância e restrições: os detalhes da cirurgia de Bolsonaro - Estado de Minas",
-        "timestamp": "2025-12-24T13:53:00Z"
     },
     {
         "source": "Estadão",
@@ -20,13 +20,13 @@
         "timestamp": "2025-12-24T21:28:46Z"
     },
     {
-        "source": "CNN Brasil",
-        "title": "Após caso Master, senadores protocolam pedido de impeachment contra Moraes - CNN Brasil",
-        "timestamp": "2025-12-24T21:43:31Z"
-    },
-    {
         "source": "G1",
         "title": "Onda de calor no Natal: cidade de SP pode registrar recorde de temperatura nesta quinta, e há previsão de pancadas de chuva à tarde - G1",
         "timestamp": "2025-12-25T03:00:33Z"
+    },
+    {
+        "source": "CNN Brasil",
+        "title": "Após caso Master, senadores protocolam pedido de impeachment contra Moraes - CNN Brasil",
+        "timestamp": "2025-12-24T21:43:31Z"
     }
 ]
