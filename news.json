@@ -1,18 +1,13 @@
 [
     {
-        "source": "BBC",
-        "title": "Cirurgia de Bolsonaro: três pontos sobre oitava cirurgia de ex-presidente desde facada - BBC",
-        "timestamp": "2025-12-25T17:48:45Z"
+        "source": "O Globo",
+        "title": "Carlos Bolsonaro posta foto antiga do pai internado e diz que médicos avaliam necessidade de novos procedimentos - O Globo",
+        "timestamp": "2025-12-25T18:24:00Z"
     },
     {
         "source": "O Globo",
         "title": "Banco Master: integrantes da PGR e do BC reagem com incômodo à acareação marcada por Toffoli em fase inicial do inquérito - O Globo",
         "timestamp": "2025-12-25T19:33:02Z"
-    },
-    {
-        "source": "G1",
-        "title": "Excesso de calor atinge 22 cidades do Rio durante feriado de Natal - G1",
-        "timestamp": "2025-12-25T23:43:09Z"
     },
     {
         "source": "G1",
@@ -28,5 +23,10 @@
         "source": "O Globo",
         "title": "Em meio a onda de calor e estiagem, governo de São Paulo pede 'redução imediata do consumo de água' à população - O Globo",
         "timestamp": "2025-12-26T00:40:07Z"
+    },
+    {
+        "source": "G1",
+        "title": "Excesso de calor atinge 22 cidades do Rio durante feriado de Natal - G1",
+        "timestamp": "2025-12-25T23:43:09Z"
     }
 ]
