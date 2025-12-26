@@ -1,8 +1,13 @@
 [
     {
-        "source": "O Globo",
-        "title": "Carlos Bolsonaro posta foto antiga do pai internado e diz que médicos avaliam necessidade de novos procedimentos - O Globo",
-        "timestamp": "2025-12-25T18:24:00Z"
+        "source": "BBC",
+        "title": "Cirurgia de Bolsonaro: três pontos sobre oitava cirurgia de ex-presidente desde facada - BBC",
+        "timestamp": "2025-12-25T17:48:45Z"
+    },
+    {
+        "source": "Poder360",
+        "title": "Milei reposta publicação de Flávio sobre a carta de Bolsonaro - Poder360",
+        "timestamp": "2025-12-26T01:36:16Z"
     },
     {
         "source": "O Globo",
@@ -10,23 +15,18 @@
         "timestamp": "2025-12-25T19:33:02Z"
     },
     {
-        "source": "G1",
-        "title": "Onda de calor: Inmet emite aviso laranja de perigo para 8 estados - G1",
-        "timestamp": "2025-12-25T21:17:03Z"
-    },
-    {
         "source": "Correio Braziliense",
-        "title": "Lula pede expulsão de auditor da CGU que agrediu mulher e criança no DF - Correio Braziliense",
-        "timestamp": "2025-12-25T18:22:30Z"
-    },
-    {
-        "source": "O Globo",
-        "title": "Em meio a onda de calor e estiagem, governo de São Paulo pede 'redução imediata do consumo de água' à população - O Globo",
-        "timestamp": "2025-12-26T00:40:07Z"
+        "title": "SP tem recorde de calor; Inmet alerta para altas temperaturas no país - Correio Braziliense",
+        "timestamp": "2025-12-25T23:05:00Z"
     },
     {
         "source": "G1",
         "title": "Excesso de calor atinge 22 cidades do Rio durante feriado de Natal - G1",
         "timestamp": "2025-12-25T23:43:09Z"
+    },
+    {
+        "source": "O Globo",
+        "title": "Em meio a onda de calor e estiagem, governo de São Paulo pede 'redução imediata do consumo de água' à população - O Globo",
+        "timestamp": "2025-12-26T00:40:07Z"
     }
 ]
