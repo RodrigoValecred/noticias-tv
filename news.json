@@ -1,8 +1,23 @@
 [
     {
+        "source": "Correio Braziliense",
+        "title": "SP tem recorde de calor; Inmet alerta para altas temperaturas no país - Correio Braziliense",
+        "timestamp": "2025-12-25T23:05:00Z"
+    },
+    {
+        "source": "Poder360",
+        "title": "Milei reposta publicação de Flávio sobre a carta de Bolsonaro - Poder360",
+        "timestamp": "2025-12-26T01:36:16Z"
+    },
+    {
+        "source": "BBC",
+        "title": "Cirurgia de Bolsonaro: três pontos sobre oitava cirurgia de ex-presidente desde facada - BBC",
+        "timestamp": "2025-12-25T17:48:45Z"
+    },
+    {
         "source": "O Globo",
-        "title": "Em meio a onda de calor e estiagem, governo de São Paulo pede 'redução imediata do consumo de água' à população - O Globo",
-        "timestamp": "2025-12-26T00:40:07Z"
+        "title": "Acareação no STF deve mirar atuação do Banco Central na liquidação do Master - O Globo",
+        "timestamp": "2025-12-25T20:42:30Z"
     },
     {
         "source": "BBC",
@@ -10,23 +25,8 @@
         "timestamp": "2025-12-24T10:12:43Z"
     },
     {
-        "source": "CNN Brasil",
-        "title": "Após caso Master, senadores protocolam pedido de impeachment contra Moraes - CNN Brasil",
-        "timestamp": "2025-12-24T21:43:31Z"
-    },
-    {
-        "source": "O Globo",
-        "title": "Réveillon Rio 2026: veja programação dos 13 palcos com shows gratuitos, de Gil&Ney e João Gomes a Alok - O Globo",
-        "timestamp": "2025-12-25T04:00:32Z"
-    },
-    {
-        "source": "CNN Brasil",
-        "title": "TST determina funcionamento mínimo de 80% dos Correios durante greve - CNN Brasil",
-        "timestamp": "2025-12-26T00:03:53Z"
-    },
-    {
-        "source": "BBC",
-        "title": "Candidato de Trump é eleito em Honduras após semanas de incertezas e acusação de fraude - BBC",
-        "timestamp": "2025-12-24T22:49:01Z"
+        "source": "Agência Brasil",
+        "title": "Lula faz balanço de ações e desafios: \"povo brasileiro é vencedor\" - Agência Brasil",
+        "timestamp": "2025-12-24T23:49:00Z"
     }
 ]
