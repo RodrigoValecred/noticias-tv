@@ -1,13 +1,18 @@
 [
     {
+        "source": "UOL Notícias",
+        "title": "Hospital nega vínculo e diz que atestado levado por Silvinei é falso - UOL Notícias",
+        "timestamp": "2025-12-27T19:12:08Z"
+    },
+    {
         "source": "CNN Brasil",
         "title": "Toffoli mantém acareação no caso Banco Master e rejeita recurso do BC - CNN Brasil",
         "timestamp": "2025-12-27T21:25:56Z"
     },
     {
-        "source": "UOL Notícias",
-        "title": "Hospital nega vínculo e diz que atestado levado por Silvinei é falso - UOL Notícias",
-        "timestamp": "2025-12-27T19:12:08Z"
+        "source": "CartaCapital",
+        "title": "Bolsonaro volta ao centro cirúrgico, diz Michelle - CartaCapital",
+        "timestamp": "2025-12-27T18:31:00Z"
     },
     {
         "source": "CNN Brasil",
@@ -15,18 +20,13 @@
         "timestamp": "2025-12-27T18:40:41Z"
     },
     {
-        "source": "Agência Brasil",
-        "title": "Bolsonaro inicia reabilitação pós-operatória - Agência Brasil",
-        "timestamp": "2025-12-26T19:09:00Z"
-    },
-    {
-        "source": "CNN Brasil",
-        "title": "PF considera foragido presidente do IVL, condenado por plano de golpe - CNN Brasil",
-        "timestamp": "2025-12-27T15:20:14Z"
-    },
-    {
         "source": "Defesa Civil do Rio Grande do Sul",
         "title": "Defesa Civil alerta: Condição de ALERTA para instabilidades com chuva forte, raios e rajadas de vento atuam na região da Serra. - Defesa Civil do Rio Grande do Sul",
         "timestamp": "2025-12-27T18:20:38Z"
+    },
+    {
+        "source": "G1",
+        "title": "Juiz de Fora tem calorão de 34 ºC; confira outras temperaturas máximas na região - G1",
+        "timestamp": "2025-12-26T20:19:04Z"
     }
 ]
