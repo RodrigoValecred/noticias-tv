@@ -1,13 +1,8 @@
 [
     {
-        "source": "O Globo",
-        "title": "Polícia do Paraguai entrega Silvinei Vasques às autoridades brasileiras - O Globo",
-        "timestamp": "2025-12-26T23:23:31Z"
-    },
-    {
-        "source": "www.gov.br",
-        "title": "RELATÓRIO ESPECIAL DA CIDH SOBRE A SITUAÇÃO DA LIBERDADE DE EXPRESSÃO NO BRASIL - www.gov.br",
-        "timestamp": "2025-12-26T19:37:30Z"
+        "source": "CNN Brasil",
+        "title": "Silvinei é entregue a autoridades brasileiras após prisão no Paraguai - CNN Brasil",
+        "timestamp": "2025-12-26T23:30:49Z"
     },
     {
         "source": "Agência Brasil",
@@ -20,13 +15,18 @@
         "timestamp": "2025-12-26T20:07:39Z"
     },
     {
-        "source": "Defesa Civil do Rio Grande do Sul",
-        "title": "Defesa Civil alerta: Condição de ALERTA para Instabilidades atuam em áreas próximas de Soledade, com tempestade, granizo e vento - Defesa Civil do Rio Grande do Sul",
-        "timestamp": "2025-12-26T21:48:55Z"
-    },
-    {
         "source": "Secretaria de Estado da Proteção e Defesa Civil",
         "title": "ATENÇÃO – 26/12 12:09 – TEMPORAIS com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS nas próximas 2 horas. Ocorrências ligue 199 ou 193. - Secretaria de Estado da Proteção e Defesa Civil",
         "timestamp": "2025-12-26T19:33:01Z"
+    },
+    {
+        "source": "G1",
+        "title": "Castro sanciona lei que autoriza o RJ a aderir ao Propag, programa de refinanciamento da dívida - G1",
+        "timestamp": "2025-12-26T20:50:37Z"
+    },
+    {
+        "source": "Agência Brasil",
+        "title": "AGU derruba liminar que suspendeu novas regras para CNH - Agência Brasil",
+        "timestamp": "2025-12-26T21:04:00Z"
     }
 ]
