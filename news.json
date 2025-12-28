@@ -1,13 +1,18 @@
 [
     {
-        "source": "Estado de Minas",
-        "title": "Condenado não é localizado pela PF e passa a ser considerado foragido - Estado de Minas",
-        "timestamp": "2025-12-27T18:25:00Z"
-    },
-    {
         "source": "Correio Braziliense",
         "title": "Bolsonaro passa por novo procedimento após crise de soluços - Correio Braziliense",
         "timestamp": "2025-12-27T22:45:00Z"
+    },
+    {
+        "source": "CartaCapital",
+        "title": "Trama golpista: Moraes decreta prisão, mas PF não encontra presidente de instituto - CartaCapital",
+        "timestamp": "2025-12-27T18:00:00Z"
+    },
+    {
+        "source": "Estado de Minas",
+        "title": "Bahia: colisão frontal entre dois veículos na BR-101 deixa 11 mortos - Estado de Minas",
+        "timestamp": "2025-12-27T19:59:00Z"
     },
     {
         "source": "CNN Brasil",
@@ -15,18 +20,13 @@
         "timestamp": "2025-12-27T22:07:03Z"
     },
     {
-        "source": "Correio Braziliense",
-        "title": "Acidente deixa 11 mortos entre BA e ES, incluindo grávida e crianças - Correio Braziliense",
-        "timestamp": "2025-12-27T21:00:46Z"
-    },
-    {
-        "source": "O Globo",
-        "title": "BC pede esclarecimento a Toffoli sobre condição em que diretor de Fiscalização participará de acareação do caso Master - O Globo",
-        "timestamp": "2025-12-27T13:16:16Z"
-    },
-    {
         "source": "CNN Brasil",
         "title": "Zelensky diz que vai conversar com líderes europeus após reunião com Trump - CNN Brasil",
         "timestamp": "2025-12-27T22:54:29Z"
+    },
+    {
+        "source": "UOL Notícias",
+        "title": "Após calor extremo, SP tem temporal; 90 mil imóveis estão sem luz - UOL Notícias",
+        "timestamp": "2025-12-27T20:56:27Z"
     }
 ]
