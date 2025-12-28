@@ -1,18 +1,8 @@
 [
     {
-        "source": "CNN Brasil",
-        "title": "Após tratar soluço, Bolsonaro fará nova intervenção na segunda; entenda - CNN Brasil",
-        "timestamp": "2025-12-28T13:59:23Z"
-    },
-    {
         "source": "Valor Econômico",
         "title": "Alerta de calor extremo no Brasil tem data para acabar: veja a previsão - Valor Econômico",
         "timestamp": "2025-12-28T14:00:00Z"
-    },
-    {
-        "source": "UOL Economia",
-        "title": "Apesar de rombo, municípios deixarão de pagar R$ 504 bi em dívidas ao INSS - UOL Economia",
-        "timestamp": "2025-12-28T13:30:00Z"
     },
     {
         "source": "CNN Brasil",
@@ -20,13 +10,23 @@
         "timestamp": "2025-12-28T18:41:13Z"
     },
     {
-        "source": "Secretaria de Estado da Proteção e Defesa Civil",
-        "title": "Atenção Meteorológica SDC/SC 28/12 09:10 - Temporais com chuva intensa neste domingo (28) - Secretaria de Estado da Proteção e Defesa Civil",
-        "timestamp": "2025-12-28T12:13:44Z"
+        "source": "MetSul Meteorologia",
+        "title": "São Paulo deve se preparar para numerosos temporais nesta virada de ano - MetSul Meteorologia",
+        "timestamp": "2025-12-28T15:26:39Z"
     },
     {
-        "source": "Agência de Notícias do Acre",
-        "title": "Boletim enchentes – 28 de dezembro - Agência de Notícias do Acre",
-        "timestamp": "2025-12-28T16:35:11Z"
+        "source": "Secretaria de Estado da Proteção e Defesa Civil",
+        "title": "ATENÇÃO - 28/12 13:30 - TEMPORAL com RAIOS, RAJADAS DE VENTO, GRANIZO, ALAGAMENTOS e risco de ENXURRADA na próxima 1 hora - Secretaria de Estado da Proteção e Defesa Civil",
+        "timestamp": "2025-12-28T16:35:50Z"
+    },
+    {
+        "source": "O Globo",
+        "title": "Avião que caiu em Copacabana é retirado do mar - O Globo",
+        "timestamp": "2025-12-28T16:55:05Z"
+    },
+    {
+        "source": "G1",
+        "title": "Crianças mortas em incêndio foram deixadas sozinhas em casa com o irmão de 8 anos - G1",
+        "timestamp": "2025-12-28T14:17:38Z"
     }
 ]
