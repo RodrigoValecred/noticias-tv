@@ -1,18 +1,13 @@
 [
     {
-        "source": "CNN Brasil",
-        "title": "Trump diz que negociações de acordo de paz Rússia-Ucrânia são complexas - CNN Brasil",
-        "timestamp": "2025-12-28T23:05:27Z"
-    },
-    {
         "source": "Agência Brasil",
         "title": "Bolsonaro apresenta crise de soluços e pressão alta após procedimento - Agência Brasil",
         "timestamp": "2025-12-28T20:13:00Z"
     },
     {
-        "source": "G1",
-        "title": "Taubaté registra temperatura de 37,7ºC e tem novo recorde de calor no ano - G1",
-        "timestamp": "2025-12-28T21:04:48Z"
+        "source": "CNN Brasil",
+        "title": "Trump diz que negociações de acordo de paz Rússia-Ucrânia são complexas - CNN Brasil",
+        "timestamp": "2025-12-28T23:05:27Z"
     },
     {
         "source": "Poder360",
@@ -28,5 +23,10 @@
         "source": "O Globo",
         "title": "China inicia manobras militares com fogo real ao redor de Taiwan - O Globo",
         "timestamp": "2025-12-29T03:58:45Z"
+    },
+    {
+        "source": "Secretaria de Estado da Proteção e Defesa Civil",
+        "title": "ALERTA – 28/12 21:27 – TEMPORAL com RAIOS, RAJADAS DE VENTO, ALAGAMENTOS e risco de ENXURRADAS nas próximas 2 horas. - Secretaria de Estado da Proteção e Defesa Civil",
+        "timestamp": "2025-12-29T00:32:04Z"
     }
 ]
