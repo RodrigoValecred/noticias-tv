@@ -1,23 +1,13 @@
 [
     {
+        "source": "Revista Oeste",
+        "title": "Desaprovação do governo Lula: veja indicadores por religião, gênero, idade, escolaridade, região e nível econômico - Revista Oeste",
+        "timestamp": "2025-12-29T10:01:00Z"
+    },
+    {
         "source": "CNN Brasil",
-        "title": "Paraná Pesquisas: governo Lula é desaprovado por 50,9%; 45,6%, aprovam - CNN Brasil",
-        "timestamp": "2025-12-29T10:03:29Z"
-    },
-    {
-        "source": "CartaCapital",
-        "title": "Trump diz que negociações para encerrar guerra na Ucrânia estão em fase final - CartaCapital",
-        "timestamp": "2025-12-28T19:06:00Z"
-    },
-    {
-        "source": "BBC",
-        "title": "'Trump descartou Bolsonaro porque não suporta perdedores', diz ex-embaixador dos EUA - BBC",
-        "timestamp": "2025-12-29T08:03:45Z"
-    },
-    {
-        "source": "Revista Fórum",
-        "title": "Malu Gaspar recua e admite que Moraes não fez \"pressão\" sobre Galípolo no caso Master - Revista Fórum",
-        "timestamp": "2025-12-29T11:08:10Z"
+        "title": "Datafolha: 24% dos eleitores têm o PT como partido preferido; 12% o PL - CNN Brasil",
+        "timestamp": "2025-12-29T06:32:41Z"
     },
     {
         "source": "Secretaria de Estado da Proteção e Defesa Civil",
@@ -25,8 +15,18 @@
         "timestamp": "2025-12-29T12:48:11Z"
     },
     {
-        "source": "CNN Brasil",
-        "title": "SP quebra recorde de calor pelo terceiro dia; capital registra 37,2º C - CNN Brasil",
-        "timestamp": "2025-12-28T21:49:06Z"
+        "source": "Agência Brasil",
+        "title": "Temperatura em São Paulo chega a 37,2ºC e bate recorde para dezembro - Agência Brasil",
+        "timestamp": "2025-12-28T21:51:00Z"
+    },
+    {
+        "source": "Estado de Minas",
+        "title": "Como fica o tempo no réveillon nas praias preferidas dos mineiros - Estado de Minas",
+        "timestamp": "2025-12-29T11:10:00Z"
+    },
+    {
+        "source": "Revista Fórum",
+        "title": "Malu Gaspar recua e admite que Moraes não fez \"pressão\" sobre Galípolo no caso Master - Revista Fórum",
+        "timestamp": "2025-12-29T11:08:10Z"
     }
 ]
