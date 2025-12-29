@@ -1,5 +1,10 @@
 [
     {
+        "source": "CartaCapital",
+        "title": "Trump diz que negociações para encerrar guerra na Ucrânia estão em fase final - CartaCapital",
+        "timestamp": "2025-12-28T19:06:00Z"
+    },
+    {
         "source": "CNN Brasil",
         "title": "SP quebra recorde de calor pelo terceiro dia; capital registra 37,2º C - CNN Brasil",
         "timestamp": "2025-12-28T21:49:06Z"
@@ -15,18 +20,13 @@
         "timestamp": "2025-12-28T20:13:00Z"
     },
     {
-        "source": "Revista Fórum",
-        "title": "O pedido de Silvinei Vasques à Justiça após ser preso em tentativa de fuga - Revista Fórum",
-        "timestamp": "2025-12-28T20:52:15Z"
-    },
-    {
-        "source": "MetSul Meteorologia",
-        "title": "São Paulo deve se preparar para numerosos temporais nesta virada de ano - MetSul Meteorologia",
-        "timestamp": "2025-12-28T15:26:39Z"
-    },
-    {
         "source": "BBC",
-        "title": "As táticas de Putin para manter o apoio dos bilionários russos - BBC",
-        "timestamp": "2025-12-28T16:30:24Z"
+        "title": "Após fuga de ex-diretor da PRF, Moraes ordena prisão domiciliar de outros 10 condenados por golpe: o que se sabe - BBC",
+        "timestamp": "2025-12-27T19:25:20Z"
+    },
+    {
+        "source": "G1",
+        "title": "Temporais e temperaturas acima da média: como ficam os últimos dias de 2025 em SC - G1",
+        "timestamp": "2025-12-28T14:49:48Z"
     }
 ]
