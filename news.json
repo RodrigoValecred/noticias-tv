@@ -1,13 +1,8 @@
 [
     {
         "source": "O Globo",
-        "title": "Taxa de desemprego cai para 5,2% em novembro e renova o menor nível da série histórica - O Globo",
-        "timestamp": "2025-12-30T12:01:06Z"
-    },
-    {
-        "source": "Gazeta do Povo",
-        "title": "Trio ligado ao caso de liquidação do banco Master deve depor à Polícia Federal - Gazeta do Povo",
-        "timestamp": "2025-12-29T17:56:00Z"
+        "title": "PF pode decidir por não fazer acareação após depoimentos de diretor do BC, dono do Master e ex-presidente do BRB - O Globo",
+        "timestamp": "2025-12-29T21:51:05Z"
     },
     {
         "source": "Poder360",
@@ -15,9 +10,9 @@
         "timestamp": "2025-12-30T09:13:42Z"
     },
     {
-        "source": "G1",
-        "title": "Cachês de Réveillon da Paulista vão custar mais de R$ 6 milhões para prefeitura; confira valores - G1",
-        "timestamp": "2025-12-30T08:00:33Z"
+        "source": "Secretaria de Estado da Proteção e Defesa Civil",
+        "title": "Atualização: Aviso Especial SDC/SC 30/12 08:00 - Temporais com chuva intensa e volumosa entre a tarde de terça (30) e madrugada de quarta-feira (31) - Secretaria de Estado da Proteção e Defesa Civil",
+        "timestamp": "2025-12-30T11:08:59Z"
     },
     {
         "source": "Agência Brasil",
@@ -28,5 +23,10 @@
         "source": "DW",
         "title": "Trump confirma primeiro ataque em terra dos EUA na Venezuela - DW",
         "timestamp": "2025-12-29T19:58:28Z"
+    },
+    {
+        "source": "Prefeitura de Divinópolis",
+        "title": "Prefeitura de Divinópolis define pontos facultativos nas repartições públicas municipais em... - Prefeitura de Divinópolis",
+        "timestamp": "2025-12-29T15:22:30Z"
     }
 ]
