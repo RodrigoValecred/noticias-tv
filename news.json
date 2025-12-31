@@ -10,6 +10,11 @@
         "timestamp": "2025-12-31T09:13:05Z"
     },
     {
+        "source": "Epagri/Ciram",
+        "title": "Previsão 5 dias - Epagri/Ciram",
+        "timestamp": "2025-12-31T14:21:15Z"
+    },
+    {
         "source": "Agência Brasil",
         "title": "Guinness reconhece o réveillon do Rio como o maior do mundo - Agência Brasil",
         "timestamp": "2025-12-30T20:37:00Z"
@@ -20,13 +25,8 @@
         "timestamp": "2025-12-30T10:44:11Z"
     },
     {
-        "source": "G1",
-        "title": "Cachês de Réveillon da Paulista vão custar mais de R$ 6 milhões para prefeitura; confira valores - G1",
-        "timestamp": "2025-12-30T08:00:33Z"
-    },
-    {
-        "source": "GOV.BR",
-        "title": "Confira o calendário oficial de feriados nacionais e pontos facultativos em 2026 - GOV.BR",
-        "timestamp": "2025-12-30T10:55:00Z"
+        "source": "Agência Brasil",
+        "title": "Queima de fogos pode desencadear crise sensorial em autistas - Agência Brasil",
+        "timestamp": "2025-12-31T11:00:00Z"
     }
 ]
