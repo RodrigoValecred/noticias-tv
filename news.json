@@ -15,11 +15,6 @@
         "timestamp": "2025-12-30T23:02:10Z"
     },
     {
-        "source": "G1",
-        "title": "Corpo de Bombeiros vistoria e aprova balsas dos fogos do réveillon de Copacabana - G1",
-        "timestamp": "2025-12-30T19:43:50Z"
-    },
-    {
         "source": "TST",
         "title": "TST decide que greve dos Correios não foi abusiva e determina desconto de dias de paralisação - TST",
         "timestamp": "2025-12-31T00:09:09Z"
@@ -28,5 +23,10 @@
         "source": "BBC",
         "title": "Como ladrões roubaram 30 milhões de euros de banco na Alemanha - BBC",
         "timestamp": "2025-12-30T20:20:55Z"
+    },
+    {
+        "source": "Secretaria de Estado da Proteção e Defesa Civil",
+        "title": "Atenção Meteorológica SDC/SC 30/12 10:30 - Temporais com chuva intensa entre as tardes e noites de quarta (31) e quinta-feira (01) - Secretaria de Estado da Proteção e Defesa Civil",
+        "timestamp": "2025-12-30T13:44:50Z"
     }
 ]
