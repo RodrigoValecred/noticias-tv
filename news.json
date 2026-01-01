@@ -15,11 +15,6 @@
         "timestamp": "2025-12-31T13:04:55Z"
     },
     {
-        "source": "Epagri/Ciram",
-        "title": "Previsão 5 dias - Epagri/Ciram",
-        "timestamp": "2026-01-01T05:31:00Z"
-    },
-    {
         "source": "O Globo",
         "title": "Caso Master: ex-presidente do BRB e Vorcaro fazem acareação, mas diretor do BC é excluído de procedimento - O Globo",
         "timestamp": "2025-12-31T00:09:48Z"
@@ -28,5 +23,10 @@
         "source": "O Globo",
         "title": "Shows, transporte e segurança: o que você precisa saber para aproveitar o ano-novo na Paulista - O Globo",
         "timestamp": "2025-12-31T06:30:37Z"
+    },
+    {
+        "source": "CNN Brasil",
+        "title": "CIA desmente Kremlin e diz que Ucrânia não visou casa de Putin em ataque - CNN Brasil",
+        "timestamp": "2026-01-01T00:43:25Z"
     }
 ]
