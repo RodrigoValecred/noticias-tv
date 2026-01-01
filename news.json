@@ -1,13 +1,8 @@
 [
     {
         "source": "O Globo",
-        "title": "Fila de apostas após o fechamento explica atraso no sorteio da Mega da Virada - O Globo",
-        "timestamp": "2026-01-01T13:31:32Z"
-    },
-    {
-        "source": "UOL Notícias",
-        "title": "Explosão em bar de estação de esqui na Suíça deixa ao menos 10 mortos - UOL Notícias",
-        "timestamp": "2026-01-01T10:36:56Z"
+        "title": "Região suíça onde ocorreu incêndio mortal proibiu fogos de artifício na antevéspera do Ano Novo por questão de segurança - O Globo",
+        "timestamp": "2026-01-01T14:06:00Z"
     },
     {
         "source": "Agência Brasil",
@@ -28,5 +23,10 @@
         "source": "Agência Brasil",
         "title": "Isenção de IR para quem ganha até R$ 5 mil entra em vigor - Agência Brasil",
         "timestamp": "2026-01-01T11:00:00Z"
+    },
+    {
+        "source": "Correio Braziliense",
+        "title": "Mega da Virada 2025: confira o resultado do sorteio de R$ 1,09 bilhão - Correio Braziliense",
+        "timestamp": "2026-01-01T12:50:00Z"
     }
 ]
