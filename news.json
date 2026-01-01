@@ -1,20 +1,5 @@
 [
     {
-        "source": "Agência Brasil",
-        "title": "Moraes nega prisão domiciliar e mantém Bolsonaro preso na PF - Agência Brasil",
-        "timestamp": "2026-01-01T13:39:00Z"
-    },
-    {
-        "source": "G1",
-        "title": "Rojão, resort de luxo, 'dezenas de mortos': o que se sabe sobre o incêndio em estação de esqui na Suíça - G1",
-        "timestamp": "2026-01-01T13:56:08Z"
-    },
-    {
-        "source": "O Globo",
-        "title": "Público recorde, shows incríveis, barracas na areia: veja os pontos altos e baixos da festa de réveillon em Copacabana - O Globo",
-        "timestamp": "2026-01-01T07:12:21Z"
-    },
-    {
         "source": "Secretaria de Estado da Proteção e Defesa Civil",
         "title": "Atualização: Atenção Meteorológica SDC/SC 01/01 08:45 – Temporais com chuva intensa entre a tarde e noite desta quinta-feira (01) - Secretaria de Estado da Proteção e Defesa Civil",
         "timestamp": "2026-01-01T11:48:28Z"
@@ -25,8 +10,23 @@
         "timestamp": "2026-01-01T09:32:22Z"
     },
     {
-        "source": "UOL Notícias",
-        "title": "Mega da Virada: Quase 4.000 acertam Quina e vão levar R$ 12 mil cada uma - UOL Notícias",
-        "timestamp": "2026-01-01T16:25:42Z"
+        "source": "BBC",
+        "title": "Lula não deveria disputar reeleição por conta da 'idade avançada' e de políticas econômicas 'medíocres', diz Economist - BBC",
+        "timestamp": "2025-12-31T13:23:33Z"
+    },
+    {
+        "source": "Agência Brasil",
+        "title": "Alistamento militar de 2026 começa nesta quinta-feira - Agência Brasil",
+        "timestamp": "2026-01-01T16:01:00Z"
+    },
+    {
+        "source": "INMET",
+        "title": "Primeiro episódio de ZCAS de 2026 trará chuvas persistentes e volumes elevados - INMET",
+        "timestamp": "2026-01-01T11:29:00Z"
+    },
+    {
+        "source": "G1",
+        "title": "Governador pró-Rússia em Kherson acusa Ucrânia de matar 24 pessoas em ataque com drones no Ano Novo - G1",
+        "timestamp": "2026-01-01T08:55:56Z"
     }
 ]
