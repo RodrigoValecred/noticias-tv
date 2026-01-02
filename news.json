@@ -1,20 +1,5 @@
 [
     {
-        "source": "Agência Brasil",
-        "title": "Moraes manda prender Filipe Martins, ex-assessor de Bolsonaro - Agência Brasil",
-        "timestamp": "2026-01-02T13:20:00Z"
-    },
-    {
-        "source": "CNN Brasil",
-        "title": "PF ordena que Eduardo Bolsonaro retorne a cargo de escrivão na corporação - CNN Brasil",
-        "timestamp": "2026-01-02T11:57:01Z"
-    },
-    {
-        "source": "CNN Brasil",
-        "title": "Autoridades descrevem incêndio em bar na Suíça como \"flashover\". Entenda - CNN Brasil",
-        "timestamp": "2026-01-02T00:24:19Z"
-    },
-    {
         "source": "bbc.com",
         "title": "Protestos no Irã entram no quinto dia com 6 mortos; Trump promete 'socorrer' manifestantes - bbc.com",
         "timestamp": "2026-01-02T14:37:23Z"
@@ -25,8 +10,23 @@
         "timestamp": "2026-01-02T10:00:00Z"
     },
     {
+        "source": "sefaz.ce.gov.br",
+        "title": "IPVA 2026: boleto para pagamento já pode ser emitido - sefaz.ce.gov.br",
+        "timestamp": "2026-01-02T11:50:00Z"
+    },
+    {
         "source": "Agência Brasil",
         "title": "STF terá evento para lembrar 3 anos de atos golpistas de 8 de janeiro - Agência Brasil",
         "timestamp": "2026-01-02T11:31:00Z"
+    },
+    {
+        "source": "Agência Brasil",
+        "title": "Lula sanciona Orçamento com veto a reajuste do Fundo Partidário - Agência Brasil",
+        "timestamp": "2026-01-01T21:14:00Z"
+    },
+    {
+        "source": "Secretaria de Estado da Proteção e Defesa Civil",
+        "title": "Atualização: Atenção Meteorológica SDC/SC 01/01 08:45 – Temporais com chuva intensa entre a tarde e noite desta quinta-feira (01) - Secretaria de Estado da Proteção e Defesa Civil",
+        "timestamp": "2026-01-01T11:48:28Z"
     }
 ]
