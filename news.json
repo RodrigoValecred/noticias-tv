@@ -1,23 +1,13 @@
 [
     {
+        "source": "BBC",
+        "title": "Prisão de Filipe Martins: os motivos que levaram Alexandre de Moraes a mandar prender o bolsonarista - BBC",
+        "timestamp": "2026-01-02T16:32:30Z"
+    },
+    {
         "source": "O Globo",
-        "title": "Incêndio faz shopping ser evacuado na Tijuca - O Globo",
-        "timestamp": "2026-01-02T22:00:10Z"
-    },
-    {
-        "source": "CNN Brasil",
-        "title": "Quem é Filipe Martins, ex-assessor de Bolsonaro preso após usar LinkedIn - CNN Brasil",
-        "timestamp": "2026-01-02T17:34:06Z"
-    },
-    {
-        "source": "Gazeta do Povo",
-        "title": "Em decisão inédita, TCU fará inspeção no Banco Central por supostas falhas na liquidação do Master - Gazeta do Povo",
-        "timestamp": "2026-01-02T15:52:00Z"
-    },
-    {
-        "source": "UOL Notícias",
-        "title": "'Via pânico nos olhos de todos', diz sobrevivente de incêndio em bar suíço - UOL Notícias",
-        "timestamp": "2026-01-02T18:23:33Z"
+        "title": "TCU vai inspecionar documentos do BC sobre liquidação do Banco Master - O Globo",
+        "timestamp": "2026-01-02T18:22:32Z"
     },
     {
         "source": "GOV.BR",
@@ -25,8 +15,18 @@
         "timestamp": "2026-01-02T17:14:00Z"
     },
     {
+        "source": "O Globo",
+        "title": "Marinha emite novo alerta de ressaca para o Rio: ondas podem atingir 3 metros de altura no fim de semana - O Globo",
+        "timestamp": "2026-01-02T16:23:34Z"
+    },
+    {
         "source": "Agência Brasil",
         "title": "PF determina retorno imediato de Eduardo Bolsonaro a cargo de escrivão - Agência Brasil",
         "timestamp": "2026-01-02T13:18:00Z"
+    },
+    {
+        "source": "CNN Brasil",
+        "title": "Incêndio na Suíça: Vídeo promocional mostra garrafas com velas pirotécnicas - CNN Brasil",
+        "timestamp": "2026-01-01T20:51:14Z"
     }
 ]
