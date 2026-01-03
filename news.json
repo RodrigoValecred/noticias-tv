@@ -1,8 +1,13 @@
 [
     {
-        "source": "BBC",
-        "title": "Lula diz que ataque dos EUA é 'inaceitável': 'Afronta gravíssima à soberania da Venezuela'; siga em tempo real - BBC",
-        "timestamp": "2026-01-03T10:46:50Z"
+        "source": "G1",
+        "title": "Motorista de ônibus, herdeiro de Hugo Chávez e alvo de Trump: conheça a trajetória de Nicolás Maduro - G1",
+        "timestamp": "2026-01-03T10:32:51Z"
+    },
+    {
+        "source": "O Globo",
+        "title": "Bombeiros dizem que incêndio no Shopping Tijuca teve início em área de difícil acesso e muita concentração de fumaça - O Globo",
+        "timestamp": "2026-01-03T12:55:16Z"
     },
     {
         "source": "CNN Brasil",
@@ -10,14 +15,9 @@
         "timestamp": "2026-01-03T06:50:11Z"
     },
     {
-        "source": "CNN Brasil",
-        "title": "Incêndio na Suíça: Vídeo promocional mostra garrafas com velas pirotécnicas - CNN Brasil",
-        "timestamp": "2026-01-01T20:51:14Z"
-    },
-    {
-        "source": "G1",
-        "title": "Morre um dos intoxicados por metanol no interior da Bahia; quatro pessoas seguem internadas - G1",
-        "timestamp": "2026-01-03T12:29:13Z"
+        "source": "Gazeta do Povo",
+        "title": "Liquidação do banco Master expõe guerra entre BC, STF e Congresso - Gazeta do Povo",
+        "timestamp": "2026-01-02T20:34:00Z"
     },
     {
         "source": "CNN Brasil",
@@ -25,8 +25,8 @@
         "timestamp": "2026-01-02T21:49:26Z"
     },
     {
-        "source": "Gazeta do Povo",
-        "title": "Liquidação do banco Master expõe guerra entre BC, STF e Congresso - Gazeta do Povo",
-        "timestamp": "2026-01-02T20:34:00Z"
+        "source": "GOV.BR",
+        "title": "Incêndio em Crans-Montana, Suíça — Ministério das Relações Exteriores - GOV.BR",
+        "timestamp": "2026-01-01T15:11:00Z"
     }
 ]
