@@ -1,5 +1,10 @@
 [
     {
+        "source": "G1",
+        "title": "Suprema Corte da Venezuela ordena que Delcy Rodríguez assuma a presidência - G1",
+        "timestamp": "2026-01-04T02:20:59Z"
+    },
+    {
         "source": "Secretaria de Estado da Proteção e Defesa Civil",
         "title": "OBSERVAÇÃO – 03/01 15:28 – TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais nas próximas 3 horas - Secretaria de Estado da Proteção e Defesa Civil",
         "timestamp": "2026-01-03T18:34:08Z"
@@ -10,23 +15,18 @@
         "timestamp": "2026-01-03T21:32:24Z"
     },
     {
-        "source": "BBC",
-        "title": "Prisão de Filipe Martins: os motivos que levaram Alexandre de Moraes a mandar prender o bolsonarista - BBC",
-        "timestamp": "2026-01-02T16:32:30Z"
+        "source": "CNN Brasil",
+        "title": "Defesa deve alegar erro material para reverter prisão de Filipe Martins - CNN Brasil",
+        "timestamp": "2026-01-03T06:50:11Z"
+    },
+    {
+        "source": "Gazeta do Povo",
+        "title": "Liquidação do banco Master expõe guerra entre BC, STF e Congresso - Gazeta do Povo",
+        "timestamp": "2026-01-02T20:34:00Z"
     },
     {
         "source": "Centro de Operações Rio",
         "title": "Noite de sábado (03/01) com previsão de chuva na Cidade Maravilhosa | Confira como fica o tempo na semana - Centro de Operações Rio",
         "timestamp": "2026-01-03T20:26:29Z"
-    },
-    {
-        "source": "CNN Brasil",
-        "title": "\"Cavado atmosférico\" causa muita chuva em faixa que atravessa o Brasil - CNN Brasil",
-        "timestamp": "2026-01-03T06:33:54Z"
-    },
-    {
-        "source": "Governo do Estado do Ceará",
-        "title": "IPVA 2026: boleto para pagamento já pode ser emitido - Governo do Estado do Ceará",
-        "timestamp": "2026-01-02T14:29:00Z"
     }
 ]
