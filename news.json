@@ -1,13 +1,8 @@
 [
     {
         "source": "G1",
-        "title": "Suprema Corte da Venezuela ordena que Delcy Rodríguez assuma a presidência - G1",
-        "timestamp": "2026-01-04T02:20:59Z"
-    },
-    {
-        "source": "Secretaria de Estado da Proteção e Defesa Civil",
-        "title": "OBSERVAÇÃO – 03/01 15:28 – TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais nas próximas 3 horas - Secretaria de Estado da Proteção e Defesa Civil",
-        "timestamp": "2026-01-03T18:34:08Z"
+        "title": "Coreia do Norte afirma que ataques dos EUA à Venezuela são 'forma grave de violação de soberania' - G1",
+        "timestamp": "2026-01-04T10:16:53Z"
     },
     {
         "source": "CNN Brasil",
@@ -15,18 +10,23 @@
         "timestamp": "2026-01-03T06:50:11Z"
     },
     {
+        "source": "Secretaria de Estado da Proteção e Defesa Civil",
+        "title": "OBSERVAÇÃO – 03/01 15:28 – TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais nas próximas 3 horas - Secretaria de Estado da Proteção e Defesa Civil",
+        "timestamp": "2026-01-03T18:34:08Z"
+    },
+    {
         "source": "Gazeta do Povo",
         "title": "Liquidação do banco Master expõe guerra entre BC, STF e Congresso - Gazeta do Povo",
         "timestamp": "2026-01-02T20:34:00Z"
     },
     {
-        "source": "Secretaria de Estado da Proteção e Defesa Civil",
-        "title": "ALERTA – 03/01 18:28 – TEMPORAL com RAJADAS DE VENTO, ALAGAMENTOS, GRANIZO, RAIOS e risco de ENXURRADAS na próxima hora. Ocorrências ligue 199 ou 193. - Secretaria de Estado da Proteção e Defesa Civil",
-        "timestamp": "2026-01-03T21:32:24Z"
-    },
-    {
         "source": "CNN Brasil",
         "title": "Incêndio no Shopping Tijuca deixa quatro feridos; um está em estado grave - CNN Brasil",
         "timestamp": "2026-01-02T23:20:56Z"
+    },
+    {
+        "source": "Secretaria de Estado da Proteção e Defesa Civil",
+        "title": "ALERTA – 03/01 18:28 – TEMPORAL com RAJADAS DE VENTO, ALAGAMENTOS, GRANIZO, RAIOS e risco de ENXURRADAS na próxima hora. Ocorrências ligue 199 ou 193. - Secretaria de Estado da Proteção e Defesa Civil",
+        "timestamp": "2026-01-03T21:32:24Z"
     }
 ]
