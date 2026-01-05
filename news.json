@@ -1,18 +1,23 @@
 [
     {
-        "source": "CNN Brasil",
-        "title": "\"Eu assumo meu erro\", diz jovem que deixou amigo para trás no Pico Paraná - CNN Brasil",
-        "timestamp": "2026-01-05T11:19:25Z"
-    },
-    {
         "source": "Agência Brasil",
         "title": "Ações dos EUA na Venezuela representam riscos à ordem multilateral - Agência Brasil",
         "timestamp": "2026-01-05T10:02:00Z"
     },
     {
+        "source": "CNN Brasil",
+        "title": "\"Eu assumo meu erro\", diz jovem que deixou amigo para trás no Pico Paraná - CNN Brasil",
+        "timestamp": "2026-01-05T11:19:25Z"
+    },
+    {
         "source": "BBC",
         "title": "Havana diz que 32 cubanos, incluindo militares, foram mortos em ataque dos EUA na Venezuela - BBC",
         "timestamp": "2026-01-05T11:03:45Z"
+    },
+    {
+        "source": "Agência Brasil",
+        "title": "Após sequestro, Maduro e esposa são levados para Corte em Nova York - Agência Brasil",
+        "timestamp": "2026-01-05T14:54:00Z"
     },
     {
         "source": "Poder360",
@@ -23,10 +28,5 @@
         "source": "Agência Brasil",
         "title": "Trump ameaça operação militar contra Colômbia após ataque à Venezuela - Agência Brasil",
         "timestamp": "2026-01-05T12:06:00Z"
-    },
-    {
-        "source": "O Globo",
-        "title": "Ruas do Leme ficam sem luz após furto de cabos de energia; em Copacabana, loja de bicicleta tem princípio de incêndio - O Globo",
-        "timestamp": "2026-01-03T21:35:55Z"
     }
 ]
