@@ -5,11 +5,6 @@
         "timestamp": "2026-01-05T19:53:00Z"
     },
     {
-        "source": "JOTA Info",
-        "title": "Lewandowski e mais dois têm saída iminente da Justiça, mas data depende de Lula - JOTA Info",
-        "timestamp": "2026-01-06T14:14:29Z"
-    },
-    {
         "source": "GOV.BR",
         "title": "Nota: perda de fluido de perfuração em sonda da Petrobras no Amapá — Ibama - GOV.BR",
         "timestamp": "2026-01-06T19:42:00Z"
@@ -28,5 +23,10 @@
         "source": "Portal do Estado do Rio Grande do Sul",
         "title": "Eduardo Leite autoriza chamamento do maior número de novos servidores da história da Polícia Penal gaúcha - Portal do Estado do Rio Grande do Sul",
         "timestamp": "2026-01-06T21:42:02Z"
+    },
+    {
+        "source": "G1",
+        "title": "Governo Trump alerta ministro do Interior da Venezuela para cooperar ou se tornar alvo em potencial, diz agência - G1",
+        "timestamp": "2026-01-06T23:56:21Z"
     }
 ]
