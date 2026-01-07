@@ -1,18 +1,8 @@
 [
     {
-        "source": "Nexo Jornal",
-        "title": "Por que a intervenção americana mantém o chavismo no poder - Nexo Jornal",
-        "timestamp": "2026-01-06T23:15:00Z"
-    },
-    {
         "source": "CNN Brasil",
         "title": "Eliza Samudio: Consulado diz que recebeu passaporte encontrado em Portugal - CNN Brasil",
         "timestamp": "2026-01-06T12:03:40Z"
-    },
-    {
-        "source": "O Globo",
-        "title": "Nem azeite, nem peixe: estudo inédito da USP desvenda o segredo dos supercentenários - O Globo",
-        "timestamp": "2026-01-06T11:15:19Z"
     },
     {
         "source": "Defesa Civil do Rio Grande do Sul",
@@ -20,13 +10,23 @@
         "timestamp": "2026-01-07T17:41:43Z"
     },
     {
+        "source": "O Globo",
+        "title": "Nem azeite, nem peixe: estudo inédito da USP desvenda o segredo dos supercentenários - O Globo",
+        "timestamp": "2026-01-06T11:15:19Z"
+    },
+    {
         "source": "SEDU",
         "title": "Sedu divulga resultado da Chamada Escolar 2026 nesta quarta-feira (07) - SEDU",
         "timestamp": "2026-01-07T12:00:00Z"
     },
     {
-        "source": "BBC",
-        "title": "Trabalho análogo à escravidão: as churrascarias e restaurantes japoneses acusados de manter funcionários nessas condições - BBC",
-        "timestamp": "2026-01-07T09:02:11Z"
+        "source": "Agência Brasil",
+        "title": "Anvisa manda recolher panetones com fungo - Agência Brasil",
+        "timestamp": "2026-01-07T13:53:00Z"
+    },
+    {
+        "source": "Prefeitura de Vinhedo",
+        "title": "Prefeitura prorroga prazo do IPTU 2026 e reforça facilidades digitais de pagamento - Prefeitura de Vinhedo",
+        "timestamp": "2026-01-07T12:55:51Z"
     }
 ]
