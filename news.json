@@ -1,18 +1,23 @@
 [
     {
+        "source": "Nexo Jornal",
+        "title": "Por que a intervenção americana mantém o chavismo no poder - Nexo Jornal",
+        "timestamp": "2026-01-06T23:15:00Z"
+    },
+    {
         "source": "G1",
         "title": "Em evento sobre IA em hospitais, Lula lembra atendimento após bater nuca: 'Espero que coloque coisa inteligente em Brasília' - G1",
         "timestamp": "2026-01-07T15:44:51Z"
     },
     {
-        "source": "CNN Brasil",
-        "title": "Anvisa proíbe venda de panetones após identificar fungos em lotes - CNN Brasil",
-        "timestamp": "2026-01-07T12:51:44Z"
+        "source": "Agência Brasil",
+        "title": "Sancionada lei que proíbe descontos em benefícios do INSS - Agência Brasil",
+        "timestamp": "2026-01-07T13:27:00Z"
     },
     {
-        "source": "BBC",
-        "title": "Nicolás Maduro Guerra: filho de Maduro declara 'apoio incondicional' a Delcy Rodríguez - BBC",
-        "timestamp": "2026-01-05T21:56:15Z"
+        "source": "O Globo",
+        "title": "Nem azeite, nem peixe: estudo inédito da USP desvenda o segredo dos supercentenários - O Globo",
+        "timestamp": "2026-01-06T11:15:19Z"
     },
     {
         "source": "SEDU",
@@ -20,13 +25,8 @@
         "timestamp": "2026-01-07T12:00:00Z"
     },
     {
-        "source": "Migalhas",
-        "title": "MP/RJ pede prisão preventiva de ex-CEO da Hurb após violar cautelares - Migalhas",
-        "timestamp": "2026-01-07T11:36:00Z"
-    },
-    {
-        "source": "Prefeitura Municipal De São José",
-        "title": "São José divulga regras do IPTU 2026 com descontos e atendimento especial ao contribuinte - Prefeitura Municipal De São José",
-        "timestamp": "2026-01-06T11:33:43Z"
+        "source": "CNN Brasil",
+        "title": "Anvisa proíbe venda de panetones após identificar fungos em lotes - CNN Brasil",
+        "timestamp": "2026-01-07T12:51:44Z"
     }
 ]
