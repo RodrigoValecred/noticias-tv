@@ -1,8 +1,13 @@
 [
     {
-        "source": "stf noticias",
-        "title": "STF terá programação especial para lembrar o 8 de janeiro - stf noticias",
-        "timestamp": "2026-01-05T19:53:00Z"
+        "source": "Agência Brasil",
+        "title": "EUA recuam em acusar Maduro de liderar suposto Cartel de Los Soles - Agência Brasil",
+        "timestamp": "2026-01-06T20:17:00Z"
+    },
+    {
+        "source": "G1",
+        "title": "União Europeia avança para assinar acordo com Mercosul após Itália sinalizar apoio - G1",
+        "timestamp": "2026-01-06T18:49:45Z"
     },
     {
         "source": "www.gov.br",
@@ -10,23 +15,18 @@
         "timestamp": "2026-01-06T19:42:00Z"
     },
     {
+        "source": "stf noticias",
+        "title": "STF terá programação especial para lembrar o 8 de janeiro - stf noticias",
+        "timestamp": "2026-01-05T19:53:00Z"
+    },
+    {
+        "source": "BBC",
+        "title": "Nicolás Maduro Guerra: filho de Maduro declara 'apoio incondicional' a Delcy Rodríguez - BBC",
+        "timestamp": "2026-01-05T21:56:15Z"
+    },
+    {
         "source": "Secretaria de Estado de Economia",
         "title": "IPVA: prazo para contestação de valor é de 30 dias - Secretaria de Estado de Economia",
         "timestamp": "2026-01-06T13:59:00Z"
-    },
-    {
-        "source": "Agência Brasil",
-        "title": "Exportadores de soja deixam acordo sobre desmatamento na Amazônia - Agência Brasil",
-        "timestamp": "2026-01-05T20:36:00Z"
-    },
-    {
-        "source": "G1",
-        "title": "Governo Trump alerta ministro do Interior da Venezuela para cooperar ou se tornar alvo em potencial, diz agência - G1",
-        "timestamp": "2026-01-06T23:56:21Z"
-    },
-    {
-        "source": "Portal do Estado do Rio Grande do Sul",
-        "title": "Eduardo Leite autoriza chamamento do maior número de novos servidores da história da Polícia Penal gaúcha - Portal do Estado do Rio Grande do Sul",
-        "timestamp": "2026-01-06T21:42:02Z"
     }
 ]
