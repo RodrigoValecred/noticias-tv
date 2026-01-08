@@ -1,23 +1,8 @@
 [
     {
-        "source": "G1",
-        "title": "8 de janeiro: três anos após atos, prédios da Praça dos Três Poderes mantêm segurança reforçada para visitas; entenda - G1",
-        "timestamp": "2026-01-08T03:01:01Z"
-    },
-    {
         "source": "O Globo",
         "title": "Alerj: Delaroli avalia reverter demissões de cargos comissionados após pedidos de deputados - O Globo",
         "timestamp": "2026-01-08T07:30:36Z"
-    },
-    {
-        "source": "CNN Brasil",
-        "title": "Anvisa manda recolher lote de molho de tomate com pedaços de vidro - CNN Brasil",
-        "timestamp": "2026-01-08T11:42:31Z"
-    },
-    {
-        "source": "Correio Braziliense",
-        "title": "Após ataques, Trump diz que ligou para Petro e sinaliza encontro: 'Honra' - Correio Braziliense",
-        "timestamp": "2026-01-08T00:55:00Z"
     },
     {
         "source": "Agência Brasil",
@@ -25,8 +10,23 @@
         "timestamp": "2026-01-07T17:00:00Z"
     },
     {
-        "source": "CNN Brasil",
-        "title": "EUA discutem \"ativamente\" possível compra da Groenlândia, diz Casa Branca - CNN Brasil",
-        "timestamp": "2026-01-07T17:41:40Z"
+        "source": "Correio Braziliense",
+        "title": "Após ataques, Trump diz que ligou para Petro e sinaliza encontro: 'Honra' - Correio Braziliense",
+        "timestamp": "2026-01-08T00:55:00Z"
+    },
+    {
+        "source": "G1",
+        "title": "Ataque dos EUA deixou 100 mortos, incluindo civis, diz ministro do Interior da Venezuela - G1",
+        "timestamp": "2026-01-08T01:41:41Z"
+    },
+    {
+        "source": "Migalhas",
+        "title": "\"ET de Varginha\": Relato foi apurado pelo Exército e virou caso judicial - Migalhas",
+        "timestamp": "2026-01-07T19:57:12Z"
+    },
+    {
+        "source": "Agência Brasil",
+        "title": "Levantamento aponta os 100 melhores hospitais públicos do país - Agência Brasil",
+        "timestamp": "2026-01-07T22:08:00Z"
     }
 ]
