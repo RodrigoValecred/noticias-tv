@@ -1,18 +1,23 @@
 [
     {
+        "source": "G1",
+        "title": "Trump ordena saída dos EUA de mais de 60 organizações internacionais - G1",
+        "timestamp": "2026-01-07T22:21:50Z"
+    },
+    {
         "source": "Correio Braziliense",
         "title": "Plano americano para a Venezuela tem três fases, diz Marco Rubio - Correio Braziliense",
         "timestamp": "2026-01-07T19:41:00Z"
     },
     {
-        "source": "Prefeitura de Fortaleza",
-        "title": "IPTU 2026: pagamento já pode ser feito a partir desta quinta-feira (08/01) - Prefeitura de Fortaleza",
-        "timestamp": "2026-01-07T19:16:37Z"
+        "source": "Agência Brasil",
+        "title": "Mortes confirmadas em ataque dos EUA à Venezuela chegam a 58 - Agência Brasil",
+        "timestamp": "2026-01-07T12:51:00Z"
     },
     {
-        "source": "TJRS",
-        "title": "Expediente forense retorna nesta quarta-feira, com horário especial nas sextas-feiras de janeiro e fevereiro - TJRS",
-        "timestamp": "2026-01-07T20:54:48Z"
+        "source": "CNN Brasil",
+        "title": "\"Tenho pena da mulher dele\", diz garota que deixou amigo em trilha no PR - CNN Brasil",
+        "timestamp": "2026-01-07T22:17:28Z"
     },
     {
         "source": "CartaCapital",
@@ -20,13 +25,8 @@
         "timestamp": "2026-01-07T18:02:00Z"
     },
     {
-        "source": "www.gov.br",
-        "title": "Em ação de monitoramento do ECA Digital, a ANPD estende o prazo para que empresas prestem informações sobre implementação das novas regras - www.gov.br",
-        "timestamp": "2026-01-07T14:32:51Z"
-    },
-    {
-        "source": "G1",
-        "title": "Delcy Rodríguez diz que Venezuela está aberta a relações energéticas que beneficiem todas as partes - G1",
-        "timestamp": "2026-01-08T01:10:13Z"
+        "source": "Prefeitura de Fortaleza",
+        "title": "IPTU 2026: pagamento já pode ser feito a partir desta quinta-feira (08/01) - Prefeitura de Fortaleza",
+        "timestamp": "2026-01-07T19:16:37Z"
     }
 ]
