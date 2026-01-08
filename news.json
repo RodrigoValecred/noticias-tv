@@ -5,19 +5,9 @@
         "timestamp": "2026-01-07T19:41:00Z"
     },
     {
-        "source": "Agência Brasil",
-        "title": "Governo federal vai construir primeiro hospital inteligente do SUS - Agência Brasil",
-        "timestamp": "2026-01-07T16:58:00Z"
-    },
-    {
         "source": "Prefeitura de Fortaleza",
         "title": "IPTU 2026: pagamento já pode ser feito a partir desta quinta-feira (08/01) - Prefeitura de Fortaleza",
         "timestamp": "2026-01-07T19:16:37Z"
-    },
-    {
-        "source": "CartaCapital",
-        "title": "Casa Branca diz que Trump avalia ‘ativamente’ a compra da Groenlândia - CartaCapital",
-        "timestamp": "2026-01-07T18:02:00Z"
     },
     {
         "source": "TJRS",
@@ -25,8 +15,18 @@
         "timestamp": "2026-01-07T20:54:48Z"
     },
     {
+        "source": "CartaCapital",
+        "title": "Casa Branca diz que Trump avalia ‘ativamente’ a compra da Groenlândia - CartaCapital",
+        "timestamp": "2026-01-07T18:02:00Z"
+    },
+    {
         "source": "www.gov.br",
         "title": "Em ação de monitoramento do ECA Digital, a ANPD estende o prazo para que empresas prestem informações sobre implementação das novas regras - www.gov.br",
         "timestamp": "2026-01-07T14:32:51Z"
+    },
+    {
+        "source": "G1",
+        "title": "Delcy Rodríguez diz que Venezuela está aberta a relações energéticas que beneficiem todas as partes - G1",
+        "timestamp": "2026-01-08T01:10:13Z"
     }
 ]
