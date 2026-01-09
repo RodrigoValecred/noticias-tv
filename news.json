@@ -1,8 +1,13 @@
 [
     {
-        "source": "Agência Brasil",
-        "title": "Lewandowski entrega carta de demissão do Ministério da Justiça a Lula - Agência Brasil",
-        "timestamp": "2026-01-08T19:55:00Z"
+        "source": "G1",
+        "title": "Guterres lamenta a decisão dos EUA de sair de dezenas de entidades vinculadas à ONU - G1",
+        "timestamp": "2026-01-08T18:57:28Z"
+    },
+    {
+        "source": "CNN Brasil",
+        "title": "Lula conversa com líderes do México e do Canadá sobre a crise na Venezuela - CNN Brasil",
+        "timestamp": "2026-01-09T00:09:13Z"
     },
     {
         "source": "Defesa Civil do Rio Grande do Sul",
@@ -10,23 +15,18 @@
         "timestamp": "2026-01-08T19:59:00Z"
     },
     {
-        "source": "G1",
-        "title": "Guterres lamenta a decisão dos EUA de sair de dezenas de entidades vinculadas à ONU - G1",
-        "timestamp": "2026-01-08T18:57:28Z"
+        "source": "Vatican News",
+        "title": "\"Estou aqui para ouvir\": Papa abre Consistório para definir prioridades - Vatican News",
+        "timestamp": "2026-01-08T23:55:00Z"
     },
     {
-        "source": "BBC",
-        "title": "Renee Nicole Good: quem era a mulher morta a tiros por agente de imigração nos EUA - BBC",
-        "timestamp": "2026-01-08T12:24:15Z"
+        "source": "Brasil 247",
+        "title": "Justiça dos EUA reconhece liquidação do Banco Master - Brasil 247",
+        "timestamp": "2026-01-08T23:41:19Z"
     },
     {
-        "source": "Folha de S.Paulo",
-        "title": "Filha de Olavo de Carvalho é encontrada morta em sua casa no interior de SP - Folha de S.Paulo",
-        "timestamp": "2026-01-08T17:41:00Z"
-    },
-    {
-        "source": "BBC",
-        "title": "'Estabilização, recuperação e transição': as 3 fases do plano dos EUA para a Venezuela - BBC",
-        "timestamp": "2026-01-07T22:31:54Z"
+        "source": "www.gov.br",
+        "title": "Prouni 2026: inscrições para o 1º semestre começam em 26/1 — Ministério da Educação - www.gov.br",
+        "timestamp": "2026-01-08T20:46:00Z"
     }
 ]
