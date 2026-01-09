@@ -1,23 +1,8 @@
 [
     {
-        "source": "Brasil 247",
-        "title": "Rússia lança ataque contra a Ucrânia. Explosões são ouvidas em Kiev e Lviv - Brasil 247",
-        "timestamp": "2026-01-09T03:24:00Z"
-    },
-    {
-        "source": "Migalhas",
-        "title": "Bolsonaro pede a Moraes para integrar programa de remição de pena por leitura - Migalhas",
-        "timestamp": "2026-01-08T19:37:42Z"
-    },
-    {
         "source": "Migalhas",
         "title": "Lula sanciona Código do Contribuinte e combate devedor contumaz - Migalhas",
         "timestamp": "2026-01-09T11:09:11Z"
-    },
-    {
-        "source": "Valor Econômico",
-        "title": "Venezuela anuncia libertação de presos políticos e cita Lula - Valor Econômico",
-        "timestamp": "2026-01-08T18:00:31Z"
     },
     {
         "source": "BBC",
@@ -25,8 +10,23 @@
         "timestamp": "2026-01-09T11:37:30Z"
     },
     {
+        "source": "Migalhas",
+        "title": "Advogada é presa pela sexta vez por furto de bebidas em supermercado - Migalhas",
+        "timestamp": "2026-01-09T12:24:32Z"
+    },
+    {
+        "source": "Valor Econômico",
+        "title": "Venezuela anuncia libertação de presos políticos e cita Lula - Valor Econômico",
+        "timestamp": "2026-01-08T18:00:31Z"
+    },
+    {
         "source": "G1",
         "title": "IPVA 2026: veja o calendário de pagamento em SP e regras para desconto - G1",
         "timestamp": "2026-01-09T12:37:56Z"
+    },
+    {
+        "source": "O Globo",
+        "title": "Agente de imigração dos EUA mata mulher a tiros em Minneapolis; incidente provocou protestos pelo país - O Globo",
+        "timestamp": "2026-01-07T19:55:47Z"
     }
 ]
