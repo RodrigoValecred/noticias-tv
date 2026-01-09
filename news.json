@@ -1,10 +1,5 @@
 [
     {
-        "source": "Poder360",
-        "title": "Relator da Dosimetria protocola PL da Anistia após veto de Lula - Poder360",
-        "timestamp": "2026-01-08T21:22:01Z"
-    },
-    {
         "source": "Brasil 247",
         "title": "Rússia lança ataque contra a Ucrânia. Explosões são ouvidas em Kiev e Lviv - Brasil 247",
         "timestamp": "2026-01-09T03:24:00Z"
@@ -15,18 +10,23 @@
         "timestamp": "2026-01-09T02:55:54Z"
     },
     {
+        "source": "Poder360",
+        "title": "Relator da Dosimetria protocola PL da Anistia após veto de Lula - Poder360",
+        "timestamp": "2026-01-08T21:22:01Z"
+    },
+    {
+        "source": "Migalhas",
+        "title": "Lula sanciona Código do Contribuinte e combate devedor contumaz - Migalhas",
+        "timestamp": "2026-01-09T11:09:11Z"
+    },
+    {
         "source": "Defesa Civil do Rio Grande do Sul",
         "title": "Defesa Civil alerta: Condição de ALERTA para instabilidades atuam no Oeste, com tempestade, granizo e raios - Defesa Civil do Rio Grande do Sul",
-        "timestamp": "2026-01-09T08:25:57Z"
+        "timestamp": "2026-01-09T08:25:00Z"
     },
     {
-        "source": "Valor Econômico",
-        "title": "Venezuela anuncia libertação de presos políticos e cita Lula - Valor Econômico",
-        "timestamp": "2026-01-08T18:00:31Z"
-    },
-    {
-        "source": "CNN Brasil",
-        "title": "Lula conversa com líderes do México e do Canadá sobre a crise na Venezuela - CNN Brasil",
-        "timestamp": "2026-01-09T00:09:13Z"
+        "source": "BBC",
+        "title": "'Estabilização, recuperação e transição': as 3 fases do plano dos EUA para a Venezuela - BBC",
+        "timestamp": "2026-01-07T22:31:54Z"
     }
 ]
