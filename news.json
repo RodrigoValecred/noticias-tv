@@ -1,23 +1,18 @@
 [
     {
-        "source": "Valor Econômico",
-        "title": "Trump diz que, se os EUA não fizerem nada na Groenlândia, China e Rússia farão - Valor Econômico",
-        "timestamp": "2026-01-09T22:32:47Z"
-    },
-    {
-        "source": "Jovem Pan",
-        "title": "Venezuela retoma relações diplomáticas com Estados Unidos - Jovem Pan",
-        "timestamp": "2026-01-09T21:21:12Z"
-    },
-    {
-        "source": "www.gov.br",
-        "title": "Renan Filho anuncia renovação automática para bom condutor valendo a partir desta sexta (9) - www.gov.br",
-        "timestamp": "2026-01-09T19:57:00Z"
+        "source": "BBC",
+        "title": "'Bando de vândalos que querem agradar Trump', diz líder do Irã — protestos já passam de 40 mortos - BBC",
+        "timestamp": "2026-01-09T20:59:48Z"
     },
     {
         "source": "Senado Federal",
         "title": "Veto de Lula à redução de penas por atos antidemocráticos divide governo e oposição - Senado Federal",
         "timestamp": "2026-01-09T09:57:58Z"
+    },
+    {
+        "source": "G1",
+        "title": "Após ser chamado de próximo alvo por Trump, presidente da Colômbia, Gustavo Petro, deve ir à Casa Branca em fevereiro - G1",
+        "timestamp": "2026-01-09T19:07:56Z"
     },
     {
         "source": "Secretaria de Estado da Proteção e Defesa Civil",
@@ -28,5 +23,10 @@
         "source": "Migalhas",
         "title": "Advogado-Geral da Petrobras é cotado para o ministério da Justiça - Migalhas",
         "timestamp": "2026-01-08T16:48:54Z"
+    },
+    {
+        "source": "APP-Sindicato",
+        "title": "Presidente Lula vai reajustar piso do magistério acima da inflação, afirma ministro da Educação - APP-Sindicato",
+        "timestamp": "2026-01-09T14:29:03Z"
     }
 ]
