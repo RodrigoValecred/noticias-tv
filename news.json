@@ -10,11 +10,6 @@
         "timestamp": "2026-01-09T09:57:58Z"
     },
     {
-        "source": "Migalhas",
-        "title": "Advogado-Geral da Petrobras é cotado para o ministério da Justiça - Migalhas",
-        "timestamp": "2026-01-08T16:48:54Z"
-    },
-    {
         "source": "Secretaria de Estado da Proteção e Defesa Civil",
         "title": "Atenção Meteorológica SDC/SC 09/01 09:20 - Temporais com chuva pontualmente intensa entre a sexta-feira (09) e a madrugada de domingo (11) - Secretaria de Estado da Proteção e Defesa Civil",
         "timestamp": "2026-01-09T12:22:15Z"
@@ -28,5 +23,10 @@
         "source": "APP-Sindicato",
         "title": "Presidente Lula vai reajustar piso do magistério acima da inflação, afirma ministro da Educação - APP-Sindicato",
         "timestamp": "2026-01-09T14:29:03Z"
+    },
+    {
+        "source": "www.gov.br",
+        "title": "Ministério da Saúde doará 100 toneladas de insumos médicos para tratar venezuelanos após destruição de centro de distribuição do país - www.gov.br",
+        "timestamp": "2026-01-08T20:33:00Z"
     }
 ]
