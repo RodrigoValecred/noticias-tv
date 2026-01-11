@@ -15,11 +15,6 @@
         "timestamp": "2026-01-10T14:34:00Z"
     },
     {
-        "source": "Agência Brasil",
-        "title": "Lula sanciona com vetos lei que prevê regras mais rígidas para devedor - Agência Brasil",
-        "timestamp": "2026-01-09T20:40:00Z"
-    },
-    {
         "source": "Gazeta do Povo",
         "title": "Ex-ministro da Saúde: nem a ditadura militar teve a ousadia de Moraes contra o CFM - Gazeta do Povo",
         "timestamp": "2026-01-09T17:46:00Z"
@@ -28,5 +23,10 @@
         "source": "Secretaria de Estado da Proteção e Defesa Civil",
         "title": "ATENÇÃO - 10/01 13:08 - TEMPORAIS com RAJADAS DE VENTO, ALAGAMENTOS, GRANIZO, RAIOS e risco de ENXURRADAS nas próximas 2 horas - Secretaria de Estado da Proteção e Defesa Civil",
         "timestamp": "2026-01-10T16:15:26Z"
+    },
+    {
+        "source": "G1",
+        "title": "Policial civil é morto durante tentativa de assalto no Maracanã, Zona Norte do Rio - G1",
+        "timestamp": "2026-01-11T09:58:48Z"
     }
 ]
