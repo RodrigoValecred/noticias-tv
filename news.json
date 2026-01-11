@@ -5,11 +5,6 @@
         "timestamp": "2026-01-10T19:14:00Z"
     },
     {
-        "source": "CNN Brasil",
-        "title": "PM desaparecido foi levado a “tribunal do crime”, aponta investigação - CNN Brasil",
-        "timestamp": "2026-01-10T21:31:34Z"
-    },
-    {
         "source": "BBC",
         "title": "'Trump não deve usar sanção na eleição brasileira. Ambiente cordial com Lula é verdadeiro', diz ex-diplomata dos EUA - BBC",
         "timestamp": "2026-01-09T09:49:40Z"
@@ -28,5 +23,10 @@
         "source": "Secretaria de Estado da Proteção e Defesa Civil",
         "title": "ATENÇÃO - 10/01 13:08 - TEMPORAIS com RAJADAS DE VENTO, ALAGAMENTOS, GRANIZO, RAIOS e risco de ENXURRADAS nas próximas 2 horas - Secretaria de Estado da Proteção e Defesa Civil",
         "timestamp": "2026-01-10T16:15:26Z"
+    },
+    {
+        "source": "Gazeta do Povo",
+        "title": "Aldo forma improvável parceria com Fabio Wajngarten - Gazeta do Povo",
+        "timestamp": "2026-01-09T20:57:00Z"
     }
 ]
