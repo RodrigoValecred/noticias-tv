@@ -5,11 +5,6 @@
         "timestamp": "2026-01-11T09:22:30Z"
     },
     {
-        "source": "O Globo",
-        "title": "Tornado atinge região metropolitana de Curitiba, e nuvem em formato de funil assusta moradores - O Globo",
-        "timestamp": "2026-01-11T00:30:37Z"
-    },
-    {
         "source": "G1",
         "title": "Policial civil é morto durante tentativa de assalto no Maracanã, Zona Norte do Rio - G1",
         "timestamp": "2026-01-11T09:58:48Z"
@@ -18,6 +13,11 @@
         "source": "Agência Brasil",
         "title": "Secretário executivo é nomeado ministro interino da Justiça - Agência Brasil",
         "timestamp": "2026-01-10T14:34:00Z"
+    },
+    {
+        "source": "O Globo",
+        "title": "Brigas, superlotação e desordem acendem alerta para riscos do turismo de massa predatório nas principais praias do país - O Globo",
+        "timestamp": "2026-01-11T06:30:31Z"
     },
     {
         "source": "Gazeta do Povo",
