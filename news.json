@@ -1,10 +1,5 @@
 [
     {
-        "source": "CNN Brasil",
-        "title": "Entenda a onda de protestos que acontece no Irã e o impacto para o regime - CNN Brasil",
-        "timestamp": "2026-01-12T20:45:39Z"
-    },
-    {
         "source": "Secretaria de Estado da Proteção e Defesa Civil",
         "title": "ATENÇÃO - 11/01 15:04 - TEMPORAL com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS na próxima 1 hora - Secretaria de Estado da Proteção e Defesa Civil",
         "timestamp": "2026-01-11T18:07:58Z"
@@ -15,18 +10,23 @@
         "timestamp": "2026-01-11T07:55:12Z"
     },
     {
+        "source": "BBC",
+        "title": "Ação contra Maduro é recado de Trump para China, diz autora de livro sobre Doutrina Monroe - BBC",
+        "timestamp": "2026-01-11T09:22:30Z"
+    },
+    {
+        "source": "O Globo",
+        "title": "Carlos Bolsonaro diz que médicos foram chamados à prisão após piora no estado de saúde do ex-presidente - O Globo",
+        "timestamp": "2026-01-11T22:47:27Z"
+    },
+    {
         "source": "O Globo",
         "title": "Trump publica imagem em que aparece como ‘presidente interino da Venezuela’ - O Globo",
         "timestamp": "2026-01-12T02:02:20Z"
     },
     {
-        "source": "CNN Brasil",
-        "title": "Presidente do México diz que pode falar com Trump após ameaças de ataques - CNN Brasil",
-        "timestamp": "2026-01-11T11:00:41Z"
-    },
-    {
-        "source": "BBC",
-        "title": "Ação contra Maduro é recado de Trump para China, diz autora de livro sobre Doutrina Monroe - BBC",
-        "timestamp": "2026-01-11T09:22:30Z"
+        "source": "Coluna do Fla",
+        "title": "Flamengo acerta contrato com Paquetá e discute valores com o West Ham - Coluna do Fla",
+        "timestamp": "2026-01-12T13:37:10Z"
     }
 ]
