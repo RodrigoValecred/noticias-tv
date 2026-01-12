@@ -1,11 +1,6 @@
 [
     {
         "source": "G1",
-        "title": "Polícia liberta 4 reféns e apreende arsenal no Centro de Niterói - G1",
-        "timestamp": "2026-01-11T21:14:41Z"
-    },
-    {
-        "source": "G1",
         "title": "Rio enfrenta calor intenso com temperatura de quase 40°C neste domingo - G1",
         "timestamp": "2026-01-11T17:32:07Z"
     },
@@ -20,13 +15,18 @@
         "timestamp": "2026-01-11T12:11:21Z"
     },
     {
-        "source": "FogãoNET",
-        "title": "Com gol de Rhuan, ex-Botafogo, Portuguesa empata com Flamengo na estreia no Carioca - FogãoNET",
-        "timestamp": "2026-01-11T23:14:49Z"
+        "source": "BBC",
+        "title": "Ação contra Maduro é recado de Trump para China, diz autora de livro sobre Doutrina Monroe - BBC",
+        "timestamp": "2026-01-11T09:22:30Z"
     },
     {
-        "source": "Secretaria de Estado da Proteção e Defesa Civil",
-        "title": "Previsão para os próximos 5 dias (11/01) - Secretaria de Estado da Proteção e Defesa Civil",
-        "timestamp": "2026-01-11T07:55:12Z"
+        "source": "Clube de Regatas do Flamengo",
+        "title": "Fla estreia no Carioca somente com jogadores formados na base - Clube de Regatas do Flamengo",
+        "timestamp": "2026-01-10T20:22:00Z"
+    },
+    {
+        "source": "Prefeitura de Porto Alegre",
+        "title": "Pagamento do IPTU 2026 com desconto pode ser feito até 9 de fevereiro - Prefeitura de Porto Alegre",
+        "timestamp": "2026-01-12T04:46:07Z"
     }
 ]
