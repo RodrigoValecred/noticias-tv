@@ -1,18 +1,13 @@
 [
     {
         "source": "Jovem Pan",
+        "title": "Alckmin homenageia Lewandowski após saída do governo - Jovem Pan",
+        "timestamp": "2026-01-11T18:32:03Z"
+    },
+    {
+        "source": "Jovem Pan",
         "title": "Acordo Mercosul-UE é risco para a indústria de transformação, diz Abimaq - Jovem Pan",
         "timestamp": "2026-01-11T21:36:47Z"
-    },
-    {
-        "source": "Estado de Minas",
-        "title": "Trump fala que é melhor Cuba negociar e sugere Rubio para presidente - Estado de Minas",
-        "timestamp": "2026-01-11T20:49:00Z"
-    },
-    {
-        "source": "Jornal Correio",
-        "title": "PM é morto a tiros durante briga em fila de barraca de praia - Jornal Correio",
-        "timestamp": "2026-01-12T10:56:50Z"
     },
     {
         "source": "G1",
@@ -21,12 +16,17 @@
     },
     {
         "source": "O Globo",
-        "title": "Ciclone extratropical atinge RS e provoca estragos em 18 municípios, segundo Defesa Civil - O Globo",
-        "timestamp": "2026-01-11T22:55:03Z"
+        "title": "Trump publica imagem em que aparece como ‘presidente interino da Venezuela’ - O Globo",
+        "timestamp": "2026-01-12T02:02:20Z"
     },
     {
         "source": "UOL Notícias",
         "title": "Governo Trump anuncia envio de 'centenas' de agentes adicionais a Minneapolis - UOL Notícias",
         "timestamp": "2026-01-11T23:47:36Z"
+    },
+    {
+        "source": "Folha de S.Paulo",
+        "title": "Bolsonaro tem azia constante e médico foi chamado à prisão, diz Carlos - Folha de S.Paulo",
+        "timestamp": "2026-01-12T01:13:00Z"
     }
 ]
