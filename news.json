@@ -1,8 +1,18 @@
 [
     {
+        "source": "CNN Brasil",
+        "title": "Moraes nega pedido para que plenário do STF reveja condenação de Bolsonaro - CNN Brasil",
+        "timestamp": "2026-01-13T15:56:53Z"
+    },
+    {
         "source": "Senado Federal",
         "title": "Lei autoriza pagamento a servidores de benefícios congelados na pandemia - Senado Federal",
         "timestamp": "2026-01-13T13:38:20Z"
+    },
+    {
+        "source": "G1",
+        "title": "Promotores renunciam ao cargo após pressão para investigarem viúva de mulher morta em Minnesota, diz NYT - G1",
+        "timestamp": "2026-01-13T18:34:23Z"
     },
     {
         "source": "CartaCapital",
@@ -10,23 +20,13 @@
         "timestamp": "2026-01-13T11:07:00Z"
     },
     {
-        "source": "UOL Notícias",
-        "title": "Garoto que se vestiu de nazista em formatura pede desculpa: 'Estou errado' - UOL Notícias",
-        "timestamp": "2026-01-13T13:08:02Z"
+        "source": "O Globo",
+        "title": "Cinco presos famosos deixam Tremembé; transferências fazem parte de movimento para diluir fama do presídio - O Globo",
+        "timestamp": "2026-01-13T19:25:02Z"
     },
     {
-        "source": "BBC",
-        "title": "José Manuel da Conceição: o padre que se tornou o primeiro pastor evangélico brasileiro - BBC",
-        "timestamp": "2026-01-13T10:18:45Z"
-    },
-    {
-        "source": "Gazeta do Povo",
-        "title": "Promotores desistem do combate à corrupção diante da impunidade - Gazeta do Povo",
-        "timestamp": "2026-01-13T00:35:00Z"
-    },
-    {
-        "source": "GOV.BR",
-        "title": "Mais Professores para o Brasil: governo institui política nacional para impulsionar a docência na Educação Básica - GOV.BR",
-        "timestamp": "2026-01-13T13:16:26Z"
+        "source": "O Globo",
+        "title": "Paes admite falha na fiscalização a quiosques que fazem 'puxadinhos' nas praias - O Globo",
+        "timestamp": "2026-01-13T16:10:33Z"
     }
 ]
