@@ -1,20 +1,5 @@
 [
     {
-        "source": "Folha de S.Paulo",
-        "title": "Cunhado de Vorcaro é preso tentando embarcar para Dubai em jatinho - Folha de S.Paulo",
-        "timestamp": "2026-01-14T10:45:00Z"
-    },
-    {
-        "source": "CartaCapital",
-        "title": "Defesa de Bolsonaro cita queda em cela e volta a pedir prisão domiciliar humanitária - CartaCapital",
-        "timestamp": "2026-01-14T02:01:00Z"
-    },
-    {
-        "source": "BBC",
-        "title": "Promessa de petróleo no Oiapoque atrai brasileiros do exterior e transforma região: 'É um bairro atrás do outro' - BBC",
-        "timestamp": "2026-01-14T08:15:00Z"
-    },
-    {
         "source": "Correio Braziliense",
         "title": "Flávio fecha porta para Tarcísio na corrida presidencial - Correio Braziliense",
         "timestamp": "2026-01-14T08:49:00Z"
@@ -25,8 +10,23 @@
         "timestamp": "2026-01-14T13:55:26Z"
     },
     {
-        "source": "UOL Notícias",
-        "title": "Homem que matou idoso com 'voadora' é condenado a 27 anos de prisão - UOL Notícias",
-        "timestamp": "2026-01-14T12:09:10Z"
+        "source": "BBC",
+        "title": "Promessa de petróleo no Oiapoque atrai brasileiros do exterior e transforma região: 'É um bairro atrás do outro' - BBC",
+        "timestamp": "2026-01-14T08:15:00Z"
+    },
+    {
+        "source": "Agência Brasil",
+        "title": "Wellington Lima e Silva é o novo ministro da Justiça - Agência Brasil",
+        "timestamp": "2026-01-13T22:06:00Z"
+    },
+    {
+        "source": "Agência Brasil",
+        "title": "Moraes nega mais um recurso de Bolsonaro contra condenação por golpe - Agência Brasil",
+        "timestamp": "2026-01-13T16:42:00Z"
+    },
+    {
+        "source": "Senado Federal",
+        "title": "Lei autoriza pagamento a servidores de benefícios congelados na pandemia - Senado Federal",
+        "timestamp": "2026-01-13T13:38:20Z"
     }
 ]
