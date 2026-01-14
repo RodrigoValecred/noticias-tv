@@ -1,23 +1,18 @@
 [
     {
+        "source": "UOL Notícias",
+        "title": "Prédio de luxo em Salvador ligado a deputado foi alvo de busca da PF; veja - UOL Notícias",
+        "timestamp": "2026-01-13T21:40:39Z"
+    },
+    {
         "source": "G1",
         "title": "Padre de 103 anos morre durante reza da Ave Maria na Tijuca - G1",
         "timestamp": "2026-01-13T18:47:15Z"
     },
     {
-        "source": "CNN Brasil",
-        "title": "Moraes nega pedido para que plenário do STF reveja condenação de Bolsonaro - CNN Brasil",
-        "timestamp": "2026-01-13T15:56:53Z"
-    },
-    {
-        "source": "R7",
-        "title": "Suzane von Richtofen tem direito à herança do tio? A resposta jurídica que muita gente não quer ouvir - R7",
-        "timestamp": "2026-01-13T21:47:48Z"
-    },
-    {
-        "source": "Prefeitura de São João da Barra",
-        "title": "Previsão de chuva para o Estado do Rio de Janeiro - Prefeitura de São João da Barra",
-        "timestamp": "2026-01-13T18:56:15Z"
+        "source": "G1",
+        "title": "Lavagem do Bonfim: confira tudo que você precisa saber sobre o evento religioso em Salvador - G1",
+        "timestamp": "2026-01-13T20:30:11Z"
     },
     {
         "source": "Sefaz BA",
@@ -25,8 +20,13 @@
         "timestamp": "2026-01-13T22:33:38Z"
     },
     {
-        "source": "Gazeta do Povo",
-        "title": "Meio/Ideia divulga pesquisa para presidente da República - Gazeta do Povo",
-        "timestamp": "2026-01-13T12:42:00Z"
+        "source": "Prefeitura de São João da Barra",
+        "title": "Previsão de chuva para o Estado do Rio de Janeiro - Prefeitura de São João da Barra",
+        "timestamp": "2026-01-13T18:56:15Z"
+    },
+    {
+        "source": "Senado Federal",
+        "title": "Lei autoriza pagamento a servidores de benefícios congelados na pandemia - Senado Federal",
+        "timestamp": "2026-01-13T13:38:20Z"
     }
 ]
