@@ -1,18 +1,13 @@
 [
     {
-        "source": "UOL Notícias",
-        "title": "SP: Chuva deixa mais de 50 mil sem luz, pessoas ilhadas e causa alagamentos - UOL Notícias",
-        "timestamp": "2026-01-13T23:14:20Z"
-    },
-    {
         "source": "G1",
         "title": "Lula cria comitê gestor da reforma tributária e lança plataforma para novo sistema - G1",
         "timestamp": "2026-01-13T19:48:17Z"
     },
     {
-        "source": "G1",
-        "title": "Padre de 103 anos morre durante reza da Ave Maria na Tijuca - G1",
-        "timestamp": "2026-01-13T18:47:15Z"
+        "source": "UOL Notícias",
+        "title": "Prédio de luxo em Salvador ligado a deputado foi alvo de busca da PF; veja - UOL Notícias",
+        "timestamp": "2026-01-13T21:40:39Z"
     },
     {
         "source": "G1",
@@ -28,5 +23,10 @@
         "source": "Prefeitura de São João da Barra",
         "title": "Previsão de chuva para o Estado do Rio de Janeiro - Prefeitura de São João da Barra",
         "timestamp": "2026-01-13T18:56:15Z"
+    },
+    {
+        "source": "Senado Federal",
+        "title": "Lei autoriza pagamento a servidores de benefícios congelados na pandemia - Senado Federal",
+        "timestamp": "2026-01-13T13:38:20Z"
     }
 ]
