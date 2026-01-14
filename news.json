@@ -1,18 +1,13 @@
 [
     {
-        "source": "Correio Braziliense",
-        "title": "Flávio fecha porta para Tarcísio na corrida presidencial - Correio Braziliense",
-        "timestamp": "2026-01-14T08:49:00Z"
-    },
-    {
         "source": "Migalhas",
         "title": "TJ/MA mantém prefeito preso; caso gerou exoneração coletiva no MP/MA - Migalhas",
         "timestamp": "2026-01-14T13:55:26Z"
     },
     {
-        "source": "BBC",
-        "title": "Promessa de petróleo no Oiapoque atrai brasileiros do exterior e transforma região: 'É um bairro atrás do outro' - BBC",
-        "timestamp": "2026-01-14T08:15:00Z"
+        "source": "UOL Notícias",
+        "title": "Homem que matou idoso com 'voadora' é condenado a 27 anos de prisão - UOL Notícias",
+        "timestamp": "2026-01-14T12:09:10Z"
     },
     {
         "source": "Agência Brasil",
@@ -28,5 +23,10 @@
         "source": "Senado Federal",
         "title": "Lei autoriza pagamento a servidores de benefícios congelados na pandemia - Senado Federal",
         "timestamp": "2026-01-13T13:38:20Z"
+    },
+    {
+        "source": "Epagri/Ciram",
+        "title": "Previsão 5 dias - Epagri/Ciram",
+        "timestamp": "2026-01-14T08:37:18Z"
     }
 ]
