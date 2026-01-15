@@ -1,5 +1,15 @@
 [
     {
+        "source": "G1",
+        "title": "Quaest: 46% dos brasileiros aprovam ação militar dos EUA na Venezuela, e 39% desaprovam - G1",
+        "timestamp": "2026-01-15T10:00:29Z"
+    },
+    {
+        "source": "Gazeta do Povo",
+        "title": "Michelle diz que Allan dos Santos é “dos demônios” e rebate crítica por vídeo de Tarcísio - Gazeta do Povo",
+        "timestamp": "2026-01-15T01:47:00Z"
+    },
+    {
         "source": "Correio Braziliense",
         "title": "Lula sanciona Orçamento de 2026 e veta R$ 400 milhões em emendas - Correio Braziliense",
         "timestamp": "2026-01-15T01:17:00Z"
@@ -15,18 +25,8 @@
         "timestamp": "2026-01-14T06:33:03Z"
     },
     {
-        "source": "Agência Brasil",
-        "title": "Lula conversa com Putin sobre Venezuela pós ataques dos EUA - Agência Brasil",
-        "timestamp": "2026-01-14T16:56:00Z"
-    },
-    {
         "source": "BBC",
         "title": "Wellington Lima e Silva, a aposta de Lula para o Ministério da Justiça - BBC",
         "timestamp": "2026-01-13T22:46:03Z"
-    },
-    {
-        "source": "GOV.BR",
-        "title": "Presidente Lula recebe os Presidentes da Comissão Europeia, Ursula von der Leyen, e do Conselho Europeu, António Costa, em 16 de janeiro - GOV.BR",
-        "timestamp": "2026-01-14T17:00:52Z"
     }
 ]
