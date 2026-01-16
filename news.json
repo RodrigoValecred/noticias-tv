@@ -1,8 +1,13 @@
 [
     {
-        "source": "GZH",
-        "title": "RS tem alerta laranja para tempestade na sexta-feira - GZH",
-        "timestamp": "2026-01-15T14:37:30Z"
+        "source": "Estadão",
+        "title": "Juristas veem ‘causa própria’ e abuso de poder em inquérito de Moraes sobre vazamentos - Estadão",
+        "timestamp": "2026-01-15T21:00:00Z"
+    },
+    {
+        "source": "InfoMoney",
+        "title": "Tarcísio atua para se manter na corrida presidencial - InfoMoney",
+        "timestamp": "2026-01-16T09:33:13Z"
     },
     {
         "source": "NSC Total",
@@ -10,23 +15,18 @@
         "timestamp": "2026-01-15T18:26:00Z"
     },
     {
-        "source": "G1",
-        "title": "Moraes autoriza Bolsonaro a ler livros para reduzir a pena da trama golpista - G1",
-        "timestamp": "2026-01-15T20:42:00Z"
-    },
-    {
         "source": "BBC",
         "title": "Após ameaça dos EUA, Irã diz que manifestante não foi sentenciado à execução; Trump afirma que 'matança parou' no país - BBC",
         "timestamp": "2026-01-15T17:22:48Z"
     },
     {
-        "source": "Estadão",
-        "title": "Juristas veem ‘causa própria’ e abuso de poder em inquérito de Moraes sobre vazamentos - Estadão",
-        "timestamp": "2026-01-15T21:00:00Z"
+        "source": "Revista Oeste",
+        "title": "Países da Europa fazem reforço militar na Groenlândia - Revista Oeste",
+        "timestamp": "2026-01-15T12:39:22Z"
     },
     {
-        "source": "Estado de Minas",
-        "title": "Nova lei de BH libera mesas e amplia produtos para venda em veículos - Estado de Minas",
-        "timestamp": "2026-01-16T05:00:00Z"
+        "source": "G1",
+        "title": "Perseguição policial termina com 2 mortos e 3 feridos em Niterói; fuzis e drogas são apreendidos - G1",
+        "timestamp": "2026-01-16T10:20:25Z"
     }
 ]
