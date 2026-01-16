@@ -1,8 +1,18 @@
 [
     {
+        "source": "InfoMoney",
+        "title": "Tarcísio atua para se manter na corrida presidencial - InfoMoney",
+        "timestamp": "2026-01-16T09:33:13Z"
+    },
+    {
         "source": "CNN Brasil",
         "title": "Irmã do prefeito Ricardo Nunes é presa após alerta do Smart Sampa - CNN Brasil",
         "timestamp": "2026-01-16T10:07:16Z"
+    },
+    {
+        "source": "Correio Braziliense",
+        "title": "Maioria dos brasileiros tem imagem negativa de Bolsonaro, indica Quaest - Correio Braziliense",
+        "timestamp": "2026-01-16T13:36:00Z"
     },
     {
         "source": "O Globo",
@@ -18,15 +28,5 @@
         "source": "BBC",
         "title": "Após ameaça dos EUA, Irã diz que manifestante não foi sentenciado à execução; Trump afirma que 'matança parou' no país - BBC",
         "timestamp": "2026-01-15T17:22:48Z"
-    },
-    {
-        "source": "Estado de Minas",
-        "title": "Idosa é agredida por motociclista próximo à Praça da Assembleia, em BH - Estado de Minas",
-        "timestamp": "2026-01-16T14:41:00Z"
-    },
-    {
-        "source": "Extra online",
-        "title": "Jovem abandonado em trilha por amiga estrela campanha de gigante do Fast food - Extra online",
-        "timestamp": "2026-01-16T01:21:25Z"
     }
 ]
