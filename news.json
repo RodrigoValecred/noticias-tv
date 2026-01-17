@@ -1,8 +1,18 @@
 [
     {
+        "source": "G1",
+        "title": "Chuva atinge cidade de SP e deixa toda capital em estado de atenção; Defesa Civil emite pela 1ª vez alerta extremo com toque de sirene - G1",
+        "timestamp": "2026-01-17T22:26:49Z"
+    },
+    {
         "source": "UOL Notícias",
         "title": "Flávio defende Tarcísio e Michelle após ataque indireto de Carlos Bolsonaro - UOL Notícias",
         "timestamp": "2026-01-17T18:47:25Z"
+    },
+    {
+        "source": "ICL Notícias",
+        "title": "Ex-donos de REAG e Master creem em delator: elo de Zettel com irmãos Toffoli assusta - ICL Notícias",
+        "timestamp": "2026-01-17T11:13:12Z"
     },
     {
         "source": "G1",
@@ -18,15 +28,5 @@
         "source": "UOL Notícias",
         "title": "Mulher morta pelo ICE foi atingida por vários disparos de arma de fogo - UOL Notícias",
         "timestamp": "2026-01-17T10:22:28Z"
-    },
-    {
-        "source": "UOL Notícias",
-        "title": "EUA alertam companhias sobre riscos de voos no espaço aéreo das Américas - UOL Notícias",
-        "timestamp": "2026-01-17T14:36:57Z"
-    },
-    {
-        "source": "UOL Notícias",
-        "title": "Tiros entre PMs deixam sete feridos em festival sertanejo no litoral de SP - UOL Notícias",
-        "timestamp": "2026-01-17T13:09:20Z"
     }
 ]
