@@ -1,8 +1,23 @@
 [
     {
+        "source": "UOL Notícias",
+        "title": "Médico mata dois colegas após discussão em restaurante no Alphaville, em SP - UOL Notícias",
+        "timestamp": "2026-01-17T15:47:04Z"
+    },
+    {
+        "source": "CNN Brasil",
+        "title": "Bombeiros encontram corpo de homem que estava em carro arrastado por chuva - CNN Brasil",
+        "timestamp": "2026-01-17T12:49:20Z"
+    },
+    {
         "source": "Poder360",
         "title": "Advogada critica troca de cela após chegada de Bolsonaro à Papudinha - Poder360",
         "timestamp": "2026-01-17T12:03:59Z"
+    },
+    {
+        "source": "Revista Oeste",
+        "title": "Suspeito de elo com PCC atuou em compra de resort da família Toffoli - Revista Oeste",
+        "timestamp": "2026-01-17T12:39:00Z"
     },
     {
         "source": "UOL Notícias",
@@ -10,23 +25,8 @@
         "timestamp": "2026-01-17T10:22:28Z"
     },
     {
-        "source": "G1",
-        "title": "Carnaval na Grande Tijuca: veja datas e horários dos 63 blocos que desfilam na região - G1",
-        "timestamp": "2026-01-17T08:00:32Z"
-    },
-    {
-        "source": "ICL Notícias",
-        "title": "Ex-donos de REAG e Master creem em delator: elo de Zettel com irmãos Toffoli assusta - ICL Notícias",
-        "timestamp": "2026-01-17T11:13:12Z"
-    },
-    {
         "source": "UOL Notícias",
         "title": "EUA alertam companhias sobre riscos de voos no espaço aéreo das Américas - UOL Notícias",
         "timestamp": "2026-01-17T14:36:57Z"
-    },
-    {
-        "source": "Poder360",
-        "title": "Presidente interina, Delcy Rodríguez demite aliado de Maduro na Venezuela - Poder360",
-        "timestamp": "2026-01-17T12:58:01Z"
     }
 ]
