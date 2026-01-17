@@ -1,23 +1,8 @@
 [
     {
-        "source": "CartaCapital",
-        "title": "Moraes envia a Gilmar habeas corpus que tenta tirar Bolsonaro da Papudinha - CartaCapital",
-        "timestamp": "2026-01-16T20:25:00Z"
-    },
-    {
         "source": "Valor Econômico",
         "title": "Noruega fica perplexa com entrega da medalha de Nobel a Trump - Valor Econômico",
         "timestamp": "2026-01-16T17:40:06Z"
-    },
-    {
-        "source": "Revista Oeste",
-        "title": "Técnica da PF para acessar celulares desligados preocupa Brasília, diz jornal - Revista Oeste",
-        "timestamp": "2026-01-16T18:24:07Z"
-    },
-    {
-        "source": "UOL Notícias",
-        "title": "Nunes silencia sobre prisão da irmã por Smart Sampa e cita caso do PSOL - UOL Notícias",
-        "timestamp": "2026-01-16T21:30:26Z"
     },
     {
         "source": "Correio Braziliense",
@@ -26,7 +11,22 @@
     },
     {
         "source": "Revista Oeste",
-        "title": "Oposição pede suspeição de Toffoli por ligação de familiares com o Master - Revista Oeste",
-        "timestamp": "2026-01-16T23:58:05Z"
+        "title": "Imagens raras mostram superlotação de necrotérios no Irã - Revista Oeste",
+        "timestamp": "2026-01-15T22:13:44Z"
+    },
+    {
+        "source": "O Globo",
+        "title": "Shopping Tijuca reabre duas semanas após incêndio que deixou dois funcionários mortos - O Globo",
+        "timestamp": "2026-01-16T14:02:33Z"
+    },
+    {
+        "source": "O Globo",
+        "title": "Trump nomeia secretário de Estado dos EUA e ex-premier britânico para conselho de paz de Gaza - O Globo",
+        "timestamp": "2026-01-16T23:29:55Z"
+    },
+    {
+        "source": "CNN Brasil",
+        "title": "Tensão no Irã: EUA estariam deslocando porta-aviões para o Oriente Médio - CNN Brasil",
+        "timestamp": "2026-01-16T13:55:01Z"
     }
 ]
