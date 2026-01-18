@@ -1,10 +1,5 @@
 [
     {
-        "source": "Estadão",
-        "title": "Por que Simone Tebet pode se tornar um elemento surpresa na reeleição de Tarcísio em São Paulo? - Estadão",
-        "timestamp": "2026-01-17T20:00:00Z"
-    },
-    {
         "source": "Correio Braziliense",
         "title": "Flavio Bolsonaro grava vídeo e se pronuncia sobre Michelle e Tarcísio - Correio Braziliense",
         "timestamp": "2026-01-17T22:34:00Z"
@@ -25,8 +20,13 @@
         "timestamp": "2026-01-17T19:18:16Z"
     },
     {
-        "source": "Jovem Pan",
-        "title": "PF quebra sigilo bancário e fiscal de 101 pessoas e entidades investigadas no caso Master - Jovem Pan",
-        "timestamp": "2026-01-17T13:53:18Z"
+        "source": "PTD - Palmeiras Todo Dia",
+        "title": "Notas de Palmeiras 1 x 0 Mirassol - PTD - Palmeiras Todo Dia",
+        "timestamp": "2026-01-18T01:50:23Z"
+    },
+    {
+        "source": "G1",
+        "title": "Grifes, lojas da Rolex e concessionária da Ferrari: vestido de presidente revela 'ilha' de luxo na Venezuela - G1",
+        "timestamp": "2026-01-18T05:00:35Z"
     }
 ]
