@@ -1,18 +1,8 @@
 [
     {
-        "source": "BBC",
-        "title": "Guerra da Ucrânia: a mulher acusada de enganar estrangeiros para recrutá-los para o Exército russo - BBC",
-        "timestamp": "2026-01-18T10:07:30Z"
-    },
-    {
         "source": "Revista Oeste",
         "title": "Portugal tem as eleições mais acirradas desde 1986 - Revista Oeste",
         "timestamp": "2026-01-18T13:39:00Z"
-    },
-    {
-        "source": "Extra online",
-        "title": "Fuzil desviado da PM há mais de 15 anos está entre os apreendidos com traficantes do CV na operação mais letal da história - Extra online",
-        "timestamp": "2026-01-18T09:00:40Z"
     },
     {
         "source": "Brasil 247",
@@ -28,5 +18,15 @@
         "source": "Poder360",
         "title": "Comitê do Nobel critica transferência prêmio da Paz de María Corina a Trump - Poder360",
         "timestamp": "2026-01-18T12:08:41Z"
+    },
+    {
+        "source": "Extra online",
+        "title": "Fuzil desviado da PM há mais de 15 anos está entre os apreendidos com traficantes do CV na operação mais letal da história - Extra online",
+        "timestamp": "2026-01-18T09:00:40Z"
+    },
+    {
+        "source": "G1",
+        "title": "Pentágono coloca 1.500 soldados de prontidão para possível envio a Minnesota após ameaça de Trump - G1",
+        "timestamp": "2026-01-18T05:34:04Z"
     }
 ]
