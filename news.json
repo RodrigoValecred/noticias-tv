@@ -1,5 +1,10 @@
 [
     {
+        "source": "CNN Brasil",
+        "title": "Eleitores em Portugal vão às urnas para escolher novo presidente - CNN Brasil",
+        "timestamp": "2026-01-18T07:00:15Z"
+    },
+    {
         "source": "Correio Braziliense",
         "title": "Flavio Bolsonaro grava vídeo e se pronuncia sobre Michelle e Tarcísio - Correio Braziliense",
         "timestamp": "2026-01-17T22:34:00Z"
@@ -15,18 +20,13 @@
         "timestamp": "2026-01-18T00:59:02Z"
     },
     {
-        "source": "MetSul Meteorologia",
-        "title": "Frente fria trará grande mudança do tempo e afetará vários estados - MetSul Meteorologia",
-        "timestamp": "2026-01-17T19:18:16Z"
-    },
-    {
         "source": "PTD - Palmeiras Todo Dia",
         "title": "Notas de Palmeiras 1 x 0 Mirassol - PTD - Palmeiras Todo Dia",
         "timestamp": "2026-01-18T01:50:23Z"
     },
     {
-        "source": "Jornal GGN",
-        "title": "O dossiê do GGN sobre o caso Master - Jornal GGN",
-        "timestamp": "2026-01-17T17:56:00Z"
+        "source": "G1",
+        "title": "Pentágono coloca 1.500 soldados de prontidão para possível envio a Minnesota após ameaça de Trump - G1",
+        "timestamp": "2026-01-18T05:34:04Z"
     }
 ]
