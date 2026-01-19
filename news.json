@@ -5,19 +5,14 @@
         "timestamp": "2026-01-18T20:27:47Z"
     },
     {
-        "source": "Revista Fórum",
-        "title": "Bolsonaro na Papudinha. Juca Kfouri faz comparação inacreditável - Revista Fórum",
-        "timestamp": "2026-01-18T14:22:10Z"
-    },
-    {
         "source": "CNN Brasil",
         "title": "\"Sabor amargo\", diz Peña sobre ausência de Lula no Mercosul-UE - CNN Brasil",
         "timestamp": "2026-01-17T17:49:59Z"
     },
     {
-        "source": "G1",
-        "title": "Policiais são mortos, presos fazem motim e aulas são canceladas em dia de violência na Guatemala - G1",
-        "timestamp": "2026-01-18T19:03:34Z"
+        "source": "Revista Fórum",
+        "title": "Bolsonaro na Papudinha. Juca Kfouri faz comparação inacreditável - Revista Fórum",
+        "timestamp": "2026-01-18T14:22:10Z"
     },
     {
         "source": "Jovem Pan",
@@ -28,5 +23,10 @@
         "source": "Correio Braziliense",
         "title": "Enem: Estudante tira nota mil na redação sem \"fórmulas prontas\" - Correio Braziliense",
         "timestamp": "2026-01-18T17:25:00Z"
+    },
+    {
+        "source": "G1",
+        "title": "Policiais são mortos, presos fazem motim e aulas são canceladas em dia de violência na Guatemala - G1",
+        "timestamp": "2026-01-18T19:03:34Z"
     }
 ]
