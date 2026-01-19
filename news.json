@@ -1,10 +1,5 @@
 [
     {
-        "source": "BBC",
-        "title": "Casamento infantil nos EUA: ‘Minha mãe entregou minha vida a um homem quando eu tinha 14 anos’ - BBC",
-        "timestamp": "2026-01-18T17:53:30Z"
-    },
-    {
         "source": "Correio Braziliense",
         "title": "Novas imagens revelam detalhes de roubo no Museu do Louvre, em Paris - Correio Braziliense",
         "timestamp": "2026-01-18T20:27:47Z"
@@ -15,18 +10,23 @@
         "timestamp": "2026-01-18T14:22:10Z"
     },
     {
+        "source": "CNN Brasil",
+        "title": "\"Sabor amargo\", diz Peña sobre ausência de Lula no Mercosul-UE - CNN Brasil",
+        "timestamp": "2026-01-17T17:49:59Z"
+    },
+    {
         "source": "G1",
         "title": "Policiais são mortos, presos fazem motim e aulas são canceladas em dia de violência na Guatemala - G1",
         "timestamp": "2026-01-18T19:03:34Z"
     },
     {
+        "source": "Jovem Pan",
+        "title": "Líder do Irã admite pela primeira vez que protestos deixaram ‘milhares de mortos’ - Jovem Pan",
+        "timestamp": "2026-01-18T12:10:50Z"
+    },
+    {
         "source": "Correio Braziliense",
         "title": "Enem: Estudante tira nota mil na redação sem \"fórmulas prontas\" - Correio Braziliense",
         "timestamp": "2026-01-18T17:25:00Z"
-    },
-    {
-        "source": "CNN Brasil",
-        "title": "\"Sabor amargo\", diz Peña sobre ausência de Lula no Mercosul-UE - CNN Brasil",
-        "timestamp": "2026-01-17T17:49:59Z"
     }
 ]
