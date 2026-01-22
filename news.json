@@ -1,8 +1,23 @@
 [
     {
+        "source": "G1",
+        "title": "'O agente secreto' recebe quatro indicações ao Oscar e empata recorde de 'Cidade de Deus' - G1",
+        "timestamp": "2026-01-22T13:41:37Z"
+    },
+    {
+        "source": "UOL Notícias",
+        "title": "Carlos Madeiro: Enamed: 4 em 10 médicos de curso privado se formam sem atingir proficiência - UOL Notícias",
+        "timestamp": "2026-01-22T13:01:33Z"
+    },
+    {
         "source": "Revista Oeste",
         "title": "Alerta para tempestades atinge 20 Estados nesta quinta-feira, 22 - Revista Oeste",
         "timestamp": "2026-01-22T09:00:00Z"
+    },
+    {
+        "source": "oglobo.globo.com",
+        "title": "‘Climão’ no STF: veja em 4 pontos o que conta contra Toffoli na condução do caso Master e incomoda outros ministros - oglobo.globo.com",
+        "timestamp": "2026-01-22T07:00:37Z"
     },
     {
         "source": "Revista Oeste",
@@ -11,22 +26,7 @@
     },
     {
         "source": "Revista Oeste",
-        "title": "Carlos relata estado de Bolsonaro, Torres e Silvinei na prisão - Revista Oeste",
-        "timestamp": "2026-01-21T17:12:16Z"
-    },
-    {
-        "source": "O Globo",
-        "title": "‘Balde de água fria’: especialistas apontam as perspectivas do acordo UE-Mercosul na Justiça europeia - O Globo",
-        "timestamp": "2026-01-22T07:00:56Z"
-    },
-    {
-        "source": "O Globo",
-        "title": "Japão suspende reativação da maior usina nuclear do mundo após alarme em reator; operadora nega vazamento radioativo - O Globo",
-        "timestamp": "2026-01-22T08:53:28Z"
-    },
-    {
-        "source": "Extra online",
-        "title": "Mãe de 10 crianças é condenada por manter mulher em situação análoga à escravidão por 25 anos - Extra online",
-        "timestamp": "2026-01-21T20:52:45Z"
+        "title": "Malafaia rechaça críticas e mantém aposta em Tarcísio para 2026 - Revista Oeste",
+        "timestamp": "2026-01-21T18:18:35Z"
     }
 ]
