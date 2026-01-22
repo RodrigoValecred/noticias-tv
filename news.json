@@ -1,23 +1,13 @@
 [
     {
-        "source": "UOL Notícias",
-        "title": "Mulher que usou caneta emagrecedora é diagnosticada com Guillain-Barré - UOL Notícias",
-        "timestamp": "2026-01-22T00:53:28Z"
-    },
-    {
-        "source": "Revista Oeste",
-        "title": "Carlos relata estado de Bolsonaro, Torres e Silvinei na prisão - Revista Oeste",
-        "timestamp": "2026-01-21T17:12:16Z"
-    },
-    {
-        "source": "CNN Brasil",
-        "title": "Entenda o que é o Conselho de Paz de Trump - CNN Brasil",
-        "timestamp": "2026-01-22T07:00:41Z"
-    },
-    {
         "source": "Gazeta do Povo",
         "title": "Jurista classifica conduta de Toffoli como “caso de psiquiatria” - Gazeta do Povo",
         "timestamp": "2026-01-21T10:21:00Z"
+    },
+    {
+        "source": "UOL Notícias",
+        "title": "Mulher que usou caneta emagrecedora é diagnosticada com Guillain-Barré - UOL Notícias",
+        "timestamp": "2026-01-22T00:53:28Z"
     },
     {
         "source": "Jovem Pan",
@@ -28,5 +18,15 @@
         "source": "Brasil 247",
         "title": "Gleisi Hoffmann confirma pré-candidatura ao Senado pelo Paraná - Brasil 247",
         "timestamp": "2026-01-21T22:10:42Z"
+    },
+    {
+        "source": "Revista Oeste",
+        "title": "Ditadura assassina filho na frente da mãe no Irã - Revista Oeste",
+        "timestamp": "2026-01-21T16:29:20Z"
+    },
+    {
+        "source": "UOL Economia",
+        "title": "Lula ignora Davos pelo 4º ano; para aliados, ida seria benéfica ao Brasil - UOL Economia",
+        "timestamp": "2026-01-21T21:11:47Z"
     }
 ]
