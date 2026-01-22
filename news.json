@@ -1,10 +1,5 @@
 [
     {
-        "source": "O Globo",
-        "title": "Tarcísio marca reuniões, sonda marqueteiros e evita visita a Bolsonaro por corrida ao Planalto - O Globo",
-        "timestamp": "2026-01-22T06:30:30Z"
-    },
-    {
         "source": "Revista Oeste",
         "title": "Alerta para tempestades atinge 20 Estados nesta quinta-feira, 22 - Revista Oeste",
         "timestamp": "2026-01-22T09:00:00Z"
@@ -15,18 +10,23 @@
         "timestamp": "2026-01-22T13:30:00Z"
     },
     {
+        "source": "O Globo",
+        "title": "Tarcísio marca reuniões, sonda marqueteiros e evita visita a Bolsonaro por corrida ao Planalto - O Globo",
+        "timestamp": "2026-01-22T06:30:30Z"
+    },
+    {
+        "source": "Revista Oeste",
+        "title": "Moraes arquiva inquérito contra Torres, Vasques e policiais federais - Revista Oeste",
+        "timestamp": "2026-01-22T16:05:52Z"
+    },
+    {
         "source": "em.com.br",
         "title": "BH pode registrar mais de um quarto da chuva esperada para o mês em um dia - em.com.br",
         "timestamp": "2026-01-22T11:22:00Z"
     },
     {
-        "source": "O Globo",
-        "title": "‘Climão’ no STF: veja em 4 pontos o que conta contra Toffoli na condução do caso Master e incomoda outros ministros - O Globo",
-        "timestamp": "2026-01-22T07:00:37Z"
-    },
-    {
-        "source": "Poder360",
-        "title": "Parlamento Europeu freia acordo com Mercosul por até 2 anos - Poder360",
-        "timestamp": "2026-01-21T21:47:49Z"
+        "source": "CNN Brasil",
+        "title": "Turista gaúcha é presa por injúria racial em Salvador - CNN Brasil",
+        "timestamp": "2026-01-22T14:59:45Z"
     }
 ]
