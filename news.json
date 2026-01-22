@@ -5,13 +5,8 @@
         "timestamp": "2026-01-22T06:30:30Z"
     },
     {
-        "source": "correiobraziliense.com.br",
-        "title": "As polêmicas de Toffoli no caso Banco Master - correiobraziliense.com.br",
-        "timestamp": "2026-01-22T16:59:00Z"
-    },
-    {
         "source": "UOL Notícias",
-        "title": "Menino de 5 anos e outros 3 alunos são detidos pelo ICE em escola nos EUA - UOL Notícias",
+        "title": "Menino de 5 anos é detido com o pai por agentes de imigração nos EUA - UOL Notícias",
         "timestamp": "2026-01-22T18:27:54Z"
     },
     {
@@ -28,5 +23,10 @@
         "source": "Revista Oeste",
         "title": "Alerta para tempestades atinge 20 Estados nesta quinta-feira, 22 - Revista Oeste",
         "timestamp": "2026-01-22T09:00:00Z"
+    },
+    {
+        "source": "diariodorio.com",
+        "title": "RJ tem 10 cursos de Medicina entre os piores do país, aponta MEC - diariodorio.com",
+        "timestamp": "2026-01-22T18:30:48Z"
     }
 ]
