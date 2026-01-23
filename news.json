@@ -1,23 +1,18 @@
 [
     {
+        "source": "G1",
+        "title": "Ibaneis confirma jantar e reuniões com Vorcaro, mas nega ter debatido BRB e Master: 'Entrei mudo e saí calado' - G1",
+        "timestamp": "2026-01-23T11:58:56Z"
+    },
+    {
+        "source": "UOL Educação",
+        "title": "Lista de aprovados na 1ª chamada do vestibular da USP é divulgada; veja - UOL Educação",
+        "timestamp": "2026-01-23T13:02:36Z"
+    },
+    {
         "source": "Jovem Pan",
-        "title": "Universidades e Faculdades estaduais de SP recebem nota máxima no Enamed - Jovem Pan",
-        "timestamp": "2026-01-23T09:30:10Z"
-    },
-    {
-        "source": "O Globo",
-        "title": "Defesa de Bolsonaro pede autorização para receber visita de ministro do TCU na Papudinha - O Globo",
-        "timestamp": "2026-01-22T20:23:28Z"
-    },
-    {
-        "source": "correiobraziliense.com.br",
-        "title": "Investigação sobre mortes na UTI avança para instauração de novo inquérito - correiobraziliense.com.br",
-        "timestamp": "2026-01-23T09:00:00Z"
-    },
-    {
-        "source": "UOL Notícias",
-        "title": "Ex-marido e irmão dele são condenados por morte de filha de deputado em MT - UOL Notícias",
-        "timestamp": "2026-01-23T11:01:16Z"
+        "title": "Acordo sobre Groenlândia não questiona soberania da Dinamarca, garante primeira-ministra - Jovem Pan",
+        "timestamp": "2026-01-22T10:08:54Z"
     },
     {
         "source": "CNN Brasil",
@@ -25,8 +20,13 @@
         "timestamp": "2026-01-23T11:57:19Z"
     },
     {
-        "source": "CNN Brasil",
-        "title": "Groenlândia: Mapa mostra riqueza mineral inexplorada na ilha alvo de Trump - CNN Brasil",
-        "timestamp": "2026-01-23T07:30:50Z"
+        "source": "UOL Notícias",
+        "title": "Ex-marido e irmão dele são condenados por morte de filha de deputado em MT - UOL Notícias",
+        "timestamp": "2026-01-23T11:01:16Z"
+    },
+    {
+        "source": "correiobraziliense.com.br",
+        "title": "Investigação sobre mortes na UTI avança para instauração de novo inquérito - correiobraziliense.com.br",
+        "timestamp": "2026-01-23T09:00:00Z"
     }
 ]
