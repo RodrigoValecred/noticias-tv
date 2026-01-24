@@ -1,5 +1,10 @@
 [
     {
+        "source": "G1",
+        "title": "Prefeitura de Minneapolis recebe relato de novo tiroteio envolvendo o ICE - G1",
+        "timestamp": "2026-01-24T16:04:09Z"
+    },
+    {
         "source": "Poder360",
         "title": "Trump posta foto com pinguim e é zoado na web - Poder360",
         "timestamp": "2026-01-24T10:31:20Z"
@@ -11,22 +16,17 @@
     },
     {
         "source": "Folha de S.Paulo",
-        "title": "Leia a íntegra do depoimento de Daniel Vorcaro, do Banco Master, à Polícia Federal - Folha de S.Paulo",
-        "timestamp": "2026-01-24T00:12:00Z"
+        "title": "Vida dos irmãos de Toffoli no interior de SP destoa de luxo de resort no Paraná - Folha de S.Paulo",
+        "timestamp": "2026-01-24T02:00:00Z"
     },
     {
-        "source": "O Globo",
-        "title": "Caminhada de Nikolas até Brasília completa seis dias com alertas da PRF, lives e lesões - O Globo",
-        "timestamp": "2026-01-24T06:30:31Z"
+        "source": "itatiaia.com.br",
+        "title": "Nikolas surpreende e elogia decisão de Moraes: ‘Até o relógio parado acerta duas vezes’ - itatiaia.com.br",
+        "timestamp": "2026-01-24T12:34:17Z"
     },
     {
         "source": "Metrô CPTM",
         "title": "Justiça suspende contrato de obras na avenida Roberto Marinho após recurso - Metrô CPTM",
         "timestamp": "2026-01-24T10:48:36Z"
-    },
-    {
-        "source": "correiobraziliense.com.br",
-        "title": "Veja o que técnica de enfermagem investigada disse ao advogado na prisão - correiobraziliense.com.br",
-        "timestamp": "2026-01-24T07:00:00Z"
     }
 ]
