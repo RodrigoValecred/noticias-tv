@@ -15,11 +15,6 @@
         "timestamp": "2026-01-23T21:30:49Z"
     },
     {
-        "source": "Revista Oeste",
-        "title": "'Não podemos permitir que quem mente volte a governar', diz Lula - Revista Oeste",
-        "timestamp": "2026-01-24T00:03:00Z"
-    },
-    {
         "source": "em.com.br",
         "title": "Vítimas de Brumadinho denunciam promotores e cobram afastamento - em.com.br",
         "timestamp": "2026-01-23T19:54:00Z"
@@ -28,5 +23,10 @@
         "source": "CartaCapital",
         "title": "O 1º levantamento do Paraná Pesquisas em 2026 sobre a eleição presidencial - CartaCapital",
         "timestamp": "2026-01-23T20:25:00Z"
+    },
+    {
+        "source": "CNN Brasil",
+        "title": "Confissão, negação e remorso: o que dizem suspeitos de injeção letal no DF - CNN Brasil",
+        "timestamp": "2026-01-23T14:59:46Z"
     }
 ]
