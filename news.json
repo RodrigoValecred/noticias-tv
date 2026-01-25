@@ -1,18 +1,8 @@
 [
     {
         "source": "O Globo",
-        "title": "Irmãos de Dias Toffoli têm cotidiano de classe média no interior de SP, distinto do luxo de resort do qual foram sócios - O Globo",
+        "title": "Irmãos de Dias Toffoli têm cotidiano de classe média no interior de SP, distinto do luxo do resort do qual foram sócios - O Globo",
         "timestamp": "2026-01-25T07:01:03Z"
-    },
-    {
-        "source": "correiobraziliense.com.br",
-        "title": "Hotel Torre Palace é implodido às 10h e atrai curiosos ao Setor Hoteleiro Norte - correiobraziliense.com.br",
-        "timestamp": "2026-01-25T13:23:00Z"
-    },
-    {
-        "source": "Forbes Brasil",
-        "title": "São Paulo, 472 Anos: 6 Estrangeiros Contam Como a Cidade Transformou Suas Vidas - Forbes Brasil",
-        "timestamp": "2026-01-25T08:00:00Z"
     },
     {
         "source": "CNN Brasil",
@@ -20,13 +10,23 @@
         "timestamp": "2026-01-25T13:33:46Z"
     },
     {
-        "source": "Poder360",
-        "title": "Trump posta foto com pinguim e é zoado na web - Poder360",
+        "source": "poder360.com.br",
+        "title": "Trump posta foto com pinguim e é zoado na web - poder360.com.br",
         "timestamp": "2026-01-24T10:31:20Z"
+    },
+    {
+        "source": "Forbes Brasil",
+        "title": "São Paulo, 472 Anos: 6 Estrangeiros Contam Como a Cidade Transformou Suas Vidas - Forbes Brasil",
+        "timestamp": "2026-01-25T08:00:00Z"
     },
     {
         "source": "em.com.br",
         "title": "25 de janeiro de 2019, um dia para ninguém esquecer - em.com.br",
         "timestamp": "2026-01-25T05:00:00Z"
+    },
+    {
+        "source": "CNN Brasil",
+        "title": "Lula aposta em alianças para cercar bolsonarismo nos estados - CNN Brasil",
+        "timestamp": "2026-01-25T07:00:04Z"
     }
 ]
