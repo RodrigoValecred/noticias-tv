@@ -1,15 +1,5 @@
 [
     {
-        "source": "UOL Notícias",
-        "title": "Parentes de ministros do STF atuam em 1.900 casos em tribunais superiores - UOL Notícias",
-        "timestamp": "2026-01-26T13:30:00Z"
-    },
-    {
-        "source": "Brasil 247",
-        "title": "Lula teria dito a aliados que Toffoli deve sair do STF ou da relatoria do caso Master - Brasil 247",
-        "timestamp": "2026-01-26T08:55:36Z"
-    },
-    {
         "source": "Gazeta do Povo",
         "title": "Ditadora interina da Venezuela diz estar “farta” de receber ordens dos EUA - Gazeta do Povo",
         "timestamp": "2026-01-26T12:50:00Z"
@@ -25,8 +15,18 @@
         "timestamp": "2026-01-26T11:32:08Z"
     },
     {
+        "source": "G1",
+        "title": "Corretora desaparecida: síndico do prédio responde a 12 processos envolvendo a mulher, diz família - G1",
+        "timestamp": "2026-01-26T12:20:54Z"
+    },
+    {
         "source": "CNN Brasil",
         "title": "Megatempestade nos EUA: Termômetros marcam -33°C em cidade do Wisconsin - CNN Brasil",
         "timestamp": "2026-01-25T10:44:14Z"
+    },
+    {
+        "source": "correiobraziliense.com.br",
+        "title": "Destroços da implosão do Torre Palace atingem hotel vizinho - correiobraziliense.com.br",
+        "timestamp": "2026-01-25T16:44:00Z"
     }
 ]
