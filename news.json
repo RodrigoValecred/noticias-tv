@@ -1,13 +1,13 @@
 [
     {
+        "source": "BBC",
+        "title": "Morte de enfermeiro em Minneapolis leva Trump a abandonar estratégia de ataque - BBC",
+        "timestamp": "2026-01-27T10:52:30Z"
+    },
+    {
         "source": "UOL Notícias",
         "title": "Justiça de Santa Catarina suspende lei que proíbe cotas raciais no estado - UOL Notícias",
         "timestamp": "2026-01-27T19:09:00Z"
-    },
-    {
-        "source": "G1",
-        "title": "Resumão diário do JN: em conversa com Trump, Lula defende cooperação no combate ao crime organizado e pede estabilidade na Venezuela; rombo nas contas externas brasileiras é o maior em 11 anos - G1",
-        "timestamp": "2026-01-27T00:52:57Z"
     },
     {
         "source": "BBC",
@@ -15,18 +15,18 @@
         "timestamp": "2026-01-27T08:31:12Z"
     },
     {
-        "source": "oglobo.globo.com",
-        "title": "Dois policiais civis são feridos em operação que busca bandidos do CV suspeitos de roubos - oglobo.globo.com",
-        "timestamp": "2026-01-27T09:41:15Z"
-    },
-    {
-        "source": "UOL Notícias",
-        "title": "Letícia Casado: Centrão vê traição e se une contra PL em SC após racha por Carlos Bolsonaro - UOL Notícias",
-        "timestamp": "2026-01-27T13:52:30Z"
+        "source": "G1",
+        "title": "Corretora desaparecida: Quedas de energia em apartamento eram provocadas intencionalmente, diz família - G1",
+        "timestamp": "2026-01-27T03:01:04Z"
     },
     {
         "source": "Revista Oeste",
         "title": "Netanyahu celebra presença de irmãos Bolsonaro em Israel - Revista Oeste",
         "timestamp": "2026-01-27T11:36:17Z"
+    },
+    {
+        "source": "O Globo",
+        "title": "Dois policiais civis são feridos em operação que busca bandidos do CV suspeitos de roubos - O Globo",
+        "timestamp": "2026-01-27T09:41:15Z"
     }
 ]
