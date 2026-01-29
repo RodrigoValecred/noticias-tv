@@ -1,8 +1,18 @@
 [
     {
+        "source": "Poder360",
+        "title": "Carlos diz ter recebido autorização de Bolsonaro para almoçar com Tarcísio - Poder360",
+        "timestamp": "2026-01-29T02:55:10Z"
+    },
+    {
         "source": "climatempo.com.br",
         "title": "Alerta para mais temporais do estado de São Paulo - climatempo.com.br",
         "timestamp": "2026-01-28T21:00:00Z"
+    },
+    {
+        "source": "oglobo.globo.com",
+        "title": "Avião desaparecido na Colômbia é encontrado; 15 mortes confirmadas - oglobo.globo.com",
+        "timestamp": "2026-01-28T21:31:19Z"
     },
     {
         "source": "correiobraziliense.com.br",
@@ -10,23 +20,13 @@
         "timestamp": "2026-01-29T00:07:00Z"
     },
     {
-        "source": "Revista Fórum",
-        "title": "Com inveja de Nikolas, Eduardo Bolsonaro e Paulo Figueiredo perdem a linha nas redes - Revista Fórum",
-        "timestamp": "2026-01-28T19:18:37Z"
+        "source": "correiobraziliense.com.br",
+        "title": "Reunião de líderes: PT e governo colocam fim da escala 6x1 e caso Master como prioridade - correiobraziliense.com.br",
+        "timestamp": "2026-01-28T18:26:00Z"
     },
     {
-        "source": "Revista Oeste",
-        "title": "Transparência Internacional cobra reação à 'captura do STF pelo crime organizado' - Revista Oeste",
-        "timestamp": "2026-01-28T18:15:46Z"
-    },
-    {
-        "source": "UOL Notícias",
-        "title": "PM pede que Moraes libere caminhadas para Bolsonaro e mude dia de visitas - UOL Notícias",
-        "timestamp": "2026-01-28T21:19:32Z"
-    },
-    {
-        "source": "Folha de S.Paulo",
-        "title": "Mais uma técnica do IBGE é exonerada em meio a crise com gestão Pochmann - Folha de S.Paulo",
-        "timestamp": "2026-01-28T17:04:00Z"
+        "source": "ge",
+        "title": "Atuações do São Paulo: Luciano é decisivo, e Danielzinho brilha em virada no Flamengo; dê suas notas - ge",
+        "timestamp": "2026-01-29T02:40:13Z"
     }
 ]
