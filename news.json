@@ -10,11 +10,6 @@
         "timestamp": "2026-01-30T21:01:00Z"
     },
     {
-        "source": "Poder360",
-        "title": "Deputado pede suspensão de verba para escola de samba com enredo sobre Lula - Poder360",
-        "timestamp": "2026-01-30T18:56:07Z"
-    },
-    {
         "source": "CartaCapital",
         "title": "Caminhadas, mas nada de leitura: a rotina de Bolsonaro na Papudinha - CartaCapital",
         "timestamp": "2026-01-30T20:44:00Z"
@@ -28,5 +23,10 @@
         "source": "G1",
         "title": "Nunes diz que blocos de Carnaval devem buscar patrocínio: 'Ficar acomodado, querendo tudo do governo, não é por aí' - G1",
         "timestamp": "2026-01-30T15:56:42Z"
+    },
+    {
+        "source": "O Globo",
+        "title": "Cuba prepara população para a guerra enquanto EUA apertam cerco e fecham a válvula do petróleo: 'Uma nação em colapso' - O Globo",
+        "timestamp": "2026-01-30T12:55:32Z"
     }
 ]
