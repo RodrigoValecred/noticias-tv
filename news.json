@@ -1,23 +1,18 @@
 [
     {
-        "source": "UOL Notícias",
-        "title": "Flávio sobrepuja Tarcísio e quer tornar disputa contra Lula um plebiscito - UOL Notícias",
-        "timestamp": "2026-01-31T02:01:20Z"
-    },
-    {
         "source": "NSC Total",
         "title": "Fotos mostram grandes pedras de granizo que atingiram município de SC neste sábado - NSC Total",
         "timestamp": "2026-02-01T02:37:00Z"
     },
     {
         "source": "Jovem Pan",
-        "title": "EUA alertam Irã sobre riscos de exercícios militares, e país islâmico responde: ‘Estamos com o dedo no gatilho’ - Jovem Pan",
-        "timestamp": "2026-01-31T17:40:59Z"
+        "title": "Juíza rejeita pedido para suspender operações do ICE em Minnesota - Jovem Pan",
+        "timestamp": "2026-01-31T20:46:19Z"
     },
     {
-        "source": "Diário do Poder",
-        "title": "Risco de derrota do PT no Nordeste preocupa Lula - Diário do Poder - Diário do Poder",
-        "timestamp": "2026-01-31T03:01:39Z"
+        "source": "Jovem Pan",
+        "title": "EUA alertam Irã sobre riscos de exercícios militares, e país islâmico responde: ‘Estamos com o dedo no gatilho’ - Jovem Pan",
+        "timestamp": "2026-01-31T17:40:59Z"
     },
     {
         "source": "Correio Braziliense",
@@ -28,5 +23,10 @@
         "source": "Correio Braziliense",
         "title": "Kassab busca Lula para conter tensões e discutir papel do PSD nas eleições - Correio Braziliense",
         "timestamp": "2026-01-30T17:50:00Z"
+    },
+    {
+        "source": "Metrópoles",
+        "title": "O relato de Tarcísio sobre a situação de Bolsonaro na Papudinha - Metrópoles",
+        "timestamp": "2026-01-31T08:00:00Z"
     }
 ]
