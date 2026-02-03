@@ -1,10 +1,5 @@
 [
     {
-        "source": "Agência Brasil",
-        "title": "Cármen Lúcia será relatora de Código de Ética do STF, anuncia Fachin - Agência Brasil",
-        "timestamp": "2026-02-02T18:18:00Z"
-    },
-    {
         "source": "Brasil 247",
         "title": "MP Militar deve pedir expulsão de Bolsonaro nesta semana - Brasil 247",
         "timestamp": "2026-02-02T14:03:03Z"
@@ -28,5 +23,10 @@
         "source": "Senado Federal",
         "title": "Fim da escala 6x1 está pronto para votação no Plenário do Senado — Senado Notícias - Senado Federal",
         "timestamp": "2026-02-02T17:57:25Z"
+    },
+    {
+        "source": "NSC Total",
+        "title": "Novo ciclone coloca SC e mais 4 estados em alerta de perigo para chuva e vento de 100 km/h - NSC Total",
+        "timestamp": "2026-02-02T20:00:00Z"
     }
 ]
