@@ -1,23 +1,18 @@
 [
     {
-        "source": "CartaCapital",
-        "title": "Chefes dos Três Poderes lançam pacto nacional e cobram ação imediata contra o feminicídio - CartaCapital",
-        "timestamp": "2026-02-04T16:07:00Z"
-    },
-    {
-        "source": "Diário do Poder",
-        "title": "Caso Master: PT admite apoiar CPI, mas só a governista proposta na Câmara - Diário do Poder - Diário do Poder",
-        "timestamp": "2026-02-04T03:01:32Z"
-    },
-    {
-        "source": "CNN Brasil",
-        "title": "Luma de Oliveira aparece em e-mails do caso Epstein; magnata buscou modelos - CNN Brasil",
-        "timestamp": "2026-02-04T13:28:02Z"
+        "source": "O Globo",
+        "title": "Moraes critica 'demonização de palestras', e Toffoli defende 'autocontenção' de juízes em meio a discussões sobre código de ética no STF - O Globo",
+        "timestamp": "2026-02-04T22:00:13Z"
     },
     {
         "source": "Folha de S.Paulo",
         "title": "Por um código de ética, só de sacanagem - Folha de S.Paulo",
         "timestamp": "2026-02-04T17:42:00Z"
+    },
+    {
+        "source": "CartaCapital",
+        "title": "Chefes dos Três Poderes lançam pacto nacional e cobram ação imediata contra o feminicídio - CartaCapital",
+        "timestamp": "2026-02-04T16:07:00Z"
     },
     {
         "source": "UOL Notícias",
@@ -28,5 +23,10 @@
         "source": "Extra online",
         "title": "Criminosos da Trio de Ouro, em São João de Meriti, são apontados como autores de estupro coletivo de menina de 13 anos - Extra online",
         "timestamp": "2026-02-04T11:43:02Z"
+    },
+    {
+        "source": "Correio Braziliense",
+        "title": "Ibaneis passa a ser investigado pelo STJ por supostas irregularidades no caso Master - Correio Braziliense",
+        "timestamp": "2026-02-04T13:57:00Z"
     }
 ]
