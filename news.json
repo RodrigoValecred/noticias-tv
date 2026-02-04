@@ -1,10 +1,5 @@
 [
     {
-        "source": "G1",
-        "title": "Congresso aprova aumento para servidores do Senado e da Câmara e abre brecha para pagamentos acima do teto - G1",
-        "timestamp": "2026-02-03T18:05:08Z"
-    },
-    {
         "source": "O Globo",
         "title": "Câmara aprova pacote com reajustes para carreiras do Executivo e benefício que pode dobrar remuneração de servidores do Congresso - O Globo",
         "timestamp": "2026-02-03T22:00:11Z"
@@ -15,18 +10,23 @@
         "timestamp": "2026-02-03T20:50:43Z"
     },
     {
-        "source": "UOL Educação",
-        "title": "SP: PM monitor de escola cívico-militar escreve 'descançar' e 'continêcia' - UOL Educação",
-        "timestamp": "2026-02-03T23:37:00Z"
+        "source": "Poder360",
+        "title": "CPI do INSS adia depoimento de Vorcaro após reunião com Toffoli - Poder360",
+        "timestamp": "2026-02-03T20:05:27Z"
     },
     {
-        "source": "Correio Braziliense",
-        "title": "Governo vai enviar projeto sobre o fim da escala 6x1 após o carnaval, diz líder do PT - Correio Braziliense",
-        "timestamp": "2026-02-03T15:19:00Z"
+        "source": "NSC Total",
+        "title": "Defesa Civil atualiza alerta para ciclone e coloca regiões de SC em risco para temporais - NSC Total",
+        "timestamp": "2026-02-03T20:31:00Z"
     },
     {
-        "source": "Correio Braziliense",
-        "title": "Lula chama Motta e líderes da Câmara para jantar na Granja do Torto - Correio Braziliense",
-        "timestamp": "2026-02-03T17:23:00Z"
+        "source": "Estado de Minas",
+        "title": "Por que bolsonaristas, em especial Flávio Bolsonaro, temem fim da escala 6×1 - Estado de Minas",
+        "timestamp": "2026-02-03T05:08:00Z"
+    },
+    {
+        "source": "Revista Oeste",
+        "title": "Bilionários de esquerda bancam protestos anti-ICE nos EUA - Revista Oeste",
+        "timestamp": "2026-02-03T20:38:31Z"
     }
 ]
