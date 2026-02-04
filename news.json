@@ -1,5 +1,10 @@
 [
     {
+        "source": "Diário do Poder",
+        "title": "Caso Master: PT admite apoiar CPI, mas só a governista proposta na Câmara - Diário do Poder - Diário do Poder",
+        "timestamp": "2026-02-04T03:01:32Z"
+    },
+    {
         "source": "Folha de S.Paulo",
         "title": "Câmara aprova reajuste de servidores e criação de cargos com impacto de R$ 4,3 bi neste ano - Folha de S.Paulo",
         "timestamp": "2026-02-03T19:30:00Z"
@@ -10,9 +15,9 @@
         "timestamp": "2026-02-03T20:09:28Z"
     },
     {
-        "source": "CartaCapital",
-        "title": "O que disseram as pesquisas sobre o governo Lula divulgadas em janeiro - CartaCapital",
-        "timestamp": "2026-02-03T13:47:00Z"
+        "source": "MetSul Meteorologia",
+        "title": "Rio atmosférico vai trazer excesso de chuva no Sudeste do Brasil - MetSul Meteorologia",
+        "timestamp": "2026-02-03T23:29:38Z"
     },
     {
         "source": "Revista Oeste",
@@ -23,10 +28,5 @@
         "source": "NSC Total",
         "title": "Defesa Civil atualiza alerta para ciclone e coloca regiões de SC em risco para temporais - NSC Total",
         "timestamp": "2026-02-03T20:31:00Z"
-    },
-    {
-        "source": "Brasil 247",
-        "title": "Governo pode recorrer ao STF caso o Congresso derrube o veto ao PL da dosimetria, diz Randolfe - Brasil 247",
-        "timestamp": "2026-02-04T01:05:08Z"
     }
 ]
