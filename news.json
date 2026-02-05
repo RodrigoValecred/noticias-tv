@@ -10,11 +10,6 @@
         "timestamp": "2026-02-04T20:01:14Z"
     },
     {
-        "source": "CNN Brasil",
-        "title": "Possível candidatura de Haddad ao Senado preocupa direita em São Paulo - CNN Brasil",
-        "timestamp": "2026-02-05T00:07:51Z"
-    },
-    {
         "source": "Folha de S.Paulo",
         "title": "Por um código de ética, só de sacanagem - Folha de S.Paulo",
         "timestamp": "2026-02-04T17:42:00Z"
@@ -28,5 +23,10 @@
         "source": "CartaCapital",
         "title": "Chefes dos Três Poderes lançam pacto nacional e cobram ação imediata contra o feminicídio - CartaCapital",
         "timestamp": "2026-02-04T16:07:00Z"
+    },
+    {
+        "source": "UOL Notícias",
+        "title": "Mulher que desapareceu no RS publicou sobre acidente que não aconteceu - UOL Notícias",
+        "timestamp": "2026-02-04T17:42:19Z"
     }
 ]
