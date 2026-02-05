@@ -1,8 +1,18 @@
 [
     {
+        "source": "G1",
+        "title": "Lula diz que conversou com filho citado em CPMI do INSS: 'Se você tiver alguma coisa, vai pagar o preço' - G1",
+        "timestamp": "2026-02-05T15:04:40Z"
+    },
+    {
         "source": "Revista Oeste",
         "title": "Vorcaro impõe condição para depor na CPI do INSS - Revista Oeste",
         "timestamp": "2026-02-05T10:02:55Z"
+    },
+    {
+        "source": "CNN Brasil",
+        "title": "Possível candidatura de Haddad ao Senado preocupa direita em São Paulo - CNN Brasil",
+        "timestamp": "2026-02-05T00:07:51Z"
     },
     {
         "source": "BBC",
@@ -10,23 +20,13 @@
         "timestamp": "2026-02-05T09:27:09Z"
     },
     {
-        "source": "Correio Braziliense",
-        "title": "Foto mostra Pedro Turra com cabeça raspada em sistema penitenciário - Correio Braziliense",
-        "timestamp": "2026-02-05T11:58:00Z"
+        "source": "O Globo",
+        "title": "PT tenta atrair MDB com vaga de vice de Lula, mas Alckmin e palanques nos estados são entraves - O Globo",
+        "timestamp": "2026-02-05T06:30:33Z"
     },
     {
-        "source": "CNN Brasil",
-        "title": "Vídeo: Homem é chamado de \"talarico\" e assassinado em concessionária de SP - CNN Brasil",
-        "timestamp": "2026-02-05T12:17:55Z"
-    },
-    {
-        "source": "BBC",
-        "title": "Os detalhes do exame post-mortem de Jeffrey Epstein nos últimos arquivos publicados - BBC",
-        "timestamp": "2026-02-04T21:43:34Z"
-    },
-    {
-        "source": "Diário do Nordeste",
-        "title": "Chove em mais de 100 cidades do Ceará; veja maiores volumes - Diário do Nordeste",
-        "timestamp": "2026-02-05T12:32:14Z"
+        "source": "G1",
+        "title": "Governo de SP cria site que unifica cobrança de pedágio free flow das rodovias paulistas para quem não tem tag; veja seus débitos - G1",
+        "timestamp": "2026-02-05T10:42:57Z"
     }
 ]
