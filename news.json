@@ -1,20 +1,5 @@
 [
     {
-        "source": "Brasil 247",
-        "title": "Por unanimidade, STF enquadra caixa 2 como improbidade administrativa - Brasil 247",
-        "timestamp": "2026-02-07T00:12:48Z"
-    },
-    {
-        "source": "Poder360",
-        "title": "Leia a lista de mordomias e benefícios que Dino mandou cortar - Poder360",
-        "timestamp": "2026-02-06T16:16:02Z"
-    },
-    {
-        "source": "Extra online",
-        "title": "Tubulação da Cedae apresenta mais dois vazamentos e Guandu volta a operar com 50% da capacidade - Extra online",
-        "timestamp": "2026-02-06T22:52:02Z"
-    },
-    {
         "source": "Revista Oeste",
         "title": "Toffoli e Moraes pressionam Senado contra CPMI do Master, diz jornal - Revista Oeste",
         "timestamp": "2026-02-06T10:00:23Z"
@@ -28,5 +13,20 @@
         "source": "Metrópoles",
         "title": "Risco de superlotação preocupa PM para bloco da Ivete em São Paulo - Metrópoles",
         "timestamp": "2026-02-06T15:52:00Z"
+    },
+    {
+        "source": "Revista Oeste",
+        "title": "O incômodo com Fachin entre ministros favoráveis ao Código de Conduta - Revista Oeste",
+        "timestamp": "2026-02-06T20:41:05Z"
+    },
+    {
+        "source": "Brasil 247",
+        "title": "Por unanimidade, STF enquadra caixa 2 como improbidade administrativa - Brasil 247",
+        "timestamp": "2026-02-07T00:12:48Z"
+    },
+    {
+        "source": "Extra online",
+        "title": "Tubulação da Cedae apresenta mais dois vazamentos e Guandu volta a operar com 50% da capacidade - Extra online",
+        "timestamp": "2026-02-06T22:52:02Z"
     }
 ]
