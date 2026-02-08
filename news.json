@@ -1,23 +1,18 @@
 [
     {
+        "source": "CNN Brasil",
+        "title": "Eleições em Portugal: Pesquisas mostram Seguro à frente de Ventura - CNN Brasil",
+        "timestamp": "2026-02-08T07:00:03Z"
+    },
+    {
         "source": "NSC Total",
         "title": "Alerta vermelho para chuva coloca três estados em alto risco de deslizamentos - NSC Total",
         "timestamp": "2026-02-08T02:44:00Z"
     },
     {
-        "source": "Brasil 247",
-        "title": "Resolução do PT defende tarifa zero e fim da escala 6x1 sem redução de salários - Brasil 247",
-        "timestamp": "2026-02-07T16:19:08Z"
-    },
-    {
         "source": "ND Mais",
         "title": "Cão Orelha: Prefeito João Rodrigues aponta ‘lacração’; delegado-geral fala em ‘inquisição’ - ND Mais",
         "timestamp": "2026-02-07T16:15:41Z"
-    },
-    {
-        "source": "Poder360",
-        "title": "Haddad endossa Dino e PT vê base para veto de Lula a reajuste extrateto - Poder360",
-        "timestamp": "2026-02-06T23:01:55Z"
     },
     {
         "source": "Extra online",
@@ -28,5 +23,10 @@
         "source": "Poder360",
         "title": "Trump nega ter cometido erro ao postar vídeo de casal Obama - Poder360",
         "timestamp": "2026-02-07T12:23:52Z"
+    },
+    {
+        "source": "CartaCapital",
+        "title": "Justiça manda soltar turista argentina acusada de injúria racial - CartaCapital",
+        "timestamp": "2026-02-07T01:37:00Z"
     }
 ]
