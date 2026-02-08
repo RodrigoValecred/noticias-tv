@@ -1,13 +1,13 @@
 [
     {
-        "source": "Revista Oeste",
-        "title": "Polícia confirma causa da morte de Henrique Maderite - Revista Oeste",
-        "timestamp": "2026-02-08T09:18:03Z"
-    },
-    {
         "source": "Jornal Correio",
         "title": "Mar de gente: Baiana System fecha Furdunço arrastando multidão em Salvador - Jornal Correio",
         "timestamp": "2026-02-08T09:30:00Z"
+    },
+    {
+        "source": "CNN Brasil",
+        "title": "Foto de cueca e e-mails com Epstein: o escândalo que abala o Reino Unido - CNN Brasil",
+        "timestamp": "2026-02-07T14:26:07Z"
     },
     {
         "source": "O Globo",
@@ -16,17 +16,17 @@
     },
     {
         "source": "NSC Total",
-        "title": "Alerta vermelho para chuva coloca três estados em alto risco de deslizamentos - NSC Total",
-        "timestamp": "2026-02-08T02:44:00Z"
-    },
-    {
-        "source": "G1",
-        "title": "Idoso perde R$ 150 mil ao cair em golpe de mulher que prometia 'cura espiritual' - G1",
-        "timestamp": "2026-02-08T08:09:51Z"
+        "title": "Temporal chega com vento forte e granizo em SC após alerta da Defesa Civil - NSC Total",
+        "timestamp": "2026-02-08T00:28:00Z"
     },
     {
         "source": "ND Mais",
         "title": "Cão Orelha: Prefeito João Rodrigues aponta ‘lacração’; delegado-geral fala em ‘inquisição’ - ND Mais",
         "timestamp": "2026-02-07T16:15:41Z"
+    },
+    {
+        "source": "Extra online",
+        "title": "Famosos se esbaldam debaixo de chuva em desfile técnico em homenagem a Lula - Extra online",
+        "timestamp": "2026-02-07T15:33:44Z"
     }
 ]
