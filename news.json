@@ -1,13 +1,23 @@
 [
     {
+        "source": "Correio Braziliense",
+        "title": "Caso Master: PF quebra criptografia de celular de Daniel Vorcaro - Correio Braziliense",
+        "timestamp": "2026-02-09T13:57:00Z"
+    },
+    {
         "source": "CNN Brasil",
-        "title": "Notícias Ao Vivo do Brasil e do Mundo - CNN Brasil",
+        "title": "Real Time Big Data: na disputa ao Planalto, Lula tem 39%; Flávio, 30% - CNN Brasil",
         "timestamp": "2026-02-09T13:01:58Z"
     },
     {
-        "source": "Revista Oeste",
-        "title": "Domingo com frente fria e tempestades; confira a previsão - Revista Oeste",
-        "timestamp": "2026-02-08T09:00:00Z"
+        "source": "oantagonista.com.br",
+        "title": "Kassab descarta candidatura de Tarcísio à Presidência - oantagonista.com.br",
+        "timestamp": "2026-02-08T22:34:00Z"
+    },
+    {
+        "source": "oantagonista.com.br",
+        "title": "Caso Bolsonaro abre margem para inelegibilidade de Lula por desfile - oantagonista.com.br",
+        "timestamp": "2026-02-09T10:00:00Z"
     },
     {
         "source": "AEROIN",
@@ -18,15 +28,5 @@
         "source": "Poder360",
         "title": "Saiba como ficou o Parlamento do Japão após vitória governista - Poder360",
         "timestamp": "2026-02-09T00:28:14Z"
-    },
-    {
-        "source": "Revista Oeste",
-        "title": "Presidente da CPMI do INSS critica decisão de Dino - Revista Oeste",
-        "timestamp": "2026-02-08T14:00:25Z"
-    },
-    {
-        "source": "Correio Braziliense",
-        "title": "Lula apresenta o plano pela reeleição e convoca aliados para a campanha - Correio Braziliense",
-        "timestamp": "2026-02-08T09:01:00Z"
     }
 ]
