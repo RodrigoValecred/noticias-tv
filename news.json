@@ -1,8 +1,18 @@
 [
     {
+        "source": "BBC",
+        "title": "Jeffrey Epstein financiou modelos brasileiras e avisou dias antes sobre sua prisão; MPF apura citação em Natal - BBC",
+        "timestamp": "2026-02-09T17:40:42Z"
+    },
+    {
+        "source": "oglobo.globo.com",
+        "title": "Homem tenta matar jovem com mais de 15 facadas; vítima fica com rosto recortado e está entubada; suspeito da tentativa de feminicídio é preso - oglobo.globo.com",
+        "timestamp": "2026-02-09T12:56:54Z"
+    },
+    {
         "source": "CNN Brasil",
-        "title": "Real Time Big Data aponta que Ratinho Jr. é nome mais competitivo do PSD - CNN Brasil",
-        "timestamp": "2026-02-09T13:00:40Z"
+        "title": "Se Trump conhecesse sanguinidade de Lampião, não faria provocação, diz Lula - CNN Brasil",
+        "timestamp": "2026-02-09T16:17:34Z"
     },
     {
         "source": "Revista Oeste",
@@ -10,23 +20,13 @@
         "timestamp": "2026-02-09T13:38:34Z"
     },
     {
-        "source": "Brasil 247",
-        "title": "Equipe de Lula se prepara para 'surpresas' de Trump em encontro na Casa Branca - Brasil 247",
-        "timestamp": "2026-02-09T13:37:37Z"
+        "source": "BBC",
+        "title": "'Vivendo em um hotel': a disputa pela transformação do 'maior edifício residencial do Brasil' em Airbnb - BBC",
+        "timestamp": "2026-02-09T09:11:42Z"
     },
     {
-        "source": "oantagonista.com.br",
-        "title": "Caso Bolsonaro abre margem para inelegibilidade de Lula por desfile - oantagonista.com.br",
-        "timestamp": "2026-02-09T10:00:00Z"
-    },
-    {
-        "source": "Poder360",
-        "title": "Padre pede para apoiador de Nikolas deixar igreja e deputado critica - Poder360",
-        "timestamp": "2026-02-09T14:33:16Z"
-    },
-    {
-        "source": "AEROIN",
-        "title": "Cuba avisa às companhias aéreas que o combustível para os aviões acabará em menos de 24 horas - AEROIN",
-        "timestamp": "2026-02-09T01:43:54Z"
+        "source": "Estado de Minas",
+        "title": "Serra do Espinhaço: professor da UFMG alerta para consequência da mineração - Estado de Minas",
+        "timestamp": "2026-02-09T15:42:00Z"
     }
 ]
