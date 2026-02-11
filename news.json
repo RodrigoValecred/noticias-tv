@@ -1,8 +1,18 @@
 [
     {
+        "source": "NSC Total",
+        "title": "Como foi o primeiro dia de julgamento do pedido de cassação do senador Jorge Seif no TSE - NSC Total",
+        "timestamp": "2026-02-11T03:01:00Z"
+    },
+    {
         "source": "UOL Notícias",
         "title": "Conduta de delegado-geral de SC no caso do Cão Orelha será apurada pelo MP - UOL Notícias",
         "timestamp": "2026-02-11T03:30:18Z"
+    },
+    {
+        "source": "ICL Notícias",
+        "title": "Reunião de líderes expõe tensão sobre supersalários e isola PL - ICL Notícias",
+        "timestamp": "2026-02-10T09:22:32Z"
     },
     {
         "source": "CNN Brasil",
@@ -15,18 +25,8 @@
         "timestamp": "2026-02-11T03:08:00Z"
     },
     {
-        "source": "Metrópoles",
-        "title": "Alckmin será vice de Lula ou não concorre, diz novo líder do PSB - Metrópoles",
-        "timestamp": "2026-02-10T15:00:00Z"
-    },
-    {
         "source": "Brasil 247",
         "title": "'Estamos caminhando para relatório final do Caso Master', diz diretor-geral da PF - Brasil 247",
         "timestamp": "2026-02-10T20:16:52Z"
-    },
-    {
-        "source": "NSC Total",
-        "title": "Novo alerta de chuvas intensas coloca 28 cidades de SC em perigo potencial - NSC Total",
-        "timestamp": "2026-02-10T19:45:00Z"
     }
 ]
