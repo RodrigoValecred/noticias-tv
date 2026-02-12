@@ -1,8 +1,23 @@
 [
     {
+        "source": "O Dia",
+        "title": "Vídeos: temporal atinge a cidade do Rio e provoca enxurradas no Vidigal e Rocinha - O Dia",
+        "timestamp": "2026-02-11T23:44:00Z"
+    },
+    {
         "source": "CNN Brasil",
         "title": "Senadores saem de PF e STF sem garantir acesso a dados sigilosos do Master - CNN Brasil",
         "timestamp": "2026-02-12T02:33:16Z"
+    },
+    {
+        "source": "Poder360",
+        "title": "Fim da escala 6 X 1 elevaria custo do trabalho em 7,84%, diz Ipea - Poder360",
+        "timestamp": "2026-02-11T11:18:12Z"
+    },
+    {
+        "source": "CNN Brasil",
+        "title": "Secretário dos EUA: haverá \"reviravolta dramática\" na relação EUA-Venezuela - CNN Brasil",
+        "timestamp": "2026-02-12T01:58:00Z"
     },
     {
         "source": "Revista Fórum",
@@ -13,20 +28,5 @@
         "source": "Estadão",
         "title": "Prefeitura de SP criou restrição a saída de foliões na Consolação semanas antes de bloco superlotar - Estadão",
         "timestamp": "2026-02-11T08:35:18Z"
-    },
-    {
-        "source": "MetSul Meteorologia",
-        "title": "Rio atmosférico vai reforçar instabilidade e favorecer chuva forte e temporais - MetSul Meteorologia",
-        "timestamp": "2026-02-11T19:46:04Z"
-    },
-    {
-        "source": "Folha de S.Paulo",
-        "title": "Toffoli diz que recebeu dinheiro por ser sócio da empresa que vendeu resort a fundo de Vorcaro - Folha de S.Paulo",
-        "timestamp": "2026-02-12T01:12:00Z"
-    },
-    {
-        "source": "O Globo",
-        "title": "Em conversa com João Campos, Lula diz que insistirá para ter Haddad candidato em SP, mas não se compromete com Alckmin de vice - O Globo",
-        "timestamp": "2026-02-11T20:22:27Z"
     }
 ]
