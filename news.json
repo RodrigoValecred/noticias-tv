@@ -1,23 +1,8 @@
 [
     {
-        "source": "Poder360",
-        "title": "Sidônio proíbe ministros de desfilar em carro alegórico de Janja - Poder360",
-        "timestamp": "2026-02-12T09:07:49Z"
-    },
-    {
-        "source": "O TEMPO",
-        "title": "Secretário municipal atira contra filhos, mata um e é encontrado morto - O TEMPO",
-        "timestamp": "2026-02-12T12:14:55Z"
-    },
-    {
-        "source": "Correio Braziliense",
-        "title": "Brasileiro salva 15 alunos durante tiroteio em massa no Canadá - Correio Braziliense",
-        "timestamp": "2026-02-12T08:50:00Z"
-    },
-    {
-        "source": "O Antagonista",
-        "title": "Lula atrás Flávio e Tarcísio em SP, indica pesquisa - O Antagonista",
-        "timestamp": "2026-02-12T10:59:00Z"
+        "source": "UOL Notícias",
+        "title": "Justiça italiana encerra análise sobre extradição de Zambelli ao Brasil - UOL Notícias",
+        "timestamp": "2026-02-12T17:38:14Z"
     },
     {
         "source": "BBC",
@@ -25,8 +10,23 @@
         "timestamp": "2026-02-12T08:49:26Z"
     },
     {
+        "source": "O Antagonista",
+        "title": "Lula atrás Flávio e Tarcísio em SP, indica pesquisa - O Antagonista",
+        "timestamp": "2026-02-12T10:59:00Z"
+    },
+    {
+        "source": "Folha de S.Paulo",
+        "title": "Mãe de adolescente indiciado por morte de Orelha diz que família precisa 'se defender até do inimaginável' - Folha de S.Paulo",
+        "timestamp": "2026-02-12T07:00:00Z"
+    },
+    {
         "source": "CNN Brasil",
         "title": "Senadores saem de PF e STF sem garantir acesso a dados sigilosos do Master - CNN Brasil",
         "timestamp": "2026-02-12T02:33:16Z"
+    },
+    {
+        "source": "MetSul Meteorologia",
+        "title": "Rio atmosférico vai reforçar instabilidade e favorecer chuva forte e temporais - MetSul Meteorologia",
+        "timestamp": "2026-02-11T19:46:04Z"
     }
 ]
