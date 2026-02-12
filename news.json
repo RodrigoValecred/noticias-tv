@@ -1,15 +1,5 @@
 [
     {
-        "source": "Revista Oeste",
-        "title": "‘Toffolão’ é um escândalo, afirma senador - Revista Oeste",
-        "timestamp": "2026-02-12T03:19:32Z"
-    },
-    {
-        "source": "Agência Pública",
-        "title": "Carnaval: Prefeitura de SP paga cachês inflados a bandas gospel de igrejas aliadas a Nunes - Agência Pública",
-        "timestamp": "2026-02-12T07:50:04Z"
-    },
-    {
         "source": "Poder360",
         "title": "Sidônio proíbe ministros de desfilar em carro alegórico de Janja - Poder360",
         "timestamp": "2026-02-12T09:07:49Z"
@@ -20,13 +10,23 @@
         "timestamp": "2026-02-12T08:49:26Z"
     },
     {
-        "source": "Poder360",
-        "title": "Fim da escala 6 X 1 elevaria custo do trabalho em 7,84%, diz Ipea - Poder360",
-        "timestamp": "2026-02-11T11:18:12Z"
+        "source": "CNN Brasil",
+        "title": "Senadores saem de PF e STF sem garantir acesso a dados sigilosos do Master - CNN Brasil",
+        "timestamp": "2026-02-12T02:33:16Z"
     },
     {
         "source": "UOL Notícias",
-        "title": "Cabeça de absolvido no caso Araceli é achada após confissão de homem preso - UOL Notícias",
-        "timestamp": "2026-02-12T10:01:05Z"
+        "title": "'Era acordado com arma na cabeça', diz brasileiro que lutou na Ucrânia - UOL Notícias",
+        "timestamp": "2026-02-12T12:57:59Z"
+    },
+    {
+        "source": "CNN Brasil",
+        "title": "Secretário dos EUA: haverá \"reviravolta dramática\" na relação EUA-Venezuela - CNN Brasil",
+        "timestamp": "2026-02-12T01:58:00Z"
+    },
+    {
+        "source": "UOL Notícias",
+        "title": "Moradores temem superlotação em bairros no Carnaval de SP: 'Está no limite' - UOL Notícias",
+        "timestamp": "2026-02-12T12:51:57Z"
     }
 ]
