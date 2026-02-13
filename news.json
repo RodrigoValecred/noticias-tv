@@ -1,13 +1,23 @@
 [
     {
+        "source": "Metrópoles",
+        "title": "Caso Master periga ressuscitar a \"antipolítica\" às vésperas da eleição - Metrópoles",
+        "timestamp": "2026-02-13T05:00:00Z"
+    },
+    {
+        "source": "UOL Notícias",
+        "title": "Fachin vota por aposentadoria especial a vigilantes e empata julgamento - UOL Notícias",
+        "timestamp": "2026-02-13T22:49:00Z"
+    },
+    {
         "source": "G1",
         "title": "Dino vota contra aplicação da Lei da Anistia a casos de desaparecimento na ditadura militar; Moraes pede vista - G1",
         "timestamp": "2026-02-13T14:49:58Z"
     },
     {
-        "source": "UOL Notícias",
-        "title": "Toffoli vota contra aposentadoria especial para vigilantes; placar é de 4x3 - UOL Notícias",
-        "timestamp": "2026-02-13T19:52:39Z"
+        "source": "Correio Braziliense",
+        "title": "Justiça aceita denúncia do MP e torna Pedro Turra réu por homicídio doloso - Correio Braziliense",
+        "timestamp": "2026-02-13T15:46:26Z"
     },
     {
         "source": "hugogloss.uol.com.br",
@@ -18,15 +28,5 @@
         "source": "Brazil Journal",
         "title": "Milei aprova reformas trabalhista e penal na mesma noite - Brazil Journal",
         "timestamp": "2026-02-13T13:51:16Z"
-    },
-    {
-        "source": "G1",
-        "title": "Polícia do Canadá divulga nomes de vítimas do ataque em Tumbler Ridge - G1",
-        "timestamp": "2026-02-13T05:16:57Z"
-    },
-    {
-        "source": "Revista Oeste",
-        "title": "Justiça italiana finaliza audiência de extradição de Carla Zambelli - Revista Oeste",
-        "timestamp": "2026-02-13T14:01:47Z"
     }
 ]
