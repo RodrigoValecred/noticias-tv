@@ -1,13 +1,8 @@
 [
     {
-        "source": "G1",
-        "title": "Justiça suspende regras de escolas cívico-militares de Tarcísio e proíbe que PMs deem aulas em SP - G1",
-        "timestamp": "2026-02-12T16:14:20Z"
-    },
-    {
-        "source": "BBC",
-        "title": "Governo Lula avalia socorro a Cuba à beira do colapso e sob forte pressão de Trump - BBC",
-        "timestamp": "2026-02-12T22:53:53Z"
+        "source": "O Globo",
+        "title": "Maridt foi criada para adquirir cotas de empresas e opera sem revelar seus sócios - O Globo",
+        "timestamp": "2026-02-12T13:10:57Z"
     },
     {
         "source": "UOL Notícias",
@@ -15,18 +10,23 @@
         "timestamp": "2026-02-13T01:41:48Z"
     },
     {
+        "source": "nsctotal.com.br",
+        "title": "EXCLUSIVO: Justiça autoriza busca por 35 novas provas do Caso Orelha - nsctotal.com.br",
+        "timestamp": "2026-02-13T03:23:00Z"
+    },
+    {
         "source": "CNN Brasil",
         "title": "Lula insiste e Pacheco admite a possibilidade de disputar o governo de MG - CNN Brasil",
         "timestamp": "2026-02-12T23:47:14Z"
     },
     {
-        "source": "MetSul Meteorologia",
-        "title": "Frente fria quebrará sequência de dias de forte calor com chuva e temporais - MetSul Meteorologia",
-        "timestamp": "2026-02-12T19:46:54Z"
-    },
-    {
         "source": "hugogloss.uol.com.br",
         "title": "Delegada revela como esposa de piloto reagiu ao saber de prisão por suspeita de abuso infantil: “Muito triste de ver” - hugogloss.uol.com.br",
         "timestamp": "2026-02-13T00:06:00Z"
+    },
+    {
+        "source": "MetSul Meteorologia",
+        "title": "Frente fria quebrará sequência de dias de forte calor com chuva e temporais - MetSul Meteorologia",
+        "timestamp": "2026-02-12T19:46:54Z"
     }
 ]
