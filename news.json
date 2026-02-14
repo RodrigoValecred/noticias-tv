@@ -1,15 +1,5 @@
 [
     {
-        "source": "O Dia",
-        "title": "Polícia Civil prende cunhado do traficante Fernandinho Beira-Mar - O Dia",
-        "timestamp": "2026-02-14T10:32:10Z"
-    },
-    {
-        "source": "BBC",
-        "title": "Desfile de Carnaval em homenagem a Lula pode torná-lo inelegível? - BBC",
-        "timestamp": "2026-02-14T17:47:56Z"
-    },
-    {
         "source": "CNN Brasil",
         "title": "Após fala de Flávio, Michelle diz que entrega futuro político \"a Deus\" - CNN Brasil",
         "timestamp": "2026-02-14T17:06:48Z"
@@ -26,7 +16,17 @@
     },
     {
         "source": "Revista Oeste",
-        "title": "'A degradação que emana do STF é a maior ameaça à democracia' - Revista Oeste",
-        "timestamp": "2026-02-14T12:28:53Z"
+        "title": "STF decide que vigilantes não têm direito à aposentadoria especial do INSS - Revista Oeste",
+        "timestamp": "2026-02-14T10:05:48Z"
+    },
+    {
+        "source": "MetSul Meteorologia",
+        "title": "Sobe o nível de alerta por chuva forte a intensa em Santa Catarina - MetSul Meteorologia",
+        "timestamp": "2026-02-14T08:03:24Z"
+    },
+    {
+        "source": "UOL",
+        "title": "Lucas Pinheiro é ouro, e Brasil conquista 1ª medalha nos Jogos de Inverno - UOL",
+        "timestamp": "2026-02-14T18:29:52Z"
     }
 ]
