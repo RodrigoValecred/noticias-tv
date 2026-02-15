@@ -1,10 +1,5 @@
 [
     {
-        "source": "Jovem Pan",
-        "title": "Fazenda vê fim da 6×1 maduro no Congresso, mas texto pode afastar governo - Jovem Pan",
-        "timestamp": "2026-02-15T11:40:28Z"
-    },
-    {
         "source": "UOL Notícias",
         "title": "Josias de Souza: Apoio de Ciro Nogueira a Toffoli cai no ridículo com racha do PP - UOL Notícias",
         "timestamp": "2026-02-15T22:23:10Z"
@@ -15,9 +10,9 @@
         "timestamp": "2026-02-14T11:28:00Z"
     },
     {
-        "source": "Estado de Minas",
-        "title": "Ativista de esquerda provoca foliões no Bloco da Anistia - Estado de Minas",
-        "timestamp": "2026-02-15T14:38:00Z"
+        "source": "AEROIN",
+        "title": "Aeroporto de Guarulhos é fechado duas vezes na tarde deste domingo de carnaval devido à presença de drones - AEROIN",
+        "timestamp": "2026-02-15T19:57:22Z"
     },
     {
         "source": "Correio Braziliense",
@@ -28,5 +23,10 @@
         "source": "UOL Notícias",
         "title": "'Feminicídio indireto': caso Itumbiara expõe brecha na Lei Maria da Penha - UOL Notícias",
         "timestamp": "2026-02-15T13:30:00Z"
+    },
+    {
+        "source": "Jovem Pan",
+        "title": "Fazenda vê fim da 6×1 maduro no Congresso, mas texto pode afastar governo - Jovem Pan",
+        "timestamp": "2026-02-15T11:40:28Z"
     }
 ]
