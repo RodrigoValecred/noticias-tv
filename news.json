@@ -1,10 +1,5 @@
 [
     {
-        "source": "NSC Total",
-        "title": "Mais de 280 cidades de SC tem alerta de perigo para chuvas intensas e ventos de 100 km/h - NSC Total",
-        "timestamp": "2026-02-14T22:39:00Z"
-    },
-    {
         "source": "Correio Braziliense",
         "title": "Bloco do Amor reúne multidão no Museu Nacional com mensagem política - Correio Braziliense",
         "timestamp": "2026-02-14T22:44:58Z"
@@ -25,8 +20,13 @@
         "timestamp": "2026-02-14T17:47:56Z"
     },
     {
-        "source": "CNN Brasil",
-        "title": "Após fala de Flávio, Michelle diz que entrega futuro político \"a Deus\" - CNN Brasil",
-        "timestamp": "2026-02-14T17:06:48Z"
+        "source": "NSC Total",
+        "title": "Mais de 280 cidades de SC tem alerta de perigo para chuvas intensas e ventos de 100 km/h - NSC Total",
+        "timestamp": "2026-02-14T22:39:00Z"
+    },
+    {
+        "source": "Revista Oeste",
+        "title": "Uma conversa com o senador que decidiu enfrentar o STF e o Banco Master - Revista Oeste",
+        "timestamp": "2026-02-14T19:51:59Z"
     }
 ]
