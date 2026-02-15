@@ -1,15 +1,5 @@
 [
     {
-        "source": "O Globo",
-        "title": "Acidente com carro alegórico da União de Maricá deixa três funcionários feridos - O Globo",
-        "timestamp": "2026-02-15T07:48:10Z"
-    },
-    {
-        "source": "BBC",
-        "title": "Desfile de Carnaval em homenagem a Lula pode torná-lo inelegível? - BBC",
-        "timestamp": "2026-02-14T17:47:56Z"
-    },
-    {
         "source": "Correio Braziliense",
         "title": "Bloco do Amor reúne multidão no Museu Nacional com mensagem política - Correio Braziliense",
         "timestamp": "2026-02-14T22:44:58Z"
@@ -28,5 +18,15 @@
         "source": "NSC Total",
         "title": "Mais de 280 cidades de SC tem alerta de perigo para chuvas intensas e ventos de 100 km/h - NSC Total",
         "timestamp": "2026-02-14T22:39:00Z"
+    },
+    {
+        "source": "BBC",
+        "title": "Desfile de Carnaval em homenagem a Lula pode torná-lo inelegível? - BBC",
+        "timestamp": "2026-02-14T17:47:56Z"
+    },
+    {
+        "source": "Folha de S.Paulo",
+        "title": "Segunda noite de Carnaval tem desfiles equilibrados em São Paulo - Folha de S.Paulo",
+        "timestamp": "2026-02-15T09:41:00Z"
     }
 ]
