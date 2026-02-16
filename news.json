@@ -1,10 +1,5 @@
 [
     {
-        "source": "Brasil 247",
-        "title": "Lula afirma que “a verdade vai destruir a mentira” em 2026 - Brasil 247",
-        "timestamp": "2026-02-16T08:41:33Z"
-    },
-    {
         "source": "MetSul Meteorologia",
         "title": "Porto Alegre pode voltar a ter chuva forte localizada neste início de semana - MetSul Meteorologia",
         "timestamp": "2026-02-16T16:23:43Z"
@@ -20,13 +15,18 @@
         "timestamp": "2026-02-16T11:35:00Z"
     },
     {
+        "source": "Brasil 247",
+        "title": "Lula afirma que “a verdade vai destruir a mentira” em 2026 - Brasil 247",
+        "timestamp": "2026-02-16T08:41:33Z"
+    },
+    {
         "source": "Correio Braziliense",
         "title": "'Eventos da cultura estão sendo engolidos pela cultura do evento' - Correio Braziliense",
         "timestamp": "2026-02-16T09:00:00Z"
     },
     {
-        "source": "Correio Braziliense",
-        "title": "Blocos de carnaval tomam as ruas do DF neste domingo (15); veja programação - Correio Braziliense",
-        "timestamp": "2026-02-15T14:02:00Z"
+        "source": "Rádio Itatiaia",
+        "title": "Piloto de avião preso em SP por estuprar crianças revela detalhes dos abusos - Rádio Itatiaia",
+        "timestamp": "2026-02-16T10:19:19Z"
     }
 ]
