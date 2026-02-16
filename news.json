@@ -1,13 +1,18 @@
 [
     {
+        "source": "Correio Braziliense",
+        "title": "Escala 6x1: redução da jornada entra em debate decisivo após carnaval - Correio Braziliense",
+        "timestamp": "2026-02-16T06:55:00Z"
+    },
+    {
+        "source": "Rádio Itatiaia",
+        "title": "Trégua no tempo dura pouco e BH pode ter chuva antes do previsto; veja previsão - Rádio Itatiaia",
+        "timestamp": "2026-02-16T09:36:41Z"
+    },
+    {
         "source": "Revista Oeste",
         "title": "Os taxistas e a honra dos desonrados — por Flávio Gordon - Revista Oeste",
         "timestamp": "2026-02-16T11:35:00Z"
-    },
-    {
-        "source": "O Globo",
-        "title": "Acidente com carro alegórico: Secretário de Saúde afirma que médicos conseguiram salvar as pernas da vítima e que paciente está entubado - O Globo",
-        "timestamp": "2026-02-16T00:41:02Z"
     },
     {
         "source": "Correio Braziliense",
@@ -23,10 +28,5 @@
         "source": "Correio Braziliense",
         "title": "Caso Itumbiara: delegada se solidariza com mulher que perdeu os filhos - Correio Braziliense",
         "timestamp": "2026-02-15T16:13:00Z"
-    },
-    {
-        "source": "Olhar Digital",
-        "title": "Que horas é o eclipse solar desta terça-feira (17)? - Olhar Digital",
-        "timestamp": "2026-02-16T10:45:00Z"
     }
 ]
