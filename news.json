@@ -1,13 +1,18 @@
 [
     {
+        "source": "Poder360",
+        "title": "Bolsonaro passa mal e segue monitorado, diz Carlos - Poder360",
+        "timestamp": "2026-02-17T01:10:58Z"
+    },
+    {
         "source": "G1",
         "title": "Vídeo mostra momento em que avião da Latam aborta decolagem no aeroporto de Guarulhos - G1",
         "timestamp": "2026-02-16T18:43:28Z"
     },
     {
-        "source": "MetSul Meteorologia",
-        "title": "Calor dará lugar à chuva forte com alagamentos em São Paulo - MetSul Meteorologia",
-        "timestamp": "2026-02-16T16:23:43Z"
+        "source": "Jovem Pan",
+        "title": "Desembargadores dizem que decisão de Dino poderá impactar salários e estrutura dos Tribunais - Jovem Pan",
+        "timestamp": "2026-02-16T18:46:55Z"
     },
     {
         "source": "MetSul Meteorologia",
@@ -23,10 +28,5 @@
         "source": "MetSul Meteorologia",
         "title": "Segundo tornado em poucos dias provoca estragos no Sul gaúcho - MetSul Meteorologia",
         "timestamp": "2026-02-16T16:23:43Z"
-    },
-    {
-        "source": "Diário do Rio",
-        "title": "Carnaval: Rainha de bateria da Mocidade é casada com bicheiro mais poderoso do Rio - Diário do Rio",
-        "timestamp": "2026-02-16T23:41:20Z"
     }
 ]
