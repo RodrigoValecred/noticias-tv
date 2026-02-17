@@ -1,10 +1,5 @@
 [
     {
-        "source": "Revista Oeste",
-        "title": "'Minions’ prendem mais quatro criminosos no Carnaval de São Paulo' - Revista Oeste",
-        "timestamp": "2026-02-16T23:00:31Z"
-    },
-    {
         "source": "Poder360",
         "title": "Bolsonaro passa mal e segue monitorado, diz Carlos - Poder360",
         "timestamp": "2026-02-17T01:10:58Z"
@@ -23,6 +18,11 @@
         "source": "G1",
         "title": "Vídeo mostra momento em que avião da Latam aborta decolagem no aeroporto de Guarulhos - G1",
         "timestamp": "2026-02-16T18:43:28Z"
+    },
+    {
+        "source": "MetSul Meteorologia",
+        "title": "Porto Alegre pode voltar a ter chuva forte localizada neste início de semana - MetSul Meteorologia",
+        "timestamp": "2026-02-16T16:23:43Z"
     },
     {
         "source": "Revista Oeste",
