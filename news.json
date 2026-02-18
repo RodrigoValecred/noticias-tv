@@ -5,19 +5,14 @@
         "timestamp": "2026-02-18T09:34:22Z"
     },
     {
+        "source": "ND Mais",
+        "title": "Alerta laranja: Inmet coloca 18 estados do Brasil sob risco de tempestades e ventos de 100 km/h - ND Mais",
+        "timestamp": "2026-02-18T12:58:14Z"
+    },
+    {
         "source": "Vatican News",
         "title": "Mensagem do Papa Leão XIV por ocasião da Campanha da Fraternidade 2026 - Vatican News",
         "timestamp": "2026-02-18T13:00:17Z"
-    },
-    {
-        "source": "G1",
-        "title": "Quatro corpos são encontrados no Centro de Nova Iguaçu; segundo a PM, 3 são suspeitos da morte da menina Valentina - G1",
-        "timestamp": "2026-02-18T11:01:34Z"
-    },
-    {
-        "source": "Jovem Pan",
-        "title": "Frente fria coloca estado de SP em alerta para chuvas fortes e risco de alagamentos - Jovem Pan",
-        "timestamp": "2026-02-18T11:36:37Z"
     },
     {
         "source": "Correio Braziliense",
@@ -28,5 +23,10 @@
         "source": "Poder360",
         "title": "Pastor visita Bolsonaro na Papudinha e diz que o encontrou assustado - Poder360",
         "timestamp": "2026-02-17T20:33:03Z"
+    },
+    {
+        "source": "Revista Oeste",
+        "title": "Khamenei desafia Trump a derrubar regime iraniano e ameaça porta-aviões dos EUA - Revista Oeste",
+        "timestamp": "2026-02-17T23:33:40Z"
     }
 ]
