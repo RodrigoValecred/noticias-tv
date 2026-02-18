@@ -1,15 +1,5 @@
 [
     {
-        "source": "UOL Economia",
-        "title": "Júlio Wiziack: Impressão de documentos por servidor indica intenção de vazar sigilo fiscal - UOL Economia",
-        "timestamp": "2026-02-18T03:11:26Z"
-    },
-    {
-        "source": "Revista Oeste",
-        "title": "Defesa de Vorcaro avalia pedir nulidade do processo - Revista Oeste",
-        "timestamp": "2026-02-17T23:17:00Z"
-    },
-    {
         "source": "Brasil 247",
         "title": "Brasil acelera ofensiva comercial na Índia e mira US$ 20 bilhões em intercâmbio até 2026 - Brasil 247",
         "timestamp": "2026-02-17T22:12:04Z"
@@ -20,13 +10,23 @@
         "timestamp": "2026-02-17T19:52:47Z"
     },
     {
-        "source": "Correio Braziliense",
-        "title": "'Cuba parece estar à beira do colapso' , alerta especialista - Correio Braziliense",
-        "timestamp": "2026-02-18T01:03:00Z"
-    },
-    {
         "source": "Jovem Pan",
         "title": "Mulher morre após ser arrastada por enxurrada na zona norte de SP - Jovem Pan",
         "timestamp": "2026-02-17T17:41:56Z"
+    },
+    {
+        "source": "CNN Brasil",
+        "title": "Quem era o cantor encontrado morto após naufrágio no Amazonas - CNN Brasil",
+        "timestamp": "2026-02-17T14:06:26Z"
+    },
+    {
+        "source": "Revista Oeste",
+        "title": "Redução da jornada para 36 horas pode derrubar PIB em 6,2% - Revista Oeste",
+        "timestamp": "2026-02-17T15:32:41Z"
+    },
+    {
+        "source": "Correio Braziliense",
+        "title": "'Cuba parece estar à beira do colapso' , alerta especialista - Correio Braziliense",
+        "timestamp": "2026-02-18T01:03:00Z"
     }
 ]
