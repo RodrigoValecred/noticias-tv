@@ -1,8 +1,23 @@
 [
     {
+        "source": "G1",
+        "title": "União de Maricá é campeã da Série Ouro e desfila no Grupo Especial em 2027 - G1",
+        "timestamp": "2026-02-19T21:25:49Z"
+    },
+    {
+        "source": "O Globo",
+        "title": "Fundador do Grupo Capoeira Brasil é assassinado a tiro em Niterói - O Globo",
+        "timestamp": "2026-02-19T12:46:37Z"
+    },
+    {
         "source": "BBC",
         "title": "Fim da escala 6x1: consumidor rejeitará mudança quando entender que vai pagar a conta, diz presidente de associação de bares e restaurantes - BBC",
         "timestamp": "2026-02-19T08:44:53Z"
+    },
+    {
+        "source": "CartaCapital",
+        "title": "Lula e Macron se reúnem para discutir o combate ao narcotráfico e ao garimpo ilegal - CartaCapital",
+        "timestamp": "2026-02-19T17:50:00Z"
     },
     {
         "source": "Metrópoles",
@@ -10,23 +25,8 @@
         "timestamp": "2026-02-19T14:27:00Z"
     },
     {
-        "source": "ICL Notícias",
-        "title": "Nota da Revista Liberta faz MP do TCU pedir investigação de autoridades em festas de Vorcaro - ICL Notícias",
-        "timestamp": "2026-02-18T20:40:22Z"
-    },
-    {
-        "source": "MetSul Meteorologia",
-        "title": "Risco elevado de vendavais intensos com danos no Rio Grande do Sul - MetSul Meteorologia",
-        "timestamp": "2026-02-19T15:24:25Z"
-    },
-    {
-        "source": "Canal Rural",
-        "title": "Frente fria provoca chuva forte e derruba temperaturas em parte do país - Canal Rural",
-        "timestamp": "2026-02-19T11:24:21Z"
-    },
-    {
-        "source": "GOV.BR",
-        "title": "Divulgada pré-seleção para o 1º Fies de 2026 — Ministério da Educação - GOV.BR",
-        "timestamp": "2026-02-19T15:52:55Z"
+        "source": "UOL Notícias",
+        "title": "Carlos Bolsonaro publica foto com Caroline de Toni em meio a disputa por vaga no Senado em SC - UOL Notícias",
+        "timestamp": "2026-02-18T21:21:00Z"
     }
 ]
