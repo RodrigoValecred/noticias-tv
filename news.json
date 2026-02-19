@@ -1,10 +1,5 @@
 [
     {
-        "source": "O Globo",
-        "title": "Bolsonaro apoia candidatura de deputado estadual ao governo do Rio, dizem aliados - O Globo",
-        "timestamp": "2026-02-18T21:30:18Z"
-    },
-    {
         "source": "G1",
         "title": "Ex-presidente sul-coreano é condenado à prisão perpétua por liderar insurreição - G1",
         "timestamp": "2026-02-19T06:54:27Z"
@@ -15,18 +10,23 @@
         "timestamp": "2026-02-18T11:26:13Z"
     },
     {
-        "source": "CNN Brasil",
-        "title": "Irã emite alerta para pilotos e diz que deve lançar foguetes nesta quinta - CNN Brasil",
-        "timestamp": "2026-02-18T22:38:38Z"
-    },
-    {
         "source": "O Antagonista",
         "title": "CPMI do INSS antecipa depoimento de Vorcaro - O Antagonista",
         "timestamp": "2026-02-18T22:05:00Z"
     },
     {
+        "source": "CNN Brasil",
+        "title": "Família desaparecida: sangue encontrado em casa de Silvana é humano - CNN Brasil",
+        "timestamp": "2026-02-19T00:10:32Z"
+    },
+    {
+        "source": "O Globo",
+        "title": "Bolsonaro apoia candidatura de deputado estadual ao governo do Rio, dizem aliados - O Globo",
+        "timestamp": "2026-02-18T21:30:18Z"
+    },
+    {
         "source": "Estado de Minas",
-        "title": "Pode comer carne na quarta-feira de Cinzas ? Entenda a regra - Estado de Minas",
-        "timestamp": "2026-02-18T17:29:00Z"
+        "title": "Metade das regionais de Belo Horizonte supera a média histórica de chuvas - Estado de Minas",
+        "timestamp": "2026-02-19T02:14:00Z"
     }
 ]
