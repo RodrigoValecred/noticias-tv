@@ -1,10 +1,5 @@
 [
     {
-        "source": "O Globo",
-        "title": "Caso Master: Mendonça revê decisão de Toffoli e autoriza PF a realizar perícia sem restrições - O Globo",
-        "timestamp": "2026-02-19T23:32:34Z"
-    },
-    {
         "source": "UOL Notícias",
         "title": "Mulher de Moraes descobre entupimento em exame no coração e coloca stents - UOL Notícias",
         "timestamp": "2026-02-20T00:02:07Z"
@@ -28,5 +23,10 @@
         "source": "BBC",
         "title": "Fim da escala 6x1: consumidor rejeitará mudança quando entender que vai pagar a conta, diz presidente de associação de bares e restaurantes - BBC",
         "timestamp": "2026-02-19T08:44:53Z"
+    },
+    {
+        "source": "O Globo",
+        "title": "Chapa dividida: após emplacar vice de Paes, que é aliado de Lula, Washington Reis diz que fará campanha para Flávio Bolsonaro - O Globo",
+        "timestamp": "2026-02-19T19:28:38Z"
     }
 ]
