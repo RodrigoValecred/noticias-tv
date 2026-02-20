@@ -1,23 +1,13 @@
 [
     {
-        "source": "O Globo",
-        "title": "Fundador do Grupo Capoeira Brasil é assassinado a tiro em Niterói - O Globo",
-        "timestamp": "2026-02-19T12:46:37Z"
-    },
-    {
         "source": "Poder360",
         "title": "Mendonça dispensa Vorcaro de depor no Congresso - Poder360",
         "timestamp": "2026-02-20T00:23:03Z"
     },
     {
-        "source": "CartaCapital",
-        "title": "Lula e Macron se reúnem para discutir o combate ao narcotráfico e ao garimpo ilegal - CartaCapital",
-        "timestamp": "2026-02-19T17:50:00Z"
-    },
-    {
-        "source": "Forbes Brasil",
-        "title": "Tatiana Sampaio: A Cientista por trás da Descoberta Que Pode Devolver Movimentos a Humanos - Forbes Brasil",
-        "timestamp": "2026-02-19T08:00:00Z"
+        "source": "O Globo",
+        "title": "Fundador do Grupo Capoeira Brasil é assassinado a tiro em Niterói - O Globo",
+        "timestamp": "2026-02-19T12:46:37Z"
     },
     {
         "source": "BBC",
@@ -25,8 +15,18 @@
         "timestamp": "2026-02-19T08:44:53Z"
     },
     {
-        "source": "Estado de Minas",
-        "title": "Em tom de pré-campanha, Simões e Nikolas rodam o interior de MG pela 1° vez - Estado de Minas",
-        "timestamp": "2026-02-19T22:59:00Z"
+        "source": "Diário do Poder",
+        "title": "Câmara quer CPMI investigando festas de Vorcaro com 'altas autoridades federais' - Diário do Poder - Diário do Poder",
+        "timestamp": "2026-02-20T03:00:12Z"
+    },
+    {
+        "source": "ge",
+        "title": "Arrascaeta desabafa após derrota do Flamengo na Recopa: \"Temos que mudar muita coisa\" - ge",
+        "timestamp": "2026-02-20T04:12:31Z"
+    },
+    {
+        "source": "CNN Brasil",
+        "title": "STF derruba por unanimidade lei municipal que instituiu Escola Sem Partido - CNN Brasil",
+        "timestamp": "2026-02-19T21:01:17Z"
     }
 ]
