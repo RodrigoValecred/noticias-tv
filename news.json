@@ -1,6 +1,16 @@
 [
     {
         "source": "CNN Brasil",
+        "title": "Após críticas, Nikolas nega amnésia e diz que Eduardo não está bem - CNN Brasil",
+        "timestamp": "2026-02-21T15:02:37Z"
+    },
+    {
+        "source": "Olhar Digital",
+        "title": "OpenAI detectou sinais de ataque no ChatGPT, mas não avisou polícia no Canadá - Olhar Digital",
+        "timestamp": "2026-02-21T13:03:00Z"
+    },
+    {
+        "source": "CNN Brasil",
         "title": "Chuvas: Defesa Civil emite alerta e fecha trecho de serra no litoral de SP - CNN Brasil",
         "timestamp": "2026-02-21T12:40:50Z"
     },
@@ -15,18 +25,8 @@
         "timestamp": "2026-02-21T10:00:00Z"
     },
     {
-        "source": "MetSul Meteorologia",
-        "title": "Como fica o tempo neste fim de semana no Rio Grande do Sul - MetSul Meteorologia",
-        "timestamp": "2026-02-21T13:04:10Z"
-    },
-    {
         "source": "CNN Brasil",
         "title": "Saiba como o Irã está se preparando para um possível ataque dos EUA - CNN Brasil",
         "timestamp": "2026-02-20T11:54:55Z"
-    },
-    {
-        "source": "Gazeta do Povo",
-        "title": "Câmara da Argentina aprova reforma trabalhista proposta por Milei. Entenda as mudanças - Gazeta do Povo",
-        "timestamp": "2026-02-20T10:53:00Z"
     }
 ]
