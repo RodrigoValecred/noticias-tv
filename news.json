@@ -1,10 +1,5 @@
 [
     {
-        "source": "CNN Brasil",
-        "title": "Nunes: MDB está com Tarcísio e independe de qualquer condição para eleição - CNN Brasil",
-        "timestamp": "2026-02-21T12:16:15Z"
-    },
-    {
         "source": "O Globo",
         "title": "Polilaminina: pesquisadora diz que perdeu a patente internacional após corte de verba - O Globo",
         "timestamp": "2026-02-20T21:27:41Z"
@@ -28,5 +23,10 @@
         "source": "Folha de S.Paulo",
         "title": "Mendonça dá mais transparência ao caso Master - Folha de S.Paulo",
         "timestamp": "2026-02-21T00:00:00Z"
+    },
+    {
+        "source": "Estadão",
+        "title": "Vitória contra o atraso - Estadão",
+        "timestamp": "2026-02-21T06:00:00Z"
     }
 ]
