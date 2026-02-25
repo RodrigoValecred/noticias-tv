@@ -1,18 +1,8 @@
 [
     {
-        "source": "BBC",
-        "title": "A tragédia da chuva em Juiz de Fora: 'Perdemos três alunos da escola soterrados' - BBC",
-        "timestamp": "2026-02-25T04:18:53Z"
-    },
-    {
         "source": "CNN Brasil",
         "title": "Câmara reverte alterações do Senado e aprova PL Antifacção - CNN Brasil",
         "timestamp": "2026-02-25T02:10:10Z"
-    },
-    {
-        "source": "O Globo",
-        "title": "PL de Flávio confirma aliado de Altineu para o governo do Rio e aliança com PP e União; Castro será candidato ao Senado - O Globo",
-        "timestamp": "2026-02-24T19:52:08Z"
     },
     {
         "source": "UOL Notícias",
@@ -20,13 +10,23 @@
         "timestamp": "2026-02-25T00:23:47Z"
     },
     {
+        "source": "O Antagonista",
+        "title": "MPRJ reabre investigação das “rachadinhas” contra Carlos Bolsonaro - O Antagonista",
+        "timestamp": "2026-02-25T00:38:00Z"
+    },
+    {
+        "source": "O Globo",
+        "title": "PL de Flávio confirma aliado de Altineu para o governo do Rio e aliança com PP e União; Castro será candidato ao Senado - O Globo",
+        "timestamp": "2026-02-24T19:52:08Z"
+    },
+    {
         "source": "Metrópoles",
         "title": "Vazamento de dados: Moraes manda PF colocar tornozeleira em vigilante - Metrópoles",
         "timestamp": "2026-02-24T23:28:00Z"
     },
     {
-        "source": "Metrópoles",
-        "title": "Influenciadora é presa e pode pegar 20 anos de cadeia; entenda motivo - Metrópoles",
-        "timestamp": "2026-02-24T16:30:00Z"
+        "source": "G1",
+        "title": "Congresso aprova transformar em agência órgão responsável por regras para crianças na internet - G1",
+        "timestamp": "2026-02-24T22:02:11Z"
     }
 ]
