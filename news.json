@@ -1,23 +1,13 @@
 [
     {
+        "source": "UOL Economia",
+        "title": "Estudo da Unicamp estima até 4,5 milhões de empregos com redução da jornada - UOL Economia",
+        "timestamp": "2026-02-27T00:27:47Z"
+    },
+    {
         "source": "Revista Oeste",
         "title": "'Querem me derrubar faz tempo', diz Moraes - Revista Oeste",
         "timestamp": "2026-02-26T21:35:50Z"
-    },
-    {
-        "source": "Brasil 247",
-        "title": "\"Ócio demais faz mal\", diz presidente do Republicanos contra o fim da escala 6x1 - Brasil 247",
-        "timestamp": "2026-02-26T09:57:12Z"
-    },
-    {
-        "source": "CNN Brasil",
-        "title": "Paquistão declara guerra aberta ao governo talibã do Afeganistão - CNN Brasil",
-        "timestamp": "2026-02-27T06:40:46Z"
-    },
-    {
-        "source": "Estadão",
-        "title": "Haddad aceita convite de Lula para ser candidato ao governo de SP e Pacheco deve concorrer em Minas - Estadão",
-        "timestamp": "2026-02-26T22:11:26Z"
     },
     {
         "source": "CNN Brasil",
@@ -28,5 +18,15 @@
         "source": "MetSul Meteorologia",
         "title": "Rio de Janeiro segue sob risco de chuva intensa após novos temporais - MetSul Meteorologia",
         "timestamp": "2026-02-27T00:38:07Z"
+    },
+    {
+        "source": "Revista Oeste",
+        "title": "'Marido' e mãe de menina de 12 anos são presos - Revista Oeste",
+        "timestamp": "2026-02-26T10:47:33Z"
+    },
+    {
+        "source": "Estadão",
+        "title": "Haddad aceita convite de Lula para ser candidato ao governo de SP e Pacheco deve concorrer em Minas - Estadão",
+        "timestamp": "2026-02-26T22:11:26Z"
     }
 ]
