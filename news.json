@@ -1,13 +1,18 @@
 [
     {
+        "source": "Estadão",
+        "title": "Haddad aceita convite de Lula para ser candidato ao governo de SP e Pacheco deve concorrer em Minas - Estadão",
+        "timestamp": "2026-02-26T22:11:26Z"
+    },
+    {
         "source": "CartaCapital",
         "title": "A avaliação dos brasileiros sobre o desfile que homenageou Lula no Carnaval, segundo a pesquisa Atlas - CartaCapital",
         "timestamp": "2026-02-26T11:30:00Z"
     },
     {
-        "source": "Estadão",
-        "title": "Haddad aceita convite de Lula para ser candidato ao governo de SP e Pacheco deve concorrer em Minas - Estadão",
-        "timestamp": "2026-02-26T22:11:26Z"
+        "source": "Brasil 247",
+        "title": "\"Ócio demais faz mal\", diz presidente do Republicanos contra o fim da escala 6x1 - Brasil 247",
+        "timestamp": "2026-02-26T09:57:12Z"
     },
     {
         "source": "Revista Oeste",
@@ -15,18 +20,13 @@
         "timestamp": "2026-02-26T21:35:50Z"
     },
     {
-        "source": "CartaCapital",
-        "title": "A pesquisa Real Time Big Data sobre a eleição presidencial em 2026 com 8 cenários de 2º turno - CartaCapital",
-        "timestamp": "2026-02-26T21:59:00Z"
-    },
-    {
-        "source": "UOL Notícias",
-        "title": "Alerta: Litoral de SP pode receber em 48 h chuva prevista para mês inteiro - UOL Notícias",
-        "timestamp": "2026-02-26T21:26:28Z"
-    },
-    {
         "source": "CNN Brasil",
         "title": "Depoimento de Hillary Clinton sobre Epstein teve pausa após foto ser vazada - CNN Brasil",
         "timestamp": "2026-02-26T20:21:13Z"
+    },
+    {
+        "source": "Metrópoles",
+        "title": "Demitido da SPTuris após denúncia tem casa de R$ 4,6 milhões e Porsche - Metrópoles",
+        "timestamp": "2026-02-26T19:50:00Z"
     }
 ]
