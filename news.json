@@ -5,14 +5,19 @@
         "timestamp": "2026-02-26T22:11:26Z"
     },
     {
+        "source": "Revista Oeste",
+        "title": "'Querem me derrubar faz tempo', diz Moraes - Revista Oeste",
+        "timestamp": "2026-02-26T21:35:50Z"
+    },
+    {
+        "source": "UOL Notícias",
+        "title": "Alerta: Litoral de SP pode receber em 48 h chuva prevista para mês inteiro - UOL Notícias",
+        "timestamp": "2026-02-26T21:26:28Z"
+    },
+    {
         "source": "CNN Brasil",
         "title": "Depoimento de Hillary Clinton sobre Epstein teve pausa após foto ser vazada - CNN Brasil",
         "timestamp": "2026-02-26T20:21:13Z"
-    },
-    {
-        "source": "O Antagonista",
-        "title": "Gilmar defende \"importância histórica\" do inquérito das fake news - O Antagonista",
-        "timestamp": "2026-02-26T21:09:00Z"
     },
     {
         "source": "Metrópoles",
@@ -23,10 +28,5 @@
         "source": "CNN Brasil",
         "title": "Análise da CNN revela imagens problemáticas em arquivos de Epstein - CNN Brasil",
         "timestamp": "2026-02-26T22:00:20Z"
-    },
-    {
-        "source": "G1",
-        "title": "PF afasta Eduardo Bolsonaro do cargo de escrivão em processo por faltas injustificadas - G1",
-        "timestamp": "2026-02-26T21:14:33Z"
     }
 ]
