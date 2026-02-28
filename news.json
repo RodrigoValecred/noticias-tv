@@ -1,8 +1,8 @@
 [
     {
-        "source": "Estado de Minas",
-        "title": "Chega a 68 o número de mortes causadas pela chuva na Zona da Mata mineira - Estado de Minas",
-        "timestamp": "2026-02-27T15:26:00Z"
+        "source": "G1",
+        "title": "Explosões são ouvidas em Teerã, Capital do Irã; Israel anuncia 'ataque preventivo' coordenado com os EUA - G1",
+        "timestamp": "2026-02-28T06:31:58Z"
     },
     {
         "source": "G1",
@@ -15,11 +15,6 @@
         "timestamp": "2026-02-27T23:31:15Z"
     },
     {
-        "source": "Revista Oeste",
-        "title": "Ponte desaba e deixa município ilhado em Pernambuco - Revista Oeste",
-        "timestamp": "2026-02-28T00:40:54Z"
-    },
-    {
         "source": "Metrópoles",
         "title": "Polícia desvenda últimas horas de vida do secretário que matou os filhos - Metrópoles",
         "timestamp": "2026-02-27T22:03:59Z"
@@ -28,5 +23,10 @@
         "source": "Estado de Minas",
         "title": "Lula diz que repassou R$ 3,5 bi a MG e Zema não apresentou 'nenhum projeto' ao PAC - Estado de Minas",
         "timestamp": "2026-02-27T21:26:00Z"
+    },
+    {
+        "source": "CartaCapital",
+        "title": "Mendonça autoriza ida de Daniel Vorcaro a comissão no Senado - CartaCapital",
+        "timestamp": "2026-02-27T18:13:00Z"
     }
 ]
