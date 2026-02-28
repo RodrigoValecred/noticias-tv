@@ -1,13 +1,8 @@
 [
     {
-        "source": "G1",
-        "title": "Trump diz que 'se dá muito bem' com Lula e que adoraria se encontrar com presidente do Brasil em Washington - G1",
-        "timestamp": "2026-02-27T22:36:19Z"
-    },
-    {
-        "source": "Brasil 247",
-        "title": "Direita vai às ruas contra Lula e STF no caso Master - Brasil 247",
-        "timestamp": "2026-02-27T21:04:47Z"
+        "source": "Estado de Minas",
+        "title": "Chega a 68 o número de mortes causadas pela chuva na Zona da Mata mineira - Estado de Minas",
+        "timestamp": "2026-02-27T15:26:00Z"
     },
     {
         "source": "Revista Oeste",
@@ -20,13 +15,18 @@
         "timestamp": "2026-02-27T09:10:04Z"
     },
     {
-        "source": "Estado de Minas",
-        "title": "Lula diz que repassou R$ 3,5 bi a MG e Zema não apresentou 'nenhum projeto' ao PAC - Estado de Minas",
-        "timestamp": "2026-02-27T21:26:00Z"
-    },
-    {
         "source": "ND Mais",
         "title": "Ciclone subtropical avança: entenda se Brasil corre risco de novo Furacão Catarina como em 2004 - ND Mais",
         "timestamp": "2026-02-27T18:03:51Z"
+    },
+    {
+        "source": "CartaCapital",
+        "title": "Mendonça autoriza ida de Daniel Vorcaro a comissão no Senado - CartaCapital",
+        "timestamp": "2026-02-27T18:13:00Z"
+    },
+    {
+        "source": "O Globo",
+        "title": "Juíza que reclamou de gastos próprios com lanche e café recebeu R$ 709,9 mil em salários em 2025 - O Globo",
+        "timestamp": "2026-02-27T15:17:47Z"
     }
 ]
