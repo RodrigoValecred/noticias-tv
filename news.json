@@ -1,13 +1,23 @@
 [
     {
-        "source": "BBC",
-        "title": "Morte de El Mencho pode fortalecer PCC, 'mais profissional' que cartéis mexicanos, diz especialista - BBC",
-        "timestamp": "2026-02-27T09:10:04Z"
+        "source": "G1",
+        "title": "Fogo atinge hotel de luxo em Dubai - G1",
+        "timestamp": "2026-02-28T16:02:11Z"
+    },
+    {
+        "source": "NSC Total",
+        "title": "Ciclone marcado por chuva intensa pode atingir 15 estados do Brasil - NSC Total",
+        "timestamp": "2026-02-28T18:36:00Z"
     },
     {
         "source": "Estado de Minas",
-        "title": "Amiga de mulher que morreu após ser resgatada conta sobre a perda - Estado de Minas",
-        "timestamp": "2026-02-28T00:09:00Z"
+        "title": "Chega a 68 o número de mortes causadas pela chuva na Zona da Mata mineira - Estado de Minas",
+        "timestamp": "2026-02-27T15:26:00Z"
+    },
+    {
+        "source": "CNN Brasil",
+        "title": "Entenda a decisão de Gilmar Mendes sobre empresa da família de Toffoli - CNN Brasil",
+        "timestamp": "2026-02-27T23:20:36Z"
     },
     {
         "source": "UOL Economia",
@@ -15,18 +25,8 @@
         "timestamp": "2026-02-28T02:28:23Z"
     },
     {
-        "source": "Brasil 247",
-        "title": "Irã decreta fechamento do Estreito de Ormuz após ataques dos EUA e Israel - Brasil 247",
-        "timestamp": "2026-02-28T16:01:39Z"
-    },
-    {
-        "source": "Metrópoles",
-        "title": "Polícia desvenda últimas horas de vida do secretário que matou os filhos - Metrópoles",
-        "timestamp": "2026-02-27T22:03:59Z"
-    },
-    {
-        "source": "Revista Oeste",
-        "title": "Ponte desaba e deixa município ilhado em Pernambuco - Revista Oeste",
-        "timestamp": "2026-02-28T00:40:54Z"
+        "source": "O Globo",
+        "title": "Casa com elevador, capela, camarote, quadra de vôlei de praia e área gourmet: o que a PF encontrou nos imóveis de luxo de Bacellar - O Globo",
+        "timestamp": "2026-02-27T16:15:36Z"
     }
 ]
