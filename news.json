@@ -1,10 +1,5 @@
 [
     {
-        "source": "CNN Brasil",
-        "title": "Aeroporto de Dubai é atingido após ataques do Irã; 4 ficam feridos - CNN Brasil",
-        "timestamp": "2026-02-28T22:57:01Z"
-    },
-    {
         "source": "Estado de Minas",
         "title": "Último desaparecido em Juiz de Fora, corpo de menino de 9 anos é encontrado - Estado de Minas",
         "timestamp": "2026-02-28T23:52:00Z"
@@ -15,9 +10,9 @@
         "timestamp": "2026-02-28T23:42:03Z"
     },
     {
-        "source": "meutimao.com.br",
-        "title": "Notas da torcida do Corinthians: Novorizontino 1 x 0 Corinthians - Semifinal - Paulista 2026 - meutimao.com.br",
-        "timestamp": "2026-03-01T01:37:10Z"
+        "source": "BBC",
+        "title": "Morre Dennis Carvalho: como ele mudou as novelas e fez 1° beijo entre idosas na Globo - BBC",
+        "timestamp": "2026-03-01T00:50:58Z"
     },
     {
         "source": "UOL Economia",
@@ -25,8 +20,13 @@
         "timestamp": "2026-03-01T02:37:23Z"
     },
     {
+        "source": "Notícias da TV",
+        "title": "Até Tadeu zoa Maxiane antes de mostrar beijo de Jonas em Marciele no BBB 26 - Notícias da TV",
+        "timestamp": "2026-03-01T02:01:00Z"
+    },
+    {
         "source": "No Ataque",
-        "title": "Cruzeiro marca no fim e avança à final do Mineiro com vitória sobre o Pouso Alegre - No Ataque",
-        "timestamp": "2026-02-28T23:30:37Z"
+        "title": "O público e a renda de Cruzeiro x Pouso Alegre no Mineirão - No Ataque",
+        "timestamp": "2026-02-28T23:25:00Z"
     }
 ]
