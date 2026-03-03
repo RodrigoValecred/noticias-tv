@@ -1,18 +1,8 @@
 [
     {
-        "source": "CNN Brasil",
-        "title": "Embaixada dos EUA na Arábia Saudita é atingida por drones - CNN Brasil",
-        "timestamp": "2026-03-03T00:46:06Z"
-    },
-    {
-        "source": "Terra",
-        "title": "Irã anuncia ter atacado gabinete de Netanyahu, diz agência; Israel não confirma - Terra",
-        "timestamp": "2026-03-02T11:07:00Z"
-    },
-    {
-        "source": "BBC",
-        "title": "Guerra do Irã | Israel e Hezbollah abrem nova frente de conflito: o que aconteceu até agora - BBC",
-        "timestamp": "2026-03-02T17:21:25Z"
+        "source": "ND Mais",
+        "title": "Irã descarta acordo com Trump: ‘Não haverá negociação’, diz chefe de Segurança - ND Mais",
+        "timestamp": "2026-03-02T13:34:30Z"
     },
     {
         "source": "Poder360",
@@ -20,13 +10,23 @@
         "timestamp": "2026-03-02T15:56:31Z"
     },
     {
-        "source": "Revista Oeste",
-        "title": "Ex-secretária do ‘Careca do INSS’ depõe na CPMI com habeas corpus - Revista Oeste",
-        "timestamp": "2026-03-02T22:40:47Z"
+        "source": "Correio Braziliense",
+        "title": "Redução da maioridade penal está mantida na PEC da Segurança, diz relator - Correio Braziliense",
+        "timestamp": "2026-03-02T22:02:00Z"
     },
     {
         "source": "G1",
         "title": "Rotina de Bolsonaro na cadeia tem 144 atendimentos médicos em 39 dias, 7 horas de sono diárias e programas esportivos, aponta relatório - G1",
         "timestamp": "2026-03-02T19:40:10Z"
+    },
+    {
+        "source": "CNN Brasil",
+        "title": "59% dos americanos reprovam ataques ao Irã, aponta pesquisa da CNN - CNN Brasil",
+        "timestamp": "2026-03-02T17:55:01Z"
+    },
+    {
+        "source": "Brasil 247",
+        "title": "Veja o poderio militar do Irã, atacado pelos EUA e por Israel - Brasil 247",
+        "timestamp": "2026-03-02T19:52:10Z"
     }
 ]
