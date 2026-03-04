@@ -1,13 +1,8 @@
 [
     {
-        "source": "G1",
-        "title": "Daniel Vorcaro é preso pela PF em nova fase da operação sobre Banco Master - G1",
-        "timestamp": "2026-03-04T10:09:03Z"
-    },
-    {
-        "source": "Folha PE",
-        "title": "Míssil iraniano atinge base americana no Catar - Folha PE",
-        "timestamp": "2026-03-03T22:39:00Z"
+        "source": "Jovem Pan",
+        "title": "Irã ameaça atacar ‘centros econômicos’ do Oriente Médio em resposta aos bombardeios - Jovem Pan",
+        "timestamp": "2026-03-04T01:16:40Z"
     },
     {
         "source": "CNN Brasil",
@@ -15,9 +10,9 @@
         "timestamp": "2026-03-04T02:59:03Z"
     },
     {
-        "source": "Jovem Pan",
-        "title": "Irã ameaça atacar ‘centros econômicos’ do Oriente Médio em resposta aos bombardeios - Jovem Pan",
-        "timestamp": "2026-03-04T01:16:40Z"
+        "source": "G1",
+        "title": "PEC da Segurança: comissão especial e plenário votam texto nesta quarta-feira; veja o que diz a proposta - G1",
+        "timestamp": "2026-03-04T07:01:02Z"
     },
     {
         "source": "Poder360",
@@ -25,8 +20,13 @@
         "timestamp": "2026-03-03T13:27:41Z"
     },
     {
-        "source": "Revista Oeste",
-        "title": "Quem será o espião do Mossad dentro do Irã? Comandante da tropa de elite dos pasdaran é suspeito - Revista Oeste",
-        "timestamp": "2026-03-03T22:15:04Z"
+        "source": "Forbes Brasil",
+        "title": "Trump e Irã: Guerra Pode Já Ter Custado Mais de US$ 1 Bilhão Aos EUA - Forbes Brasil",
+        "timestamp": "2026-03-03T21:27:26Z"
+    },
+    {
+        "source": "Senado Federal",
+        "title": "Senado aprova aumento de penas para furto, roubo e receptação — Senado Notícias - Senado Federal",
+        "timestamp": "2026-03-03T22:38:25Z"
     }
 ]
