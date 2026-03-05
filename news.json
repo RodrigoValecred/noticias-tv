@@ -1,10 +1,5 @@
 [
     {
-        "source": "Jovem Pan",
-        "title": "Sexto dia de guerra entre Israel e Irã tem escalada de ataques e envio de navios europeus - Jovem Pan",
-        "timestamp": "2026-03-05T14:12:38Z"
-    },
-    {
         "source": "G1",
         "title": "CPMI do INSS: 'Lulinha' movimentou R$ 19,5 milhões entre 2022 e 2026; defesa diz que fontes de renda são 'legais e legítimas' - G1",
         "timestamp": "2026-03-05T16:42:02Z"
@@ -15,18 +10,23 @@
         "timestamp": "2026-03-05T17:37:59Z"
     },
     {
-        "source": "Senado Federal",
-        "title": "Aumento gradual da licença-paternidade vai à sanção presidencial - Senado Federal",
-        "timestamp": "2026-03-04T23:08:40Z"
-    },
-    {
-        "source": "CartaCapital",
-        "title": "A nova pesquisa Ideia sobre a disputa entre Lula e Flávio pela Presidência - CartaCapital",
-        "timestamp": "2026-03-05T15:31:00Z"
+        "source": "UOL Notícias",
+        "title": "Guerra sai dos limites do Oriente Médio. Povo dos EUA condena ataque ao Irã - UOL Notícias",
+        "timestamp": "2026-03-05T23:50:11Z"
     },
     {
         "source": "CartaCapital",
         "title": "Veja a lista dos deputados que votaram contra a PEC da Segurança Pública - CartaCapital",
         "timestamp": "2026-03-05T01:01:00Z"
+    },
+    {
+        "source": "CNN Brasil",
+        "title": "Relatório dos EUA acusa China de usar bases no Brasil para vigiar inimigos - CNN Brasil",
+        "timestamp": "2026-03-05T20:27:58Z"
+    },
+    {
+        "source": "Correio Braziliense",
+        "title": "Ibaneis afirma que não vai retirar Serrinha da lista de garantias ao BRB - Correio Braziliense",
+        "timestamp": "2026-03-05T17:50:00Z"
     }
 ]
