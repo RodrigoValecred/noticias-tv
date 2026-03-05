@@ -1,20 +1,5 @@
 [
     {
-        "source": "UOL Notícias",
-        "title": "Alvo da PF, 'Sicário' de Vorcaro está em protocolo de morte cerebral - UOL Notícias",
-        "timestamp": "2026-03-05T03:30:44Z"
-    },
-    {
-        "source": "G1",
-        "title": "Câmara aprova PEC da Segurança Pública: como votaram partidos e deputados nos dois turnos - G1",
-        "timestamp": "2026-03-05T00:17:40Z"
-    },
-    {
-        "source": "G1",
-        "title": "Em mensagens, Vocaro celebra emenda do senador Ciro Nogueira que favorecia o Banco Master - G1",
-        "timestamp": "2026-03-05T02:41:41Z"
-    },
-    {
         "source": "CNN Brasil",
         "title": "Novos ataques e expansão: saiba próximos passos dos EUA na guerra - CNN Brasil",
         "timestamp": "2026-03-04T15:07:29Z"
@@ -28,5 +13,20 @@
         "source": "Senado Federal",
         "title": "Aumento gradual da licença-paternidade vai à sanção presidencial - Senado Federal",
         "timestamp": "2026-03-04T23:08:40Z"
+    },
+    {
+        "source": "Revista Oeste",
+        "title": "EUA e Israel reduziram em quase 90% o disparo de mísseis do Irã - Revista Oeste",
+        "timestamp": "2026-03-04T20:45:09Z"
+    },
+    {
+        "source": "CartaCapital",
+        "title": "Casa Branca diz que Espanha aceitou cooperar com exército dos EUA; governo espanhol nega - CartaCapital",
+        "timestamp": "2026-03-04T19:41:00Z"
+    },
+    {
+        "source": "O Globo",
+        "title": "Há quase uma semana sem poder sair do Catar, Miá Mello desabafa: ‘me sinto desamparada’ - O Globo",
+        "timestamp": "2026-03-04T20:27:22Z"
     }
 ]
