@@ -1,23 +1,13 @@
 [
     {
-        "source": "G1",
-        "title": "'Sicário' de Vorcaro morre no hospital, diz advogado - G1",
-        "timestamp": "2026-03-07T02:58:47Z"
-    },
-    {
-        "source": "Estadão",
-        "title": "Reputação de Moraes e Toffoli morreu com caso Master, resta saber se STF quer ser enterrado junto - Estadão",
-        "timestamp": "2026-03-07T08:30:00Z"
-    },
-    {
         "source": "CartaCapital",
         "title": "Trump descarta acordo e exige a ‘rendição incondicional’ do Irã - CartaCapital",
         "timestamp": "2026-03-06T19:52:00Z"
     },
     {
-        "source": "BBC",
-        "title": "Guerra no Irã completa uma semana: o que aconteceu até agora - BBC",
-        "timestamp": "2026-03-06T11:42:40Z"
+        "source": "G1",
+        "title": "'Sicário' de Vorcaro morre no hospital, diz advogado - G1",
+        "timestamp": "2026-03-07T02:58:47Z"
     },
     {
         "source": "Jovem Pan",
@@ -26,7 +16,17 @@
     },
     {
         "source": "G1",
+        "title": "Entre caças e explosões: o drama de família brasileira abrigada no subsolo de prédio em Dubai - G1",
+        "timestamp": "2026-03-07T09:00:59Z"
+    },
+    {
+        "source": "G1",
         "title": "Réu por morte do advogado Rodrigo Crespo diz que foi contratado por marido traído - G1",
         "timestamp": "2026-03-06T14:20:25Z"
+    },
+    {
+        "source": "G1",
+        "title": "Presidente da CPMI do INSS nega ter divulgado material sigiloso envolvendo ministros do STF - G1",
+        "timestamp": "2026-03-07T01:04:29Z"
     }
 ]
