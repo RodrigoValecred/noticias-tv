@@ -1,18 +1,8 @@
 [
     {
-        "source": "G1",
-        "title": "INFOGRÁFICOS: mapa mostra troca de ataques e marcos da primeira semana de guerra no Irã - G1",
-        "timestamp": "2026-03-07T04:00:34Z"
-    },
-    {
         "source": "CartaCapital",
         "title": "Flávio Bolsonaro registra B.O. após mensagem no X sobre facada - CartaCapital",
         "timestamp": "2026-03-07T19:07:00Z"
-    },
-    {
-        "source": "Poder360",
-        "title": "Trump recebe 12 líderes em cúpula de direita para defesa das Américas - Poder360",
-        "timestamp": "2026-03-07T18:32:57Z"
     },
     {
         "source": "O Globo",
@@ -20,13 +10,23 @@
         "timestamp": "2026-03-07T17:18:38Z"
     },
     {
-        "source": "MetSul Meteorologia",
-        "title": "Verificamos: é falso que frrente fria fora do normal atingirá o Brasil - MetSul Meteorologia",
-        "timestamp": "2026-03-07T18:59:09Z"
+        "source": "CNN Brasil",
+        "title": "Trump diz que Irã foi responsável por ataque a escola que matou crianças - CNN Brasil",
+        "timestamp": "2026-03-07T22:18:12Z"
     },
     {
         "source": "Revista Fórum",
         "title": "Presidente da CPMI do INSS se pronuncia sobre vazamentos de supostas conversas entre Moraes e Vorcaro - Revista Fórum",
         "timestamp": "2026-03-07T13:10:21Z"
+    },
+    {
+        "source": "Estado de Minas",
+        "title": "Acidente na BR-354: carro bate em carreta, capota e cai em ribanceira - Estado de Minas",
+        "timestamp": "2026-03-07T21:59:00Z"
+    },
+    {
+        "source": "G1",
+        "title": "Show do Coldplay, hotel de 'White Lotus' e mais: Vorcaro organizou festa de R$ 220 milhões na Itália em 2023; veja detalhes - G1",
+        "timestamp": "2026-03-07T12:53:52Z"
     }
 ]
