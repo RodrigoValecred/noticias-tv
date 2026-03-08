@@ -1,10 +1,5 @@
 [
     {
-        "source": "O Antagonista",
-        "title": "Senador já tem 17 assinaturas para CPI de Toffoli e Moraes - O Antagonista",
-        "timestamp": "2026-03-07T22:40:00Z"
-    },
-    {
         "source": "CNN Brasil",
         "title": "Forte explosão é ouvida próximo à embaixada dos EUA em Oslo - CNN Brasil",
         "timestamp": "2026-03-08T01:04:31Z"
@@ -28,5 +23,10 @@
         "source": "O Globo",
         "title": "Leite sobe o tom contra Bolsonaro e destoa de Ratinho e Caiado em evento de presidenciáveis do PSD - O Globo",
         "timestamp": "2026-03-07T01:04:25Z"
+    },
+    {
+        "source": "Jovem Pan",
+        "title": "Presidente da CPMI do INSS quer convidar Dino para explicar decisão a favor de Lulinha - Jovem Pan",
+        "timestamp": "2026-03-06T16:31:18Z"
     }
 ]
