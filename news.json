@@ -1,8 +1,18 @@
 [
     {
-        "source": "Estadão",
-        "title": "Da ascensão ao colapso em 6 anos: a linha do tempo do Banco Master e as reviravoltas do caso - Estadão",
-        "timestamp": "2026-03-08T09:34:17Z"
+        "source": "G1",
+        "title": "Datafolha: Tarcísio lidera todos os cenários para governador no 1º e no 2º turno - G1",
+        "timestamp": "2026-03-08T15:54:16Z"
+    },
+    {
+        "source": "www.gov.br",
+        "title": "Presidente Lula sanciona lei que torna explícita a presunção absoluta de vulnerabilidade em casos de estupro - www.gov.br",
+        "timestamp": "2026-03-08T12:59:00Z"
+    },
+    {
+        "source": "CNN Brasil",
+        "title": "Trump reitera desejo em participar da escolha de novo líder do Irã - CNN Brasil",
+        "timestamp": "2026-03-07T22:18:46Z"
     },
     {
         "source": "UOL Notícias",
@@ -10,23 +20,13 @@
         "timestamp": "2026-03-08T12:30:00Z"
     },
     {
+        "source": "Revista Oeste",
+        "title": "CPMI do INSS recebeu mais de 200 arquivos extraídos de celulares de Vorcaro - Revista Oeste",
+        "timestamp": "2026-03-08T11:16:33Z"
+    },
+    {
         "source": "Folha de S.Paulo",
         "title": "Crimes como o estupro coletivo no Rio espelham machosfera, pornografia e omissão parental - Folha de S.Paulo",
         "timestamp": "2026-03-08T02:00:00Z"
-    },
-    {
-        "source": "ND Mais",
-        "title": "Tchau, calorão! Massa de ar frio se estabelece e Brasil terá dias 'frescos' com mínimas de 10°C - ND Mais",
-        "timestamp": "2026-03-08T10:30:21Z"
-    },
-    {
-        "source": "Revista Fórum",
-        "title": "Presidente da CPMI do INSS se pronuncia sobre vazamentos de supostas conversas entre Moraes e Vorcaro - Revista Fórum",
-        "timestamp": "2026-03-07T13:10:21Z"
-    },
-    {
-        "source": "O Globo",
-        "title": "Em derrota do grupo de Boulos, Psol rejeita federação com o PT por ampla maioria - O Globo",
-        "timestamp": "2026-03-07T17:18:38Z"
     }
 ]
