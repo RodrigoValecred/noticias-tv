@@ -1,23 +1,13 @@
 [
     {
+        "source": "G1",
+        "title": "Trump diz em entrevista que guerra contra o Irã pode acabar em breve: 'Praticamente concluída' - G1",
+        "timestamp": "2026-03-09T19:28:07Z"
+    },
+    {
         "source": "ICL Notícias",
         "title": "PF cumpre nova ordem de prisão contra aliado de Flávio Bolsonaro em investigações sobre CV - ICL Notícias",
         "timestamp": "2026-03-09T15:40:09Z"
-    },
-    {
-        "source": "G1",
-        "title": "Vieira conversa com Rubio para barrar classificação de facções como organizações terroristas; temor é de intervenção no Brasil - G1",
-        "timestamp": "2026-03-09T13:10:46Z"
-    },
-    {
-        "source": "CNN Brasil",
-        "title": "Putin apresenta proposta a Trump para acabar com guerra no Irã - CNN Brasil",
-        "timestamp": "2026-03-09T19:59:31Z"
-    },
-    {
-        "source": "Revista Oeste",
-        "title": "Investigações revelam como Vorcaro teria desviado recursos do Master para familiares - Revista Oeste",
-        "timestamp": "2026-03-08T15:50:18Z"
     },
     {
         "source": "Poder360",
@@ -25,8 +15,18 @@
         "timestamp": "2026-03-09T19:51:25Z"
     },
     {
-        "source": "ND Mais",
-        "title": "Lulinha será preso preventivamente? Defesa rompe o silêncio sobre prisão do filho de Lula - ND Mais",
-        "timestamp": "2026-03-09T18:00:29Z"
+        "source": "G1",
+        "title": "'Treinando caso ela diga não': vídeos no TikTok simulam agressões a mulheres em meio a escalada de violência e recorde de feminicídios - G1",
+        "timestamp": "2026-03-09T18:33:58Z"
+    },
+    {
+        "source": "Poder360",
+        "title": "Lula escala Janja para viagem de 5 dias à ONU em NY - Poder360",
+        "timestamp": "2026-03-09T18:05:06Z"
+    },
+    {
+        "source": "CNN Brasil",
+        "title": "Análise: Profusão de notas oficiais expõe crise no STF - CNN Brasil",
+        "timestamp": "2026-03-09T18:00:17Z"
     }
 ]
