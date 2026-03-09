@@ -1,10 +1,5 @@
 [
     {
-        "source": "UOL Notícias",
-        "title": "Adolescente perseguiu irmã da vítima após estupro coletivo no Rio, diz avó - UOL Notícias",
-        "timestamp": "2026-03-09T01:24:01Z"
-    },
-    {
         "source": "O Globo",
         "title": "Defesa de Vorcaro pede a Mendonça que primeira conversa com banqueiro na prisão não seja gravada - O Globo",
         "timestamp": "2026-03-08T22:10:34Z"
@@ -15,18 +10,23 @@
         "timestamp": "2026-03-08T11:16:33Z"
     },
     {
-        "source": "Jovem Pan",
-        "title": "Trump diz que novo líder supremo do Irã não vai durar se não tiver seu apoio - Jovem Pan",
-        "timestamp": "2026-03-08T18:19:50Z"
+        "source": "UOL",
+        "title": "BBB 26: Babu, Chaiany e Milena estão no 8º Paredão do reality - UOL",
+        "timestamp": "2026-03-09T03:01:06Z"
     },
     {
-        "source": "UOL Notícias",
-        "title": "Josmar Jozino: Desembargador foi ao local onde PM foi achada morta após ligação de marido - UOL Notícias",
-        "timestamp": "2026-03-09T04:48:16Z"
+        "source": "UOL Economia",
+        "title": "Pollyana Félix: Celebrar o Dia da Mulher? Números da violência contam outra história - UOL Economia",
+        "timestamp": "2026-03-09T00:27:14Z"
     },
     {
-        "source": "CNN Brasil",
-        "title": "8 de março: por que o Dia Internacional da Mulher é comemorado nesta data? - CNN Brasil",
-        "timestamp": "2026-03-08T15:25:06Z"
+        "source": "O Dia",
+        "title": "Passagem de frente fria trará queda na temperatura e chuva ao Rio - O Dia",
+        "timestamp": "2026-03-08T20:58:29Z"
+    },
+    {
+        "source": "Estadão",
+        "title": "Ex-namorada de Vorcaro contrata assessoria e advogado e faz questão de se desvincular do banqueiro - Estadão",
+        "timestamp": "2026-03-08T20:32:01Z"
     }
 ]
