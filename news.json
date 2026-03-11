@@ -1,13 +1,18 @@
 [
     {
-        "source": "Correio Braziliense",
-        "title": "Senado aprova criação de 17,5 mil cargos no Executivo - Correio Braziliense",
-        "timestamp": "2026-03-10T23:23:00Z"
-    },
-    {
         "source": "Poder360",
         "title": "TSE tem 2 a 0 para cassar Castro e Bacellar; Nunes Marques pede vista - Poder360",
         "timestamp": "2026-03-11T02:42:06Z"
+    },
+    {
+        "source": "CNN Brasil",
+        "title": "Moraes autoriza visita de assessor de Trump a Bolsonaro na prisão - CNN Brasil",
+        "timestamp": "2026-03-11T01:00:28Z"
+    },
+    {
+        "source": "Correio Braziliense",
+        "title": "Senado aprova criação de 17,5 mil cargos no Executivo - Correio Braziliense",
+        "timestamp": "2026-03-10T23:23:00Z"
     },
     {
         "source": "BBC",
@@ -20,13 +25,8 @@
         "timestamp": "2026-03-10T18:55:00Z"
     },
     {
-        "source": "CNN Brasil",
-        "title": "Justiça determina que morte de policial seja investigada como feminicídio - CNN Brasil",
-        "timestamp": "2026-03-11T00:45:48Z"
-    },
-    {
-        "source": "Jovem Pan",
-        "title": "Bolsonaro pede autorização ao STF para receber assessor de Trump na prisão - Jovem Pan",
-        "timestamp": "2026-03-10T18:51:20Z"
+        "source": "CBN",
+        "title": "Exames indicam que PM encontrada morta com tiro na cabeça pode ter desmaiado antes do disparo - CBN",
+        "timestamp": "2026-03-10T12:25:00Z"
     }
 ]
