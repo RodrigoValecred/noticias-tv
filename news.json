@@ -5,16 +5,6 @@
         "timestamp": "2026-03-12T23:23:00Z"
     },
     {
-        "source": "O Globo",
-        "title": "Motorista de aplicativo é preso por suspeita de estuprar autista em crise que estava a caminho de hospital no Rio - O Globo",
-        "timestamp": "2026-03-12T19:11:27Z"
-    },
-    {
-        "source": "Valor Econômico",
-        "title": "STF justifica busca contra jornalista afirmando que Dino foi monitorado ilegalmente - Valor Econômico",
-        "timestamp": "2026-03-12T23:09:13Z"
-    },
-    {
         "source": "Notícias da TV",
         "title": "Erika Hilton recebe telefonema de filha de Silvio Santos após ataque de Ratinho - Notícias da TV",
         "timestamp": "2026-03-12T23:30:00Z"
@@ -25,8 +15,18 @@
         "timestamp": "2026-03-12T01:53:49Z"
     },
     {
+        "source": "O Globo",
+        "title": "Moraes determina busca e apreensão a jornalista após reportagem sobre carro funcional usado por Dino - O Globo",
+        "timestamp": "2026-03-12T18:00:20Z"
+    },
+    {
         "source": "Estado de Minas",
         "title": "Mãe de meninos mortos pelo pai desabafa: 'Não consigo acreditar' - Estado de Minas",
         "timestamp": "2026-03-12T22:43:00Z"
+    },
+    {
+        "source": "Rádio Itatiaia",
+        "title": "Maioria da população desaprova governo Lula, e 81% dos eleitores querem mudanças, diz pesquisa - Rádio Itatiaia",
+        "timestamp": "2026-03-12T20:26:13Z"
     }
 ]
