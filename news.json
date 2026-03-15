@@ -15,11 +15,6 @@
         "timestamp": "2026-03-14T12:58:00Z"
     },
     {
-        "source": "Agência Brasil",
-        "title": "Bolsonaro tem piora da função renal e aumento de inflamação - Agência Brasil",
-        "timestamp": "2026-03-14T15:23:00Z"
-    },
-    {
         "source": "Correio Braziliense",
         "title": "Trump pede que países enviem navios de guerra ao Estreito de Ormuz - Correio Braziliense",
         "timestamp": "2026-03-14T21:48:00Z"
@@ -28,5 +23,10 @@
         "source": "CartaCapital",
         "title": "Israel diz que guerra ao Irã inicia ‘fase decisiva’, diz ministro da Defesa - CartaCapital",
         "timestamp": "2026-03-14T12:57:00Z"
+    },
+    {
+        "source": "Agência Brasil",
+        "title": "Bolsonaro tem piora da função renal e aumento de inflamação - Agência Brasil",
+        "timestamp": "2026-03-14T15:23:00Z"
     }
 ]
