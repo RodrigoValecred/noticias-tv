@@ -1,20 +1,5 @@
 [
     {
-        "source": "Rádio Itatiaia",
-        "title": "Cruzeiro demite Tite após empate com o Vasco e início ruim no Brasileirão - Rádio Itatiaia",
-        "timestamp": "2026-03-16T02:18:24Z"
-    },
-    {
-        "source": "G1",
-        "title": "'Valor Sentimental' vence o Oscar de Filme Internacional e supera 'O agente secreto' - G1",
-        "timestamp": "2026-03-16T02:03:46Z"
-    },
-    {
-        "source": "Poder360",
-        "title": "Dirceu diz que Haddad tem força para vencer governo de SP - Poder360",
-        "timestamp": "2026-03-15T20:34:22Z"
-    },
-    {
         "source": "G1",
         "title": "Donald Trump exige que 'cerca de sete' países se juntem a uma coalizão para patrulhar o Estreito de Ormuz do Irã - G1",
         "timestamp": "2026-03-16T01:14:32Z"
@@ -25,8 +10,23 @@
         "timestamp": "2026-03-15T20:50:03Z"
     },
     {
-        "source": "Revista Fórum",
-        "title": "O que Nunes Marques iria discutir com assessor de Trump proibido de entrar no Brasil - Revista Fórum",
-        "timestamp": "2026-03-14T22:10:16Z"
+        "source": "Poder360",
+        "title": "Jornalistas vão à polícia reclamar de postagem de Michelle Bolsonaro - Poder360",
+        "timestamp": "2026-03-16T02:29:21Z"
+    },
+    {
+        "source": "Revista Oeste",
+        "title": "Novo líder supremo do Irã 'está em péssimas condições', diz alto funcionário israelense - Revista Oeste",
+        "timestamp": "2026-03-15T18:13:28Z"
+    },
+    {
+        "source": "Estado de Minas",
+        "title": "Daniel Vorcaro é levado para ala de saúde de presídio federal em Brasília - Estado de Minas",
+        "timestamp": "2026-03-15T16:21:00Z"
+    },
+    {
+        "source": "CNN Brasil",
+        "title": "O que se sabe sobre a saúde de Bolsonaro após 48 horas na UTI - CNN Brasil",
+        "timestamp": "2026-03-15T15:17:58Z"
     }
 ]
