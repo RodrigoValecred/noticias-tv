@@ -15,11 +15,6 @@
         "timestamp": "2026-03-20T19:08:00Z"
     },
     {
-        "source": "G1",
-        "title": "Trump volta a criticar aliados da Otan: 'Covardes. Nós vamos nos lembrar' - G1",
-        "timestamp": "2026-03-20T13:54:47Z"
-    },
-    {
         "source": "Poder360",
         "title": "Vamos comprar refinaria vendida pela Petrobras, diz Lula - Poder360",
         "timestamp": "2026-03-20T17:57:45Z"
@@ -28,5 +23,10 @@
         "source": "CNN Brasil",
         "title": "\"Cego de ciúmes\": PM relatou medo de ser morta por tenente-coronel - CNN Brasil",
         "timestamp": "2026-03-20T19:47:54Z"
+    },
+    {
+        "source": "Correio Braziliense",
+        "title": "'Papel de um bom juiz não é ser estrela', diz André Mendonça - Correio Braziliense",
+        "timestamp": "2026-03-20T18:18:00Z"
     }
 ]
