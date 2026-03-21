@@ -1,15 +1,5 @@
 [
     {
-        "source": "Gazeta do Povo",
-        "title": "Mendonça dá xeque-mate em Gilmar e protege delação de Vorcaro - Gazeta do Povo",
-        "timestamp": "2026-03-21T11:00:00Z"
-    },
-    {
-        "source": "Correio Braziliense",
-        "title": "Bolsonaro faz 71 anos e segue sem previsão de alta da UTI - Correio Braziliense",
-        "timestamp": "2026-03-21T15:49:00Z"
-    },
-    {
         "source": "G1",
         "title": "Irã diz que atacou instalação nuclear em Israel - G1",
         "timestamp": "2026-03-21T20:41:20Z"
@@ -20,13 +10,23 @@
         "timestamp": "2026-03-21T16:16:10Z"
     },
     {
-        "source": "Terra",
-        "title": "Marinha dos EUA já sabe o que vai acontecer com o planeta: missão para abrir o Estreito de Ormuz é o mais próximo que se pode chegar de uma operação suicida - Terra",
-        "timestamp": "2026-03-21T14:12:00Z"
+        "source": "CNN Brasil",
+        "title": "Veja o que disse tenente-coronel em audiência de custódia após morte de PM - CNN Brasil",
+        "timestamp": "2026-03-21T15:56:31Z"
+    },
+    {
+        "source": "Correio Braziliense",
+        "title": "Bolsonaro faz 71 anos e segue sem previsão de alta da UTI - Correio Braziliense",
+        "timestamp": "2026-03-21T15:49:00Z"
+    },
+    {
+        "source": "O Globo",
+        "title": "Trump diz que os EUA estão considerando encerrar as operações militares no Irã - O Globo",
+        "timestamp": "2026-03-20T21:56:47Z"
     },
     {
         "source": "Poder360",
-        "title": "Usina nuclear de Natanz é bombardeada pelos EUA, diz agência do Irã - Poder360",
-        "timestamp": "2026-03-21T12:47:35Z"
+        "title": "Morre ex-diretor do FBI que expôs interferência russa em 2016 - Poder360",
+        "timestamp": "2026-03-21T20:13:22Z"
     }
 ]
