@@ -1,13 +1,13 @@
 [
     {
-        "source": "www.gov.br",
-        "title": "PF combate lavagem de capitais e fraudes bancárias contra a Caixa - www.gov.br",
-        "timestamp": "2026-03-25T10:19:00Z"
-    },
-    {
         "source": "G1",
         "title": "Paquistão entregou proposta de cessar-fogo dos EUA ao Irã, dizem agências; Teerã rejeita 'plano excessivo' - G1",
         "timestamp": "2026-03-25T10:50:06Z"
+    },
+    {
+        "source": "CNN Brasil",
+        "title": "Entenda como funcionava fraude na Caixa com provável prejuízo de R$ 500 mi - CNN Brasil",
+        "timestamp": "2026-03-25T14:14:06Z"
     },
     {
         "source": "Revista Oeste",
@@ -15,18 +15,18 @@
         "timestamp": "2026-03-25T02:39:25Z"
     },
     {
+        "source": "Tribunal Superior Eleitoral",
+        "title": "TSE torna inelegível ex-governador do Rio Cláudio Castro - Tribunal Superior Eleitoral",
+        "timestamp": "2026-03-25T02:38:00Z"
+    },
+    {
         "source": "CartaCapital",
-        "title": "A reação de Cláudio Castro após o TSE determinar sua inelegibilidade - CartaCapital",
-        "timestamp": "2026-03-25T01:12:00Z"
-    },
-    {
-        "source": "Diário do Rio",
-        "title": "Prefeitura do Rio demite Monique Medeiros após saída da prisão - Diário do Rio",
-        "timestamp": "2026-03-25T10:40:39Z"
-    },
-    {
-        "source": "Correio Braziliense",
-        "title": "Michelle celebra prisão domiciliar de Bolsonaro: 'Obrigada, meu Deus' - Correio Braziliense",
+        "title": "As restrições impostas a Jair Bolsonaro na prisão domiciliar temporária - CartaCapital",
         "timestamp": "2026-03-24T19:10:00Z"
+    },
+    {
+        "source": "G1",
+        "title": "Raio-X da adolescência brasileira: veja dados do IBGE sobre estudantes de 13 a 17 anos - G1",
+        "timestamp": "2026-03-25T13:58:27Z"
     }
 ]
