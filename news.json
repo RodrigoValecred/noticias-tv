@@ -1,18 +1,23 @@
 [
     {
-        "source": "CNN Brasil",
-        "title": "Polícia Federal faz operação contra fraudes de R$ 500 milhões na Caixa - CNN Brasil",
-        "timestamp": "2026-03-25T14:18:48Z"
+        "source": "www.gov.br",
+        "title": "PF combate lavagem de capitais e fraudes bancárias contra a Caixa - www.gov.br",
+        "timestamp": "2026-03-25T10:19:00Z"
     },
     {
         "source": "G1",
-        "title": "Paquistão entregou proposta de cessar-fogo dos EUA ao Irã, dizem agências - G1",
+        "title": "Paquistão entregou proposta de cessar-fogo dos EUA ao Irã, dizem agências; Teerã rejeita 'plano excessivo' - G1",
         "timestamp": "2026-03-25T10:50:06Z"
     },
     {
-        "source": "Poder360",
-        "title": "TSE torna Cláudio Castro, ex-governador do RJ, inelegível - Poder360",
-        "timestamp": "2026-03-25T05:01:35Z"
+        "source": "Revista Oeste",
+        "title": "Vorcaro tenta incluir cunhado em delação premiada - Revista Oeste",
+        "timestamp": "2026-03-25T02:39:25Z"
+    },
+    {
+        "source": "CartaCapital",
+        "title": "A reação de Cláudio Castro após o TSE determinar sua inelegibilidade - CartaCapital",
+        "timestamp": "2026-03-25T01:12:00Z"
     },
     {
         "source": "Diário do Rio",
@@ -20,13 +25,8 @@
         "timestamp": "2026-03-25T10:40:39Z"
     },
     {
-        "source": "CartaCapital",
-        "title": "As restrições impostas a Jair Bolsonaro na prisão domiciliar temporária - CartaCapital",
+        "source": "Correio Braziliense",
+        "title": "Michelle celebra prisão domiciliar de Bolsonaro: 'Obrigada, meu Deus' - Correio Braziliense",
         "timestamp": "2026-03-24T19:10:00Z"
-    },
-    {
-        "source": "Estado de Minas",
-        "title": "Deputados do PT pedem afastamento de presidente da CPMI do INSS - Estado de Minas",
-        "timestamp": "2026-03-24T23:35:00Z"
     }
 ]
