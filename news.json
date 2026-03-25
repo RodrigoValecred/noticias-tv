@@ -1,13 +1,13 @@
 [
     {
-        "source": "CartaCapital",
-        "title": "As restrições impostas a Jair Bolsonaro na prisão domiciliar temporária - CartaCapital",
-        "timestamp": "2026-03-24T19:10:00Z"
-    },
-    {
         "source": "Poder360",
         "title": "TSE torna Cláudio Castro, ex-governador do RJ, inelegível - Poder360",
         "timestamp": "2026-03-25T05:01:35Z"
+    },
+    {
+        "source": "CartaCapital",
+        "title": "As restrições impostas a Jair Bolsonaro na prisão domiciliar temporária - CartaCapital",
+        "timestamp": "2026-03-24T19:10:00Z"
     },
     {
         "source": "CNN Brasil",
@@ -15,18 +15,18 @@
         "timestamp": "2026-03-25T01:44:07Z"
     },
     {
-        "source": "R7",
-        "title": "PL Antifacção: Lula sanciona lei que cancela título de eleitor e veta auxílio-reclusão a membros de facções - R7",
-        "timestamp": "2026-03-24T20:19:11Z"
-    },
-    {
         "source": "G1",
         "title": "Irã 'não tem mais líderes' depois de ataques, e Teerã concordou em 'nunca ter armas nucleares', diz Trump - G1",
         "timestamp": "2026-03-24T18:40:37Z"
     },
     {
-        "source": "Revista Oeste",
-        "title": "Alcolumbre pede parecer jurídico depois de decisão sobre CPMI do INSS - Revista Oeste",
-        "timestamp": "2026-03-24T17:16:31Z"
+        "source": "R7",
+        "title": "PL Antifacção: Lula sanciona lei que cancela título de eleitor e veta auxílio-reclusão a membros de facções - R7",
+        "timestamp": "2026-03-24T20:19:11Z"
+    },
+    {
+        "source": "Estado de Minas",
+        "title": "Deputados do PT pedem afastamento de presidente da CPMI do INSS - Estado de Minas",
+        "timestamp": "2026-03-24T23:35:00Z"
     }
 ]
