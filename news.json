@@ -1,23 +1,13 @@
 [
     {
-        "source": "oglobo.globo.com",
-        "title": "Moraes nega acesso irrestrito a familiares de Bolsonaro e mantém regras da prisão domiciliar - oglobo.globo.com",
-        "timestamp": "2026-03-28T17:14:45Z"
-    },
-    {
-        "source": "poder360.com.br",
-        "title": "Governistas comemoram rejeição ao relatório da CPI do INSS; assista - poder360.com.br",
-        "timestamp": "2026-03-28T13:46:07Z"
-    },
-    {
-        "source": "G1",
-        "title": "Fachin rejeita pedido de CPI do Crime Organizado para manter quebra de sigilo de empresa de Toffoli - G1",
-        "timestamp": "2026-03-28T15:16:51Z"
-    },
-    {
         "source": "Correio Braziliense",
         "title": "Protestos contra Trump devem levar mais de 9 milhões às ruas do EUA - Correio Braziliense",
         "timestamp": "2026-03-28T14:01:00Z"
+    },
+    {
+        "source": "oglobo.globo.com",
+        "title": "Moraes nega acesso irrestrito a familiares de Bolsonaro e mantém regras da prisão domiciliar - oglobo.globo.com",
+        "timestamp": "2026-03-28T17:14:45Z"
     },
     {
         "source": "CNN Brasil",
@@ -25,8 +15,18 @@
         "timestamp": "2026-03-28T20:06:05Z"
     },
     {
-        "source": "CartaCapital",
-        "title": "Zanin suspende eleição indireta para mandato-tampão no RJ - CartaCapital",
-        "timestamp": "2026-03-28T02:11:00Z"
+        "source": "Diário do Rio",
+        "title": "Douglas Ruas defende eleição direta e diz que disputará governo-tampão no Rio - Diário do Rio",
+        "timestamp": "2026-03-28T18:17:11Z"
+    },
+    {
+        "source": "Poder360",
+        "title": "Governistas comemoram rejeição ao relatório da CPI do INSS; assista - Poder360",
+        "timestamp": "2026-03-28T13:46:07Z"
+    },
+    {
+        "source": "G1",
+        "title": "Fachin rejeita pedido de CPI do Crime Organizado para manter quebra de sigilo de empresa de Toffoli - G1",
+        "timestamp": "2026-03-28T15:16:51Z"
     }
 ]
