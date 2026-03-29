@@ -1,7 +1,7 @@
 [
     {
-        "source": "G1",
-        "title": "Irã diz que está pronto para ofensiva caso os EUA ataquem por terra; países do Oriente Médio se reúnem para discutir fim do conflito - G1",
+        "source": "g1.globo.com",
+        "title": "Irã diz que está pronto para ofensiva caso os EUA ataquem por terra; países do Oriente Médio se reúnem para discutir fim do conflito - g1.globo.com",
         "timestamp": "2026-03-29T13:29:57Z"
     },
     {
@@ -10,23 +10,23 @@
         "timestamp": "2026-03-29T02:34:44Z"
     },
     {
-        "source": "Estadão",
-        "title": "Domingo de Ramos: autoridades católicas são barradas na Igreja do Santo Sepulcro em Jerusalém - Estadão",
-        "timestamp": "2026-03-29T14:54:50Z"
-    },
-    {
         "source": "Diário do Rio",
         "title": "Douglas Ruas defende eleição direta e diz que disputará governo-tampão no RJ - Diário do Rio",
         "timestamp": "2026-03-28T18:17:11Z"
     },
     {
-        "source": "Jornal de Brasília",
-        "title": "Maduro diz que está ‘bem’ em primeira mensagem publicada da prisão - Jornal de Brasília",
-        "timestamp": "2026-03-29T13:11:36Z"
+        "source": "Estadão",
+        "title": "Domingo de Ramos: autoridades católicas são barradas na Igreja do Santo Sepulcro em Jerusalém - Estadão",
+        "timestamp": "2026-03-29T14:54:50Z"
     },
     {
         "source": "Estado de Minas",
         "title": "Flávio Bolsonaro: 'Brasil é solução para EUA ter minerais de terras raras' - Estado de Minas",
         "timestamp": "2026-03-29T14:25:00Z"
+    },
+    {
+        "source": "Jovem Pan",
+        "title": "Estreito de Ormuz: Irã anuncia que irá exigir aval militar para embarcações - Jovem Pan",
+        "timestamp": "2026-03-28T18:04:30Z"
     }
 ]
