@@ -5,14 +5,9 @@
         "timestamp": "2026-03-29T13:29:57Z"
     },
     {
-        "source": "Diário do Rio",
-        "title": "Douglas Ruas defende eleição direta e diz que disputará governo-tampão no RJ - Diário do Rio",
-        "timestamp": "2026-03-28T18:17:11Z"
-    },
-    {
-        "source": "G1",
-        "title": "Maduro diz que está 'bem' em primeira mensagem publicada da prisão - G1",
-        "timestamp": "2026-03-29T11:18:25Z"
+        "source": "AEROIN",
+        "title": "Avião radar americano é destruído em taxiway durante ataque do Irã na Arábia Saudita - AEROIN",
+        "timestamp": "2026-03-29T02:34:44Z"
     },
     {
         "source": "Estadão",
@@ -20,13 +15,18 @@
         "timestamp": "2026-03-29T14:54:50Z"
     },
     {
+        "source": "Diário do Rio",
+        "title": "Douglas Ruas defende eleição direta e diz que disputará governo-tampão no RJ - Diário do Rio",
+        "timestamp": "2026-03-28T18:17:11Z"
+    },
+    {
+        "source": "Jornal de Brasília",
+        "title": "Maduro diz que está ‘bem’ em primeira mensagem publicada da prisão - Jornal de Brasília",
+        "timestamp": "2026-03-29T13:11:36Z"
+    },
+    {
         "source": "Estado de Minas",
         "title": "Flávio Bolsonaro: 'Brasil é solução para EUA ter minerais de terras raras' - Estado de Minas",
         "timestamp": "2026-03-29T14:25:00Z"
-    },
-    {
-        "source": "Jovem Pan",
-        "title": "Estreito de Ormuz: Irã anuncia que irá exigir aval militar para embarcações - Jovem Pan",
-        "timestamp": "2026-03-28T18:04:30Z"
     }
 ]
