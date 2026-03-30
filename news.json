@@ -1,8 +1,23 @@
 [
     {
+        "source": "CNN Brasil",
+        "title": "PSD vai anunciar Caiado como pré-candidato ao Planalto - CNN Brasil",
+        "timestamp": "2026-03-30T10:50:03Z"
+    },
+    {
+        "source": "Correio Braziliense",
+        "title": "Moraes cobra explicações da defesa de Bolsonaro sobre vídeo de Eduardo - Correio Braziliense",
+        "timestamp": "2026-03-30T13:20:00Z"
+    },
+    {
+        "source": "CartaCapital",
+        "title": "Os números da primeira pesquisa BTG Pactual Nexus para a presidência - CartaCapital",
+        "timestamp": "2026-03-30T09:51:00Z"
+    },
+    {
         "source": "Poder360",
-        "title": "PSD anuncia nesta 2ª feira seu candidato à Presidência - Poder360",
-        "timestamp": "2026-03-30T11:20:05Z"
+        "title": "Paraná Pesquisas: 53,3% dizem que Lula não merece ser reeleito - Poder360",
+        "timestamp": "2026-03-30T10:03:23Z"
     },
     {
         "source": "Jovem Pan",
@@ -13,20 +28,5 @@
         "source": "CNN Brasil",
         "title": "Trump volta a considerar anexação da ilha iraniana de Kharg - CNN Brasil",
         "timestamp": "2026-03-30T01:01:25Z"
-    },
-    {
-        "source": "CartaCapital",
-        "title": "Os números da primeira pesquisa BTG Pactual Nexus para a presidência - CartaCapital",
-        "timestamp": "2026-03-30T09:51:00Z"
-    },
-    {
-        "source": "Revista Fórum",
-        "title": "Haddad tem 42,6% em pesquisa Atlas/Estadão e encosta em Tarcísio - Revista Fórum",
-        "timestamp": "2026-03-30T09:06:33Z"
-    },
-    {
-        "source": "Poder360",
-        "title": "Paraná Pesquisas: 53,3% dizem que Lula não merece ser reeleito - Poder360",
-        "timestamp": "2026-03-30T10:03:23Z"
     }
 ]
