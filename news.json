@@ -1,10 +1,5 @@
 [
     {
-        "source": "CNN Brasil",
-        "title": "Helicóptero cai na Praia da Barra da Tijuca, no Rio de Janeiro - CNN Brasil",
-        "timestamp": "2026-04-03T14:58:50Z"
-    },
-    {
         "source": "O Globo",
         "title": "Irã adverte Conselho de Segurança da ONU contra \"ação provocadora\" envolvendo o Estreito de Ormuz - O Globo",
         "timestamp": "2026-04-03T09:29:49Z"
@@ -15,18 +10,23 @@
         "timestamp": "2026-04-03T06:55:00Z"
     },
     {
+        "source": "CNN Brasil",
+        "title": "Helicóptero cai na Praia da Barra da Tijuca, no Rio de Janeiro - CNN Brasil",
+        "timestamp": "2026-04-03T14:58:50Z"
+    },
+    {
+        "source": "CNN Brasil",
+        "title": "Irã ataca usina de energia e dessalinização no Kuwait - CNN Brasil",
+        "timestamp": "2026-04-03T11:16:18Z"
+    },
+    {
         "source": "GZH",
         "title": "Piloto morre em queda de avião de pequeno porte em Capão da Canoa - GZH",
         "timestamp": "2026-04-03T15:05:04Z"
     },
     {
         "source": "CNN Brasil",
-        "title": "Imagem da cauda de caça que Irã diz ter abatido corresponde à de um F-15 - CNN Brasil",
-        "timestamp": "2026-04-03T13:01:20Z"
-    },
-    {
-        "source": "Poder360",
-        "title": "Trump diz que EUA têm petróleo da Venezuela e não precisam de Ormuz - Poder360",
-        "timestamp": "2026-04-02T03:13:07Z"
+        "title": "Ataque a ponte no Irã deixa oito mortos e 95 feridos, diz mídia local - CNN Brasil",
+        "timestamp": "2026-04-02T20:38:44Z"
     }
 ]
