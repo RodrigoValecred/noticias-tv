@@ -5,14 +5,19 @@
         "timestamp": "2026-04-03T23:18:16Z"
     },
     {
-        "source": "CNN Brasil",
-        "title": "Artemis II: Astronautas chegam à metade do caminho; veja foto da lua - CNN Brasil",
-        "timestamp": "2026-04-04T02:30:54Z"
-    },
-    {
         "source": "O Antagonista",
         "title": "Crusoé: O maior do Congresso - O Antagonista",
         "timestamp": "2026-04-03T13:40:00Z"
+    },
+    {
+        "source": "cnnbrasil.com.br",
+        "title": "Artemis II: Astronautas chegam à metade do caminho; veja foto da lua - cnnbrasil.com.br",
+        "timestamp": "2026-04-04T02:30:54Z"
+    },
+    {
+        "source": "Revista Oeste",
+        "title": "Novo descarta Zema como vice de Caiado - Revista Oeste",
+        "timestamp": "2026-04-03T09:33:00Z"
     },
     {
         "source": "O Globo",
@@ -23,10 +28,5 @@
         "source": "Jovem Pan",
         "title": "Sob ameaça dos EUA, Irã volta a bombardear Israel - Jovem Pan",
         "timestamp": "2026-04-03T10:27:11Z"
-    },
-    {
-        "source": "Folha de S.Paulo",
-        "title": "Trump pede US$ 1,5 trilhão para defesa e propõe cortes em programas sociais - Folha de S.Paulo",
-        "timestamp": "2026-04-03T15:35:00Z"
     }
 ]
