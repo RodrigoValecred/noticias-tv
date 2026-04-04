@@ -1,8 +1,23 @@
 [
     {
-        "source": "BBC",
-        "title": "Segundo caça americano é abatido no Irã, diz Exército iraniano; EUA resgatam piloto - BBC",
-        "timestamp": "2026-04-03T23:18:16Z"
+        "source": "O Globo",
+        "title": "Desaparecimento de piloto eleva temor de nova crise de reféns entre EUA e Irã; resgate é de alto risco - O Globo",
+        "timestamp": "2026-04-04T12:46:37Z"
+    },
+    {
+        "source": "Brasil 247",
+        "title": "Estreito de Ormuz enfrenta colapso e tráfego cai de 130 navios por dia para 221 em um mês - Brasil 247",
+        "timestamp": "2026-04-03T22:38:09Z"
+    },
+    {
+        "source": "Revista Oeste",
+        "title": "Governo sofre debandada em ministérios - Revista Oeste",
+        "timestamp": "2026-04-04T09:30:00Z"
+    },
+    {
+        "source": "CNN Brasil",
+        "title": "Ex-ministra da Argentina critica prisão de advogada por racismo no RJ - CNN Brasil",
+        "timestamp": "2026-04-03T16:01:53Z"
     },
     {
         "source": "O Antagonista",
@@ -10,23 +25,8 @@
         "timestamp": "2026-04-03T13:40:00Z"
     },
     {
-        "source": "CNN Brasil",
-        "title": "Artemis II: Astronautas chegam à metade do caminho; veja foto da lua - CNN Brasil",
-        "timestamp": "2026-04-04T02:30:54Z"
-    },
-    {
-        "source": "Revista Oeste",
-        "title": "Novo descarta Zema como vice de Caiado - Revista Oeste",
-        "timestamp": "2026-04-03T09:33:00Z"
-    },
-    {
-        "source": "O Globo",
-        "title": "Casal de empresários e pilotos são as vítimas de acidente aéreo no Rio Grande do Sul - O Globo",
-        "timestamp": "2026-04-03T19:51:32Z"
-    },
-    {
-        "source": "Poder360",
-        "title": "Flávio encurta distância para Lula no 2º turno a 6 meses da eleição - Poder360",
-        "timestamp": "2026-04-04T09:05:24Z"
+        "source": "BBC",
+        "title": "Missão rumo à Lua: Artemis 2 registra imagem espetacular da Terra - BBC",
+        "timestamp": "2026-04-04T01:53:41Z"
     }
 ]
