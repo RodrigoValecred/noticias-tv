@@ -1,23 +1,18 @@
 [
     {
+        "source": "O Globo",
+        "title": "Trump ameaça Irã e diz que 'uma civilização inteira vai morrer esta noite' caso República Islâmica não chegue a acordo com os EUA - O Globo",
+        "timestamp": "2026-04-07T21:55:56Z"
+    },
+    {
         "source": "CNN Brasil",
-        "title": "Irã ameaça Oriente Médio com \"escuridão total\" se EUA atacarem usinas - CNN Brasil",
-        "timestamp": "2026-04-07T15:54:08Z"
+        "title": "Trump foi informado sobre proposta do Paquistão e deve responder, dizem EUA - CNN Brasil",
+        "timestamp": "2026-04-07T20:17:27Z"
     },
     {
-        "source": "Brasil 247",
-        "title": "Explosões atingem ilha estratégica de Kharg e elevam tensão no Irã - Brasil 247",
-        "timestamp": "2026-04-07T13:06:14Z"
-    },
-    {
-        "source": "G1",
-        "title": "Governo atualiza 'lista suja' do trabalho escravo e inclui Amado Batista e BYD - G1",
-        "timestamp": "2026-04-07T10:14:56Z"
-    },
-    {
-        "source": "G1",
-        "title": "Com veto de China e Rússia, Conselho de Segurança da ONU rejeita uso da força para reabrir o Estreito de Ormuz - G1",
-        "timestamp": "2026-04-07T15:03:17Z"
+        "source": "ICL Notícias",
+        "title": "Cantor Amado Batista e BYD entram na Lista Suja do Trabalho Escravo - ICL Notícias",
+        "timestamp": "2026-04-07T13:41:37Z"
     },
     {
         "source": "Revista Oeste",
@@ -27,6 +22,11 @@
     {
         "source": "UOL Notícias",
         "title": "Daniela Lima: RJ: Ao usar renúncia para burlar TSE, Castro comprometeu eleição indireta - UOL Notícias",
-        "timestamp": "2026-04-07T08:30:00Z"
+        "timestamp": "2026-04-07T12:30:00Z"
+    },
+    {
+        "source": "G1",
+        "title": "Com veto de China e Rússia, Conselho de Segurança da ONU rejeita uso da força para reabrir o Estreito de Ormuz - G1",
+        "timestamp": "2026-04-07T15:03:17Z"
     }
 ]
