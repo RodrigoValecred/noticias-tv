@@ -1,5 +1,10 @@
 [
     {
+        "source": "Valor Econômico",
+        "title": "Exclusivo: Allianz deixa de nomear estádio do Palmeiras com mudança de estratégia no país - Valor Econômico",
+        "timestamp": "2026-04-10T13:54:01Z"
+    },
+    {
         "source": "G1",
         "title": "Por que governo Trump voltou a atacar o Pix (e o que EUA podem fazer contra ele)? - G1",
         "timestamp": "2026-04-10T08:35:24Z"
@@ -10,23 +15,18 @@
         "timestamp": "2026-04-10T12:26:14Z"
     },
     {
-        "source": "Correio Braziliense",
-        "title": "Dino pede vista em julgamento sobre eleições no RJ e aguarda acórdão do TSE - Correio Braziliense",
-        "timestamp": "2026-04-09T18:37:00Z"
+        "source": "Poder360",
+        "title": "Trump diz que Irã não pode cobrar taxa de navegação em Ormuz - Poder360",
+        "timestamp": "2026-04-10T01:42:55Z"
     },
     {
-        "source": "O Globo",
-        "title": "Operação das polícias Civil e Militar mira aliança entre ADA e CV na Zona Oeste do Rio - O Globo",
-        "timestamp": "2026-04-10T10:05:23Z"
+        "source": "UOL Notícias",
+        "title": "Aliados veem briga entre Eduardo e Nikolas com 'potencial catastrófico' - UOL Notícias",
+        "timestamp": "2026-04-10T08:30:00Z"
     },
     {
         "source": "CNN Brasil",
         "title": "Líbano ordena retirada de armas de grupos armados em Beirute - CNN Brasil",
         "timestamp": "2026-04-09T16:21:47Z"
-    },
-    {
-        "source": "Correio Braziliense",
-        "title": "Trump ameaça ataques 'mais fortes' se acordo com o Irã não for cumprido - Correio Braziliense",
-        "timestamp": "2026-04-09T10:41:00Z"
     }
 ]
