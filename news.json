@@ -15,11 +15,6 @@
         "timestamp": "2026-04-11T02:37:59Z"
     },
     {
-        "source": "CartaCapital",
-        "title": "Irã condiciona negociações a cessar-fogo no Líbano e desbloqueio de ativos - CartaCapital",
-        "timestamp": "2026-04-10T16:29:00Z"
-    },
-    {
         "source": "Poder360",
         "title": "Fachin diz que Corte chancelou Ricardo Couto no governo do RJ - Poder360",
         "timestamp": "2026-04-10T23:12:21Z"
@@ -28,5 +23,10 @@
         "source": "CNN Brasil",
         "title": "Após pane, Latam cancela 84 voos e afeta 10 mil passageiros em SP - CNN Brasil",
         "timestamp": "2026-04-11T00:45:51Z"
+    },
+    {
+        "source": "BBC",
+        "title": "Viktor Orbán: por que governo Lula está de olho nas eleições que podem tirar 'irmão' Bolsonaro do poder na Europa? - BBC",
+        "timestamp": "2026-04-10T20:48:02Z"
     }
 ]
