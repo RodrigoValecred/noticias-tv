@@ -1,8 +1,23 @@
 [
     {
+        "source": "G1",
+        "title": "Quaest 2º turno: Flávio Bolsonaro tem 42%, e Lula aparece com 40% - G1",
+        "timestamp": "2026-04-15T11:00:02Z"
+    },
+    {
+        "source": "CNN Brasil",
+        "title": "PF prende MC Ryan SP e Poze do Rodo em operação contra lavagem de dinheiro - CNN Brasil",
+        "timestamp": "2026-04-15T10:38:25Z"
+    },
+    {
         "source": "Correio Braziliense",
         "title": "CPI do Crime Organizado rejeita relatório com indiciamento de ministros do STF - Correio Braziliense",
         "timestamp": "2026-04-14T22:15:00Z"
+    },
+    {
+        "source": "O GLOBO",
+        "title": "Governador em exercício do Rio, Ricardo Couto exonera aliados de Cláudio Castro no primeiro escalão - O GLOBO",
+        "timestamp": "2026-04-15T07:30:34Z"
     },
     {
         "source": "Revista Oeste",
@@ -10,23 +25,8 @@
         "timestamp": "2026-04-15T03:06:01Z"
     },
     {
-        "source": "NSC Total",
-        "title": "Ramagem tem foto da prisão exposta por governo dos EUA - NSC Total",
-        "timestamp": "2026-04-14T22:04:00Z"
-    },
-    {
         "source": "CNN Brasil",
         "title": "Entenda quais são os pontos que EUA e Irã ainda divergem nas negociações - CNN Brasil",
         "timestamp": "2026-04-14T21:48:12Z"
-    },
-    {
-        "source": "Valor Econômico",
-        "title": "Lula tem 39,2% das intenções de voto e Flávio registra 30,2% no 1º turno, diz pesquisa CNT/MDA - Valor Econômico",
-        "timestamp": "2026-04-14T16:33:32Z"
-    },
-    {
-        "source": "Correio Braziliense",
-        "title": "Com 303 votos, Câmara elege Odair Cunha como novo ministro do TCU - Correio Braziliense",
-        "timestamp": "2026-04-15T00:50:00Z"
     }
 ]
