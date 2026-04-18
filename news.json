@@ -1,13 +1,23 @@
 [
     {
+        "source": "Valor Econômico",
+        "title": "Juiz que faz papel de 'agente político' agrava perda de confiança no Judiciário, diz Fachin - Valor Econômico",
+        "timestamp": "2026-04-17T17:16:03Z"
+    },
+    {
+        "source": "NSC Total",
+        "title": "Derrotado no STF, Jorginho Mello critica derrubada de lei que pôs fim às cotas raciais em SC - NSC Total",
+        "timestamp": "2026-04-17T23:16:00Z"
+    },
+    {
+        "source": "Estado de Minas",
+        "title": "Morte de profissionais da Band expõe precarização do jornalismo - Estado de Minas",
+        "timestamp": "2026-04-18T00:44:00Z"
+    },
+    {
         "source": "BBC",
         "title": "Lula na Espanha: por que presença em reunião global da esquerda pode ser campo minado para o presidente - BBC",
         "timestamp": "2026-04-17T08:37:00Z"
-    },
-    {
-        "source": "UOL Notícias",
-        "title": "Por unanimidade, STF derruba lei que proíbe cotas em universidades de SC - UOL Notícias",
-        "timestamp": "2026-04-18T03:59:24Z"
     },
     {
         "source": "CNN Brasil",
@@ -18,15 +28,5 @@
         "source": "Correio Braziliense",
         "title": "Irã ameaça fechar novamente Estreito de Ormuz após ação dos EUA - Correio Braziliense",
         "timestamp": "2026-04-17T18:31:00Z"
-    },
-    {
-        "source": "Poder360",
-        "title": "Fachin diz que Judiciário vive crise e defende autocontenção do STF - Poder360",
-        "timestamp": "2026-04-17T20:34:15Z"
-    },
-    {
-        "source": "G1",
-        "title": "PM que matou mulher com tiro no peito na Zona Leste de SP passa de estagiária a soldado - G1",
-        "timestamp": "2026-04-17T19:45:46Z"
     }
 ]
