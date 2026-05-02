@@ -1,5 +1,10 @@
 [
     {
+        "source": "Folha PE",
+        "title": "Bombeiros confirmam quatro mortes por fortes chuvas; duas crianças estão entre as vítimas - Folha PE",
+        "timestamp": "2026-05-02T01:51:14Z"
+    },
+    {
         "source": "Poder360",
         "title": "Messias deve permanecer no governo depois de derrota no STF - Poder360",
         "timestamp": "2026-05-01T19:18:42Z"
@@ -10,23 +15,18 @@
         "timestamp": "2026-05-01T22:16:16Z"
     },
     {
-        "source": "Folha PE",
-        "title": "Bombeiros confirmam quatro mortes por fortes chuvas; duas crianças estão entre as vítimas - Folha PE",
-        "timestamp": "2026-05-02T01:51:14Z"
-    },
-    {
         "source": "Correio Braziliense",
         "title": "1º de maio: Manifestação no Eixão Sul pede fim da jornada 6x1 - Correio Braziliense",
         "timestamp": "2026-05-01T15:27:00Z"
     },
     {
-        "source": "Poder360",
-        "title": "EUA mantêm tropas, mas declaram fim de hostilidades com Irã - Poder360",
-        "timestamp": "2026-05-01T21:03:39Z"
-    },
-    {
         "source": "CNN Brasil",
         "title": "Débora do Batom pede redução de pena após queda de veto à dosimetria - CNN Brasil",
         "timestamp": "2026-05-01T21:12:55Z"
+    },
+    {
+        "source": "Poder360",
+        "title": "EUA mantêm tropas, mas declaram fim de hostilidades com Irã - Poder360",
+        "timestamp": "2026-05-01T21:03:39Z"
     }
 ]
