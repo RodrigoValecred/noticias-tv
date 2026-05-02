@@ -1,15 +1,5 @@
 [
     {
-        "source": "Poder360",
-        "title": "Otan busca entender retirada de 5.000 soldados dos EUA da Alemanha - Poder360",
-        "timestamp": "2026-05-02T16:55:51Z"
-    },
-    {
-        "source": "CNN Brasil",
-        "title": "Chuvas em PE: Estado tem oito rios com aviso hidrológico de inundação - CNN Brasil",
-        "timestamp": "2026-05-01T23:44:57Z"
-    },
-    {
         "source": "NSC Total",
         "title": "O que dizia a proposta do Irã para o fim da guerra rejeitada por Trump - NSC Total",
         "timestamp": "2026-05-02T16:15:00Z"
@@ -18,6 +8,16 @@
         "source": "Correio do Povo",
         "title": "Sobe para 19 o número de municípios gaúchos que tiveram transtornos com os temporais - Correio do Povo",
         "timestamp": "2026-05-02T14:56:14Z"
+    },
+    {
+        "source": "G1",
+        "title": "Sobe para 6 número de mortos e mais de 1.600 pessoas ficam desabrigadas em temporal; saiba como ajudar famílias afetadas - G1",
+        "timestamp": "2026-05-02T16:54:23Z"
+    },
+    {
+        "source": "Poder360",
+        "title": "Otan busca entender retirada de 5.000 soldados dos EUA da Alemanha - Poder360",
+        "timestamp": "2026-05-02T16:55:51Z"
     },
     {
         "source": "G1",
