@@ -1,13 +1,13 @@
 [
     {
+        "source": "Folha PE",
+        "title": "Bombeiros confirmam mais uma morte em São Lourenço da Mata e número de vítimas sobe para seis - Folha PE",
+        "timestamp": "2026-05-03T11:30:00Z"
+    },
+    {
         "source": "CartaCapital",
         "title": "Governador do PT defende que Lula mantenha indicação de Jorge Messias para vaga no STF - CartaCapital",
         "timestamp": "2026-05-02T16:09:00Z"
-    },
-    {
-        "source": "Folha PE",
-        "title": "Bombeiros confirmam mais uma morte em São Lourenço da Mata e número de vítimas sobe para seis - Folha PE",
-        "timestamp": "2026-05-02T17:36:48Z"
     },
     {
         "source": "Revista Oeste",
@@ -20,13 +20,13 @@
         "timestamp": "2026-05-03T03:16:30Z"
     },
     {
-        "source": "Folha de S.Paulo",
-        "title": "Grupo ativista afirma que brasileiro detido em Israel foi torturado após captura de barco para Gaza - Folha de S.Paulo",
-        "timestamp": "2026-05-02T17:41:00Z"
-    },
-    {
         "source": "CNN Brasil",
         "title": "Shakira no Rio: veja os looks usados pela diva em Copacabana - CNN Brasil",
         "timestamp": "2026-05-03T02:50:05Z"
+    },
+    {
+        "source": "Folha de S.Paulo",
+        "title": "Grupo ativista afirma que brasileiro detido em Israel foi torturado após captura de barco para Gaza - Folha de S.Paulo",
+        "timestamp": "2026-05-02T17:41:00Z"
     }
 ]
