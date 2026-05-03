@@ -5,14 +5,19 @@
         "timestamp": "2026-05-03T09:09:00Z"
     },
     {
-        "source": "Poder360",
-        "title": "Governador do Piauí defende nova indicação de Messias ao STF - Poder360",
-        "timestamp": "2026-05-02T19:16:17Z"
-    },
-    {
         "source": "Brasil 247",
         "title": "Wellington Dias afirma que Flávio Bolsonaro bateu no teto das pesquisas - Brasil 247",
         "timestamp": "2026-05-03T14:37:09Z"
+    },
+    {
+        "source": "NSC Total",
+        "title": "O que dizia a proposta do Irã para o fim da guerra rejeitada por Trump - NSC Total",
+        "timestamp": "2026-05-02T16:15:00Z"
+    },
+    {
+        "source": "Poder360",
+        "title": "Governador do Piauí defende nova indicação de Messias ao STF - Poder360",
+        "timestamp": "2026-05-02T19:16:17Z"
     },
     {
         "source": "Metrópoles",
@@ -23,10 +28,5 @@
         "source": "Revista Oeste",
         "title": "Paraíba decreta calamidade pública depois de chuvas históricas - Revista Oeste",
         "timestamp": "2026-05-02T14:48:39Z"
-    },
-    {
-        "source": "CNN Brasil",
-        "title": "Nuvem \"de rolo\" chama atenção de banhistas no litoral de SP; veja vídeo - CNN Brasil",
-        "timestamp": "2026-05-03T01:20:24Z"
     }
 ]
