@@ -1,23 +1,8 @@
 [
     {
-        "source": "G1",
-        "title": "Desaprovação de Trump atinge novo recorde em meio à guerra com o Irã, diz pesquisa - G1",
-        "timestamp": "2026-05-03T21:18:53Z"
-    },
-    {
-        "source": "Jovem Pan",
-        "title": "Irã desafia os EUA a escolher entre um ‘acordo ruim’ e uma ‘operação militar impossível’ - Jovem Pan",
-        "timestamp": "2026-05-03T13:06:29Z"
-    },
-    {
-        "source": "O Antagonista",
-        "title": "Polícia identifica cinco suspeitos por estupro coletivo de meninas - O Antagonista",
-        "timestamp": "2026-05-03T17:46:00Z"
-    },
-    {
-        "source": "Correio Braziliense",
-        "title": "Pernambuco e Paraíba em estado de emergência por conta de temporais - Correio Braziliense",
-        "timestamp": "2026-05-03T09:09:00Z"
+        "source": "Rádio Itatiaia",
+        "title": "Estupro coletivo em SP: ‘Não consegui ver o vídeo até o fim, terrível’, diz secretário - Rádio Itatiaia",
+        "timestamp": "2026-05-03T21:38:12Z"
     },
     {
         "source": "Metrópoles",
@@ -28,5 +13,20 @@
         "source": "Revista Oeste",
         "title": "Magno Malta registra boletim de ocorrência contra técnica de enfermagem - Revista Oeste",
         "timestamp": "2026-05-03T19:15:13Z"
+    },
+    {
+        "source": "Correio Braziliense",
+        "title": "Esposa de Thiago Ávila relata agressões durante detenção em Israel - Correio Braziliense",
+        "timestamp": "2026-05-03T17:00:00Z"
+    },
+    {
+        "source": "Jovem Pan",
+        "title": "Irã desafia os EUA a escolher entre um ‘acordo ruim’ e uma ‘operação militar impossível’ - Jovem Pan",
+        "timestamp": "2026-05-03T13:06:29Z"
+    },
+    {
+        "source": "UOL Notícias",
+        "title": "Surto de hantavírus mata três pessoas em cruzeiro e aciona alerta da OMS - UOL Notícias",
+        "timestamp": "2026-05-03T18:25:42Z"
     }
 ]
