@@ -1,8 +1,13 @@
 [
     {
-        "source": "Folha de S.Paulo",
-        "title": "PF faz buscas contra Ciro Nogueira em nova fase de operação do caso Master - Folha de S.Paulo",
-        "timestamp": "2026-05-07T10:24:00Z"
+        "source": "O Globo",
+        "title": "Anvisa determina recolhimento de produtos da marca Ypê e suspende fabricação dos itens; veja quais - O Globo",
+        "timestamp": "2026-05-07T14:25:39Z"
+    },
+    {
+        "source": "CNN Brasil",
+        "title": "Quem é Ciro Nogueira, senador e ex-ministro de Bolsonaro que foi alvo da PF - CNN Brasil",
+        "timestamp": "2026-05-07T11:42:14Z"
     },
     {
         "source": "NSC Total",
@@ -15,18 +20,13 @@
         "timestamp": "2026-05-07T02:16:00Z"
     },
     {
-        "source": "Poder360",
-        "title": "Câmara aprova fundo de R$ 5 bi e controle da União sobre minerais críticos - Poder360",
-        "timestamp": "2026-05-07T00:07:02Z"
-    },
-    {
-        "source": "CNN Brasil",
-        "title": "Frio intenso atinge o Brasil logo antes do fim de semana do Dia das Mães - CNN Brasil",
-        "timestamp": "2026-05-07T06:33:31Z"
-    },
-    {
         "source": "CNN Brasil",
         "title": "Juíza morre após passar por coleta de óvulos em clínica de reprodução de SP - CNN Brasil",
         "timestamp": "2026-05-07T09:44:36Z"
+    },
+    {
+        "source": "Climatempo",
+        "title": "Brasil terá fortes rajadas de vento entre 6 e 10 de maio - Climatempo",
+        "timestamp": "2026-05-06T22:53:02Z"
     }
 ]
