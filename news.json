@@ -1,10 +1,5 @@
 [
     {
-        "source": "ESPN Brasil",
-        "title": "Árbitro paralisa jogo do Flamengo na Libertadores, e jogadores deixam gramado após confusão no Atanasio Girardot - ESPN Brasil",
-        "timestamp": "2026-05-08T00:49:00Z"
-    },
-    {
         "source": "Poder360",
         "title": "Lula consegue 30 dias para negociar com Trump sobre tarifas - Poder360",
         "timestamp": "2026-05-08T01:53:41Z"
@@ -15,18 +10,23 @@
         "timestamp": "2026-05-07T21:38:56Z"
     },
     {
-        "source": "BBC",
-        "title": "Devemos nos preocupar com o hantavírus que já matou 3 em navio? - BBC",
-        "timestamp": "2026-05-07T19:59:28Z"
-    },
-    {
         "source": "Folha de S.Paulo",
         "title": "Alcolumbre pede agenda com Lula para restabelecer relação após derrota de Messias - Folha de S.Paulo",
         "timestamp": "2026-05-07T22:49:00Z"
     },
     {
-        "source": "Climatempo",
-        "title": "Previsão Brasil (08/05): Frente fria provoca temporais e chuva volumosa no Sul do país e em MS - Climatempo",
-        "timestamp": "2026-05-07T18:02:00Z"
+        "source": "Revista Oeste",
+        "title": "Aliado de Moraes no TSE se reúne com advogado de Vorcaro em hotel de Brasília - Revista Oeste",
+        "timestamp": "2026-05-07T10:25:05Z"
+    },
+    {
+        "source": "BBC",
+        "title": "Devemos nos preocupar com o hantavírus que já matou 3 em navio? - BBC",
+        "timestamp": "2026-05-07T19:59:28Z"
+    },
+    {
+        "source": "Metrópoles",
+        "title": "Dino pede vista e suspende julgamento dos royalties do petróleo no STF - Metrópoles",
+        "timestamp": "2026-05-07T19:18:20Z"
     }
 ]
