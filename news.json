@@ -1,18 +1,23 @@
 [
     {
+        "source": "G1",
+        "title": "Casa explode no Jaguaré, na Zona Oeste de SP - G1",
+        "timestamp": "2026-05-11T19:52:52Z"
+    },
+    {
         "source": "CNN Brasil",
         "title": "Paulinho da Força responde fala de Flávio sobre \"jogo combinado\" com Moraes - CNN Brasil",
         "timestamp": "2026-05-11T14:58:17Z"
     },
     {
-        "source": "Folha de S.Paulo",
-        "title": "Explosão destrói casas no Jaguaré, na zona oeste de São Paulo - Folha de S.Paulo",
-        "timestamp": "2026-05-11T20:12:00Z"
+        "source": "Metrópoles",
+        "title": "Nunes Marques é o relator do pedido de revisão criminal de Bolsonaro no STF - Metrópoles",
+        "timestamp": "2026-05-11T21:51:00Z"
     },
     {
-        "source": "Revista Oeste",
-        "title": "Estudantes de Medicina da USP fazem greve e param atividades em hospital - Revista Oeste",
-        "timestamp": "2026-05-11T13:52:21Z"
+        "source": "Poder360",
+        "title": "Grevistas de Unesp, USP e Unicamp têm confronto com bolsonaristas - Poder360",
+        "timestamp": "2026-05-11T21:58:48Z"
     },
     {
         "source": "Correio Braziliense",
@@ -20,13 +25,8 @@
         "timestamp": "2026-05-11T17:03:00Z"
     },
     {
-        "source": "O Globo",
-        "title": "França confirma primeiro caso de hantavírus e identifica 22 contatos - O Globo",
-        "timestamp": "2026-05-11T07:04:21Z"
-    },
-    {
-        "source": "JOTA",
-        "title": "Futura/Apex: Lula e Flávio Bolsonaro aparecem em margem de empate no 1º turno - JOTA",
-        "timestamp": "2026-05-11T17:12:29Z"
+        "source": "CNN Brasil",
+        "title": "EUA confirmam que americano testou positivo para hantavírus após cruzeiro - CNN Brasil",
+        "timestamp": "2026-05-11T05:54:28Z"
     }
 ]
