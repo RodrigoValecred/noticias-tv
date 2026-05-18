@@ -1,10 +1,5 @@
 [
     {
-        "source": "Estadão",
-        "title": "Lula se prepara para reenviar indicação de Messias antes das eleições, mas ministro adota cautela - Estadão",
-        "timestamp": "2026-05-17T19:04:17Z"
-    },
-    {
         "source": "G1",
         "title": "Quaest: 52% são contra redução de penas a envolvidos no 8 de Janeiro - G1",
         "timestamp": "2026-05-17T18:30:51Z"
@@ -15,18 +10,23 @@
         "timestamp": "2026-05-17T19:05:00Z"
     },
     {
+        "source": "Correio Braziliense",
+        "title": "Lula insiste em Messias e prepara nova indicação ao STF - Correio Braziliense",
+        "timestamp": "2026-05-17T18:56:00Z"
+    },
+    {
         "source": "G1",
         "title": "Datafolha: governo Lula vai pior em segurança e melhor no combate à fome, dizem eleitores - G1",
         "timestamp": "2026-05-17T16:03:28Z"
     },
     {
-        "source": "CNN Brasil",
-        "title": "Trump sabe que sou melhor que Bolsonaro, diz Lula ao The Washington Post - CNN Brasil",
-        "timestamp": "2026-05-17T11:16:35Z"
+        "source": "Jovem Pan",
+        "title": "Morre piloto da polícia baleado na testa durante operação no Rio - Jovem Pan",
+        "timestamp": "2026-05-17T23:38:27Z"
     },
     {
-        "source": "O Antagonista",
-        "title": "Ucrânia lança ataque massivo de drones contra a Rússia - O Antagonista",
-        "timestamp": "2026-05-17T14:00:00Z"
+        "source": "Folha de S.Paulo",
+        "title": "DC oficializa nome de Joaquim Barbosa como presidenciável e consolida racha no partido - Folha de S.Paulo",
+        "timestamp": "2026-05-17T00:10:00Z"
     }
 ]
