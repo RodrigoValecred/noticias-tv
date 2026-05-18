@@ -1,13 +1,23 @@
 [
     {
+        "source": "UOL",
+        "title": "CBF fecha com Tino Marcos e Erika Januza para evento de convocação para Copa do Mundo - UOL",
+        "timestamp": "2026-05-18T16:28:52Z"
+    },
+    {
         "source": "Correio Braziliense",
         "title": "PL quer saber se Flávio Bolsonaro teve mais contatos com Vorcaro - Correio Braziliense",
         "timestamp": "2026-05-18T11:28:00Z"
     },
     {
-        "source": "UOL Notícias",
-        "title": "Receita fecha 2 shoppings no Brás, em SP, por suspeita de falsificação - UOL Notícias",
-        "timestamp": "2026-05-18T15:09:22Z"
+        "source": "Poder360",
+        "title": "Viana critica Motta por abertura de CPI do Master: “Já se entregou” - Poder360",
+        "timestamp": "2026-05-18T13:17:04Z"
+    },
+    {
+        "source": "CNN Brasil",
+        "title": "Vídeo: Incêndio em caminhão-tanque bloqueia Avenida Brasil, no Rio - CNN Brasil",
+        "timestamp": "2026-05-18T18:07:56Z"
     },
     {
         "source": "CartaCapital",
@@ -15,18 +25,8 @@
         "timestamp": "2026-05-18T13:24:00Z"
     },
     {
-        "source": "CNN Brasil",
-        "title": "Irã envia proposta revisada aos EUA para encerrar guerra, diz fonte - CNN Brasil",
-        "timestamp": "2026-05-18T10:14:19Z"
-    },
-    {
-        "source": "NeoFeed",
-        "title": "\"Não tem milagre”: CEO da Riachuelo prevê demissões e avalia cross‑border após fim da taxa das blusinhas - NeoFeed",
-        "timestamp": "2026-05-18T10:56:00Z"
-    },
-    {
-        "source": "O Globo",
-        "title": "Corpos de quatro italianos desaparecidos em mergulho são encontrados em caverna nas Maldivas - O Globo",
-        "timestamp": "2026-05-18T11:35:41Z"
+        "source": "NSC Total",
+        "title": "Tragédia em Maldivas: corpos de mergulhadores são achados em caverna a 60 m de profundidade - NSC Total",
+        "timestamp": "2026-05-18T15:49:25Z"
     }
 ]
