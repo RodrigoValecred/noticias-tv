@@ -1,8 +1,23 @@
 [
     {
+        "source": "G1",
+        "title": "Congresso derruba veto de Lula e permite doações a estados e municípios durante campanha eleitoral - G1",
+        "timestamp": "2026-05-21T17:03:35Z"
+    },
+    {
         "source": "CNN Brasil",
-        "title": "Deolane Bezerra é presa em SP: veja chegada na delegacia - CNN Brasil",
-        "timestamp": "2026-05-21T12:57:59Z"
+        "title": "Deolane Bezerra emprestou contas para o PCC; entenda lavagem de dinheiro - CNN Brasil",
+        "timestamp": "2026-05-21T14:52:04Z"
+    },
+    {
+        "source": "CartaCapital",
+        "title": "Alcolumbre rejeita ler requerimento para instalar a CPI do Master - CartaCapital",
+        "timestamp": "2026-05-21T17:24:00Z"
+    },
+    {
+        "source": "Correio Braziliense",
+        "title": "Flávio Bolsonaro articula encontro com Trump em meio à crise com Vorcaro - Correio Braziliense",
+        "timestamp": "2026-05-21T13:42:00Z"
     },
     {
         "source": "CNN Brasil",
@@ -10,23 +25,8 @@
         "timestamp": "2026-05-21T11:47:15Z"
     },
     {
-        "source": "Revista Oeste",
-        "title": "PGR continua com a delação de Vorcaro mesmo depois de recusa da PF - Revista Oeste",
-        "timestamp": "2026-05-21T11:31:42Z"
-    },
-    {
         "source": "UOL Notícias",
         "title": "Letícia Casado: Gestão de Rogério Marinho agrava crise na pré-campanha de Flávio Bolsonaro - UOL Notícias",
         "timestamp": "2026-05-21T14:35:35Z"
-    },
-    {
-        "source": "CartaCapital",
-        "title": "A disputa entre Tarcísio e Haddad pelo governo de São Paulo, segundo o Paraná Pesquisas - CartaCapital",
-        "timestamp": "2026-05-21T11:03:00Z"
-    },
-    {
-        "source": "Revista Fórum",
-        "title": "Lula dispara e Flávio Bolsonaro despenca no segundo turno em pesquisa Vox Brasil - Revista Fórum",
-        "timestamp": "2026-05-20T11:44:08Z"
     }
 ]
