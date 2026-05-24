@@ -1,13 +1,8 @@
 [
     {
-        "source": "InfoMoney",
-        "title": "Mega-Sena 30 anos: prêmio estimado sobe para R$ 330 milhões; veja regras - InfoMoney",
-        "timestamp": "2026-05-24T11:55:00Z"
-    },
-    {
-        "source": "G1",
-        "title": "Dino diz não ver ilegalidade em prisão preventiva e nega liberdade a Deolane - G1",
-        "timestamp": "2026-05-24T11:33:45Z"
+        "source": "O Globo",
+        "title": "Mega-Sena de 30 anos: duas apostas acertam prêmio de R$ 336 milhões; veja dezenas - O Globo",
+        "timestamp": "2026-05-24T17:04:19Z"
     },
     {
         "source": "CNN Brasil",
@@ -15,18 +10,23 @@
         "timestamp": "2026-05-24T14:47:21Z"
     },
     {
-        "source": "CartaCapital",
-        "title": "Datafolha: 88% dos eleitores de Flávio querem senador na disputa presidencial, apesar do escândalo 'Dark Horse' - CartaCapital",
-        "timestamp": "2026-05-23T13:22:00Z"
-    },
-    {
-        "source": "Revista Oeste",
-        "title": "Barroso sai em defesa do STF e nega irregularidades em decisões ligadas ao Master - Revista Oeste",
-        "timestamp": "2026-05-23T18:00:00Z"
-    },
-    {
         "source": "UOL Notícias",
         "title": "Josias de Souza: Mesmo preso, Bolsonaro conduz direita que não quis se endireitar - UOL Notícias",
         "timestamp": "2026-05-24T07:17:54Z"
+    },
+    {
+        "source": "CNN Brasil",
+        "title": "Dino não vê \"ilegalidade\" em prisão preventiva e nega liberdade a Deolane - CNN Brasil",
+        "timestamp": "2026-05-24T14:06:32Z"
+    },
+    {
+        "source": "Poder360",
+        "title": "Disparos perto da Casa Branca mobilizam Serviço Secreto; atirador morre - Poder360",
+        "timestamp": "2026-05-24T03:28:55Z"
+    },
+    {
+        "source": "CartaCapital",
+        "title": "Datafolha: 88% dos eleitores de Flávio querem senador na disputa presidencial, apesar do escândalo 'Dark Horse' - CartaCapital",
+        "timestamp": "2026-05-23T13:22:00Z"
     }
 ]
