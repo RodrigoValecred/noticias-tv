@@ -5,9 +5,19 @@
         "timestamp": "2026-05-30T06:30:35Z"
     },
     {
+        "source": "G1",
+        "title": "Governo detalha bloqueio no Orçamento; ministérios da Defesa, Cidades e Educação lideram cortes - G1",
+        "timestamp": "2026-05-30T11:20:15Z"
+    },
+    {
         "source": "O Globo",
         "title": "Caso Henry: perícia descarta acidente doméstico, Jairinho e Monique deixam plenário, e depoimento de Leniel avança a madrugada; veja destaques do quinto dia de julgamento - O Globo",
         "timestamp": "2026-05-30T06:58:46Z"
+    },
+    {
+        "source": "CNN Brasil",
+        "title": "Caverna no Laos: Chance de chuva ameaça busca por dois desaparecidos - CNN Brasil",
+        "timestamp": "2026-05-30T13:40:02Z"
     },
     {
         "source": "CartaCapital",
@@ -18,15 +28,5 @@
         "source": "CNN Brasil",
         "title": "Imposto de Renda 2026: Não entreguei declaração, e agora? - CNN Brasil",
         "timestamp": "2026-05-30T03:00:54Z"
-    },
-    {
-        "source": "CNN Brasil",
-        "title": "Mais 4 homens são resgatados de caverna no Laos; 2 seguem desaparecidos - CNN Brasil",
-        "timestamp": "2026-05-30T14:21:51Z"
-    },
-    {
-        "source": "JOTA",
-        "title": "Agregador do JOTA: favoritismo de Lula cresce e atinge pico neste ciclo eleitoral - JOTA",
-        "timestamp": "2026-05-29T13:00:27Z"
     }
 ]
