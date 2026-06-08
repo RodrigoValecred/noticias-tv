@@ -1,13 +1,8 @@
 [
     {
-        "source": "BBC",
-        "title": "Israel contraria Trump e ataca Irã após bombardeios iranianos com mísseis ao país - BBC",
-        "timestamp": "2026-06-08T02:29:51Z"
-    },
-    {
-        "source": "O Globo",
-        "title": "Parada LGBT+ chegou a reunir 36,8 mil pessoas neste domingo em São Paulo, mostra levantamento da USP - O Globo",
-        "timestamp": "2026-06-07T20:54:24Z"
+        "source": "CNN Brasil",
+        "title": "Petroquímica do Irã é atingida, enquanto Israel intercepta onda de mísseis - CNN Brasil",
+        "timestamp": "2026-06-08T05:29:11Z"
     },
     {
         "source": "Correio do Povo",
@@ -15,18 +10,23 @@
         "timestamp": "2026-06-07T22:45:50Z"
     },
     {
-        "source": "Poder360",
-        "title": "Ciro Gomes diz que EUA sancionarão só quem colabora com PCC e CV - Poder360",
-        "timestamp": "2026-06-07T19:34:12Z"
-    },
-    {
-        "source": "Correio do Povo",
-        "title": "MP recorre para reverter decisão que permitiu perdão judicial a Monique Medeiros - Correio do Povo",
-        "timestamp": "2026-06-06T20:40:32Z"
-    },
-    {
         "source": "CNN Brasil",
-        "title": "Trump diz que pressionará Israel a não retaliar Irã após ataque - CNN Brasil",
-        "timestamp": "2026-06-07T21:36:43Z"
+        "title": "À CNN, Irã diz que contradições dos EUA são maior problema das negociações - CNN Brasil",
+        "timestamp": "2026-06-07T10:46:32Z"
+    },
+    {
+        "source": "O Globo",
+        "title": "Parada LGBT+ chegou a reunir 36,8 mil pessoas neste domingo em São Paulo, mostra levantamento da USP - O Globo",
+        "timestamp": "2026-06-07T20:54:24Z"
+    },
+    {
+        "source": "G1",
+        "title": "Terremoto de magnitude 7,8 atinge ilha das Filipinas; alerta de tsunami chegou a ser ativado - G1",
+        "timestamp": "2026-06-08T00:13:43Z"
+    },
+    {
+        "source": "Poder360",
+        "title": "PCC e CV estão presentes em mais Estados do que o McDonald’s - Poder360",
+        "timestamp": "2026-06-07T09:01:52Z"
     }
 ]
