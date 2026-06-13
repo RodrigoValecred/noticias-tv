@@ -1,8 +1,23 @@
 [
     {
+        "source": "G1",
+        "title": "Mulher morre após ser jogada de altura de 40 metros sem cordas ao tentar pular de rope jump em SP - G1",
+        "timestamp": "2026-06-13T15:30:43Z"
+    },
+    {
         "source": "BBC",
         "title": "Trump anuncia morte do líder do grupo venezuelano Tren de Aragua: quem era Niño Guerrero? - BBC",
         "timestamp": "2026-06-13T12:38:07Z"
+    },
+    {
+        "source": "CartaCapital",
+        "title": "Justiça italiana acusa Moraes de parcialidade em processo de Carla Zambelli - CartaCapital",
+        "timestamp": "2026-06-12T12:07:00Z"
+    },
+    {
+        "source": "Revista Fórum",
+        "title": "Militante idoso do PT é agredido por bolsonaristas por usar adesivo de Benedita da Silva - Revista Fórum",
+        "timestamp": "2026-06-13T15:28:41Z"
     },
     {
         "source": "CNN Brasil",
@@ -10,23 +25,8 @@
         "timestamp": "2026-06-13T13:02:20Z"
     },
     {
-        "source": "CNN Brasil",
-        "title": "Fim da 6x1 teria impacto de bilhões, diz diretora da SRB - CNN Brasil",
-        "timestamp": "2026-06-13T08:30:41Z"
-    },
-    {
-        "source": "Poder360",
-        "title": "Flávio posta vídeo para defender maioridade aos 16 anos e é criticado - Poder360",
-        "timestamp": "2026-06-12T16:23:07Z"
-    },
-    {
-        "source": "Folha de S.Paulo",
-        "title": "Produtora declara gasto de R$ 75 milhões com 'Dark Horse' e pode adiar exibição do filme após desgaste - Folha de S.Paulo",
-        "timestamp": "2026-06-13T01:48:00Z"
-    },
-    {
         "source": "Revista Oeste",
-        "title": "Massa de ar polar chega ao país neste fim de semana - Revista Oeste",
-        "timestamp": "2026-06-13T09:00:00Z"
+        "title": "PF aguarda manifestação da PGR para devolver Vorcaro à Papuda - Revista Oeste",
+        "timestamp": "2026-06-13T11:06:42Z"
     }
 ]
