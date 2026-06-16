@@ -1,13 +1,18 @@
 [
     {
+        "source": "CNN Brasil",
+        "title": "Mbappé marca dois, França supera Senegal e estreia com vitória na Copa - CNN Brasil",
+        "timestamp": "2026-06-16T21:04:08Z"
+    },
+    {
         "source": "G1",
-        "title": "STF condena Eduardo Bolsonaro por coação em processo sobre trama golpista - G1",
+        "title": "STF condena Eduardo Bolsonaro a 4 anos e 2 meses de prisão por coação em processo sobre trama golpista - G1",
         "timestamp": "2026-06-16T19:20:10Z"
     },
     {
-        "source": "CNN Brasil",
-        "title": "Vorcaro bancou viagens de Ciro a Paris, NY, Lisboa e Courchevel, diz PF - CNN Brasil",
-        "timestamp": "2026-06-16T18:15:07Z"
+        "source": "Folha de S.Paulo",
+        "title": "Vorcaro bancou suítes em hotel de Lisboa para Hugo Motta e Ciro Nogueira, diz PF - Folha de S.Paulo",
+        "timestamp": "2026-06-16T17:20:00Z"
     },
     {
         "source": "Poder360",
@@ -15,18 +20,13 @@
         "timestamp": "2026-06-16T18:28:24Z"
     },
     {
-        "source": "G1",
-        "title": "Gilmar Mendes vota para soltar primo de Vorcaro e por prisão domiciliar para pai do banqueiro; STF mantém prisões - G1",
-        "timestamp": "2026-06-16T18:39:43Z"
-    },
-    {
-        "source": "BBC",
-        "title": "Quem é Felipe Linares De Oliveira Dell Aquilla, brasileiro suposto ex-chefe do PCC e do CV preso nos EUA - BBC",
-        "timestamp": "2026-06-16T15:18:48Z"
-    },
-    {
         "source": "Estadão",
-        "title": "Irmã de Sicário enviou recados a pai de Vorcaro: ‘Tenho material para acabar com a família inteira’ - Estadão",
-        "timestamp": "2026-06-16T14:30:00Z"
+        "title": "STF decide manter prisão de pai e primo de Vorcaro em sessão marcada por divergência de ministros - Estadão",
+        "timestamp": "2026-06-16T19:48:06Z"
+    },
+    {
+        "source": "O Globo",
+        "title": "'Festa no IML': deputadas pedem investigação após incitação de estupro e necrofilia contra jovem morta em rope jump - O Globo",
+        "timestamp": "2026-06-16T18:04:19Z"
     }
 ]
