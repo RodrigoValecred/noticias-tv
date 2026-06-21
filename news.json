@@ -1,13 +1,13 @@
 [
     {
         "source": "CNN Brasil",
-        "title": "O que se sabe sobre o envio de alerta severo falso da Defesa Civil - CNN Brasil",
-        "timestamp": "2026-06-21T09:20:36Z"
-    },
-    {
-        "source": "CNN Brasil",
         "title": "Trump ameaça Irã com ataques se país não impedir \"problemas\" no Líbano - CNN Brasil",
         "timestamp": "2026-06-21T13:59:08Z"
+    },
+    {
+        "source": "O Globo",
+        "title": "'Misantropia', autor e alcance das mensagens: Entenda em seis pontos o caso do alerta falso da Defesa Civil - O Globo",
+        "timestamp": "2026-06-21T06:30:14Z"
     },
     {
         "source": "CNN Brasil",
@@ -15,9 +15,9 @@
         "timestamp": "2026-06-21T06:35:15Z"
     },
     {
-        "source": "Poder360",
-        "title": "Colombianos vão às urnas para definir presidente em 2º turno - Poder360",
-        "timestamp": "2026-06-21T09:02:13Z"
+        "source": "CartaCapital",
+        "title": "A disputa entre Lula e Flávio Bolsonaro no segundo turno, segundo o novo Datafolha - CartaCapital",
+        "timestamp": "2026-06-20T15:49:00Z"
     },
     {
         "source": "Poder360",
@@ -25,8 +25,8 @@
         "timestamp": "2026-06-20T10:04:00Z"
     },
     {
-        "source": "O Globo",
-        "title": "Irã anuncia novo fechamento do Estreito de Ormuz ao tráfego de embarcações - O Globo",
-        "timestamp": "2026-06-20T13:41:38Z"
+        "source": "Correio Braziliense",
+        "title": "Colômbia decide presidente em segundo turno marcado por polarização - Correio Braziliense",
+        "timestamp": "2026-06-21T11:46:00Z"
     }
 ]
