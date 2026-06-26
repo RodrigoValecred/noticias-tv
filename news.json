@@ -1,18 +1,13 @@
 [
     {
-        "source": "bbc.com",
-        "title": "Vídeo de Michelle é novo revés para a campanha de Flávio Bolsonaro, diz Financial Times - bbc.com",
-        "timestamp": "2026-06-26T07:43:47Z"
-    },
-    {
         "source": "G1",
-        "title": "Mulher de jogador de futebol é encontrada morta em meio a escombros após terremoto na Venezuela; filha foi resgatada - G1",
-        "timestamp": "2026-06-25T22:39:05Z"
+        "title": "Jogador venezuelano diz que esposa morreu para salvar filha durante terremoto - G1",
+        "timestamp": "2026-06-26T13:51:52Z"
     },
     {
-        "source": "CNN Brasil",
-        "title": "Vorcaro passa primeira noite na Papudinha após STF determinar transferência - CNN Brasil",
-        "timestamp": "2026-06-26T06:30:22Z"
+        "source": "BBC",
+        "title": "Vídeo de Michelle é novo revés para a campanha de Flávio Bolsonaro, diz Financial Times - BBC",
+        "timestamp": "2026-06-26T07:43:47Z"
     },
     {
         "source": "Poder360",
@@ -20,13 +15,18 @@
         "timestamp": "2026-06-26T09:03:03Z"
     },
     {
-        "source": "Revista Oeste",
-        "title": "Lula vai gastar mais R$ 5 bilhões para concluir obra parada desde o governo Dilma - Revista Oeste",
-        "timestamp": "2026-06-25T21:27:52Z"
+        "source": "G1",
+        "title": "Avião de pequeno porte bate no arranha-céu mais alto de Pequim - G1",
+        "timestamp": "2026-06-26T13:14:25Z"
     },
     {
-        "source": "CartaCapital",
-        "title": "Os números da nova pesquisa PoderData/Aya para a presidência - CartaCapital",
-        "timestamp": "2026-06-25T11:22:00Z"
+        "source": "Correio Braziliense",
+        "title": "Brasil x Japão: Servidores federais serão liberados às 11h na segunda (29) - Correio Braziliense",
+        "timestamp": "2026-06-26T11:56:00Z"
+    },
+    {
+        "source": "G1",
+        "title": "STF suspende multas da NR-1 sobre saúde mental no trabalho por 90 dias - G1",
+        "timestamp": "2026-06-26T11:44:13Z"
     }
 ]
