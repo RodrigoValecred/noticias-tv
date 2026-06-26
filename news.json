@@ -1,18 +1,23 @@
 [
     {
+        "source": "bbc.com",
+        "title": "Vídeo de Michelle é novo revés para a campanha de Flávio Bolsonaro, diz Financial Times - bbc.com",
+        "timestamp": "2026-06-26T07:43:47Z"
+    },
+    {
         "source": "G1",
         "title": "Mulher de jogador de futebol é encontrada morta em meio a escombros após terremoto na Venezuela; filha foi resgatada - G1",
         "timestamp": "2026-06-25T22:39:05Z"
     },
     {
-        "source": "Poder360",
-        "title": "Michelle fala em união e nega desentendimento com Flávio Bolsonaro - Poder360",
-        "timestamp": "2026-06-25T13:13:21Z"
+        "source": "CNN Brasil",
+        "title": "Vorcaro passa primeira noite na Papudinha após STF determinar transferência - CNN Brasil",
+        "timestamp": "2026-06-26T06:30:22Z"
     },
     {
         "source": "Poder360",
-        "title": "Mendonça determina o retorno de Vorcaro para a Papudinha - Poder360",
-        "timestamp": "2026-06-25T21:38:36Z"
+        "title": "Direita avança na América do Sul, mas esquerda governa 55% do PIB - Poder360",
+        "timestamp": "2026-06-26T09:03:03Z"
     },
     {
         "source": "Revista Oeste",
@@ -20,13 +25,8 @@
         "timestamp": "2026-06-25T21:27:52Z"
     },
     {
-        "source": "O GLOBO",
-        "title": "Milicianos trocaram de roupa em viatura da PM, em frente à delegacia, para tentar fugir; policiais foram afastados - O GLOBO",
-        "timestamp": "2026-06-25T18:55:28Z"
-    },
-    {
-        "source": "G1",
-        "title": "Sufocada por calor extremo, Paris proíbe consumo de álcool - G1",
-        "timestamp": "2026-06-25T20:52:30Z"
+        "source": "CartaCapital",
+        "title": "Os números da nova pesquisa PoderData/Aya para a presidência - CartaCapital",
+        "timestamp": "2026-06-25T11:22:00Z"
     }
 ]
