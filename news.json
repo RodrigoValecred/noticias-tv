@@ -1,8 +1,13 @@
 [
     {
         "source": "G1",
-        "title": "Itamaraty confirma morte de dois brasileiros após terremotos na Venezuela - G1",
-        "timestamp": "2026-06-25T23:23:40Z"
+        "title": "Mulher de jogador de futebol é encontrada morta em meio a escombros após terremoto na Venezuela; filha foi resgatada - G1",
+        "timestamp": "2026-06-25T22:39:05Z"
+    },
+    {
+        "source": "Poder360",
+        "title": "Michelle fala em união e nega desentendimento com Flávio Bolsonaro - Poder360",
+        "timestamp": "2026-06-25T13:13:21Z"
     },
     {
         "source": "Poder360",
@@ -10,23 +15,18 @@
         "timestamp": "2026-06-25T21:38:36Z"
     },
     {
-        "source": "Estadão",
-        "title": "Flávio Bolsonaro posta vídeo em resposta a Michelle e retira trecho sobre ligação não atendida; veja - Estadão",
-        "timestamp": "2026-06-25T18:39:00Z"
-    },
-    {
-        "source": "CNN Brasil",
-        "title": "Área técnica do STF aponta prevenção de Mendonça no caso \"Dark Horse\" - CNN Brasil",
-        "timestamp": "2026-06-25T21:06:34Z"
-    },
-    {
-        "source": "Correio Braziliense",
-        "title": "PGR rejeita proposta de delação premiada de ex-presidente do BRB - Correio Braziliense",
-        "timestamp": "2026-06-25T22:19:00Z"
-    },
-    {
         "source": "Revista Oeste",
         "title": "Lula vai gastar mais R$ 5 bilhões para concluir obra parada desde o governo Dilma - Revista Oeste",
         "timestamp": "2026-06-25T21:27:52Z"
+    },
+    {
+        "source": "O GLOBO",
+        "title": "Milicianos trocaram de roupa em viatura da PM, em frente à delegacia, para tentar fugir; policiais foram afastados - O GLOBO",
+        "timestamp": "2026-06-25T18:55:28Z"
+    },
+    {
+        "source": "G1",
+        "title": "Sufocada por calor extremo, Paris proíbe consumo de álcool - G1",
+        "timestamp": "2026-06-25T20:52:30Z"
     }
 ]
