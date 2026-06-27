@@ -1,8 +1,23 @@
 [
     {
+        "source": "G1",
+        "title": "Número de mortos em terremoto na Venezuela sobe para 1.430 - G1",
+        "timestamp": "2026-06-27T17:34:10Z"
+    },
+    {
         "source": "CNN Brasil",
-        "title": "Réplicas de terremotos na Venezuela atrapalham operações de resgate - CNN Brasil",
-        "timestamp": "2026-06-27T14:24:01Z"
+        "title": "Vídeo: Veja momento em que tenente da Rota, irmão de Eloá, é baleado em SP - CNN Brasil",
+        "timestamp": "2026-06-27T20:57:48Z"
+    },
+    {
+        "source": "Correio do Povo",
+        "title": "Guarda Revolucionária do Irã ataca posições dos EUA - Correio do Povo",
+        "timestamp": "2026-06-26T23:51:30Z"
+    },
+    {
+        "source": "Poder360",
+        "title": "Lula é rejeitado por 52,3% e Flávio, por 49,5%, diz pesquisa - Poder360",
+        "timestamp": "2026-06-27T03:04:02Z"
     },
     {
         "source": "G1",
@@ -10,23 +25,8 @@
         "timestamp": "2026-06-27T13:03:39Z"
     },
     {
-        "source": "Folha de S.Paulo",
-        "title": "Irmão de Eloá, tenente da Rota é baleado na cabeça em avenida de São Caetano - Folha de S.Paulo",
-        "timestamp": "2026-06-27T17:28:00Z"
-    },
-    {
-        "source": "CNN Brasil",
-        "title": "Petroleiro é atingido em Ormuz em meio a ataques entre Irã e EUA - CNN Brasil",
-        "timestamp": "2026-06-27T15:20:34Z"
-    },
-    {
         "source": "CNN Brasil",
         "title": "STF tem maioria para liberar penduricalhos adquiridos antes de restrição - CNN Brasil",
         "timestamp": "2026-06-27T16:28:27Z"
-    },
-    {
-        "source": "CNN Brasil",
-        "title": "Líder do Hezbollah rejeita acordo entre Líbano e Israel - CNN Brasil",
-        "timestamp": "2026-06-27T16:39:39Z"
     }
 ]
