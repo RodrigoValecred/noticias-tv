@@ -1,18 +1,13 @@
 [
     {
-        "source": "G1",
-        "title": "Número de mortos em terremoto na Venezuela sobe para 1.430 - G1",
-        "timestamp": "2026-06-27T17:34:10Z"
+        "source": "Estadão",
+        "title": "Trump anuncia retomada de ataques no Oriente Médio e ameaça ‘existência’ do Irã - Estadão",
+        "timestamp": "2026-06-27T23:38:13Z"
     },
     {
-        "source": "CNN Brasil",
-        "title": "Petroleiro é atingido em Ormuz em meio a ataques entre Irã e EUA - CNN Brasil",
-        "timestamp": "2026-06-27T15:20:34Z"
-    },
-    {
-        "source": "UOL Notícias",
-        "title": "Moto usada em atentado contra tenente da Rota, irmão de Eloá, é encontrada - UOL Notícias",
-        "timestamp": "2026-06-27T22:47:04Z"
+        "source": "BBC",
+        "title": "Mortos por terremotos na Venezuela passam de 1.400 enquanto equipes de resgate correm para encontrar sobreviventes - BBC",
+        "timestamp": "2026-06-28T00:43:26Z"
     },
     {
         "source": "O Globo",
@@ -20,13 +15,18 @@
         "timestamp": "2026-06-27T21:12:15Z"
     },
     {
-        "source": "G1",
-        "title": "Em carta, Marco Rubio agradece a Flávio Bolsonaro por colocar 'equipe de transição' à disposição dos EUA caso seja eleito - G1",
-        "timestamp": "2026-06-27T13:03:39Z"
+        "source": "MetSul Meteorologia",
+        "title": "Calor atinge níveis jamais vistos na Alemanha e Dinamarca - MetSul Meteorologia",
+        "timestamp": "2026-06-27T23:40:10Z"
     },
     {
         "source": "CNN Brasil",
-        "title": "STF tem maioria para liberar penduricalhos adquiridos antes de restrição - CNN Brasil",
-        "timestamp": "2026-06-27T16:28:27Z"
+        "title": "Relembre caso de Eloá Pimentel, irmã de tenente da Rota baleado em SP - CNN Brasil",
+        "timestamp": "2026-06-27T21:48:39Z"
+    },
+    {
+        "source": "Estadão",
+        "title": "Fux vota e STF forma maioria para liberar parte dos ‘penduricalhos’ a juízes e membros do MP - Estadão",
+        "timestamp": "2026-06-27T20:04:00Z"
     }
 ]
