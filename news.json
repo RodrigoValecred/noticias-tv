@@ -1,8 +1,18 @@
 [
     {
+        "source": "CNN Brasil",
+        "title": "Nexus: Lula e Flávio tem empate técnico no 2º turno com 47% e 44% - CNN Brasil",
+        "timestamp": "2026-06-29T10:22:46Z"
+    },
+    {
         "source": "Poder360",
         "title": "EUA ampliam ajuda à Venezuela após terremoto e enviam tropas e navio - Poder360",
         "timestamp": "2026-06-28T23:32:17Z"
+    },
+    {
+        "source": "G1",
+        "title": "Rodoviários entram em greve no Rio; viações afirmam que 30 ônibus foram vandalizados em piquetes - G1",
+        "timestamp": "2026-06-29T09:04:38Z"
     },
     {
         "source": "CNN Brasil",
@@ -10,23 +20,13 @@
         "timestamp": "2026-06-28T23:35:29Z"
     },
     {
-        "source": "dw.com",
-        "title": "Calor derrete asfalto e obstrui trilhos de bonde na Alemanha - dw.com",
+        "source": "DW.com",
+        "title": "Calor derrete asfalto e obstrui trilhos de bonde na Alemanha - DW.com",
         "timestamp": "2026-06-28T16:44:43Z"
     },
     {
-        "source": "Poder360",
-        "title": "Putin diz que Ocidente falhou em derrotar a Rússia - Poder360",
-        "timestamp": "2026-06-28T18:41:25Z"
-    },
-    {
-        "source": "Correio do Povo",
-        "title": "RS terá semana com extremos de frio e chuva; confira como será o dia a dia - Correio do Povo",
-        "timestamp": "2026-06-28T17:11:43Z"
-    },
-    {
-        "source": "InfoMoney",
-        "title": "Quem é o tenente da Rota, irmão de Eloá Pimentel, baleado na cabeça na Grande SP - InfoMoney",
-        "timestamp": "2026-06-28T15:05:01Z"
+        "source": "G1",
+        "title": "Vai ao banco? Veja os horários de atendimento das agências durante Brasil x Japão - G1",
+        "timestamp": "2026-06-29T03:00:42Z"
     }
 ]
