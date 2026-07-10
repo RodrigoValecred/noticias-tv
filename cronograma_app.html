@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronograma do Arraiá</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Nunito:wght@400;600;700&display=swap');
+
+        body {
+            font-family: 'Nunito', sans-serif;
+            background-color: #174720; /* Dark green outer background */
+            /* Try to create a plaid background like the image using gradients */
+            background-image:
+                repeating-linear-gradient(90deg, transparent, transparent 40px, rgba(255,255,255,0.1) 40px, rgba(255,255,255,0.1) 80px),
+                repeating-linear-gradient(180deg, transparent, transparent 40px, rgba(255,255,255,0.1) 40px, rgba(255,255,255,0.1) 80px);
+            margin: 0;
+            padding: 40px; /* Thicker outer padding for border effect */
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            box-sizing: border-box;
+        }
+
+        .container-inner {
+            background-color: #f1ebd8; /* Beige inner background */
+            width: 100%;
+            height: 100%;
+            border-radius: 20px;
+            border: 4px solid #174720;
+            box-shadow: inset 0 0 0 10px #f1ebd8, inset 0 0 0 12px #7ca185; /* Thinner inner borders */
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 50px;
+            padding-bottom: 20px;
+            overflow-y: hidden;
+        }
+
+        .banner-flags {
+            position: absolute;
+            top: -8px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+        }
+
+        @keyframes swing {
+            0% { transform: rotate(0deg); }
+            25% { transform: rotate(5deg); }
+            50% { transform: rotate(0deg); }
+            75% { transform: rotate(-5deg); }
+            100% { transform: rotate(0deg); }
+        }
+
+        .flag {
+            width: 30px; /* Smaller flags */
+            height: 40px;
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 70%, 0 100%);
+            transform-origin: top center;
+            animation: swing 3s infinite ease-in-out;
+        }
+
+        .flag:nth-child(odd) {
+            animation-delay: 0.5s;
+        }
+
+        .flag-green { background-color: #2e8b42; }
+        .flag-yellow { background-color: #f7ca25; }
+
+        h1 {
+            font-family: 'Montserrat', sans-serif;
+            color: #4b3223;
+            font-size: 3rem; /* Much smaller header */
+            line-height: 1.1;
+            text-align: center;
+            font-weight: 800;
+            margin-bottom: 0px;
+            text-transform: uppercase;
+        }
+
+        .subtitle {
+            font-family: 'Nunito', sans-serif;
+            color: #4b3223;
+            font-size: 1.2rem; /* Smaller subtitle */
+            margin-bottom: 15px; /* Reduced margin */
+            font-weight: 600;
+        }
+
+        .schedule-list {
+            display: flex;
+            flex-direction: column;
+            gap: 10px; /* Much smaller gap between items */
+            width: 80%;
+            max-width: 800px;
+        }
+
+        .schedule-item {
+            display: flex;
+            align-items: center;
+            gap: 15px; /* Reduced gap between time and text */
+        }
+
+        .time-badge {
+            background-color: #facd49;
+            color: #4b3223;
+            font-weight: 700;
+            font-size: 1.1rem; /* Smaller time text */
+            padding: 5px 10px; /* Reduced padding */
+            border-radius: 4px;
+            position: relative;
+            min-width: 140px; /* Reduced width */
+            text-align: center;
+            box-shadow: 3px 3px 0px #d6a133; /* Smaller shadow */
+        }
+
+        .time-badge::before {
+             content: '';
+             position: absolute;
+             left: -8px;
+             top: 50%;
+             transform: translateY(-50%);
+             border-width: 8px 8px 8px 0;
+             border-style: solid;
+             border-color: transparent #facd49 transparent transparent;
+        }
+
+        .time-badge::after {
+            content: '';
+            position: absolute;
+            right: -8px;
+            top: 50%;
+            transform: translateY(-50%);
+            border-width: 8px 0 8px 8px;
+            border-style: solid;
+            border-color: transparent transparent transparent #facd49;
+        }
+
+        .event-name {
+            color: #4b3223;
+            font-size: 1.2rem; /* Smaller event text */
+            font-weight: 600;
+        }
+
+        .footer-logo {
+            position: absolute;
+            bottom: 15px;
+            left: 30px;
+            color: #2e8b42;
+            font-weight: 800;
+            font-size: 1.8rem;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .footer-logo span {
+            color: #f7ca25;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container-inner">
+
+        <div class="banner-flags">
+            <div class="flag flag-green"></div>
+            <div class="flag flag-yellow"></div>
+            <div class="flag flag-green"></div>
+            <div class="flag flag-yellow"></div>
+            <div class="flag flag-green"></div>
+            <div class="flag flag-yellow"></div>
+            <div class="flag flag-green"></div>
+            <div class="flag flag-yellow"></div>
+            <div class="flag flag-green"></div>
+        </div>
+
+        <!-- VIEWS CONTAINER -->
+        <div id="views-container" style="width: 100%; height: 100%; display: flex; flex-direction: column; align-items: center; position: relative;">
+
+            <!-- VIEW: FULL SCHEDULE -->
+            <div id="view-schedule" class="view active-view" style="display: flex; flex-direction: column; align-items: center; width: 100%;">
+                <h1>Cronograma<br>do Arraiá</h1>
+                <div class="subtitle">Confira a programação e não perca nada!</div>
+
+        <div class="schedule-list">
+            <div class="schedule-item">
+                <div class="time-badge">08:10 - 08:30</div>
+                <div class="event-name">Abertura do evento</div>
+            </div>
+            <div class="schedule-item">
+                <div class="time-badge">08:30 - 09:45</div>
+                <div class="event-name">Café da manhã</div>
+            </div>
+            <div class="schedule-item">
+                <div class="time-badge">09:45 - 10:30</div>
+                <div class="event-name">Concurso do Traje Caipira</div>
+            </div>
+            <div class="schedule-item">
+                <div class="time-badge">10:45 - 11:45</div>
+                <div class="event-name">Jogo do Tigrinho</div>
+            </div>
+            <div class="schedule-item">
+                <div class="time-badge">11:30 - 14:30</div>
+                <div class="event-name">Almoço</div>
+            </div>
+            <div class="schedule-item">
+                <div class="time-badge">12:00 - 14:30</div>
+                <div class="event-name">Atividades festivas (Tacada Campeã, Argolas, etc.)</div>
+            </div>
+            <div class="schedule-item">
+                <div class="time-badge">14:40 - 15:30</div>
+                <div class="event-name">Bingo</div>
+            </div>
+            <div class="schedule-item">
+                <div class="time-badge">15:30 - 16:30</div>
+                <div class="event-name">Café da tarde</div>
+            </div>
+            <div class="schedule-item">
+                <div class="time-badge">16:30 - 17:25</div>
+                <div class="event-name">Sorteio de prêmios</div>
+            </div>
+        </div>
+        </div> <!-- End Schedule View -->
+
+        <!-- VIEW: MENU -->
+        <div id="view-menu" class="view" style="display: none; flex-direction: column; align-items: center; width: 100%;">
+            <h1>Cardápio<br>do Arraiá</h1>
+            <div class="subtitle">Confira nosso cardápio, preparado com carinho para você!</div>
+            <div id="menu-content" style="display: flex; flex-direction: column; align-items: center; gap: 20px; width: 80%; max-width: 800px; text-align: center;">
+                <!-- Content will be injected by JS -->
+            </div>
+        </div>
+
+        <!-- VIEW: JOKE/UPCOMING -->
+        <div id="view-joke" class="view" style="display: none; flex-direction: column; justify-content: center; align-items: center; width: 100%; height: 80%;">
+            <h1 id="joke-title" style="font-size: 4rem; color: #d64024;"></h1>
+            <div id="joke-subtitle" class="subtitle" style="font-size: 2.5rem; text-align: center; max-width: 80%;"></div>
+        </div>
+
+        <!-- VIEW: PHOTO -->
+        <div id="view-photo" class="view" style="display: none; flex-direction: column; align-items: center; justify-content: center; width: 100%; height: 90%;">
+            <img id="photo-display" src="" style="max-height: 80vh; max-width: 90vw; border: 8px solid white; box-shadow: 0 4px 8px rgba(0,0,0,0.3); transform: rotate(-2deg); border-radius: 4px;" alt="Arraiá Photo">
+        </div>
+
+        </div> <!-- End Views Container -->
+
+        <div class="footer-logo">
+            Vale<span>Cred</span>
+        </div>
+    </div>
+
+    <script>
+        const views = ['view-schedule', 'view-menu', 'view-joke', 'view-photo'];
+        let currentViewIndex = 0;
+
+        const menus = {
+            breakfast: {
+                title: 'CAFÉ DA MANHÃ',
+                items: ['Salgadinhos', 'Bolinho de frango', 'Bolo de queijadinha', 'Bolo de amendoim', 'Bolo de mandioca', 'Bolo de milho', 'Café com leite', 'Suco']
+            },
+            lunch: {
+                title: 'ALMOÇO',
+                items: ['Cuscuz paulista', 'Pamonha salgada', 'Pamonha doce', 'Arroz doce', 'Canjica', 'Refrigerante']
+            },
+            afternoon: {
+                title: 'CAFÉ DA TARDE',
+                items: ['Hot dog', 'Mini churros', 'Algodão doce', 'Pipoca doce', 'Refrigerante']
+            }
+        };
+
+        const jokes = [
+            { title: 'O almoço está liberado!', subtitle: 'É mentira!!! Faltam {minutes} minutos.' },
+            { title: 'O bingo vai começar!', subtitle: 'É mentira!!! Prepara a cartela que ainda falta um pouquinho.' },
+            { title: 'Olha a chuva!', subtitle: 'É mentira!!! Mas o café da tarde já tá chegando.' }
+        ];
+
+        // Sample photos
+        const photos = ['arraia_fotos/sample1.jpg', 'arraia_fotos/sample2.jpg', 'arraia_fotos/sample3.jpg'];
+
+        function updateMenuContent(mealType) {
+            const menu = menus[mealType];
+            if (!menu) return false;
+
+            const content = document.getElementById('menu-content');
+            content.innerHTML = `
+                <div class="time-badge" style="font-size: 1.5rem; width: auto; padding: 10px 30px;">${menu.title}</div>
+                <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; margin-top: 20px;">
+                    ${menu.items.map(item => `<div style="font-size: 1.6rem; color: #4b3223; font-weight: 600; width: 45%;">${item}</div>`).join('')}
+                </div>
+            `;
+            return true;
+        }
+
+        function updateJokeContent() {
+            const now = new Date();
+            const lunchTime = new Date();
+            lunchTime.setHours(11, 30, 0); // Lunch at 11:30
+
+            let joke = jokes[0]; // Default joke
+            let minutesDiff = Math.round((lunchTime - now) / 60000);
+
+            if (minutesDiff > 0 && minutesDiff < 60) {
+                 // Lunch is coming
+                 joke = jokes[0];
+            } else {
+                // Random joke if not near lunch
+                joke = jokes[Math.floor(Math.random() * jokes.length)];
+            }
+
+            document.getElementById('joke-title').innerText = joke.title;
+            document.getElementById('joke-subtitle').innerText = joke.subtitle.replace('{minutes}', minutesDiff > 0 ? minutesDiff : 'alguns');
+        }
+
+        function updatePhotoContent() {
+            if (photos.length > 0) {
+                const randomPhoto = photos[Math.floor(Math.random() * photos.length)];
+                document.getElementById('photo-display').src = randomPhoto + '?t=' + new Date().getTime(); // cache bust
+            }
+        }
+
+        function determineCurrentMeal() {
+            const now = new Date();
+            const hours = now.getHours();
+            const minutes = now.getMinutes();
+            const time = hours + minutes / 60;
+
+            if (time >= 8.5 && time < 10) return 'breakfast';
+            if (time >= 11.5 && time < 14.5) return 'lunch';
+            if (time >= 15.5 && time < 16.5) return 'afternoon';
+            return null; // Not meal time
+        }
+
+        function switchView() {
+            // Hide all views
+            views.forEach(id => {
+                document.getElementById(id).style.display = 'none';
+            });
+
+            // Determine next view
+            let nextViewId = views[currentViewIndex];
+
+            // Logic to skip views if not applicable
+            if (nextViewId === 'view-menu') {
+                const meal = determineCurrentMeal();
+                if (meal) {
+                    updateMenuContent(meal);
+                } else {
+                    // Skip menu if not meal time
+                    currentViewIndex = (currentViewIndex + 1) % views.length;
+                    nextViewId = views[currentViewIndex];
+                }
+            }
+
+            if (nextViewId === 'view-joke') {
+                updateJokeContent();
+            }
+
+            if (nextViewId === 'view-photo') {
+                 updatePhotoContent();
+            }
+
+            // Show next view
+            const viewEl = document.getElementById(nextViewId);
+            if (viewEl) {
+                viewEl.style.display = 'flex';
+            }
+
+            // Move to next index for next time
+            currentViewIndex = (currentViewIndex + 1) % views.length;
+        }
+
+        // Start rotation (every 10 seconds)
+        setInterval(switchView, 10000);
+        // Initial setup
+        switchView();
+
+    </script>
+</body>
+</html>
