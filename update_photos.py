@@ -1,5 +1,6 @@
 import os
 import re
+import json
 
 def update_photos():
     photos_dir = 'arraia_fotos'
@@ -17,7 +18,7 @@ def update_photos():
     photos.sort()
 
     # Format the array as a JavaScript array string
-    photos_js_array = "['" + "', '".join(photos) + "']" if photos else "[]"
+    photos_js_array = json.dumps(photos) if photos else "[]"
 
     # Read the HTML file
     with open(html_file, 'r', encoding='utf-8') as f:
