@@ -6,8 +6,8 @@ def update_photos():
     photos_dir = 'arraia_fotos'
     html_file = 'cronograma_app.html'
 
-    # Get list of valid images
-    valid_extensions = ('.jpg', '.jpeg', '.png', '.webp', '.gif')
+    # Get list of valid images and videos
+    valid_extensions = ('.jpg', '.jpeg', '.png', '.webp', '.gif', '.mp4', '.webm', '.ogg', '.mov', '.avi')
     try:
         files = os.listdir(photos_dir)
         photos = [f"{photos_dir}/{f}" for f in files if f.lower().endswith(valid_extensions)]
