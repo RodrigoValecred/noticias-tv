@@ -160,6 +160,28 @@
         .footer-logo span {
             color: #f7ca25;
         }
+
+        @keyframes toasty {
+            0% { transform: translate(100%, 100%); }
+            15% { transform: translate(0, 0); }
+            85% { transform: translate(0, 0); }
+            100% { transform: translate(100%, 100%); }
+        }
+
+        .milhao-mascot {
+            position: absolute;
+            bottom: -20px;
+            right: -20px;
+            height: 45vh;
+            max-height: 400px;
+            object-fit: contain;
+            transform: translate(100%, 100%);
+            z-index: 10;
+        }
+
+        .animate-toasty {
+            animation: toasty 2.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+        }
     </style>
 </head>
 <body>
@@ -242,8 +264,9 @@
         </div>
 
         <!-- VIEW: PHOTO -->
-        <div id="view-photo" class="view" style="display: none; flex-direction: column; align-items: center; justify-content: center; width: 100%; height: 90%;">
+        <div id="view-photo" class="view" style="display: none; flex-direction: column; align-items: center; justify-content: center; width: 100%; height: 90%; position: relative; overflow: hidden;">
             <img id="photo-display" src="" style="max-height: 80vh; max-width: 90vw; border: 8px solid white; box-shadow: 0 4px 8px rgba(0,0,0,0.3); transform: rotate(-2deg); border-radius: 4px;" alt="Arraiá Photo">
+            <img id="milhao-mascot" class="milhao-mascot" src="time_de_milhoes.png" alt="Time de milhões">
         </div>
 
         </div> <!-- End Views Container -->
@@ -398,6 +421,14 @@
 
             if (nextViewId === 'view-photo') {
                  updatePhotoContent();
+
+                 // Trigger Toasty animation
+                 const mascot = document.getElementById('milhao-mascot');
+                 if (mascot) {
+                     mascot.classList.remove('animate-toasty');
+                     void mascot.offsetWidth; // Force reflow
+                     mascot.classList.add('animate-toasty');
+                 }
             }
 
             // Show next view
