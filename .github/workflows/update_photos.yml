@@ -1,0 +1,33 @@
+name: Atualização Automática de Fotos
+
+on:
+  push:
+    paths:
+      - 'arraia_fotos/**'
+  workflow_dispatch: # Permite a execução manual
+
+jobs:
+  update-photos:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: 1. Checkout do repositório
+        uses: actions/checkout@v4
+
+      - name: 2. Configurar ambiente Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 3. Executar script para atualizar fotos
+        run: python update_photos.py
+
+      - name: 4. Fazer commit e push do arquivo HTML atualizado
+        run: |
+          git config --global user.name 'Fotos Bot'
+          git config --global user.email 'actions-bot@github.com'
+          git add cronograma_app.html
+          git diff --staged --quiet || (git commit -m "chore: Atualiza lista de fotos (automático)" && git push)
+          echo "Workflow concluído. Verifique o repositório para as fotos atualizadas."
