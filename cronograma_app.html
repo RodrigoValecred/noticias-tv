@@ -257,6 +257,18 @@
         const views = ['view-schedule', 'view-menu', 'view-joke', 'view-photo'];
         let currentViewIndex = 0;
 
+        const scheduleEvents = [
+            { start: '08:10', end: '08:30', name: 'Abertura do evento', menu: null },
+            { start: '08:30', end: '09:45', name: 'Café da manhã', menu: 'breakfast' },
+            { start: '09:45', end: '10:30', name: 'Concurso do Traje Caipira', menu: null },
+            { start: '10:45', end: '11:45', name: 'Jogo do Tigrinho', menu: null },
+            { start: '11:30', end: '14:30', name: 'Almoço', menu: 'lunch' },
+            { start: '12:00', end: '14:30', name: 'Atividades festivas', menu: null },
+            { start: '14:40', end: '15:30', name: 'Bingo', menu: null },
+            { start: '15:30', end: '16:30', name: 'Café da tarde', menu: 'afternoon' },
+            { start: '16:30', end: '17:25', name: 'Sorteio de prêmios', menu: null }
+        ];
+
         const menus = {
             breakfast: {
                 title: 'CAFÉ DA MANHÃ',
@@ -295,24 +307,39 @@
             return true;
         }
 
-        function updateJokeContent() {
-            const now = new Date();
-            const lunchTime = new Date();
-            lunchTime.setHours(11, 30, 0); // Lunch at 11:30
+        function getEventTimeStatus(event, now) {
+            const startParts = event.start.split(':');
+            const endParts = event.end.split(':');
+            const startTime = new Date(now);
+            startTime.setHours(parseInt(startParts[0], 10), parseInt(startParts[1], 10), 0, 0);
+            const endTime = new Date(now);
+            endTime.setHours(parseInt(endParts[0], 10), parseInt(endParts[1], 10), 0, 0);
 
-            let joke = jokes[0]; // Default joke
-            let minutesDiff = Math.round((lunchTime - now) / 60000);
+            const minutesToStart = Math.ceil((startTime - now) / 60000);
+            const isHappening = now >= startTime && now <= endTime;
+            const isUpcoming = minutesToStart > 0 && minutesToStart <= 15;
 
-            if (minutesDiff > 0 && minutesDiff < 60) {
-                 // Lunch is coming
-                 joke = jokes[0];
-            } else {
-                // Random joke if not near lunch
-                joke = jokes[Math.floor(Math.random() * jokes.length)];
+            return { isHappening, isUpcoming, minutesToStart };
+        }
+
+        function updateJokeContent(activeEvents) {
+            if (activeEvents.length === 0) return;
+
+            // Prioritize upcoming events, then currently happening
+            let targetEvent = activeEvents.find(e => e.status.isUpcoming);
+            if (!targetEvent) {
+                targetEvent = activeEvents.find(e => e.status.isHappening);
             }
 
-            document.getElementById('joke-title').innerText = joke.title;
-            document.getElementById('joke-subtitle').innerText = joke.subtitle.replace('{minutes}', minutesDiff > 0 ? minutesDiff : 'alguns');
+            if (!targetEvent) return;
+
+            if (targetEvent.status.isUpcoming) {
+                document.getElementById('joke-title').innerText = `${targetEvent.name} vai começar!`;
+                document.getElementById('joke-subtitle').innerText = `Faltam ${targetEvent.status.minutesToStart} minutos.`;
+            } else {
+                document.getElementById('joke-title').innerText = targetEvent.name;
+                document.getElementById('joke-subtitle').innerText = 'Está acontecendo agora!';
+            }
         }
 
         function updatePhotoContent() {
@@ -322,16 +349,31 @@
             }
         }
 
-        function determineCurrentMeal() {
+        function getActiveViews() {
             const now = new Date();
-            const hours = now.getHours();
-            const minutes = now.getMinutes();
-            const time = hours + minutes / 60;
+            // FOR TESTING: You can set a mock time here
+            // now.setHours(11, 20, 0);
 
-            if (time >= 8.5 && time < 10) return 'breakfast';
-            if (time >= 11.5 && time < 14.5) return 'lunch';
-            if (time >= 15.5 && time < 16.5) return 'afternoon';
-            return null; // Not meal time
+            let activeViews = ['view-schedule', 'view-photo']; // Default views
+
+            // Find relevant events
+            let activeEvents = scheduleEvents.map(event => {
+                return { ...event, status: getEventTimeStatus(event, now) };
+            }).filter(event => event.status.isHappening || event.status.isUpcoming);
+
+            // If there's an active/upcoming event, we show messages
+            if (activeEvents.length > 0) {
+                 activeViews.push('view-joke');
+                 // Check if any active/upcoming event has a menu
+                 let menuEvent = activeEvents.find(e => e.menu !== null);
+                 if (menuEvent) {
+                     activeViews.push('view-menu');
+                     updateMenuContent(menuEvent.menu);
+                 }
+                 updateJokeContent(activeEvents);
+            }
+
+            return activeViews;
         }
 
         function switchView() {
@@ -340,24 +382,14 @@
                 document.getElementById(id).style.display = 'none';
             });
 
-            // Determine next view
-            let nextViewId = views[currentViewIndex];
+            const currentActiveViews = getActiveViews();
 
-            // Logic to skip views if not applicable
-            if (nextViewId === 'view-menu') {
-                const meal = determineCurrentMeal();
-                if (meal) {
-                    updateMenuContent(meal);
-                } else {
-                    // Skip menu if not meal time
-                    currentViewIndex = (currentViewIndex + 1) % views.length;
-                    nextViewId = views[currentViewIndex];
-                }
+            // Ensure currentViewIndex is within bounds of currentActiveViews
+            if (currentViewIndex >= currentActiveViews.length) {
+                currentViewIndex = 0;
             }
 
-            if (nextViewId === 'view-joke') {
-                updateJokeContent();
-            }
+            let nextViewId = currentActiveViews[currentViewIndex];
 
             if (nextViewId === 'view-photo') {
                  updatePhotoContent();
@@ -370,7 +402,7 @@
             }
 
             // Move to next index for next time
-            currentViewIndex = (currentViewIndex + 1) % views.length;
+            currentViewIndex = (currentViewIndex + 1) % currentActiveViews.length;
         }
 
         // Start rotation (every 10 seconds)
