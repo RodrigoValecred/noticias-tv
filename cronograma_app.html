@@ -315,8 +315,10 @@
             const endTime = new Date(now);
             endTime.setHours(parseInt(endParts[0], 10), parseInt(endParts[1], 10), 0, 0);
 
+            const eventDurationLimit = new Date(startTime.getTime() + 30 * 60000); // 30 minutes after start
+
             const minutesToStart = Math.ceil((startTime - now) / 60000);
-            const isHappening = now >= startTime && now <= endTime;
+            const isHappening = now >= startTime && now <= Math.min(endTime, eventDurationLimit);
             const isUpcoming = minutesToStart > 0 && minutesToStart <= 15;
 
             return { isHappening, isUpcoming, minutesToStart };
@@ -354,7 +356,10 @@
             // FOR TESTING: You can set a mock time here
             // now.setHours(11, 20, 0);
 
-            let activeViews = ['view-schedule', 'view-photo']; // Default views
+            let activeViews = ['view-schedule']; // Default views
+            if (photos.length > 0) {
+                activeViews.push('view-photo');
+            }
 
             // Find relevant events
             let activeEvents = scheduleEvents.map(event => {
