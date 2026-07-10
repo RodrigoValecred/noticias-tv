@@ -291,7 +291,7 @@
         ];
 
         // Sample photos
-        const photos = [];
+        const photos = ["arraia_fotos/Traje - Ana.jpeg", "arraia_fotos/Traje - Andre.jpeg", "arraia_fotos/Traje - Cadeia Carol.jpeg", "arraia_fotos/Traje - Cadeia presidiarios.jpeg", "arraia_fotos/Traje - Giovana.jpeg", "arraia_fotos/Traje - Giulia.jpeg", "arraia_fotos/Traje - Jessica.jpeg", "arraia_fotos/Traje - Karen.jpeg", "arraia_fotos/Traje - Laura.jpeg", "arraia_fotos/Traje - Luh.jpeg", "arraia_fotos/Traje - Natalia.jpeg"];
 
         function updateMenuContent(mealType) {
             const menu = menus[mealType];
@@ -347,7 +347,11 @@
         function updatePhotoContent() {
             if (photos.length > 0) {
                 const randomPhoto = photos[Math.floor(Math.random() * photos.length)];
-                document.getElementById('photo-display').src = randomPhoto + '?t=' + new Date().getTime(); // cache bust
+                if (window.location.protocol === 'file:') {
+                    document.getElementById('photo-display').src = randomPhoto;
+                } else {
+                    document.getElementById('photo-display').src = randomPhoto + '?t=' + new Date().getTime(); // cache bust
+                }
             }
         }
 
