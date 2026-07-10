@@ -185,6 +185,7 @@
             <div id="view-schedule" class="view active-view" style="display: flex; flex-direction: column; align-items: center; width: 100%;">
                 <h1>Cronograma<br>do Arraiá</h1>
                 <div class="subtitle">Confira a programação e não perca nada!</div>
+                <div id="doce-message" style="background-color: #d64024; color: white; font-weight: 700; font-size: 1.5rem; padding: 10px 20px; border-radius: 8px; margin-bottom: 15px; display: none; text-align: center; box-shadow: 3px 3px 0px #8a2917;">Pessoal! ainda tem doce na cozinha!</div>
 
         <div class="schedule-list">
             <div class="schedule-item">
@@ -355,6 +356,15 @@
             const now = new Date();
             // FOR TESTING: You can set a mock time here
             // now.setHours(11, 20, 0);
+
+            const doceMessageEl = document.getElementById('doce-message');
+            if (doceMessageEl) {
+                if (now.getHours() < 13) {
+                    doceMessageEl.style.display = 'block';
+                } else {
+                    doceMessageEl.style.display = 'none';
+                }
+            }
 
             let activeViews = ['view-schedule']; // Default views
             if (photos.length > 0) {
