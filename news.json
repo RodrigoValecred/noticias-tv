@@ -1,18 +1,23 @@
 [
     {
+        "source": "ESPN Brasil",
+        "title": "Inglaterra x Argentina: onde assistir ao vivo e escalações do jogo da Copa do Mundo - ESPN Brasil",
+        "timestamp": "2026-07-15T17:36:00Z"
+    },
+    {
         "source": "G1",
-        "title": "Quaest: Flávio Bolsonaro perde apoio na direita não bolsonarista - G1",
-        "timestamp": "2026-07-15T14:56:42Z"
+        "title": "Quaest: Lula lidera com 45% no 2º turno, contra 37% de Flávio Bolsonaro - G1",
+        "timestamp": "2026-07-15T10:00:06Z"
+    },
+    {
+        "source": "Poder360",
+        "title": "Flávio Bolsonaro tem foto com Sicário, aliado de Vorcaro - Poder360",
+        "timestamp": "2026-07-15T18:03:24Z"
     },
     {
         "source": "CNN Brasil",
-        "title": "Dino intima presidentes de 21 partidos para explicar destinação de emendas - CNN Brasil",
-        "timestamp": "2026-07-15T16:11:40Z"
-    },
-    {
-        "source": "CNN Brasil",
-        "title": "Operação no RJ investiga ligação de CV e PCC com a Al-Qaeda - CNN Brasil",
-        "timestamp": "2026-07-15T11:04:59Z"
+        "title": "MP para renegociação de dívidas do agro será publicada hoje, diz Durigan - CNN Brasil",
+        "timestamp": "2026-07-15T15:48:08Z"
     },
     {
         "source": "BBC",
@@ -21,12 +26,7 @@
     },
     {
         "source": "CNN Brasil",
-        "title": "MP para renegociação de dívidas do agro será publicada hoje, diz Durigan - CNN Brasil",
-        "timestamp": "2026-07-15T15:48:08Z"
-    },
-    {
-        "source": "Poder360",
-        "title": "EUA voltam a atacar Irã e impõem bloqueio naval com 20 navios - Poder360",
-        "timestamp": "2026-07-15T00:47:11Z"
+        "title": "Operação no RJ investiga ligação de CV e PCC com a Al-Qaeda - CNN Brasil",
+        "timestamp": "2026-07-15T11:04:59Z"
     }
 ]
