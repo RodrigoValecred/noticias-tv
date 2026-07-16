@@ -1,18 +1,18 @@
 [
     {
-        "source": "G1",
-        "title": "Tarifaço de Trump: EUA confirmam nova tarifa de 25% sobre produtos brasileiros - G1",
-        "timestamp": "2026-07-16T02:58:04Z"
+        "source": "BBC",
+        "title": "Governo Trump anuncia tarifa de 25% contra Brasil após investigação sobre Pix, corrupção e etanol, e governo Lula diz que adotará reciprocidade - BBC",
+        "timestamp": "2026-07-16T07:11:57Z"
+    },
+    {
+        "source": "O GLOBO",
+        "title": "Flávio Bolsonaro afirma não ter mais relação com Michelle, nem ter assistido a vídeo da ex-primeira dama - O GLOBO",
+        "timestamp": "2026-07-15T23:09:28Z"
     },
     {
         "source": "Poder360",
-        "title": "Flávio é rejeitado por 57% e Lula, por 50%, diz Quaest - Poder360",
-        "timestamp": "2026-07-15T15:01:23Z"
-    },
-    {
-        "source": "CartaCapital",
-        "title": "O que aponta Quaest sobre a reação dos eleitores ao vídeo de Michelle Bolsonaro contra Flávio - CartaCapital",
-        "timestamp": "2026-07-15T13:18:00Z"
+        "title": "Saiba como votou cada senador na PEC dos agentes de saúde - Poder360",
+        "timestamp": "2026-07-15T00:39:36Z"
     },
     {
         "source": "CNN Brasil",
@@ -20,13 +20,13 @@
         "timestamp": "2026-07-15T22:28:30Z"
     },
     {
-        "source": "G1",
-        "title": "Aprovação de 'pauta-bomba' no Senado é criticada por Renan Santos: 'sabotagem com o próximo governo' - G1",
-        "timestamp": "2026-07-15T00:44:52Z"
-    },
-    {
         "source": "Agora RS",
         "title": "RS terá tempestades severas com risco de granizo e tornados, alertam Defesa Civil e INMET - Agora RS",
         "timestamp": "2026-07-15T20:12:27Z"
+    },
+    {
+        "source": "CartaCapital",
+        "title": "Leia a íntegra da nova pesquisa Quaest sobre a eleição presidencial - CartaCapital",
+        "timestamp": "2026-07-15T13:44:00Z"
     }
 ]
