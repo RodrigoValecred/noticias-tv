@@ -1,8 +1,23 @@
 [
     {
-        "source": "BBC",
-        "title": "Governo Trump anuncia tarifa de 25% contra Brasil após investigação sobre Pix, corrupção e etanol, e governo Lula diz que adotará reciprocidade - BBC",
-        "timestamp": "2026-07-16T07:11:57Z"
+        "source": "G1",
+        "title": "'Aprofundamento da ruptura antes das eleições' e 'altos riscos': como a imprensa internacional noticiou tarifa de 25% dos EUA contra o Brasil - G1",
+        "timestamp": "2026-07-16T10:06:30Z"
+    },
+    {
+        "source": "CNN Brasil",
+        "title": "PoderData/AYA: Lula tem 45% das intenções de voto no 2ª turno; Flávio, 43% - CNN Brasil",
+        "timestamp": "2026-07-16T10:31:59Z"
+    },
+    {
+        "source": "CartaCapital",
+        "title": "73 a 1: o único voto no Senado contra PEC considerada pauta-bomba - CartaCapital",
+        "timestamp": "2026-07-14T22:05:00Z"
+    },
+    {
+        "source": "Poder360",
+        "title": "Irã ameaça fechar novos corredores de exportação após bloquear Ormuz - Poder360",
+        "timestamp": "2026-07-15T10:27:45Z"
     },
     {
         "source": "O GLOBO",
@@ -10,23 +25,8 @@
         "timestamp": "2026-07-15T23:09:28Z"
     },
     {
-        "source": "Poder360",
-        "title": "Saiba como votou cada senador na PEC dos agentes de saúde - Poder360",
-        "timestamp": "2026-07-15T00:39:36Z"
-    },
-    {
-        "source": "CNN Brasil",
-        "title": "EUA impõem sanções contra grupos acusados de auxiliar Irã a adquirir armas - CNN Brasil",
-        "timestamp": "2026-07-15T22:28:30Z"
-    },
-    {
         "source": "Agora RS",
         "title": "RS terá tempestades severas com risco de granizo e tornados, alertam Defesa Civil e INMET - Agora RS",
         "timestamp": "2026-07-15T20:12:27Z"
-    },
-    {
-        "source": "CartaCapital",
-        "title": "Leia a íntegra da nova pesquisa Quaest sobre a eleição presidencial - CartaCapital",
-        "timestamp": "2026-07-15T13:44:00Z"
     }
 ]
