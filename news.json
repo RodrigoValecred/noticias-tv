@@ -1,13 +1,18 @@
 [
     {
         "source": "G1",
-        "title": "Tarifaço deve atingir 36,5% das exportações do agro para os EUA, diz CNA - G1",
-        "timestamp": "2026-07-17T15:09:50Z"
+        "title": "Lula diz que EUA não vão 'enganar sociedade brasileira' e espera declaração de Trump sobre novo tarifaço - G1",
+        "timestamp": "2026-07-17T17:40:28Z"
     },
     {
         "source": "Estadão",
         "title": "Câmeras de segurança registram advogado Pedro Ely momentos antes de ser encontrado morto em SP - Estadão",
         "timestamp": "2026-07-17T13:07:00Z"
+    },
+    {
+        "source": "CNN Brasil",
+        "title": "Terremoto de magnitude 7,3 atinge costa do México e gera alerta de tsunami - CNN Brasil",
+        "timestamp": "2026-07-17T16:12:56Z"
     },
     {
         "source": "Revista Oeste",
@@ -16,17 +21,12 @@
     },
     {
         "source": "CNN Brasil",
-        "title": "Terremoto de magnitude 7,3 atinge costa do México e gera alerta de tsunami - CNN Brasil",
-        "timestamp": "2026-07-17T16:12:56Z"
-    },
-    {
-        "source": "CNN Brasil",
         "title": "EUA atacam pontes e aeroporto no Irã, que revida contra países da região - CNN Brasil",
         "timestamp": "2026-07-17T12:43:07Z"
     },
     {
-        "source": "UOL Notícias",
-        "title": "Aluno de escola de aviação morre após levar 'banho de óleo' de instrutor no PR - UOL Notícias",
-        "timestamp": "2026-07-17T13:20:15Z"
+        "source": "CartaCapital",
+        "title": "Resistência à vice favorita de Flávio Bolsonaro abre novo racha no PL - CartaCapital",
+        "timestamp": "2026-07-17T14:05:00Z"
     }
 ]
