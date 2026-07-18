@@ -5,6 +5,11 @@
         "timestamp": "2026-07-17T20:21:25Z"
     },
     {
+        "source": "CNN Brasil",
+        "title": "Moraes nega autorização para Milei visitar Bolsonaro - CNN Brasil",
+        "timestamp": "2026-07-18T11:56:34Z"
+    },
+    {
         "source": "CartaCapital",
         "title": "PGR defende domiciliar a Bolsonaro, mas propõe veto a contatos que possam interferir nas eleições - CartaCapital",
         "timestamp": "2026-07-17T22:46:00Z"
@@ -15,18 +20,13 @@
         "timestamp": "2026-07-18T06:00:13Z"
     },
     {
-        "source": "CNN Brasil",
-        "title": "Morte de bebê de 10 meses no Ceará: laudo nega abuso e aponta asfixia - CNN Brasil",
-        "timestamp": "2026-07-18T00:22:51Z"
-    },
-    {
-        "source": "Poder360",
-        "title": "Lula diz que Ricardo Couto livrará Rio de Janeiro de milícias - Poder360",
-        "timestamp": "2026-07-17T21:28:39Z"
-    },
-    {
         "source": "GZH",
         "title": "Região do RS entra em alerta vermelho para tempo severo - GZH",
         "timestamp": "2026-07-17T21:49:43Z"
+    },
+    {
+        "source": "G1",
+        "title": "Perícia aponta que não houve violência sexual em bebê morta no CE; polícia passa a tratar caso como homicídio culposo - G1",
+        "timestamp": "2026-07-17T18:46:22Z"
     }
 ]
