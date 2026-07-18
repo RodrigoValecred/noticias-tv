@@ -1,8 +1,23 @@
 [
     {
+        "source": "G1",
+        "title": "Irmão mais novo do senador Cleitinho morre em Minas - G1",
+        "timestamp": "2026-07-18T21:51:29Z"
+    },
+    {
+        "source": "CNN Brasil",
+        "title": "França x Inglaterra: veja as escalações e onde assistir ao 3º lugar da Copa - CNN Brasil",
+        "timestamp": "2026-07-18T19:39:33Z"
+    },
+    {
         "source": "CNN Brasil",
         "title": "Ataque do Irã mata dois militares dos Estados Unidos na Jordânia - CNN Brasil",
         "timestamp": "2026-07-18T17:28:40Z"
+    },
+    {
+        "source": "Poder360",
+        "title": "Orientação de Lula após tarifaço é buscar novos mercados, diz Alckmin - Poder360",
+        "timestamp": "2026-07-17T21:55:40Z"
     },
     {
         "source": "UOL Notícias",
@@ -13,20 +28,5 @@
         "source": "O GLOBO",
         "title": "Corpo encontrado em Angra dos Reis é de cozinheira desaparecida em Ubatuba; entenda o caso - O GLOBO",
         "timestamp": "2026-07-18T19:18:42Z"
-    },
-    {
-        "source": "CNN Brasil",
-        "title": "Drones da Ucrânia atingem Rússia em ataque mais letal dos últimos dois anos - CNN Brasil",
-        "timestamp": "2026-07-18T14:15:14Z"
-    },
-    {
-        "source": "CNN Brasil",
-        "title": "Líder supremo do Irã diz que assinatura de Trump \"não vale nada\" - CNN Brasil",
-        "timestamp": "2026-07-18T17:11:12Z"
-    },
-    {
-        "source": "CartaCapital",
-        "title": "Bolsonaro recebeu 185 visitas desde o começo da prisão domiciliar, diz Moraes - CartaCapital",
-        "timestamp": "2026-07-18T00:28:00Z"
     }
 ]
