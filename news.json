@@ -1,13 +1,8 @@
 [
     {
-        "source": "G1",
-        "title": "Irmão mais novo do senador Cleitinho morre em Minas - G1",
-        "timestamp": "2026-07-18T21:51:29Z"
-    },
-    {
-        "source": "CNN Brasil",
-        "title": "França x Inglaterra: veja as escalações e onde assistir ao 3º lugar da Copa - CNN Brasil",
-        "timestamp": "2026-07-18T19:39:33Z"
+        "source": "ESPN Brasil",
+        "title": "Por que França deu 'chutão' para a linha de fundo após apito inicial de jogo contra Inglaterra pelo 3° lugar da Copa? - ESPN Brasil",
+        "timestamp": "2026-07-18T21:22:00Z"
     },
     {
         "source": "CNN Brasil",
@@ -28,5 +23,10 @@
         "source": "O GLOBO",
         "title": "Corpo encontrado em Angra dos Reis é de cozinheira desaparecida em Ubatuba; entenda o caso - O GLOBO",
         "timestamp": "2026-07-18T19:18:42Z"
+    },
+    {
+        "source": "G1",
+        "title": "Sistema de prevenção evitou colisão entre aviões a caminho de Guarulhos e da Espanha - G1",
+        "timestamp": "2026-07-18T17:11:02Z"
     }
 ]
