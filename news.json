@@ -1,8 +1,13 @@
 [
     {
         "source": "G1",
-        "title": "Após caos em três linhas, Artesp diz que CPTM deve voltar a operar linhas privatizadas para Trivia Trens por mais 90 dias - G1",
-        "timestamp": "2026-07-23T15:05:48Z"
+        "title": "Flávio Bolsonaro publica vídeo pedindo desculpas e solicitando ajuda de Michelle em campanha - G1",
+        "timestamp": "2026-07-23T19:16:54Z"
+    },
+    {
+        "source": "Poder360",
+        "title": "Incêndio em trem afeta 3 linhas da Trivia Trens, em São Paulo - Poder360",
+        "timestamp": "2026-07-23T14:16:06Z"
     },
     {
         "source": "Folha de S.Paulo",
@@ -10,23 +15,18 @@
         "timestamp": "2026-07-23T16:26:00Z"
     },
     {
+        "source": "CartaCapital",
+        "title": "O relator da ação do PT contra Flávio Bolsonaro no TSE - CartaCapital",
+        "timestamp": "2026-07-23T09:31:00Z"
+    },
+    {
+        "source": "O GLOBO",
+        "title": "Nota fiscal liga Flávio Bolsonaro a empresário que recebeu repasses do Master: o que se sabe sobre o caso - O GLOBO",
+        "timestamp": "2026-07-23T12:59:05Z"
+    },
+    {
         "source": "Poder360",
-        "title": "PT, PC do B e PV vão à Justiça contra Flávio por fala sobre urnas - Poder360",
-        "timestamp": "2026-07-23T13:31:32Z"
-    },
-    {
-        "source": "CNN Brasil",
-        "title": "Oito das dez cidades mais violentas ficam em estados governados pelo PT - CNN Brasil",
-        "timestamp": "2026-07-23T15:45:16Z"
-    },
-    {
-        "source": "CNN Brasil",
-        "title": "Trump diz que Arábia Saudita deve aderir aos Acordos de Abraão após tratado - CNN Brasil",
-        "timestamp": "2026-07-23T12:58:33Z"
-    },
-    {
-        "source": "CNN Brasil",
-        "title": "EUA farão anúncio sobre novas tarifas nesta quinta-feira, diz Casa Branca - CNN Brasil",
-        "timestamp": "2026-07-23T16:52:38Z"
+        "title": "Zanin autoriza PF a investigar ministro do STJ por venda de decisões - Poder360",
+        "timestamp": "2026-07-23T15:12:54Z"
     }
 ]
