@@ -1,8 +1,18 @@
 [
     {
-        "source": "G1",
-        "title": "Datafolha: 46% rejeitam Lula, e 48%, Flávio Bolsonaro - G1",
-        "timestamp": "2026-07-24T22:20:45Z"
+        "source": "CartaCapital",
+        "title": "As intenções de voto para presidente no 1º turno, segundo novo Datafolha - CartaCapital",
+        "timestamp": "2026-07-24T22:09:00Z"
+    },
+    {
+        "source": "Valor Econômico",
+        "title": "FT: Europa ganha e Brasil é, de longe, maior perdedor na reforma tarifária de Trump - Valor Econômico",
+        "timestamp": "2026-07-24T13:54:50Z"
+    },
+    {
+        "source": "Estadão",
+        "title": "Flávio Bolsonaro chega a convenção com cartas na manga, mas sem coligação e empacado nas pesquisas - Estadão",
+        "timestamp": "2026-07-24T23:00:00Z"
     },
     {
         "source": "CNN Brasil",
@@ -10,23 +20,13 @@
         "timestamp": "2026-07-24T15:09:54Z"
     },
     {
-        "source": "CNN Brasil",
-        "title": "Israel teme corrida armamentista após acordo entre EUA e Arábia Saudita - CNN Brasil",
-        "timestamp": "2026-07-23T17:57:22Z"
-    },
-    {
-        "source": "Notícias da TV",
-        "title": "Nova série da Globo traz imagens inéditas de queda de avião da Voepass - Notícias da TV",
-        "timestamp": "2026-07-24T19:03:00Z"
-    },
-    {
         "source": "G1",
         "title": "Justiça suspende decisão e volta a proibir Uber Moto na cidade de SP - G1",
         "timestamp": "2026-07-24T22:54:43Z"
     },
     {
-        "source": "G1",
-        "title": "Eduardo Leite explica por que alertas não previram, inicialmente, inundação do Rio Taquari no RS - G1",
-        "timestamp": "2026-07-24T19:08:20Z"
+        "source": "Notícias da TV",
+        "title": "Nova série da Globo traz imagens inéditas de queda de avião da Voepass - Notícias da TV",
+        "timestamp": "2026-07-24T19:03:00Z"
     }
 ]
