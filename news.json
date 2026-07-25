@@ -1,13 +1,8 @@
 [
     {
-        "source": "O GLOBO",
-        "title": "Convenção do PL tem Bolsonaro em IA, vídeo de Michelle, pedidos de ‘união’ e ode a ‘onda azul’ - O GLOBO",
-        "timestamp": "2026-07-25T18:38:09Z"
-    },
-    {
-        "source": "CNN Brasil",
-        "title": "Milei critica socialismo e defende liberdade em convenção do PL - CNN Brasil",
-        "timestamp": "2026-07-25T14:12:16Z"
+        "source": "G1",
+        "title": "PL lança candidatura de Flávio à Presidência em evento com vídeo de Jair Bolsonaro feito por IA, apoio de Michelle e discurso de Milei - G1",
+        "timestamp": "2026-07-25T14:04:29Z"
     },
     {
         "source": "CNN Brasil",
@@ -15,18 +10,23 @@
         "timestamp": "2026-07-25T16:03:48Z"
     },
     {
-        "source": "Revista Oeste",
-        "title": "Bolsonaro pede a Moraes que permita visitas e manifestações políticas - Revista Oeste",
-        "timestamp": "2026-07-24T19:39:45Z"
+        "source": "O GLOBO",
+        "title": "Milei faz discurso duro, xinga Moraes e diz que ‘somente Flávio pode parar Lula’; presidente reage: 'que ninguém venha de fora meter o dedo nas eleições' - O GLOBO",
+        "timestamp": "2026-07-25T16:41:56Z"
     },
     {
-        "source": "O GLOBO",
-        "title": "Bala perdida mata comerciante de 80 anos dentro do próprio bar na Tijuca - O GLOBO",
-        "timestamp": "2026-07-25T15:08:02Z"
+        "source": "Extra online",
+        "title": "Comerciante de 80 anos morre após ser atingido por bala perdida durante tiroteio na Tijuca - Extra online",
+        "timestamp": "2026-07-25T15:14:33Z"
     },
     {
         "source": "Poder360",
         "title": "Governo Lula nega entrada a enviados de Trump para discutir eleições - Poder360",
         "timestamp": "2026-07-25T15:56:22Z"
+    },
+    {
+        "source": "Correio Braziliense",
+        "title": "Michelle Bolsonaro envia vídeo em apoio a Flávio durante convenção do PL - Correio Braziliense",
+        "timestamp": "2026-07-25T16:02:00Z"
     }
 ]
