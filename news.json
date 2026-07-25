@@ -1,18 +1,23 @@
 [
     {
+        "source": "G1",
+        "title": "O que Javier Milei vem fazer no lançamento da candidatura de Flávio Bolsonaro a presidente - G1",
+        "timestamp": "2026-07-25T10:36:03Z"
+    },
+    {
         "source": "CartaCapital",
         "title": "As intenções de voto para presidente no 1º turno, segundo novo Datafolha - CartaCapital",
         "timestamp": "2026-07-24T22:09:00Z"
     },
     {
-        "source": "Valor Econômico",
-        "title": "FT: Europa ganha e Brasil é, de longe, maior perdedor na reforma tarifária de Trump - Valor Econômico",
-        "timestamp": "2026-07-24T13:54:50Z"
+        "source": "G1",
+        "title": "Governo Trump planeja enviar funcionários ao Brasil para questionar integridade das urnas eletrônicas, diz jornal - G1",
+        "timestamp": "2026-07-25T11:33:49Z"
     },
     {
-        "source": "CartaCapital",
-        "title": "Governo Lula monitora a visita de Milei e prepara reação a ataques em convenção do PL - CartaCapital",
-        "timestamp": "2026-07-24T19:43:00Z"
+        "source": "Poder360",
+        "title": "20 países concentram 85% das importações dos EUA - Poder360",
+        "timestamp": "2026-07-24T13:59:38Z"
     },
     {
         "source": "Estadão",
@@ -20,13 +25,8 @@
         "timestamp": "2026-07-24T23:00:00Z"
     },
     {
-        "source": "UOL Notícias",
-        "title": "Leonardo Sakamoto: Flávio esnobou Ciro por causa de Vorcaro e, agora, fica sem PP e com PF - UOL Notícias",
-        "timestamp": "2026-07-24T20:33:47Z"
-    },
-    {
-        "source": "Poder360",
-        "title": "Trump fala em concorrer a novo mandato e veste boné de 2028 - Poder360",
-        "timestamp": "2026-07-25T04:30:46Z"
+        "source": "Revista Oeste",
+        "title": "Ciclone e frente fria afetam 8 Estados neste sábado - Revista Oeste",
+        "timestamp": "2026-07-25T09:00:00Z"
     }
 ]
