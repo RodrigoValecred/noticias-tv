@@ -1,13 +1,18 @@
 [
     {
+        "source": "G1",
+        "title": "Governo chama embaixador do Brasil na Argentina para consultas após falas de Milei em evento do PL - G1",
+        "timestamp": "2026-07-26T15:42:22Z"
+    },
+    {
         "source": "CNN Brasil",
         "title": "Caiado lança candidatura com foco em segurança pública e críticas ao PT - CNN Brasil",
         "timestamp": "2026-07-26T14:11:50Z"
     },
     {
-        "source": "G1",
-        "title": "Governo chama ao Brasil embaixador na Argentina após falas de Milei em convenção do PL - G1",
-        "timestamp": "2026-07-26T15:42:22Z"
+        "source": "CartaCapital",
+        "title": "A resposta dos EUA após o governo Lula negar vistos a 2 funcionários de Rubio - CartaCapital",
+        "timestamp": "2026-07-26T12:27:00Z"
     },
     {
         "source": "O GLOBO",
@@ -15,18 +20,13 @@
         "timestamp": "2026-07-26T11:53:07Z"
     },
     {
-        "source": "Estadão",
-        "title": "Quem são os dois funcionários de Rubio que Trump quer mandar ao Brasil para questionar as urnas - Estadão",
-        "timestamp": "2026-07-25T20:56:00Z"
+        "source": "O GLOBO",
+        "title": "'Eu só enrolei e coloquei ele na sacola', diz pai preso com a namorada; casal é acusado de matar o filho recém-nascido em Duque de Caxias - O GLOBO",
+        "timestamp": "2026-07-26T16:28:50Z"
     },
     {
         "source": "Poder360",
-        "title": "Flávio critica Lula e STF em convenção com IA do pai e vídeo de Michelle - Poder360",
-        "timestamp": "2026-07-25T18:51:11Z"
-    },
-    {
-        "source": "CartaCapital",
-        "title": "Vídeo de Bolsonaro por IA esbarra em regras do TSE e em decisão de Moraes - CartaCapital",
-        "timestamp": "2026-07-25T20:00:00Z"
+        "title": "Deputada do PT aciona PGR por Milei e IA em palanque de Flávio - Poder360",
+        "timestamp": "2026-07-26T02:44:05Z"
     }
 ]
