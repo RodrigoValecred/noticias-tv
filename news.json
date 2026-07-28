@@ -1,8 +1,13 @@
 [
     {
+        "source": "BBC",
+        "title": "Terremoto de magnitude 7,1 atinge o Japão; shopping desaba e deixa pessoas presas nos escombros - BBC",
+        "timestamp": "2026-07-28T13:34:27Z"
+    },
+    {
         "source": "G1",
-        "title": "Terremoto de magnitude 7,1 atinge Japão, derruba prédios e deixa feridos - G1",
-        "timestamp": "2026-07-28T11:34:08Z"
+        "title": "Conselho autoriza pagamento de R$ 13 bilhões do lucro do FGTS a 138 milhões de trabalhadores - G1",
+        "timestamp": "2026-07-28T14:45:12Z"
     },
     {
         "source": "CNN Brasil",
@@ -11,22 +16,17 @@
     },
     {
         "source": "Poder360",
-        "title": "Eleições 2026: disputa presidencial segue indefinida em 5 Estados - Poder360",
-        "timestamp": "2026-07-28T09:02:22Z"
+        "title": "Saiba em quais Estados Lula e Flávio lideram nas pesquisas - Poder360",
+        "timestamp": "2026-07-28T13:39:23Z"
     },
     {
-        "source": "Estadão",
-        "title": "Tarifas de Trump contra o Brasil tornam diversificação de mercados ainda mais urgente - Estadão",
-        "timestamp": "2026-07-27T08:30:00Z"
+        "source": "Poder360",
+        "title": "Cleitinho lidera cenários de 1º e 2º turnos em MG, diz Quaest - Poder360",
+        "timestamp": "2026-07-28T11:41:17Z"
     },
     {
-        "source": "UOL Notícias",
-        "title": "Leonardo Sakamoto: Avatar de Bolsonaro já foi proibido pela Justiça e se chama deep fake - UOL Notícias",
-        "timestamp": "2026-07-27T21:24:05Z"
-    },
-    {
-        "source": "G1",
-        "title": "Quaest em PE: Raquel Lyra passa a liderar, com 43%, e João Campos tem 37% - G1",
-        "timestamp": "2026-07-28T10:02:12Z"
+        "source": "GZH",
+        "title": "Temporal causa estragos em municípios do RS; siga a situação ao vivo - GZH",
+        "timestamp": "2026-07-28T11:37:30Z"
     }
 ]
