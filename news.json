@@ -1,18 +1,13 @@
 [
     {
-        "source": "BBC",
-        "title": "Terremoto de magnitude 7,1 atinge o Japão; shopping desaba e deixa pessoas presas nos escombros - BBC",
-        "timestamp": "2026-07-28T13:34:27Z"
-    },
-    {
         "source": "G1",
-        "title": "Conselho autoriza pagamento de R$ 13 bilhões do lucro do FGTS a 138 milhões de trabalhadores - G1",
-        "timestamp": "2026-07-28T14:45:12Z"
+        "title": "Terremoto no Japão: VÍDEO mostra momento de explosão em shopping - G1",
+        "timestamp": "2026-07-28T14:52:29Z"
     },
     {
-        "source": "CNN Brasil",
-        "title": "Governo Lula busca resposta dura a Milei sem arriscar relação com Argentina - CNN Brasil",
-        "timestamp": "2026-07-28T06:00:29Z"
+        "source": "DW.com",
+        "title": "Milei \"brinca com fogo\" ao atacar Lula, avaliam analistas - DW.com",
+        "timestamp": "2026-07-28T10:26:43Z"
     },
     {
         "source": "Poder360",
@@ -20,13 +15,18 @@
         "timestamp": "2026-07-28T13:39:23Z"
     },
     {
+        "source": "CNN Brasil",
+        "title": "Flávio depõe à PF por escrito em inquérito sobre suposta calúnia a Lula - CNN Brasil",
+        "timestamp": "2026-07-28T15:09:31Z"
+    },
+    {
+        "source": "O GLOBO",
+        "title": "Granadas, tiroteios e ônibus sequestrados: a escalada da disputa entre CV e milícia em Rio das Pedras - O GLOBO",
+        "timestamp": "2026-07-28T08:02:29Z"
+    },
+    {
         "source": "Poder360",
         "title": "Cleitinho lidera cenários de 1º e 2º turnos em MG, diz Quaest - Poder360",
         "timestamp": "2026-07-28T11:41:17Z"
-    },
-    {
-        "source": "GZH",
-        "title": "Temporal causa estragos em municípios do RS; siga a situação ao vivo - GZH",
-        "timestamp": "2026-07-28T11:37:30Z"
     }
 ]
