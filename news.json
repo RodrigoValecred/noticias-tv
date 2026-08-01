@@ -1,6 +1,11 @@
 [
     {
         "source": "G1",
+        "title": "Com presença de Flávio Bolsonaro, Republicanos lança Tarcísio de Freitas como candidato ao governo de São Paulo - G1",
+        "timestamp": "2026-08-01T13:42:09Z"
+    },
+    {
+        "source": "G1",
         "title": "União Europeia convoca reunião de emergência após invasão de imigrantes a Ceuta - G1",
         "timestamp": "2026-08-01T10:45:06Z"
     },
@@ -10,23 +15,18 @@
         "timestamp": "2026-07-31T14:18:00Z"
     },
     {
-        "source": "Folha de S.Paulo",
-        "title": "Republicanos marca convenção para terça e deve rejeitar aliança com Flávio Bolsonaro - Folha de S.Paulo",
-        "timestamp": "2026-07-31T16:45:00Z"
-    },
-    {
-        "source": "G1",
-        "title": "Incêndio atinge pizzaria em Botafogo; pizza da Ferro e Farinha foi eleita a melhor da América Latina - G1",
-        "timestamp": "2026-08-01T11:34:23Z"
-    },
-    {
         "source": "CNN Brasil",
-        "title": "Em dois dias, Mendonça amplia cerco a Lulinha e atrito com a PF escala - CNN Brasil",
-        "timestamp": "2026-08-01T06:30:29Z"
+        "title": "Justiça do Rio revoga prisão de Oruam por tentativa de homicídio - CNN Brasil",
+        "timestamp": "2026-08-01T13:59:48Z"
     },
     {
         "source": "O GLOBO",
         "title": "Operário que foi arremessado contra paredes de edifício às alturas em ventania na Barra se deparou com sua casa destruída, em Santa Cruz - O GLOBO",
         "timestamp": "2026-07-31T08:30:08Z"
+    },
+    {
+        "source": "UOL Notícias",
+        "title": "Funcionário mata três colegas em fábrica da Bombril em SP, diz polícia - UOL Notícias",
+        "timestamp": "2026-08-01T13:40:51Z"
     }
 ]
