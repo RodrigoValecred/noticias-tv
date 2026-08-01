@@ -1,23 +1,18 @@
 [
     {
+        "source": "g1.globo.com",
+        "title": "Tereza Cristina lamenta fim da articulação para vice de Flávio após negativa do PP: 'O que foi está posto' - g1.globo.com",
+        "timestamp": "2026-08-01T01:01:42Z"
+    },
+    {
         "source": "Poder360",
         "title": "PF investiga Lulinha em 2º inquérito por tráfico de influência na Dataprev - Poder360",
         "timestamp": "2026-08-01T02:42:50Z"
     },
     {
-        "source": "G1",
-        "title": "Tereza Cristina lamenta fim da articulação para vice de Flávio após negativa do PP: 'O que foi está posto' - G1",
-        "timestamp": "2026-08-01T01:01:42Z"
-    },
-    {
-        "source": "CNN Brasil",
-        "title": "Vídeo mostra ação de suspeitos durante invasão no Aeroporto de Guarulhos - CNN Brasil",
-        "timestamp": "2026-07-31T20:54:27Z"
-    },
-    {
-        "source": "O GLOBO",
-        "title": "Quem era o homem encontrado morto em Paraty após ventania: advogado gaúcho fez do barco sua casa e vivia no litoral fluminense - O GLOBO",
-        "timestamp": "2026-07-31T20:26:59Z"
+        "source": "BBC",
+        "title": "Crise entre Marrocos e Espanha: por que milhares de imigrantes entraram em Ceuta - BBC",
+        "timestamp": "2026-07-31T18:47:06Z"
     },
     {
         "source": "Estadão",
@@ -25,8 +20,13 @@
         "timestamp": "2026-07-31T23:22:22Z"
     },
     {
-        "source": "Brasil 247",
-        "title": "Vice-presidente da Argentina faz alerta público sobre a saúde mental de Milei - Brasil 247",
-        "timestamp": "2026-07-30T20:11:00Z"
+        "source": "Folha de S.Paulo",
+        "title": "Republicanos marca convenção para terça e deve rejeitar aliança com Flávio Bolsonaro - Folha de S.Paulo",
+        "timestamp": "2026-07-31T16:45:00Z"
+    },
+    {
+        "source": "CNN Brasil",
+        "title": "Vídeo mostra ação de suspeitos durante invasão no Aeroporto de Guarulhos - CNN Brasil",
+        "timestamp": "2026-07-31T20:54:27Z"
     }
 ]
