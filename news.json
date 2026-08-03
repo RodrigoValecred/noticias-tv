@@ -1,10 +1,5 @@
 [
     {
-        "source": "UOL",
-        "title": "Como o River criou 'máquina de fazer dinheiro' para peitar Fla e companhia - UOL",
-        "timestamp": "2026-08-03T12:30:00Z"
-    },
-    {
         "source": "Estadão",
         "title": "Lula tem 46% e Flávio Bolsonaro 45% em cenário de 2º turno, mostra pesquisa BTG/Nexus - Estadão",
         "timestamp": "2026-08-03T11:22:00Z"
@@ -15,18 +10,23 @@
         "timestamp": "2026-08-03T09:04:31Z"
     },
     {
-        "source": "G1",
-        "title": "Imigrantes que seguem em Ceuta dormem em praia vigiada pela polícia; são de 3 a 5 mil, estimam autoridades - G1",
-        "timestamp": "2026-08-03T10:50:33Z"
+        "source": "CNN Brasil",
+        "title": "Trump critica liderança do Irã e exige acordo ou rendição total - CNN Brasil",
+        "timestamp": "2026-08-03T16:11:17Z"
+    },
+    {
+        "source": "BBC",
+        "title": "Milei dobra a aposta e volta a criticar Lula: 'é um ladrão, um corrupto' - BBC",
+        "timestamp": "2026-08-03T08:43:49Z"
+    },
+    {
+        "source": "O GLOBO",
+        "title": "Michelle Bolsonaro é internada em hospital, passa por procedimento e participação em evento com Flávio vira dúvida - O GLOBO",
+        "timestamp": "2026-08-02T18:58:09Z"
     },
     {
         "source": "CNN Brasil",
-        "title": "Michelle recebe alta neste domingo após crise de enxaqueca, diz boletim - CNN Brasil",
-        "timestamp": "2026-08-02T20:49:37Z"
-    },
-    {
-        "source": "CNN Brasil",
-        "title": "Lula diz que \"vai ter briga com emenda parlamentar\" se for reeleito - CNN Brasil",
-        "timestamp": "2026-08-02T16:38:50Z"
+        "title": "STF retoma sessões com debates sobre PCD e ampliação da Lei Maria da Penha - CNN Brasil",
+        "timestamp": "2026-08-03T06:00:27Z"
     }
 ]
