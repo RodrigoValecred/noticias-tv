@@ -1,18 +1,13 @@
 [
     {
+        "source": "CNN Brasil",
+        "title": "Greve CPTM: Justiça impõe 80% da frota no horário de pico - CNN Brasil",
+        "timestamp": "2026-08-04T01:58:46Z"
+    },
+    {
         "source": "Estadão",
         "title": "Senador Cleitinho Azevedo chora ao anunciar que não será candidato a governador de Minas; veja vídeo - Estadão",
         "timestamp": "2026-08-03T18:54:00Z"
-    },
-    {
-        "source": "CNN Brasil",
-        "title": "Urna eletrônica é patrimônio da democracia brasileira, diz Nunes Marques - CNN Brasil",
-        "timestamp": "2026-08-03T23:18:05Z"
-    },
-    {
-        "source": "G1",
-        "title": "Prefeitura de SP suspende rodízio após sindicato de funcionários da CPTM decretar greve nesta terça nas linhas 11, 12 e 13 - G1",
-        "timestamp": "2026-08-04T01:40:54Z"
     },
     {
         "source": "Poder360",
@@ -20,13 +15,18 @@
         "timestamp": "2026-08-04T04:12:28Z"
     },
     {
-        "source": "bbc.com",
-        "title": "Milei dobra a aposta e volta a criticar Lula: 'é um ladrão, um corrupto' - bbc.com",
-        "timestamp": "2026-08-03T08:43:49Z"
+        "source": "O GLOBO",
+        "title": "Presidente do Republicanos diz a Flávio Bolsonaro que maioria do partido é a favor da neutralidade - O GLOBO",
+        "timestamp": "2026-08-03T20:53:46Z"
+    },
+    {
+        "source": "Poder360",
+        "title": "Dino é o relator de 3º inquérito contra Lulinha no STF - Poder360",
+        "timestamp": "2026-08-04T02:14:48Z"
     },
     {
         "source": "CNN Brasil",
-        "title": "Críticas ao STF não fragilizam a Corte, afirma Fachin - CNN Brasil",
-        "timestamp": "2026-08-03T18:24:57Z"
+        "title": "Urna eletrônica é patrimônio da democracia brasileira, diz Nunes Marques - CNN Brasil",
+        "timestamp": "2026-08-03T23:18:05Z"
     }
 ]
