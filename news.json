@@ -1,23 +1,18 @@
 [
     {
         "source": "G1",
-        "title": "Governo Trump diz ter revogado visto da embaixadora do Brasil nos EUA - G1",
+        "title": "Governo Trump anuncia ter revogado visto da embaixadora do Brasil nos EUA - G1",
         "timestamp": "2026-08-04T20:13:33Z"
     },
     {
-        "source": "ICL Notícias",
-        "title": "PF abriu inquéritos sobre Lulinha com provas ainda ausentes nos autos do caso do INSS - ICL Notícias",
-        "timestamp": "2026-08-04T17:27:19Z"
+        "source": "Folha de S.Paulo",
+        "title": "Itamaraty dispensa embaixador da Argentina no Brasil e rebaixa relação com país vizinho - Folha de S.Paulo",
+        "timestamp": "2026-08-04T23:25:00Z"
     },
     {
         "source": "Agência Pública",
         "title": "As denúncias por trás dos acidentes e da greve de trens em São Paulo - Agência Pública",
-        "timestamp": "2026-08-04T16:19:05Z"
-    },
-    {
-        "source": "CNN Brasil",
-        "title": "Incêndio de grandes proporções atinge indústria em SP - CNN Brasil",
-        "timestamp": "2026-08-04T19:42:52Z"
+        "timestamp": "2026-08-04T23:35:50Z"
     },
     {
         "source": "Poder360",
@@ -25,8 +20,13 @@
         "timestamp": "2026-08-04T17:03:19Z"
     },
     {
-        "source": "Correio Braziliense",
-        "title": "Mulher de Weverton Rocha recebeu R$ 11 milhões de empresas ligadas a Willer Tomaz, aponta PF - Correio Braziliense",
-        "timestamp": "2026-08-04T14:38:00Z"
+        "source": "O GLOBO",
+        "title": "Vendaval à vista: com previsão de rajadas de até 76 km/h, Rio entra em Estágio 2 - O GLOBO",
+        "timestamp": "2026-08-04T22:22:46Z"
+    },
+    {
+        "source": "CNN Brasil",
+        "title": "Vídeo mostra destruição em fábrica de solventes em SP - CNN Brasil",
+        "timestamp": "2026-08-04T20:48:05Z"
     }
 ]
