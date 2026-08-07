@@ -1,13 +1,18 @@
 [
     {
-        "source": "UOL Notícias",
-        "title": "Onde está o ciclone-bomba agora? Como acompanhar o fenômeno em tempo real - UOL Notícias",
-        "timestamp": "2026-08-07T18:42:42Z"
+        "source": "CNN Brasil",
+        "title": "Ciclone-bomba e frente fria: veja como será 2º dia de fenômeno no Brasil - CNN Brasil",
+        "timestamp": "2026-08-07T12:42:52Z"
     },
     {
         "source": "O GLOBO",
-        "title": "Ventania no RJ e em SP: Defesa Civil emite 'alerta extremo', volta para casa é antecipada e Rio entra no estágio 3 - O GLOBO",
+        "title": "Ventania no RJ e em SP: Rio volta ao Estágio 2 com previsão de ventos moderados e rajadas fortes durante a noite - O GLOBO",
         "timestamp": "2026-08-07T21:15:00Z"
+    },
+    {
+        "source": "folha.uol.com.br",
+        "title": "Desmatamento tem novo recorde mínimo em 2025 na mata atlântica e no pampa - folha.uol.com.br",
+        "timestamp": "2026-08-07T19:43:00Z"
     },
     {
         "source": "G1",
@@ -23,10 +28,5 @@
         "source": "Poder360",
         "title": "Dino aciona PF para investigar emendas Pix após auditoria do TCU - Poder360",
         "timestamp": "2026-08-07T15:15:59Z"
-    },
-    {
-        "source": "G1",
-        "title": "Após reunião com AGU, Discord deve apresentar, até a próxima segunda, plano para ampliar proteção na plataforma - G1",
-        "timestamp": "2026-08-07T19:42:56Z"
     }
 ]
