@@ -1,13 +1,13 @@
 [
     {
+        "source": "G1",
+        "title": "Em ligação com presidente do Republicanos, Cleitinho confirma candidatura ao governo de Minas Gerais - G1",
+        "timestamp": "2026-08-08T00:25:26Z"
+    },
+    {
         "source": "CNN Brasil",
         "title": "Ciclone-bomba e frente fria: veja como será 2º dia de fenômeno no Brasil - CNN Brasil",
         "timestamp": "2026-08-07T12:42:52Z"
-    },
-    {
-        "source": "G1",
-        "title": "Lula diz que mandará ‘foto’ para Trump de dados que mostram a queda do desmatamento no Brasil - G1",
-        "timestamp": "2026-08-07T20:26:38Z"
     },
     {
         "source": "Poder360",
@@ -15,9 +15,9 @@
         "timestamp": "2026-08-07T18:39:16Z"
     },
     {
-        "source": "O GLOBO",
-        "title": "Ventania no RJ e em SP: Rio volta ao Estágio 2 com previsão de ventos moderados e rajadas fortes durante a noite - O GLOBO",
-        "timestamp": "2026-08-07T21:15:00Z"
+        "source": "CNN Brasil",
+        "title": "Lula volta a criticar Rubio e diz que secretário de Trump \"odeia o Brasil\" - CNN Brasil",
+        "timestamp": "2026-08-07T21:15:56Z"
     },
     {
         "source": "CNN Brasil",
@@ -25,8 +25,8 @@
         "timestamp": "2026-08-07T16:54:55Z"
     },
     {
-        "source": "BBC",
-        "title": "'Estava conversando com minha professora quando ela foi baleada': aluno de 14 anos mata cinco professores e os avós na Tailândia - BBC",
-        "timestamp": "2026-08-07T17:15:59Z"
+        "source": "Folha de S.Paulo",
+        "title": "Opinião - Mariliz Pereira Jorge: Proibir o Discord não vai salvar as nossas crianças - Folha de S.Paulo",
+        "timestamp": "2026-08-07T20:00:00Z"
     }
 ]
