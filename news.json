@@ -1,7 +1,7 @@
 [
     {
-        "source": "noticias.uol.com.br",
-        "title": "Ciclone perde força, mas ventos podem chegar a 90 km/h no Sul e Sudeste - noticias.uol.com.br",
+        "source": "UOL Notícias",
+        "title": "Ciclone perde força, mas ventos podem chegar a 90 km/h no Sul e Sudeste - UOL Notícias",
         "timestamp": "2026-08-08T07:49:53Z"
     },
     {
@@ -10,23 +10,23 @@
         "timestamp": "2026-08-08T09:05:14Z"
     },
     {
-        "source": "G1",
-        "title": "Em ligação com presidente do Republicanos, Cleitinho confirma candidatura ao governo de Minas Gerais - G1",
-        "timestamp": "2026-08-08T00:25:26Z"
+        "source": "O GLOBO",
+        "title": "Doce Maravilha 2026: festival cancela primeiro dia de shows devido à previsão de ventania; saiba como pedir reembolso - O GLOBO",
+        "timestamp": "2026-08-07T18:43:48Z"
     },
     {
-        "source": "CNN Brasil",
-        "title": "Ciclone-bomba: Rio muda rotina, suspende serviços e aguarda ventania severa - CNN Brasil",
-        "timestamp": "2026-08-07T20:45:36Z"
-    },
-    {
-        "source": "noticias.uol.com.br",
-        "title": "A Hora: Brasil à prova, e a prova do Brasil - noticias.uol.com.br",
-        "timestamp": "2026-08-08T12:30:00Z"
+        "source": "CartaCapital",
+        "title": "Fim da novela: Republicanos confirma Cleitinho como candidato ao governo de Minas Gerais - CartaCapital",
+        "timestamp": "2026-08-08T00:24:00Z"
     },
     {
         "source": "CNN Brasil",
         "title": "Inquérito da PF vai investigar possível crime da Anac no caso Voepass - CNN Brasil",
         "timestamp": "2026-08-07T20:29:29Z"
+    },
+    {
+        "source": "UOL Notícias",
+        "title": "A Hora: Brasil à prova, e a prova do Brasil - UOL Notícias",
+        "timestamp": "2026-08-08T12:30:00Z"
     }
 ]
