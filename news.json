@@ -1,17 +1,17 @@
 [
     {
-        "source": "g1.globo.com",
-        "title": "'O último passeio de metade da minha família': parente de colombianas mortas em queda de helicóptero posta homenagem - g1.globo.com",
+        "source": "G1",
+        "title": "'O último passeio de metade da minha família': parente de colombianas mortas em queda de helicóptero posta homenagem - G1",
         "timestamp": "2026-08-09T00:29:51Z"
     },
     {
-        "source": "g1.globo.com",
-        "title": "Senado dos Estados Unidos aprova Daniel Perez como embaixador dos EUA no Brasil - g1.globo.com",
+        "source": "G1",
+        "title": "Senado dos Estados Unidos aprova Daniel Perez como embaixador dos EUA no Brasil - G1",
         "timestamp": "2026-08-07T18:24:57Z"
     },
     {
-        "source": "revistaoeste.com",
-        "title": "Lula insiste em taxação dos mais ricos - revistaoeste.com",
+        "source": "Revista Oeste",
+        "title": "Lula insiste em taxação dos mais ricos - Revista Oeste",
         "timestamp": "2026-08-08T09:05:14Z"
     },
     {
@@ -20,13 +20,13 @@
         "timestamp": "2026-08-08T09:00:00Z"
     },
     {
-        "source": "Rádio Itatiaia",
-        "title": "‘Novela Cleitinho’: Vox Radar revela como as redes reagiram à reviravolta na candidatura - Rádio Itatiaia",
-        "timestamp": "2026-08-08T14:51:41Z"
-    },
-    {
         "source": "BBC",
         "title": "Tirar Discord do ar, como pediu Janja, não resolve problema e pode empurrar usuários para plataformas fora do alcance da lei, dizem especialistas - BBC",
         "timestamp": "2026-08-08T17:47:40Z"
+    },
+    {
+        "source": "Rádio Itatiaia",
+        "title": "‘Novela Cleitinho’: Vox Radar revela como as redes reagiram à reviravolta na candidatura - Rádio Itatiaia",
+        "timestamp": "2026-08-08T14:51:41Z"
     }
 ]
