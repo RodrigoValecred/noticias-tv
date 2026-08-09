@@ -10,11 +10,6 @@
         "timestamp": "2026-08-09T12:31:18Z"
     },
     {
-        "source": "Correio Braziliense",
-        "title": "Moraes nega autorização para que Bolsonaro receba visita dos filhos - Correio Braziliense",
-        "timestamp": "2026-08-08T14:25:00Z"
-    },
-    {
         "source": "CNN Brasil",
         "title": "Em entrevista, Mauro Vieira pede fim das \"agressões de Milei contra Lula\" - CNN Brasil",
         "timestamp": "2026-08-09T00:25:35Z"
@@ -23,6 +18,11 @@
         "source": "UOL Notícias",
         "title": "Josias de Souza: Plano de governo diz que Lula é antissistema: 'Verdadeiro novo' - UOL Notícias",
         "timestamp": "2026-08-09T07:00:29Z"
+    },
+    {
+        "source": "Correio Braziliense",
+        "title": "Moraes nega autorização para que Bolsonaro receba visita dos filhos - Correio Braziliense",
+        "timestamp": "2026-08-08T14:25:00Z"
     },
     {
         "source": "CartaCapital",
