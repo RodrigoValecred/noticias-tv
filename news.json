@@ -1,18 +1,8 @@
 [
     {
         "source": "G1",
-        "title": "VÍDEO: Influenciador grava momento em que terremoto atinge aeroporto na Colômbia - G1",
-        "timestamp": "2026-08-10T19:36:58Z"
-    },
-    {
-        "source": "G1",
-        "title": "Hugo Motta declara apoio a campanha de Lula à reeleição - G1",
-        "timestamp": "2026-08-10T19:40:52Z"
-    },
-    {
-        "source": "CNN Brasil",
-        "title": "Piloto de helicóptero é identificado após acidente com quatro mortos no Rio - CNN Brasil",
-        "timestamp": "2026-08-10T11:29:17Z"
+        "title": "Terremoto na Colômbia: Por que moradores sentiram o tremor em Manaus? Especialista explica - G1",
+        "timestamp": "2026-08-10T22:17:25Z"
     },
     {
         "source": "CartaCapital",
@@ -21,12 +11,22 @@
     },
     {
         "source": "G1",
-        "title": "EUA respondem ao Brasil na OMC e dizem estar 'à disposição' para discutir tarifaço - G1",
-        "timestamp": "2026-08-10T16:21:37Z"
+        "title": "Hugo Motta declara apoio a campanha de Lula à reeleição - G1",
+        "timestamp": "2026-08-10T19:40:52Z"
     },
     {
-        "source": "G1",
-        "title": "Derrite nega ter ‘bagunçado a Segurança Pública em SP’ e ter relação ruim com Tarcísio, após criticas de Haddad - G1",
-        "timestamp": "2026-08-10T15:17:05Z"
+        "source": "CNN Brasil",
+        "title": "EUA aceitam pedido do Brasil para tratar de tarifaço na OMC - CNN Brasil",
+        "timestamp": "2026-08-10T17:15:01Z"
+    },
+    {
+        "source": "CNN Brasil",
+        "title": "Piloto de helicóptero é identificado após acidente com quatro mortos no Rio - CNN Brasil",
+        "timestamp": "2026-08-10T11:29:17Z"
+    },
+    {
+        "source": "Estadão",
+        "title": "Tarcísio e Haddad fazem debate duro e leal, com duelo sobre papel federal em resultados de São Paulo - Estadão",
+        "timestamp": "2026-08-10T00:49:47Z"
     }
 ]
