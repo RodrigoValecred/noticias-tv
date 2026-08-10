@@ -1,13 +1,8 @@
 [
     {
-        "source": "G1",
-        "title": "Terremoto de magnitude 7,4 atinge a Colômbia e chacoalha Bogotá; há feridos e danos - G1",
-        "timestamp": "2026-08-10T12:44:53Z"
-    },
-    {
-        "source": "Estadão",
-        "title": "Tarcísio e Haddad fazem debate duro e leal, com duelo sobre papel federal em resultados de São Paulo - Estadão",
-        "timestamp": "2026-08-10T00:49:47Z"
+        "source": "g1.globo.com",
+        "title": "VÍDEO mostra prédio ruindo durante terremoto na Colômbia - g1.globo.com",
+        "timestamp": "2026-08-10T13:51:45Z"
     },
     {
         "source": "CartaCapital",
@@ -16,17 +11,22 @@
     },
     {
         "source": "CNN Brasil",
+        "title": "Piloto de helicóptero é identificado após acidente com quatro mortos no Rio - CNN Brasil",
+        "timestamp": "2026-08-10T11:29:17Z"
+    },
+    {
+        "source": "Estadão",
+        "title": "Cinegrafista da GloboNews é retirado da cobertura do debate após dar cabeçada em repórter - Estadão",
+        "timestamp": "2026-08-10T01:48:11Z"
+    },
+    {
+        "source": "CNN Brasil",
         "title": "Candidatos expõem \"excesso de ladrão\" e milícia infiltrada em debate no RJ - CNN Brasil",
         "timestamp": "2026-08-10T13:27:09Z"
     },
     {
-        "source": "Brasil de Fato",
-        "title": "Nota do Brasil de Fato sobre agressão a repórter antes de debate na Band - Brasil de Fato",
-        "timestamp": "2026-08-09T22:29:00Z"
-    },
-    {
-        "source": "BBC",
-        "title": "'Fino', dinheiro e coragem: como apps exploram 'provas de masculinidade' dos entregadores, segundo sociólogo - BBC",
-        "timestamp": "2026-08-10T08:38:28Z"
+        "source": "Estadão",
+        "title": "Tarcísio e Haddad fazem debate duro e leal, com duelo sobre papel federal em resultados de São Paulo - Estadão",
+        "timestamp": "2026-08-10T00:49:47Z"
     }
 ]
