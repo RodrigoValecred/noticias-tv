@@ -5,14 +5,9 @@
         "timestamp": "2026-08-10T21:44:32Z"
     },
     {
-        "source": "Poder360",
-        "title": "Hugo Motta declara apoio à reeleição de Lula - Poder360",
-        "timestamp": "2026-08-11T00:17:42Z"
-    },
-    {
-        "source": "Diário do Centro do Mundo",
-        "title": "Pesquisa na Argentina mostra que 67,6% rejeitam ataques de Milei contra Lula - Diário do Centro do Mundo",
-        "timestamp": "2026-08-10T19:04:00Z"
+        "source": "CartaCapital",
+        "title": "Maioria dos argentinos desaprova ataques de Milei a Lula, mostra pesquisa - CartaCapital",
+        "timestamp": "2026-08-10T21:54:00Z"
     },
     {
         "source": "Extra online",
@@ -20,13 +15,18 @@
         "timestamp": "2026-08-10T23:06:37Z"
     },
     {
-        "source": "O GLOBO",
-        "title": "Mulher furta viatura da PM, desobedece ordem de parada e é presa após bater durante fuga - O GLOBO",
-        "timestamp": "2026-08-10T22:03:53Z"
+        "source": "g1.globo.com",
+        "title": "Trump assina ordem que reduz vacinas recomendadas para crianças - g1.globo.com",
+        "timestamp": "2026-08-10T19:29:25Z"
     },
     {
         "source": "g1.globo.com",
         "title": "Após Brasil acionar OMC, China pede para participar de consultas sobre tarifaço dos EUA - g1.globo.com",
         "timestamp": "2026-08-10T21:32:40Z"
+    },
+    {
+        "source": "CNN Brasil",
+        "title": "Piloto de helicóptero é identificado após acidente com quatro mortos no Rio - CNN Brasil",
+        "timestamp": "2026-08-10T11:29:17Z"
     }
 ]
