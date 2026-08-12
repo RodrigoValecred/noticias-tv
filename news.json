@@ -1,23 +1,13 @@
 [
     {
+        "source": "G1",
+        "title": "Discord: o que é a rede social que terá transmissões ao vivo suspensas no Brasil após decisão da ANPD - G1",
+        "timestamp": "2026-08-12T14:29:46Z"
+    },
+    {
         "source": "CNN Brasil",
         "title": "Lula e Alcolumbre se reuniram e diálogo foi retomado, diz ministro - CNN Brasil",
         "timestamp": "2026-08-12T14:07:40Z"
-    },
-    {
-        "source": "G1",
-        "title": "'Penduricalhos': STF manda 7 tribunais devolverem valores; ministros citam 'pagamentos exorbitantes' - G1",
-        "timestamp": "2026-08-12T13:19:59Z"
-    },
-    {
-        "source": "www.gov.br",
-        "title": "Em medida preventiva, ANPD determina que Discord suspenda transmissões ao vivo no Brasil - www.gov.br",
-        "timestamp": "2026-08-12T14:34:00Z"
-    },
-    {
-        "source": "Forbes Brasil",
-        "title": "Eclipse Solar Total Acontece Hoje; Acompanhe Live do Observatório Nacional - Forbes Brasil",
-        "timestamp": "2026-08-12T08:01:00Z"
     },
     {
         "source": "G1",
@@ -26,7 +16,17 @@
     },
     {
         "source": "G1",
-        "title": "Fonoaudióloga é baleada no pescoço dentro de ônibus em tiroteio em Vicente de Carvalho, no Rio - G1",
-        "timestamp": "2026-08-12T12:57:52Z"
+        "title": "Voo secreto de Trump: CIA detectou ameaça de lançamento de míssil contra Air Force One na Turquia, diz TV - G1",
+        "timestamp": "2026-08-12T14:58:58Z"
+    },
+    {
+        "source": "Correio Braziliense",
+        "title": "Moraes manda suspender pagamentos 'exorbitantes' a magistrados e cobra devolução - Correio Braziliense",
+        "timestamp": "2026-08-12T13:57:00Z"
+    },
+    {
+        "source": "CNN Brasil",
+        "title": "Episódio entre PM e motorista de Haddad foi esclarecido, diz secretário - CNN Brasil",
+        "timestamp": "2026-08-12T20:34:54Z"
     }
 ]
