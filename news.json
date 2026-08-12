@@ -1,13 +1,8 @@
 [
     {
         "source": "BBC",
-        "title": "O que é a Doutrina Monroe, exaltada pelo governo Trump em novo vídeo - BBC",
-        "timestamp": "2026-08-12T01:44:58Z"
-    },
-    {
-        "source": "O GLOBO",
-        "title": "De estupro a armação: peça-chave em denúncia contra vice de Flávio Bolsonaro apresenta versões opostas - O GLOBO",
-        "timestamp": "2026-08-11T20:45:58Z"
+        "title": "Epicentro do terremoto na Colômbia: mapas e gráficos mostram onde ocorreu o tremor de magnitude 7,4 - BBC",
+        "timestamp": "2026-08-11T18:56:56Z"
     },
     {
         "source": "CNN Brasil",
@@ -15,18 +10,23 @@
         "timestamp": "2026-08-11T22:57:06Z"
     },
     {
-        "source": "Estadão",
-        "title": "Moraes determina busca contra informante de jornalista que publicou texto sobre carro usado por Dino - Estadão",
-        "timestamp": "2026-08-11T17:56:19Z"
-    },
-    {
-        "source": "G1",
-        "title": "'Levanta a mão aí quem não tem problema na família', diz Michelle após gravar programa eleitoral com Flávio - G1",
-        "timestamp": "2026-08-11T18:32:46Z"
+        "source": "CNN Brasil",
+        "title": "Eclipse solar: horário, onde será possível ver e como acompanhar o fenômeno - CNN Brasil",
+        "timestamp": "2026-08-12T10:44:33Z"
     },
     {
         "source": "BBC",
-        "title": "Trump confirma que trocou secretamente de avião devido a possível ameaça - BBC",
-        "timestamp": "2026-08-12T02:40:03Z"
+        "title": "O que é a Doutrina Monroe, exaltada pelo governo Trump em novo vídeo - BBC",
+        "timestamp": "2026-08-12T01:44:58Z"
+    },
+    {
+        "source": "G1",
+        "title": "Moraes determina investigação contra fonte de jornalista em reportagem sobre Dino - G1",
+        "timestamp": "2026-08-12T01:09:55Z"
+    },
+    {
+        "source": "Brasil 247",
+        "title": "Lindbergh aciona o STF e denuncia “depoimento forjado” após denúncia contra Alfredo Gaspar (vídeo) - Brasil 247",
+        "timestamp": "2026-08-11T18:51:00Z"
     }
 ]
