@@ -1,23 +1,13 @@
 [
     {
         "source": "G1",
-        "title": "Fachin defende sigilo da fonte jornalística e indica que decisão de Moraes para investigar jornalista deve ser levada ao plenário do STF - G1",
-        "timestamp": "2026-08-13T18:36:31Z"
+        "title": "Nunes Marques restabelece filiação de Flávio ao PL e determina exclusão do vínculo com o Missão - G1",
+        "timestamp": "2026-08-13T18:49:10Z"
     },
     {
         "source": "CNN Brasil",
-        "title": "TSE manda instaurar inquérito para apurar filiação de Flávio ao Missão - CNN Brasil",
-        "timestamp": "2026-08-13T17:32:49Z"
-    },
-    {
-        "source": "G1",
-        "title": "Menino atingido em operação na Mangueira perde a visão do olho esquerdo, diz tia - G1",
-        "timestamp": "2026-08-13T11:31:18Z"
-    },
-    {
-        "source": "Migalhas",
-        "title": "PF faz buscas contra Nelson Wilians em investigação sobre lavagem de dinheiro de bets - Migalhas",
-        "timestamp": "2026-08-13T11:23:00Z"
+        "title": "Fachin defende sigilo da fonte de jornalista após decisão de Moraes - CNN Brasil",
+        "timestamp": "2026-08-13T18:17:08Z"
     },
     {
         "source": "MetSul Meteorologia",
@@ -28,5 +18,15 @@
         "source": "NSC Total",
         "title": "Mais de 550 cidades entram na rota de perigo para tempestades severas de até 100 mm e granizo - NSC Total",
         "timestamp": "2026-08-13T13:13:28Z"
+    },
+    {
+        "source": "Migalhas",
+        "title": "PF faz buscas contra Nelson Wilians em investigação sobre lavagem de dinheiro de bets - Migalhas",
+        "timestamp": "2026-08-13T11:23:00Z"
+    },
+    {
+        "source": "G1",
+        "title": "Menino atingido em operação na Mangueira perde a visão do olho esquerdo, diz tia - G1",
+        "timestamp": "2026-08-13T11:31:18Z"
     }
 ]
