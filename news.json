@@ -1,18 +1,13 @@
 [
     {
         "source": "G1",
-        "title": "Quaest, 2º turno: Lula, 43%; Flávio Bolsonaro, 40% - G1",
-        "timestamp": "2026-08-14T21:01:41Z"
+        "title": "Quaest, 1º turno: Lula, 38%; Flávio Bolsonaro, 31%; Renan Santos, 4%; Caiado, 4%; Augusto Cury, 2%; e Zema, 2% - G1",
+        "timestamp": "2026-08-14T21:00:14Z"
     },
     {
-        "source": "poder360.com.br",
-        "title": "Cármen Lúcia diz que liberdade de imprensa “não está em questão” - poder360.com.br",
-        "timestamp": "2026-08-14T22:13:18Z"
-    },
-    {
-        "source": "CNN Brasil",
-        "title": "Terremoto de magnitude 7,7 atinge a Indonésia, diz agência - CNN Brasil",
-        "timestamp": "2026-08-14T22:17:46Z"
+        "source": "UOL Notícias",
+        "title": "Terremoto de magnitude 7,7 atinge a Indonésia, ao menos 2 morrem - UOL Notícias",
+        "timestamp": "2026-08-14T23:04:00Z"
     },
     {
         "source": "CartaCapital",
@@ -20,13 +15,18 @@
         "timestamp": "2026-08-14T20:03:00Z"
     },
     {
-        "source": "BBC",
-        "title": "O que o Brasil ganha e o que arrisca ao acionar lei de reciprocidade para revidar 'tarifaço' dos EUA? - BBC",
-        "timestamp": "2026-08-14T21:05:45Z"
+        "source": "Poder360",
+        "title": "Cármen Lúcia diz que liberdade de imprensa “não está em questão” - Poder360",
+        "timestamp": "2026-08-14T22:13:18Z"
     },
     {
         "source": "UOL Notícias",
         "title": "Brasileira morta pelo filho deve ser enterrada em Portugal, diz mãe - UOL Notícias",
         "timestamp": "2026-08-14T21:52:17Z"
+    },
+    {
+        "source": "BBC",
+        "title": "O que o Brasil ganha e o que arrisca ao acionar lei de reciprocidade para revidar 'tarifaço' dos EUA? - BBC",
+        "timestamp": "2026-08-14T21:05:45Z"
     }
 ]
