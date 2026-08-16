@@ -1,12 +1,17 @@
 [
     {
+        "source": "G1",
+        "title": "Oito morrem em tombamento de ônibus em Petrópolis - G1",
+        "timestamp": "2026-08-16T12:00:59Z"
+    },
+    {
         "source": "Poder360",
         "title": "Veja a identidade visual da campanha de Lula - Poder360",
         "timestamp": "2026-08-15T16:34:34Z"
     },
     {
-        "source": "BBC",
-        "title": "Terremoto mata ao menos 51 pessoas e deixa 5 mil desabrigados na Indonésia - BBC",
+        "source": "bbc.com",
+        "title": "Terremoto mata ao menos 51 pessoas e deixa 5 mil desabrigados na Indonésia - bbc.com",
         "timestamp": "2026-08-16T10:54:15Z"
     },
     {
@@ -23,10 +28,5 @@
         "source": "UOL Notícias",
         "title": "Empresário do mercado financeiro é preso em flagrante por agredir a mulher - UOL Notícias",
         "timestamp": "2026-08-16T01:26:17Z"
-    },
-    {
-        "source": "ND Mais",
-        "title": "Onda de tempestades deixa Sul em alerta laranja para chuvarada e trovoadas; veja as áreas com maior risco neste domingo (16) - ND Mais",
-        "timestamp": "2026-08-16T10:00:01Z"
     }
 ]
