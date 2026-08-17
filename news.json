@@ -1,8 +1,18 @@
 [
     {
+        "source": "G1",
+        "title": "Casas Bahia entra com pedido de recuperação judicial - G1",
+        "timestamp": "2026-08-17T10:15:09Z"
+    },
+    {
         "source": "CNN Brasil",
-        "title": "Lula e Flávio foca em Minas na primeira semana da campanha eleitoral - CNN Brasil",
-        "timestamp": "2026-08-17T04:00:32Z"
+        "title": "Lula e Flávio focam em Minas na primeira semana da campanha eleitoral - CNN Brasil",
+        "timestamp": "2026-08-17T07:00:32Z"
+    },
+    {
+        "source": "CNN Brasil",
+        "title": "Nexus/BTG: Lula empata com Flávio e Caiado no 2º turno - CNN Brasil",
+        "timestamp": "2026-08-17T09:58:51Z"
     },
     {
         "source": "G1",
@@ -10,23 +20,13 @@
         "timestamp": "2026-08-17T03:00:20Z"
     },
     {
+        "source": "BBC",
+        "title": "El Salvador sob Bukele: como 4 anos de regime de exceção mudou a vida no país - BBC",
+        "timestamp": "2026-08-17T07:43:23Z"
+    },
+    {
         "source": "CNN Brasil",
         "title": "Dívidas, impostos e privatizações marcam primeiro debate em Minas - CNN Brasil",
-        "timestamp": "2026-08-17T02:04:57Z"
-    },
-    {
-        "source": "Poder360",
-        "title": "Ato de Flávio Bolsonaro em Copacabana começa com espaços vazios - Poder360",
-        "timestamp": "2026-08-16T16:03:01Z"
-    },
-    {
-        "source": "BBC",
-        "title": "Inelegível até 2032, Pablo Marçal é lançado como candidato à Presidência pelo PRTB - BBC",
-        "timestamp": "2026-08-16T02:51:19Z"
-    },
-    {
-        "source": "InfoMoney",
-        "title": "Novas projeções apontam ‘El Niño monstro’, de intensidade inédita em séculos - InfoMoney",
-        "timestamp": "2026-08-16T17:40:40Z"
+        "timestamp": "2026-08-17T02:11:52Z"
     }
 ]
