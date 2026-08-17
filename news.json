@@ -15,11 +15,6 @@
         "timestamp": "2026-08-16T23:25:08Z"
     },
     {
-        "source": "G1",
-        "title": "Drones com explosivos viram nova arma na disputa entre facções no Rio de Janeiro - G1",
-        "timestamp": "2026-08-16T23:43:40Z"
-    },
-    {
         "source": "Estadão",
         "title": "Flávio inicia campanha em ato esvaziado em Copacabana com bandeira dos EUA, orações e xingamentos - Estadão",
         "timestamp": "2026-08-16T14:54:00Z"
@@ -28,5 +23,10 @@
         "source": "G1",
         "title": "Empresário preso por agredir mulher em SP é investigado por ameaçar e atacar homem em sinagoga - G1",
         "timestamp": "2026-08-17T00:44:16Z"
+    },
+    {
+        "source": "G1",
+        "title": "Drones com explosivos viram nova arma na disputa entre facções no Rio de Janeiro - G1",
+        "timestamp": "2026-08-16T23:43:40Z"
     }
 ]
