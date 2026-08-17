@@ -1,18 +1,13 @@
 [
     {
-        "source": "G1",
-        "title": "Casas Bahia entra com pedido de recuperação judicial - G1",
-        "timestamp": "2026-08-17T10:15:09Z"
-    },
-    {
-        "source": "CNN Brasil",
-        "title": "Lula e Flávio focam em Minas na primeira semana da campanha eleitoral - CNN Brasil",
-        "timestamp": "2026-08-17T07:00:32Z"
-    },
-    {
         "source": "CNN Brasil",
         "title": "Nexus/BTG: Lula empata com Flávio e Caiado no 2º turno - CNN Brasil",
         "timestamp": "2026-08-17T09:58:51Z"
+    },
+    {
+        "source": "Poder360",
+        "title": "Lula e Flávio têm públicos moderados em comícios de largada - Poder360",
+        "timestamp": "2026-08-17T09:00:23Z"
     },
     {
         "source": "G1",
@@ -27,6 +22,11 @@
     {
         "source": "CNN Brasil",
         "title": "Dívidas, impostos e privatizações marcam primeiro debate em Minas - CNN Brasil",
-        "timestamp": "2026-08-17T02:11:52Z"
+        "timestamp": "2026-08-17T02:08:09Z"
+    },
+    {
+        "source": "G1",
+        "title": "Empresário preso por agredir mulher em SP é investigado por ameaçar e atacar homem em sinagoga - G1",
+        "timestamp": "2026-08-17T00:44:16Z"
     }
 ]
