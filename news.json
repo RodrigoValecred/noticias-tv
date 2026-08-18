@@ -1,13 +1,8 @@
 [
     {
-        "source": "G1",
-        "title": "Glória Menezes, uma das maiores atrizes do país, morre no Rio aos 91 anos - G1",
+        "source": "g1.globo.com",
+        "title": "Glória Menezes, uma das maiores atrizes do país, morre no Rio aos 91 anos - g1.globo.com",
         "timestamp": "2026-08-18T20:02:59Z"
-    },
-    {
-        "source": "estadao.com.br",
-        "title": "Mudança na Lei Seca: Blitz terá procedimento para álcool, drogas e até bombom de licor; veja mais - estadao.com.br",
-        "timestamp": "2026-08-18T15:44:00Z"
     },
     {
         "source": "CNN Brasil",
@@ -15,9 +10,9 @@
         "timestamp": "2026-08-18T11:23:24Z"
     },
     {
-        "source": "Metrópoles",
-        "title": "Alcolumbre assina despacho e avança com PEC do fim da escala 6x1 - Metrópoles",
-        "timestamp": "2026-08-18T18:43:00Z"
+        "source": "Estadão",
+        "title": "Mudança na Lei Seca: Blitz terá procedimento para álcool, drogas e até bombom de licor; veja mais - Estadão",
+        "timestamp": "2026-08-18T15:44:00Z"
     },
     {
         "source": "Poder360",
@@ -28,5 +23,10 @@
         "source": "CNN Brasil",
         "title": "Fachin defende separar \"joio do trigo\" no debate sobre salários de juízes - CNN Brasil",
         "timestamp": "2026-08-18T11:07:34Z"
+    },
+    {
+        "source": "O GLOBO",
+        "title": "Lula provoca Trump ao exaltar descoberta de petróleo na Foz do Amazonas - O GLOBO",
+        "timestamp": "2026-08-17T22:06:49Z"
     }
 ]
