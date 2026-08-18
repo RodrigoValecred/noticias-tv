@@ -1,15 +1,5 @@
 [
     {
-        "source": "G1",
-        "title": "Laura Cardoso morre aos 98 anos; veja FOTOS da carreira - G1",
-        "timestamp": "2026-08-18T10:00:13Z"
-    },
-    {
-        "source": "ESPN Brasil",
-        "title": "Corinthians vai pagar R$ 135,5 milhões a Memphis Depay após renovação e renegociação de dívida - ESPN Brasil",
-        "timestamp": "2026-08-18T11:32:00Z"
-    },
-    {
         "source": "Estadão",
         "title": "Indicado por Flávio Dino vai presidir TCE-MA, que tem 3 cadeiras vagas por decisões do ministro - Estadão",
         "timestamp": "2026-08-17T20:15:37Z"
@@ -25,8 +15,18 @@
         "timestamp": "2026-08-18T02:58:00Z"
     },
     {
+        "source": "Brasil 247",
+        "title": "Registros inéditos mostram que Flávio Bolsonaro e Vorcaro falaram ao telefone ao menos cinco vezes em um único mês - Brasil 247",
+        "timestamp": "2026-08-18T10:09:00Z"
+    },
+    {
         "source": "CNN Brasil",
-        "title": "Morre \"PQD\", líder do Comando Vermelho no Rio de Janeiro - CNN Brasil",
-        "timestamp": "2026-08-18T12:56:16Z"
+        "title": "\"PQD\", líder do Comando Vermelho, é preso no Rio de Janeiro - CNN Brasil",
+        "timestamp": "2026-08-18T13:22:46Z"
+    },
+    {
+        "source": "CNN Brasil",
+        "title": "Real Time Big Data: Moro lidera cenários para o governo do PR - CNN Brasil",
+        "timestamp": "2026-08-18T10:33:31Z"
     }
 ]
