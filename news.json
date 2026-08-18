@@ -1,10 +1,5 @@
 [
     {
-        "source": "UOL",
-        "title": "Atriz Laura Cardoso morre aos 98 anos - UOL",
-        "timestamp": "2026-08-18T05:34:46Z"
-    },
-    {
         "source": "CNN Brasil",
         "title": "Discord diz que suspendeu lives no Brasil após determinação da ANPD - CNN Brasil",
         "timestamp": "2026-08-17T18:13:40Z"
@@ -28,5 +23,10 @@
         "source": "Rádio Itatiaia",
         "title": "Xingamentos e ameaça de agressão: a briga entre Kalil e Gabriel durante debate da Band - Rádio Itatiaia",
         "timestamp": "2026-08-17T18:20:41Z"
+    },
+    {
+        "source": "O GLOBO",
+        "title": "Estreia esvaziada sem Michelle e Nikolas provoca críticas no PL e abre discussão sobre formato dos atos de Flávio - O GLOBO",
+        "timestamp": "2026-08-17T14:58:28Z"
     }
 ]
