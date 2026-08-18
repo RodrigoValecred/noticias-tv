@@ -1,13 +1,18 @@
 [
     {
+        "source": "UOL",
+        "title": "Atriz Laura Cardoso morre aos 98 anos - UOL",
+        "timestamp": "2026-08-18T05:34:46Z"
+    },
+    {
         "source": "CNN Brasil",
         "title": "Discord diz que suspendeu lives no Brasil após determinação da ANPD - CNN Brasil",
         "timestamp": "2026-08-17T18:13:40Z"
     },
     {
-        "source": "G1",
-        "title": "Flávio Dino, do STF, determina afastamento do presidente do Tribunal de Contas do Maranhão - G1",
-        "timestamp": "2026-08-17T23:43:22Z"
+        "source": "MetSul Meteorologia",
+        "title": "Mais de 100 cidades batem 30ºC em dia de inverno com calor 36ºC no RS - MetSul Meteorologia",
+        "timestamp": "2026-08-17T22:17:26Z"
     },
     {
         "source": "Metrópoles",
@@ -15,18 +20,13 @@
         "timestamp": "2026-08-17T22:35:00Z"
     },
     {
-        "source": "O GLOBO",
-        "title": "Estreia esvaziada sem Michelle e Nikolas provoca críticas no PL e abre discussão sobre formato dos atos de Flávio - O GLOBO",
-        "timestamp": "2026-08-17T14:58:28Z"
+        "source": "Estadão",
+        "title": "Indicado por Flávio Dino vai presidir TCE-MA, que tem 3 cadeiras vagas por decisões do ministro - Estadão",
+        "timestamp": "2026-08-17T20:15:37Z"
     },
     {
-        "source": "Agora RS",
-        "title": "Defesa Civil projeta chuvas volumosas e chance de cheias no RS - Agora RS",
-        "timestamp": "2026-08-17T16:48:25Z"
-    },
-    {
-        "source": "poder360.com.br",
-        "title": "Renan Santos chama público de ato de Lula de “zumbis” - poder360.com.br",
-        "timestamp": "2026-08-17T18:22:02Z"
+        "source": "Rádio Itatiaia",
+        "title": "Xingamentos e ameaça de agressão: a briga entre Kalil e Gabriel durante debate da Band - Rádio Itatiaia",
+        "timestamp": "2026-08-17T18:20:41Z"
     }
 ]
