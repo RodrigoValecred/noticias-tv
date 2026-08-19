@@ -1,13 +1,18 @@
 [
     {
         "source": "G1",
-        "title": "Acidente entre ônibus e carreta deixa 22 mortos e quarto feridos no Paraná - G1",
+        "title": "Acidente entre micro-ônibus e carreta deixa 22 mortos e cinco feridos no Paraná - G1",
         "timestamp": "2026-08-19T09:11:02Z"
     },
     {
-        "source": "cnnbrasil.com.br",
-        "title": "Compra de joias liga amiga de Lulinha a ex-assessor de Lula; entenda - cnnbrasil.com.br",
+        "source": "CNN Brasil",
+        "title": "Compra de joias liga amiga de Lulinha a ex-assessor de Lula; entenda - CNN Brasil",
         "timestamp": "2026-08-18T11:23:24Z"
+    },
+    {
+        "source": "CNN Brasil",
+        "title": "Trump suspende tarifas de 50% sobre produtos do Canadá - CNN Brasil",
+        "timestamp": "2026-08-19T02:30:44Z"
     },
     {
         "source": "Estadão",
@@ -20,13 +25,8 @@
         "timestamp": "2026-08-17T22:06:49Z"
     },
     {
-        "source": "cnnbrasil.com.br",
-        "title": "Diplomatas do Irã publicam mapa reivindicando a Califórnia - cnnbrasil.com.br",
+        "source": "CNN Brasil",
+        "title": "Diplomatas do Irã publicam mapa reivindicando a Califórnia - CNN Brasil",
         "timestamp": "2026-08-19T01:50:00Z"
-    },
-    {
-        "source": "Poder360",
-        "title": "Risco de golpe foi \"iminente\" sob Bolsonaro, diz ex-comandante da FAB - Poder360",
-        "timestamp": "2026-08-18T16:35:43Z"
     }
 ]
