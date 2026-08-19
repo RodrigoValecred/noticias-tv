@@ -1,23 +1,8 @@
 [
     {
-        "source": "G1",
-        "title": "Acidente entre micro-ônibus e carreta deixa 23 mortos e cinco feridos no Paraná - G1",
-        "timestamp": "2026-08-19T09:11:02Z"
-    },
-    {
-        "source": "O GLOBO",
-        "title": "Lobista amiga de Lulinha postou foto em mansão usada para reuniões no dia de operação da PF sobre fraudes no INSS - O GLOBO",
-        "timestamp": "2026-08-19T08:03:14Z"
-    },
-    {
-        "source": "G1",
-        "title": "Delegado da PF é alvo de operação contra venda de informações sigilosas de investigações da corporação - G1",
-        "timestamp": "2026-08-19T11:51:01Z"
-    },
-    {
-        "source": "Estadão",
-        "title": "Mudança na Lei Seca: Blitz terá procedimento para álcool, drogas e até bombom de licor; veja mais - Estadão",
-        "timestamp": "2026-08-18T15:44:00Z"
+        "source": "Poder360",
+        "title": "Acidente entre micro-ônibus e carreta mata 23 no Paraná - Poder360",
+        "timestamp": "2026-08-19T14:17:26Z"
     },
     {
         "source": "CNN Brasil",
@@ -25,8 +10,23 @@
         "timestamp": "2026-08-19T01:42:15Z"
     },
     {
-        "source": "Poder360",
-        "title": "Diplomatas iranianos publicam mapa que reivindica a Califórnia - Poder360",
-        "timestamp": "2026-08-19T11:31:36Z"
+        "source": "G1",
+        "title": "Homem morre após ser espancado em Copacabana; família diz que ele foi confundido com um ladrão - G1",
+        "timestamp": "2026-08-19T10:40:02Z"
+    },
+    {
+        "source": "G1",
+        "title": "Delegado da PF é alvo de operação contra venda de informações sigilosas de investigações da corporação - G1",
+        "timestamp": "2026-08-19T11:51:01Z"
+    },
+    {
+        "source": "Brasil 247",
+        "title": "Tarcísio se aproxima de vitória no 1º turno em São Paulo; Tebet e Marina lideram disputa pelo Senado - Brasil 247",
+        "timestamp": "2026-08-19T10:00:00Z"
+    },
+    {
+        "source": "estadao.com.br",
+        "title": "Mudança na Lei Seca: Blitz terá procedimento para álcool, drogas e até bombom de licor; veja mais - estadao.com.br",
+        "timestamp": "2026-08-18T15:44:00Z"
     }
 ]
