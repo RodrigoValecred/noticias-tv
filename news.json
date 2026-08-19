@@ -1,13 +1,18 @@
 [
     {
         "source": "G1",
-        "title": "Acidente entre micro-ônibus e carreta deixa 22 mortos e cinco feridos no Paraná - G1",
+        "title": "Acidente entre micro-ônibus e carreta deixa 23 mortos e cinco feridos no Paraná - G1",
         "timestamp": "2026-08-19T09:11:02Z"
     },
     {
-        "source": "CNN Brasil",
-        "title": "Compra de joias liga amiga de Lulinha a ex-assessor de Lula; entenda - CNN Brasil",
-        "timestamp": "2026-08-18T11:23:24Z"
+        "source": "O GLOBO",
+        "title": "Lobista amiga de Lulinha postou foto em mansão usada para reuniões no dia de operação da PF sobre fraudes no INSS - O GLOBO",
+        "timestamp": "2026-08-19T08:03:14Z"
+    },
+    {
+        "source": "Folha PE",
+        "title": "Mudança na Lei Seca: blitz terá procedimento para álcool, drogas e até bombom de licor - Folha PE",
+        "timestamp": "2026-08-18T16:34:00Z"
     },
     {
         "source": "CNN Brasil",
@@ -15,18 +20,13 @@
         "timestamp": "2026-08-19T02:30:44Z"
     },
     {
-        "source": "Estadão",
-        "title": "Mudança na Lei Seca: Blitz terá procedimento para álcool, drogas e até bombom de licor; veja mais - Estadão",
-        "timestamp": "2026-08-18T15:44:00Z"
-    },
-    {
-        "source": "O GLOBO",
-        "title": "Lula provoca Trump ao exaltar descoberta de petróleo na Foz do Amazonas - O GLOBO",
-        "timestamp": "2026-08-17T22:06:49Z"
-    },
-    {
         "source": "CNN Brasil",
-        "title": "Diplomatas do Irã publicam mapa reivindicando a Califórnia - CNN Brasil",
-        "timestamp": "2026-08-19T01:50:00Z"
+        "title": "Real Time: Michelle Bolsonaro lidera intenções de voto ao Senado no DF - CNN Brasil",
+        "timestamp": "2026-08-19T11:06:45Z"
+    },
+    {
+        "source": "InfoMoney",
+        "title": "Lula provoca Trump ao exaltar descoberta de petróleo na Foz do Amazonas - InfoMoney",
+        "timestamp": "2026-08-18T00:27:35Z"
     }
 ]
