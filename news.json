@@ -1,18 +1,23 @@
 [
     {
+        "source": "CNN Brasil",
+        "title": "F1: Lando Norris conquista pole position para o GP da Holanda - CNN Brasil",
+        "timestamp": "2026-08-22T15:18:48Z"
+    },
+    {
         "source": "Poder360",
         "title": "Lula diz que Trump “reconheceu” erro em tarifa ao Brasil - Poder360",
         "timestamp": "2026-08-22T05:59:59Z"
     },
     {
-        "source": "Valor Econômico",
-        "title": "Datafolha: Lula tem 47% e Flávio marca 43% no segundo turno - Valor Econômico",
-        "timestamp": "2026-08-21T21:44:14Z"
-    },
-    {
         "source": "Estadão",
         "title": "Lobista diz que Lulinha marcou reunião de governador do MA no Planalto e que Lula ia liberar obra - Estadão",
         "timestamp": "2026-08-22T08:30:00Z"
+    },
+    {
+        "source": "G1",
+        "title": "Datafolha - 2º turno: Lula, 47%; Flávio Bolsonaro, 43% - G1",
+        "timestamp": "2026-08-21T21:38:23Z"
     },
     {
         "source": "O GLOBO",
@@ -23,10 +28,5 @@
         "source": "G1",
         "title": "Entregador diz que segurou e deu chutes em ciclista em Copacabana, mas deixou local porque segurança estava ‘transtornado’ - G1",
         "timestamp": "2026-08-22T11:46:07Z"
-    },
-    {
-        "source": "CartaCapital",
-        "title": "Datafolha indica ‘goleada’ de Eduardo Paes sobre Douglas Ruas no Rio de Janeiro - CartaCapital",
-        "timestamp": "2026-08-21T22:01:00Z"
     }
 ]
