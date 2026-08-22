@@ -1,13 +1,13 @@
 [
     {
-        "source": "G1",
-        "title": "Datafolha, 1º turno: veja intenção de voto por região, gênero, idade, posição política e religião - G1",
-        "timestamp": "2026-08-22T03:00:23Z"
-    },
-    {
         "source": "Poder360",
         "title": "Lula diz que Trump “reconheceu” erro em tarifa ao Brasil - Poder360",
         "timestamp": "2026-08-22T05:59:59Z"
+    },
+    {
+        "source": "Valor Econômico",
+        "title": "Datafolha: Lula tem 47% e Flávio marca 43% no segundo turno - Valor Econômico",
+        "timestamp": "2026-08-21T21:44:14Z"
     },
     {
         "source": "Estadão",
@@ -20,13 +20,13 @@
         "timestamp": "2026-08-21T21:42:50Z"
     },
     {
+        "source": "G1",
+        "title": "Entregador diz que segurou e deu chutes em ciclista em Copacabana, mas deixou local porque segurança estava ‘transtornado’ - G1",
+        "timestamp": "2026-08-22T11:46:07Z"
+    },
+    {
         "source": "CartaCapital",
         "title": "Datafolha indica ‘goleada’ de Eduardo Paes sobre Douglas Ruas no Rio de Janeiro - CartaCapital",
         "timestamp": "2026-08-21T22:01:00Z"
-    },
-    {
-        "source": "G1",
-        "title": "Ciclista morto espancado em Copacabana apanhou por 9 minutos: veja o que se sabe - G1",
-        "timestamp": "2026-08-22T03:00:46Z"
     }
 ]
