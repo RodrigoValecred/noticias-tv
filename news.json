@@ -1,13 +1,18 @@
 [
     {
-        "source": "G1",
-        "title": "Datafolha, 1º turno: veja intenção de voto por região, gênero, idade, posição política e religião - G1",
-        "timestamp": "2026-08-22T03:00:23Z"
+        "source": "Valor Econômico",
+        "title": "Datafolha: Lula tem 47% e Flávio marca 43% no segundo turno - Valor Econômico",
+        "timestamp": "2026-08-21T21:44:14Z"
     },
     {
-        "source": "Poder360",
-        "title": "Lula diz que Trump “reconheceu” erro em tarifa ao Brasil - Poder360",
-        "timestamp": "2026-08-22T05:59:59Z"
+        "source": "Estadão",
+        "title": "Lobista diz que Lulinha marcou reunião de governador do MA no Planalto e que Lula ia liberar obra - Estadão",
+        "timestamp": "2026-08-22T08:30:00Z"
+    },
+    {
+        "source": "BBC",
+        "title": "Como o governo Lula vê o telefonema com Trump — e o impacto dele nas eleições - BBC",
+        "timestamp": "2026-08-22T00:18:29Z"
     },
     {
         "source": "O GLOBO",
@@ -15,18 +20,13 @@
         "timestamp": "2026-08-21T21:42:50Z"
     },
     {
-        "source": "Estado de Minas",
-        "title": "Lula lota Praça da Estação para primeiro comício em Minas - Estado de Minas",
-        "timestamp": "2026-08-21T23:03:00Z"
-    },
-    {
         "source": "CartaCapital",
         "title": "Datafolha indica ‘goleada’ de Eduardo Paes sobre Douglas Ruas no Rio de Janeiro - CartaCapital",
         "timestamp": "2026-08-21T22:01:00Z"
     },
     {
-        "source": "G1",
-        "title": "Vídeos gravados pelos próprios agressores revelam a crueldade do espancamento de homem acusado injustamente de roubar bicicleta - G1",
-        "timestamp": "2026-08-21T23:49:05Z"
+        "source": "Correio Braziliense",
+        "title": "Morte em Copacabana: preso entregador que espancou homem - Correio Braziliense",
+        "timestamp": "2026-08-21T20:33:00Z"
     }
 ]
