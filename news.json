@@ -1,8 +1,18 @@
 [
     {
+        "source": "Brazil Journal",
+        "title": "BREAKING: Braskem entra em recuperação extrajudicial e ganha 90 dias contra uma RJ - Brazil Journal",
+        "timestamp": "2026-08-24T12:06:35Z"
+    },
+    {
+        "source": "G1",
+        "title": "Acidente entre ônibus e caminhão deixa mortos e interdita BR-040 na Grande BH; VÍDEO - G1",
+        "timestamp": "2026-08-24T09:35:13Z"
+    },
+    {
         "source": "CNN Brasil",
-        "title": "Nexus/BTG: no 2º turno, Lula tem empate técnico com Flávio e Caiado - CNN Brasil",
-        "timestamp": "2026-08-24T09:52:32Z"
+        "title": "Nexus/BTG: Lula tem 41% das intenções de voto no 1º turno; Flávio, 37% - CNN Brasil",
+        "timestamp": "2026-08-24T10:19:02Z"
     },
     {
         "source": "Estadão",
@@ -10,23 +20,13 @@
         "timestamp": "2026-08-24T04:25:00Z"
     },
     {
-        "source": "Poder360",
-        "title": "Lobista diz que Lulinha articulou reuniões na Presidência com Brandão - Poder360",
-        "timestamp": "2026-08-24T02:50:21Z"
-    },
-    {
-        "source": "R7",
-        "title": "Lula diz à RECORD que filho deve se defender de acusações e afirma que ninguém está acima da lei - R7",
-        "timestamp": "2026-08-23T17:11:43Z"
-    },
-    {
         "source": "CartaCapital",
         "title": "‘Record’ mostra entrevista exclusiva de Lula na hora do debate na ‘Band’ - CartaCapital",
         "timestamp": "2026-08-23T19:52:00Z"
     },
     {
-        "source": "O GLOBO",
-        "title": "Operação em Vigário Geral e Parada de Lucas mira intolerância religiosa do tráfico; Avenida Brasil e Linha Vermelha foram fechadas - O GLOBO",
-        "timestamp": "2026-08-24T10:56:26Z"
+        "source": "Poder360",
+        "title": "Lobista diz que Lulinha articulou reuniões na Presidência com Brandão - Poder360",
+        "timestamp": "2026-08-24T02:50:21Z"
     }
 ]
