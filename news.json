@@ -1,18 +1,13 @@
 [
     {
-        "source": "Brazil Journal",
-        "title": "BREAKING: Braskem entra em recuperação extrajudicial e ganha 90 dias contra uma RJ - Brazil Journal",
-        "timestamp": "2026-08-24T12:06:35Z"
+        "source": "CNN Brasil",
+        "title": "Braskem entra com pedido de recuperação extrajudicial - CNN Brasil",
+        "timestamp": "2026-08-24T11:55:22Z"
     },
     {
         "source": "G1",
-        "title": "Acidente entre ônibus e caminhão deixa mortos e interdita BR-040 na Grande BH; VÍDEO - G1",
+        "title": "Acidente entre ônibus e caminhão deixa ao menos dois mortos e interdita BR-040 na Grande BH; VÍDEO - G1",
         "timestamp": "2026-08-24T09:35:13Z"
-    },
-    {
-        "source": "CNN Brasil",
-        "title": "Nexus/BTG: Lula tem 41% das intenções de voto no 1º turno; Flávio, 37% - CNN Brasil",
-        "timestamp": "2026-08-24T10:19:02Z"
     },
     {
         "source": "Estadão",
@@ -20,13 +15,18 @@
         "timestamp": "2026-08-24T04:25:00Z"
     },
     {
+        "source": "Poder360",
+        "title": "Lula tem 46% contra 45% de Flávio no 2º turno, diz BTG/Nexus - Poder360",
+        "timestamp": "2026-08-24T12:11:30Z"
+    },
+    {
         "source": "CartaCapital",
         "title": "‘Record’ mostra entrevista exclusiva de Lula na hora do debate na ‘Band’ - CartaCapital",
         "timestamp": "2026-08-23T19:52:00Z"
     },
     {
-        "source": "Poder360",
-        "title": "Lobista diz que Lulinha articulou reuniões na Presidência com Brandão - Poder360",
-        "timestamp": "2026-08-24T02:50:21Z"
+        "source": "O GLOBO",
+        "title": "Operação em Vigário Geral e Parada de Lucas mira intolerância religiosa do tráfico; Avenida Brasil e Linha Vermelha foram fechadas - O GLOBO",
+        "timestamp": "2026-08-24T09:29:45Z"
     }
 ]
