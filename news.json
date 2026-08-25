@@ -1,5 +1,10 @@
 [
     {
+        "source": "G1",
+        "title": "Dolly Parton, lenda da música country, morre aos 80 anos - G1",
+        "timestamp": "2026-08-25T17:58:57Z"
+    },
+    {
         "source": "O GLOBO",
         "title": "Lula volta a defender investimentos em Defesa em cerimônia no QG do Exército: 'Defesa não é só para quando sobrar dinheiro' - O GLOBO",
         "timestamp": "2026-08-25T16:03:35Z"
@@ -11,22 +16,17 @@
     },
     {
         "source": "Correio Braziliense",
+        "title": "Zema titubeia sobre dívida, ataca STF e promete anistia a Bolsonaro - Correio Braziliense",
+        "timestamp": "2026-08-25T00:57:00Z"
+    },
+    {
+        "source": "Correio Braziliense",
         "title": "Relator da 6x1 na CCJ do Senado quer entregar texto nesta quinta-feira - Correio Braziliense",
         "timestamp": "2026-08-25T08:00:00Z"
     },
     {
-        "source": "G1",
-        "title": "Veja o que é #FATO e o que é #FAKE na entrevista de Romeu Zema à Globo - G1",
-        "timestamp": "2026-08-25T01:10:21Z"
-    },
-    {
-        "source": "G1",
-        "title": "Após ligação entre Lula e Trump, Brasil e EUA marcam nova reunião na segunda para negociar tarifaço - G1",
-        "timestamp": "2026-08-25T15:34:58Z"
-    },
-    {
-        "source": "CNN Brasil",
-        "title": "Ancine aceita pedido de registro do filme \"Dark Horse\" no Brasil - CNN Brasil",
-        "timestamp": "2026-08-25T00:23:05Z"
+        "source": "O GLOBO",
+        "title": "Quem é a Madrinha da Cidade Alta, presa no Complexo de Israel e que ganhou fuzil cor-de-rosa de Peixão - O GLOBO",
+        "timestamp": "2026-08-25T12:29:34Z"
     }
 ]
