@@ -1,8 +1,18 @@
 [
     {
+        "source": "CNN Brasil",
+        "title": "Nepal: Terremoto provocou deslizamento, bloqueou rio e causou enchente - CNN Brasil",
+        "timestamp": "2026-08-26T11:04:49Z"
+    },
+    {
         "source": "Poder360",
-        "title": "Flávio Bolsonaro tem 41% no 1º turno no Paraná, diz Quaest - Poder360",
-        "timestamp": "2026-08-25T23:08:18Z"
+        "title": "Flávio tem 47% e Lula, 42% em 2º turno, diz pesquisa - Poder360",
+        "timestamp": "2026-08-26T11:02:33Z"
+    },
+    {
+        "source": "Extra online",
+        "title": "Mãe de segurança envolvido em linchamento em Copacabana diz que 'mandou filho se entregar à polícia' - Extra online",
+        "timestamp": "2026-08-26T09:55:17Z"
     },
     {
         "source": "G1",
@@ -10,23 +20,13 @@
         "timestamp": "2026-08-26T01:40:58Z"
     },
     {
-        "source": "G1",
-        "title": "Governo Trump suspende agendamento de entrevistas para vistos de imigrantes em todo o mundo, incluindo o Brasil - G1",
-        "timestamp": "2026-08-26T00:39:52Z"
-    },
-    {
         "source": "CNN Brasil",
         "title": "Quaest: Tarcísio lidera cenários de 1º e 2º turnos em SP - CNN Brasil",
         "timestamp": "2026-08-25T20:04:33Z"
     },
     {
-        "source": "O GLOBO",
-        "title": "Ocupação do Complexo de Israel: entenda como será o policiamento 24h no conjunto de favelas controlado por Peixão - O GLOBO",
-        "timestamp": "2026-08-25T15:32:37Z"
-    },
-    {
-        "source": "Correio Braziliense",
-        "title": "Piloto brasileiro desenha nome de Lito Sousa no céu do Texas - Correio Braziliense",
-        "timestamp": "2026-08-25T12:55:00Z"
+        "source": "Poder360",
+        "title": "Perito diz que não rastreou origem de dinheiro de “Dark Horse” - Poder360",
+        "timestamp": "2026-08-26T09:38:31Z"
     }
 ]
