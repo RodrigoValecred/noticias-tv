@@ -1,8 +1,13 @@
 [
     {
+        "source": "G1",
+        "title": "PGR pede o arquivamento de denúncia de Vorcaro sobre supostas ameaças que diz ter sofrido quando preso - G1",
+        "timestamp": "2026-09-02T22:42:01Z"
+    },
+    {
         "source": "CartaCapital",
-        "title": "Mensagens de Vorcaro a Moraes recolocam ‘Dark Horse’ no radar de Lula - CartaCapital",
-        "timestamp": "2026-09-02T13:46:00Z"
+        "title": "Lula se reúne com ministros do STF em meio à tensão entre Mendonça e PF - CartaCapital",
+        "timestamp": "2026-09-02T22:00:00Z"
     },
     {
         "source": "Senado Federal",
@@ -10,23 +15,18 @@
         "timestamp": "2026-09-02T18:24:32Z"
     },
     {
-        "source": "G1",
-        "title": "Quaest, 1º turno: Lula, 37%; Flávio Bolsonaro, 29%; Cury, 10%; Renan, 3%; Caiado, 1%; Zema, 1% - G1",
-        "timestamp": "2026-09-02T13:16:51Z"
+        "source": "UOL Economia",
+        "title": "Senado aprova PL dos minerais críticos, projeto aguarda sanção de Lula - UOL Economia",
+        "timestamp": "2026-09-02T21:43:56Z"
     },
     {
-        "source": "GZH",
-        "title": "Vorcaro prestou depoimento ao gabinete de André Mendonça sem a presença da PF - GZH",
-        "timestamp": "2026-09-02T17:15:35Z"
+        "source": "Poder360",
+        "title": "Lula tem 42% ante 41% de Flávio Bolsonaro no 2º turno, diz Quaest - Poder360",
+        "timestamp": "2026-09-02T15:48:37Z"
     },
     {
-        "source": "CNN Brasil",
-        "title": "Vítima de facada na Times Square era vice-presidente do Bank of America - CNN Brasil",
-        "timestamp": "2026-09-01T17:52:22Z"
-    },
-    {
-        "source": "Brasil 247",
-        "title": "Deputados pedem ao STF fim do sigilo do caso Dark Horse e apuração sobre possível suspeição de Mendonça - Brasil 247",
-        "timestamp": "2026-09-02T18:49:00Z"
+        "source": "O GLOBO",
+        "title": "PEC da Segurança avança em comissão do Senado, em vitória para o governo Lula; veja pontos do texto - O GLOBO",
+        "timestamp": "2026-09-02T19:22:51Z"
     }
 ]
