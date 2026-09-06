@@ -1,13 +1,23 @@
 [
     {
+        "source": "GE",
+        "title": "GP da Itália: Antonelli sobe 18 posições, vence e quebra jejum italiano; Bortoleto é 11º - GE",
+        "timestamp": "2026-09-06T14:55:01Z"
+    },
+    {
         "source": "Poder360",
         "title": "Fachin atrasa casos que envolvem Moraes e Vorcaro até 22 de setembro - Poder360",
         "timestamp": "2026-09-05T20:39:26Z"
     },
     {
-        "source": "cartacapital.com.br",
-        "title": "Delegados da PF pedem que Gonet se declare impedido em apuração sobre relatório do caso Master - cartacapital.com.br",
-        "timestamp": "2026-09-05T20:39:00Z"
+        "source": "G1",
+        "title": "Corrupção, defesa da democracia, combate ao crime: Quaest mostra o que mais pesa na escolha do eleitor - G1",
+        "timestamp": "2026-09-06T06:49:29Z"
+    },
+    {
+        "source": "O GLOBO",
+        "title": "Apresentadora egípcia é condenada à morte por enforcamento após envolvimento com tráfico de drogas - O GLOBO",
+        "timestamp": "2026-09-06T07:20:41Z"
     },
     {
         "source": "CNN Brasil",
@@ -15,18 +25,8 @@
         "timestamp": "2026-09-05T23:25:50Z"
     },
     {
-        "source": "CNN Brasil",
-        "title": "Witkoff e Kushner levam plano de paz dos EUA a Kiev após reunião com Putin - CNN Brasil",
-        "timestamp": "2026-09-06T06:02:33Z"
-    },
-    {
-        "source": "O GLOBO",
-        "title": "Gilmar Mendes formaliza proposta de mudar regimento do STF para retirar membro da PF e militares de gabinetes - O GLOBO",
-        "timestamp": "2026-09-05T20:18:03Z"
-    },
-    {
-        "source": "Metrópoles",
-        "title": "A visita do \"homem da mala\" de Vorcaro ao Palácio do Planalto - Metrópoles",
-        "timestamp": "2026-09-05T07:00:00Z"
+        "source": "Revista Oeste",
+        "title": "Delegados pedem impedimento de Gonet no caso Banco Master - Revista Oeste",
+        "timestamp": "2026-09-06T02:09:01Z"
     }
 ]
