@@ -1,13 +1,8 @@
 [
     {
-        "source": "Valor Econômico",
-        "title": "Fachin tira inquérito das fake news de Alexandre de Moraes e convoca plenário para analisar relatório da PF - Valor Econômico",
-        "timestamp": "2026-09-10T02:07:08Z"
-    },
-    {
-        "source": "Poder360",
-        "title": "OAB-DF pede impeachment de Moraes e Toffoli - Poder360",
-        "timestamp": "2026-09-09T15:51:57Z"
+        "source": "G1",
+        "title": "Resumão diário do JN: Fachin suspende decisões de Dino e Mendonça sobre diretor da PF e tira de Moraes inquérito das Fake News; Mendonça homologa delação de empresário que fez pagamentos a fundo de 'Dark Horse' - G1",
+        "timestamp": "2026-09-09T23:57:11Z"
     },
     {
         "source": "CNN Brasil",
@@ -17,16 +12,21 @@
     {
         "source": "Poder360",
         "title": "\"Dark Horse\": Mendonça homologa delação sobre repasses de Vorcaro - Poder360",
-        "timestamp": "2026-09-09T20:24:35Z"
+        "timestamp": "2026-09-09T20:15:00Z"
     },
     {
-        "source": "Poder360",
-        "title": "Lula quebra silêncio e pede abertura de todos os sigilos sobre o Master - Poder360",
-        "timestamp": "2026-09-09T17:38:15Z"
+        "source": "Correio Braziliense",
+        "title": "Lula cobra transparência e critica 'vazamentos seletivos' em meio a tensão no STF - Correio Braziliense",
+        "timestamp": "2026-09-09T14:49:00Z"
     },
     {
-        "source": "G1",
-        "title": "Caso José Arthur: PF descarta que bebê desaparecido no PA esteja entre crianças resgatadas nos EUA - G1",
-        "timestamp": "2026-09-09T18:39:46Z"
+        "source": "BBC",
+        "title": "Os argumentos de Flávio Dino para reintegrar Andrei Rodrigues e Leandro Almada à PF - BBC",
+        "timestamp": "2026-09-09T14:50:05Z"
+    },
+    {
+        "source": "Folha de S.Paulo",
+        "title": "Pesquisador que deixou OpenAI e Anthropic diz que empresas acreditam no fim da humanidade nesta década - Folha de S.Paulo",
+        "timestamp": "2026-09-09T13:17:00Z"
     }
 ]
