@@ -1,8 +1,18 @@
 [
     {
         "source": "Valor Econômico",
-        "title": "Fachin tira inquérito das 'fake news' de Alexandre de Moraes, mantém Andrei Rodrigues na PF e convoca plenário - Valor Econômico",
-        "timestamp": "2026-09-09T23:34:12Z"
+        "title": "Fachin tira inquérito das fake news de Alexandre de Moraes e convoca plenário para analisar relatório da PF - Valor Econômico",
+        "timestamp": "2026-09-10T02:07:08Z"
+    },
+    {
+        "source": "Poder360",
+        "title": "OAB-DF pede impeachment de Moraes e Toffoli - Poder360",
+        "timestamp": "2026-09-09T15:51:57Z"
+    },
+    {
+        "source": "CNN Brasil",
+        "title": "Fachin suspende apuração da PGR sobre interferência em relatório da PF - CNN Brasil",
+        "timestamp": "2026-09-10T00:01:47Z"
     },
     {
         "source": "Poder360",
@@ -10,23 +20,13 @@
         "timestamp": "2026-09-09T20:24:35Z"
     },
     {
-        "source": "Estadão",
-        "title": "Manifesto por apurações no STF reúne 157 assinaturas; veja alguns dos nomes - Estadão",
-        "timestamp": "2026-09-08T21:22:00Z"
-    },
-    {
-        "source": "O GLOBO",
-        "title": "Dino cita encontro de Mendonça com Vorcaro ao determinar volta de chefe da PF e chama decisão de 'interferência' sobre plenário do STF - O GLOBO",
-        "timestamp": "2026-09-09T12:11:47Z"
-    },
-    {
-        "source": "G1",
-        "title": "Paraná tem 265 cidades sob alerta vermelho de tempestade; veja lista - G1",
-        "timestamp": "2026-09-09T16:42:28Z"
-    },
-    {
         "source": "Poder360",
         "title": "Lula quebra silêncio e pede abertura de todos os sigilos sobre o Master - Poder360",
         "timestamp": "2026-09-09T17:38:15Z"
+    },
+    {
+        "source": "G1",
+        "title": "Caso José Arthur: PF descarta que bebê desaparecido no PA esteja entre crianças resgatadas nos EUA - G1",
+        "timestamp": "2026-09-09T18:39:46Z"
     }
 ]
