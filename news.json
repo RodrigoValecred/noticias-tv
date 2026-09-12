@@ -1,18 +1,8 @@
 [
     {
-        "source": "G1",
-        "title": "Gilmar reforça pedido de acesso a conteúdo do celular de Vorcaro e solicita a Fachin que acione PF caso Mendonça não repasse - G1",
-        "timestamp": "2026-09-12T10:24:55Z"
-    },
-    {
-        "source": "CartaCapital",
-        "title": "Advogados de Flávio Bolsonaro insistiram para investigações sobre 'Dark Horse' ficarem a cargo de Mendonça - CartaCapital",
-        "timestamp": "2026-09-12T12:57:00Z"
-    },
-    {
-        "source": "G1",
-        "title": "Alagada, Marginal Tietê é totalmente bloqueada no sentido Castello Branco - G1",
-        "timestamp": "2026-09-12T14:06:22Z"
+        "source": "BBC",
+        "title": "O celular de Vorcaro: os pedidos de ministros do STF para acesso a conteúdo — e a reposta de Mendonça - BBC",
+        "timestamp": "2026-09-12T12:27:31Z"
     },
     {
         "source": "G1",
@@ -20,13 +10,23 @@
         "timestamp": "2026-09-12T14:15:30Z"
     },
     {
-        "source": "CNN Brasil",
-        "title": "Desabamento de prédio deixa ao menos dois mortos na zona Leste de SP - CNN Brasil",
-        "timestamp": "2026-09-12T09:53:41Z"
+        "source": "O GLOBO",
+        "title": "Sem chuva: Cobra Coral recebeu pedido de emergência para atuar na noite do K-pop - O GLOBO",
+        "timestamp": "2026-09-12T15:15:06Z"
     },
     {
-        "source": "Poder360",
-        "title": "Vorcaro tinha nomes de agentes de reunião da PF com o BC - Poder360",
-        "timestamp": "2026-09-11T18:35:59Z"
+        "source": "G1",
+        "title": "Alagada, Marginal Tietê é totalmente bloqueada no sentido Castello Branco - G1",
+        "timestamp": "2026-09-12T14:06:22Z"
+    },
+    {
+        "source": "poder360.com.br",
+        "title": "Relatório da PF sobre “Dark Horse” contraria versão de Flávio - poder360.com.br",
+        "timestamp": "2026-09-12T15:30:54Z"
+    },
+    {
+        "source": "CNN Brasil",
+        "title": "Jaques Wagner se recusou a fornecer senhas de celulares, diz PF - CNN Brasil",
+        "timestamp": "2026-09-12T16:18:34Z"
     }
 ]
