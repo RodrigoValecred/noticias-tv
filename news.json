@@ -1,32 +1,32 @@
 [
     {
+        "source": "CartaCapital",
+        "title": "Quaest: como está a disputa entre Lula e Flávio Bolsonaro em SP, MG, DF e outros 4 estados - CartaCapital",
+        "timestamp": "2026-09-23T22:38:00Z"
+    },
+    {
         "source": "G1",
-        "title": "Quaest em SP: Flávio Bolsonaro, 34%; Lula, 31%; Cury, 7%; Caiado, 4%; Renan; 3%; Zema, 1% - G1",
-        "timestamp": "2026-09-23T20:05:06Z"
+        "title": "Quaest em SP: Tarcísio, 44%; Haddad, 27% - G1",
+        "timestamp": "2026-09-23T20:04:52Z"
+    },
+    {
+        "source": "Poder360",
+        "title": "Lula aciona TSE contra possível financiamento dos EUA a Flávio - Poder360",
+        "timestamp": "2026-09-24T02:16:21Z"
     },
     {
         "source": "Estadão",
-        "title": "Atlas/Estadão: Tarcísio tem 55% contra 41% de Haddad no primeiro turno para governador de São Paulo - Estadão",
+        "title": "Atlas/Estadão: Paes tem 45,7% no Rio de Janeiro contra 32,4% de Ruas e 8,9% de Garotinho - Estadão",
         "timestamp": "2026-09-23T13:00:00Z"
     },
     {
-        "source": "Poder360",
-        "title": "Fux manda Senado esclarecer entradas de Lulinha e mulher de Moraes - Poder360",
-        "timestamp": "2026-09-23T18:46:06Z"
+        "source": "UOL",
+        "title": "Mensagem de sobrinho ao piloto ajudou a achar helicóptero que caiu com Rick - UOL",
+        "timestamp": "2026-09-24T01:10:13Z"
     },
     {
-        "source": "Poder360",
-        "title": "CNJ manda cancelar R$ 4,7 bilhões em precatórios ligados ao Master - Poder360",
-        "timestamp": "2026-09-23T21:54:57Z"
-    },
-    {
-        "source": "CNN Brasil",
-        "title": "Paraná Pesquisas: No RJ, Paes lidera cenários de 1º turno - CNN Brasil",
-        "timestamp": "2026-09-23T11:44:02Z"
-    },
-    {
-        "source": "G1",
-        "title": "Corpo de videomaker Paulo Soares, que morreu em queda de helicóptero com cantor Rick, será enterrado na quinta em SP - G1",
-        "timestamp": "2026-09-23T17:46:01Z"
+        "source": "O GLOBO",
+        "title": "Fux cobra Senado sobre registros de visitas de mulher de Moraes, Vorcaro, Frei Chico e filho de Lula - O GLOBO",
+        "timestamp": "2026-09-23T17:41:33Z"
     }
 ]
