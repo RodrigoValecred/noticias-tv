@@ -1,8 +1,8 @@
 [
     {
-        "source": "G1",
-        "title": "Datafolha: Lula abre vantagem em MG e cresce em SP, onde empata com Flávio; senador lidera no Rio - G1",
-        "timestamp": "2026-10-02T21:15:48Z"
+        "source": "Estadão",
+        "title": "Veja como está a disputa entre Lula e Flávio em SP, MG, RJ, DF e PE segundo o Datafolha - Estadão",
+        "timestamp": "2026-10-02T22:23:00Z"
     },
     {
         "source": "Poder360",
@@ -10,14 +10,9 @@
         "timestamp": "2026-10-02T22:44:34Z"
     },
     {
-        "source": "bbc.com",
-        "title": "PF investiga suposto plano de atacar embaixada dos EUA: o que se sabe e como o governo brasileiro avalia - bbc.com",
+        "source": "BBC",
+        "title": "PF investiga suposto plano de atacar embaixada dos EUA: o que se sabe e como o governo brasileiro avalia - BBC",
         "timestamp": "2026-10-02T22:44:31Z"
-    },
-    {
-        "source": "Estadão",
-        "title": "Alcolumbre coloca PEC da escala 6x1 na pauta do Senado de 6 de outubro, dois dias após 1º turno - Estadão",
-        "timestamp": "2026-10-02T21:19:00Z"
     },
     {
         "source": "G1",
@@ -25,8 +20,13 @@
         "timestamp": "2026-10-02T21:58:42Z"
     },
     {
-        "source": "CartaCapital",
-        "title": "Fachin muda distribuição de processos no STF em meio a uma ‘guerra de ofícios’ - CartaCapital",
-        "timestamp": "2026-10-02T15:22:00Z"
+        "source": "Metrópoles",
+        "title": "Justiça autoriza ato do PT com Lula na Paulista após veto da prefeitura - Metrópoles",
+        "timestamp": "2026-10-02T10:48:00Z"
+    },
+    {
+        "source": "UOL Economia",
+        "title": "AGU pede que STF declare inconstitucionais leis das bets - UOL Economia",
+        "timestamp": "2026-10-02T23:44:47Z"
     }
 ]
