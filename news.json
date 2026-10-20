@@ -1,8 +1,23 @@
 [
     {
+        "source": "G1",
+        "title": "Lula diz que vai entregar ao TSE autorização para quebra de sigilo bancário e telefônico dele e da família - G1",
+        "timestamp": "2026-10-19T22:01:13Z"
+    },
+    {
+        "source": "UOL Economia",
+        "title": "Campanha de Flávio promete transição de 2 anos no Bolsa Família - UOL Economia",
+        "timestamp": "2026-10-19T17:28:46Z"
+    },
+    {
+        "source": "G1",
+        "title": "Master: PGR diz não ver abuso de autoridade de Mendonça apontado por Moraes em pedido de investigação - G1",
+        "timestamp": "2026-10-19T19:41:06Z"
+    },
+    {
         "source": "CartaCapital",
-        "title": "Imprensa não pode manter lorota de 'escolha difícil' após debate da 'Band', avalia Marcos Coimbra - CartaCapital",
-        "timestamp": "2026-10-19T16:46:00Z"
+        "title": "A última pesquisa AtlasIntel antes do 2º turno entre Lula e Flávio Bolsonaro - CartaCapital",
+        "timestamp": "2026-10-19T17:15:00Z"
     },
     {
         "source": "G1",
@@ -13,20 +28,5 @@
         "source": "Poder360",
         "title": "Lula antecipa Bolsa Família reajustado para antes do 2º turno - Poder360",
         "timestamp": "2026-10-19T13:59:32Z"
-    },
-    {
-        "source": "CNN Brasil",
-        "title": "PoderData/AYA: Flávio tem 52% dos votos válidos no 2º turno; Lula, 48% - CNN Brasil",
-        "timestamp": "2026-10-19T10:31:09Z"
-    },
-    {
-        "source": "UOL Economia",
-        "title": "Campanha de Flávio promete transição de 2 anos no Bolsa Família - UOL Economia",
-        "timestamp": "2026-10-19T17:28:46Z"
-    },
-    {
-        "source": "G1",
-        "title": "VÍDEO: Casal bebe e conversa em bar em meio a atos violentos em Paris - G1",
-        "timestamp": "2026-10-19T12:57:30Z"
     }
 ]
