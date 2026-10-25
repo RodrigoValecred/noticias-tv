@@ -1,13 +1,8 @@
 [
     {
-        "source": "BBC",
-        "title": "Voto no exterior: veja os resultados por país e a apuração de Lula x Flávio no 2º turno das eleições 2026 - BBC",
-        "timestamp": "2026-10-25T17:26:20Z"
-    },
-    {
         "source": "G1",
-        "title": "TRE-BA determina retomada integral da frota de ônibus em Salvador durante segundo turno das eleições - G1",
-        "timestamp": "2026-10-25T15:42:40Z"
+        "title": "Eleições 2026: apuração dos votos é pausada após Zanin prorrogar tempo de votação até às 19h - G1",
+        "timestamp": "2026-10-25T20:25:43Z"
     },
     {
         "source": "Poder360",
@@ -15,18 +10,23 @@
         "timestamp": "2026-10-25T14:08:55Z"
     },
     {
+        "source": "CNN Brasil",
+        "title": "Governador da Bahia coloca PMs à disposição para dirigir ônibus - CNN Brasil",
+        "timestamp": "2026-10-25T17:41:00Z"
+    },
+    {
+        "source": "Estadão",
+        "title": "Pesquisa BTG/Nexus: Flávio Bolsonaro tem 50,5% nos válidos contra 49,5% de Lula - Estadão",
+        "timestamp": "2026-10-24T20:47:00Z"
+    },
+    {
         "source": "Poder360",
         "title": "\"Vai se catar, meu filho\", diz Janja a jornalista - Poder360",
-        "timestamp": "2026-10-25T15:34:26Z"
+        "timestamp": "2026-10-25T18:32:05Z"
     },
     {
-        "source": "G1",
-        "title": "Aeroporto de Porto Alegre tem voo para Recife atrasado e outros dois cancelados - G1",
-        "timestamp": "2026-10-25T13:14:16Z"
-    },
-    {
-        "source": "Poder360",
-        "title": "Ao votar, Mendonça diz que eleições marcam “novo ciclo” no país - Poder360",
-        "timestamp": "2026-10-25T13:17:04Z"
+        "source": "CNN Brasil",
+        "title": "Lula pede prorrogação da votação em cidades baianas após falta de ônibus - CNN Brasil",
+        "timestamp": "2026-10-25T17:39:04Z"
     }
 ]
