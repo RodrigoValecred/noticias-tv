@@ -1,8 +1,18 @@
 [
     {
+        "source": "G1",
+        "title": "Governo diz que vai recorrer de decisão da Justiça que liberou funcionamento de três bets no Brasil - G1",
+        "timestamp": "2026-11-06T12:51:58Z"
+    },
+    {
         "source": "Poder360",
-        "title": "Entenda por que crise bancária no Paraguai levou à renúncia de Peña - Poder360",
-        "timestamp": "2026-11-05T20:23:34Z"
+        "title": "Paraguaios dizem que Peña fugiu para a Argentina; governo Milei nega - Poder360",
+        "timestamp": "2026-11-06T01:04:41Z"
+    },
+    {
+        "source": "G1",
+        "title": "Lutador é preso após agressões a vizinhas em condomínio na Tijuca; mulher foi espancada no elevador - G1",
+        "timestamp": "2026-11-06T11:52:13Z"
     },
     {
         "source": "Valor Econômico",
@@ -10,23 +20,13 @@
         "timestamp": "2026-11-05T17:21:21Z"
     },
     {
-        "source": "CNN Brasil",
-        "title": "Vou pedir voto até para o Alcolumbre, diz Tereza Cristina à CNN - CNN Brasil",
-        "timestamp": "2026-11-04T19:37:41Z"
+        "source": "O GLOBO",
+        "title": "Campanha aberta no Senado: Alcolumbre acena à oposição, enquanto Marinho e Tereza buscam traições no Centrão - O GLOBO",
+        "timestamp": "2026-11-06T06:30:00Z"
     },
     {
-        "source": "Tribunal Superior Eleitoral",
-        "title": "Corregedor-geral admite ação do Novo contra Lula e Alckmin por suposto abuso do poder político nas eleições - Tribunal Superior Eleitoral",
-        "timestamp": "2026-11-05T23:01:00Z"
-    },
-    {
-        "source": "BBC",
-        "title": "Flávio Bolsonaro diz ao NY Times que 'vai levar para o túmulo' como saiu do Brasil; jornal aponta ajuda dos EUA - BBC",
-        "timestamp": "2026-11-05T21:37:38Z"
-    },
-    {
-        "source": "Folha de S.Paulo",
-        "title": "Principais partidos árabes anunciam apoio a Gadi Eisenkot para formar governo em Israel - Folha de S.Paulo",
-        "timestamp": "2026-11-05T19:12:00Z"
+        "source": "Metrópoles",
+        "title": "Vorcaro e Moraes: 316 mensagens e encontro 3 dias antes da prisão - Metrópoles",
+        "timestamp": "2026-11-06T13:44:00Z"
     }
 ]
