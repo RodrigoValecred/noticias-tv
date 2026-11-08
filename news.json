@@ -1,13 +1,18 @@
 [
     {
-        "source": "G1",
-        "title": "Que horas abre o portão do Enem? Que horas fecha o portão do Enem? - G1",
-        "timestamp": "2026-11-08T07:30:00Z"
+        "source": "UOL",
+        "title": "Norris vence GP de SP com recuperação de Max e brasileiros fora dos pontos - UOL",
+        "timestamp": "2026-11-08T18:47:34Z"
     },
     {
         "source": "O GLOBO",
-        "title": "'Ele podia ter me matado, tem que pagar', diz senhora de 81 anos agredida por lutador em entrevista ao Fantástico - O GLOBO",
-        "timestamp": "2026-11-08T13:50:05Z"
+        "title": "Enem 2026: portões são fechados e as provas começam às 13h30; siga ao vivo e confira o gabarito extraoficial - O GLOBO",
+        "timestamp": "2026-11-08T16:15:00Z"
+    },
+    {
+        "source": "UOL Educação",
+        "title": "Tema da redação do Enem é 'valorização do SUS como direito universal' - UOL Educação",
+        "timestamp": "2026-11-08T16:48:41Z"
     },
     {
         "source": "Brasil 247",
@@ -15,18 +20,13 @@
         "timestamp": "2026-11-08T09:26:21Z"
     },
     {
-        "source": "BBC",
-        "title": "Por que mulheres podem estar por trás da vitória de Lula nas eleições - BBC",
-        "timestamp": "2026-11-08T09:30:14Z"
+        "source": "CNN Brasil",
+        "title": "Carro cai em lagoa e deixa 10 mortos, incluindo crianças, no Rio de Janeiro - CNN Brasil",
+        "timestamp": "2026-11-08T13:43:36Z"
     },
     {
-        "source": "Poder360",
-        "title": "Presidente de Israel indica rival de Netanyahu para formar governo - Poder360",
-        "timestamp": "2026-11-08T01:38:45Z"
-    },
-    {
-        "source": "G1",
-        "title": "Ajuste nas contas públicas: o que está na mesa de Lula e o que está fora do radar do presidente - G1",
-        "timestamp": "2026-11-08T03:00:00Z"
+        "source": "O GLOBO",
+        "title": "'Ele podia ter me matado, tem que pagar', diz senhora de 81 anos agredida por lutador em entrevista ao Fantástico - O GLOBO",
+        "timestamp": "2026-11-08T13:50:05Z"
     }
 ]
