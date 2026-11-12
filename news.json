@@ -1,18 +1,23 @@
 [
     {
+        "source": "CartaCapital",
+        "title": "Decisão sobre o triplex do Guarujá expõe a farsa da Lava Jato, diz PT - CartaCapital",
+        "timestamp": "2026-11-11T23:05:00Z"
+    },
+    {
+        "source": "O GLOBO",
+        "title": "Personalidades assinam nota de repúdio à exposição de Fernando Henrique Cardoso: 'afronta à dignidade humana' - O GLOBO",
+        "timestamp": "2026-11-12T00:13:35Z"
+    },
+    {
+        "source": "G1",
+        "title": "Morre idosa atropelada após carro invadir calçada em Copacabana - G1",
+        "timestamp": "2026-11-12T09:36:22Z"
+    },
+    {
         "source": "Poder360",
         "title": "Lula é reposicionado em foto de líderes da COP31; assista - Poder360",
         "timestamp": "2026-11-11T18:35:43Z"
-    },
-    {
-        "source": "BBC",
-        "title": "As críticas à troca de delegados da PF no caso Master: 'Levanta graves suspeitas' - BBC",
-        "timestamp": "2026-11-11T10:24:44Z"
-    },
-    {
-        "source": "Metrópoles",
-        "title": "Caso Master: Gonet se opõe à soltura de Vorcaro e cita risco à investigação - Metrópoles",
-        "timestamp": "2026-11-11T21:22:00Z"
     },
     {
         "source": "Estadão",
@@ -21,12 +26,7 @@
     },
     {
         "source": "G1",
-        "title": "Suspeita de fraude em entidade e contratos de marmitas: vice-prefeito de SP apresentou outras quatro denúncias contra a própria gestão - G1",
-        "timestamp": "2026-11-11T21:30:36Z"
-    },
-    {
-        "source": "G1",
-        "title": "Carro invade calçada, para dentro de loja em Copacabana e deixa 6 feridos; vídeo mostra acidente - G1",
-        "timestamp": "2026-11-11T21:02:28Z"
+        "title": "El Niño ganha força e pode ter intensidade 'muito forte' até março, diz agência climática dos EUA - G1",
+        "timestamp": "2026-11-12T14:01:50Z"
     }
 ]
